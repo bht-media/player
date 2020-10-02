@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///Users/nano/github/beuth-media/http/beuth/playback/index.html -->
+<html lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="description" content="Der Beuth-Webcaster dient als Testseite für die Einbindung der nanoStream Cloud - Plattform in Live-Streaming-Umgebungen für den Hochschulbetrieb. 
+    Nun da wir alle zu Hause bleiben müssen, möchten wir als nanocosmos-Team aus Berlin lokale Einrichtungen und Organisationen bei der Nutzung von Live Video durch die freie Nutzung unserer Live Streaming Plattform unterstützen. 
+	Sie können hier direkt den Webcaster nutzen."><meta name="keywords" content="Live Video Encoding, Streaming, H264, RTMP, HLS, WebRTC, Live Player, Wowza, CDN, Akamai, iOS, Android, Windows, MacOS, SDK, API, White Label, Private Label, Apps, Beuth"><meta name="author" content="nanocosmos"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1"><link rel="apple-touch-icon" sizes="180x180" href="file:///Users/nano/github/beuth-media/http/beuth/playback/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="file:///Users/nano/github/beuth-media/http/beuth/playback/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="file:///Users/nano/github/beuth-media/http/beuth/playback/favicon-16x16.png"><link rel="manifest" href="file:///Users/nano/github/beuth-media/http/beuth/playback/site.webmanifest"><link rel="mask-icon" href="file:///Users/nano/github/beuth-media/http/beuth/playback/safari-pinned-tab.svg" color="#0098a1"><meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="Beuth Online Class" content="Online Class">
+
+	<!--
+	<script src="./Beuth Online Class_files/nano.webrtc.min.js"></script>
+	<script src="./Beuth Online Class_files/nano.bintu.min.js"></script>
+	<script src="./Beuth Online Class_files/nanoplayer.4.min.js"></script>
+	<script src="./Beuth Online Class_files/nano.config.js"></script>
+	-->
+
+    <script src="./js/nanoplayer-helper.js"></script>
+    <script src="./js/nanoplayer-helper-events.js"></script>
+    <script src="./js/nanoplayer-helper-multistream.js"></script>
+    <script src="./js/nanoplayer-metrics-config.js"></script>
+    <script src="./js/multi/nano.bintu.js"></script>    
+    <script src="./js/nanoplayer/nanoplayer.4.min.js"></script>
+
+	<link rel="stylesheet" href="./Beuth Online Class_files/icon">
+	<link href="./Beuth Online Class_files/css2" rel="stylesheet">
+    <title>Beuth Online Class</title>
+    <link rel="stylesheet" href="player.css">
+</head>
+
+<body style="margin: 0px; padding: 0px; color: rgb(255, 255, 255); background-color: rgb(190, 226, 226); box-sizing: border-box;">
+	<div id="root">
+		<div class="berlin-nano1">
+			<header class="berlin-MuiPaper-root berlin-MuiAppBar-root berlin-MuiAppBar-positionSticky berlin-MuiAppBar-colorPrimary berlin-nano2 berlin-MuiPaper-elevation4">
+				<div class="berlin-MuiToolbar-root berlin-MuiToolbar-regular berlin-nano4 berlin-MuiToolbar-gutters">
+					<img class="berlin-nano3" src="assetsBeuth-Logo_horizontal.89022e0f.png">
+					</div>
+				</header>
+				<main>
+					<div class="berlin-nano48">
+						<div class="berlin-MuiDrawer-root berlin-MuiDrawer-docked berlin-nano153">
+
+              <!-- chat -->
+							<div class="berlin-MuiPaper-root berlin-MuiDrawer-paper berlin-nano154 berlin-MuiDrawer-paperAnchorRight berlin-MuiDrawer-paperAnchorDockedRight berlin-MuiPaper-elevation0" style="transform: none; transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms; visibility: hidden;">
+								<div class="berlin-nano160">
+									<div class="berlin-nano161">
+										<div class="berlin-nano164">
+											<div class="berlin-nano178">
+												<span class="berlin-MuiTypography-root berlin-nano179 berlin-MuiTypography-button">Livestream Chat</span>
+												<div class="berlin-nano181 berlin-nano182"></div>
+												<span class="berlin-MuiTypography-root berlin-nano180 berlin-MuiTypography-overline">connected</span>
+											</div>
+											<h6 class="berlin-MuiTypography-root berlin-nano165 berlin-MuiTypography-subtitle2">This chat is for demo purposes only to connect the webcaster with the viewer audience. This is not monitored by nanocosmos, please use the contact form.</h6>
+										</div>
+										<div class="berlin-nano162">
+											<button class="berlin-MuiButtonBase-root berlin-MuiIconButton-root berlin-nano159 berlin-MuiIconButton-colorPrimary berlin-MuiIconButton-sizeSmall" tabindex="0" type="button">
+												<span class="berlin-MuiIconButton-label">
+													<svg class="berlin-MuiSvgIcon-root berlin-MuiSvgIcon-fontSizeInherit" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+														<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+													</svg>
+												</span>
+												<span class="berlin-MuiTouchRipple-root"></span>
+											</button>
+										</div>
+									</div>
+									<div class="berlin-nano163">
+										<div class="berlin-MuiFormControl-root berlin-MuiTextField-root berlin-MuiFormControl-fullWidth">
+											<label class="berlin-MuiFormLabel-root berlin-MuiInputLabel-root berlin-MuiInputLabel-formControl berlin-MuiInputLabel-animated berlin-MuiInputLabel-shrink berlin-MuiInputLabel-marginDense berlin-MuiInputLabel-outlined berlin-MuiFormLabel-filled" data-shrink="true" for="name" id="name-label">Chat Name</label>
+											<div class="berlin-MuiInputBase-root berlin-MuiOutlinedInput-root berlin-MuiInputBase-fullWidth berlin-MuiInputBase-formControl berlin-MuiInputBase-marginDense berlin-MuiOutlinedInput-marginDense">
+												<input aria-invalid="false" id="name" placeholder="Choose your name" type="text" class="berlin-MuiInputBase-input berlin-MuiOutlinedInput-input berlin-MuiInputBase-inputMarginDense berlin-MuiOutlinedInput-inputMarginDense" value="ubjr11pugzb8yfm55ssplj">
+													<fieldset aria-hidden="true" class="berlin-nano252 berlin-MuiOutlinedInput-notchedOutline">
+														<legend class="berlin-nano254 berlin-nano255">
+															<span>Chat Name</span>
+														</legend>
+													</fieldset>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="berlin-nano256">
+										<div class="berlin-nano257">
+											<div id="chat-input" class="berlin-nano258"></div>
+											<div class="berlin-nano260">
+												<div class="berlin-MuiFormControl-root berlin-MuiTextField-root berlin-MuiFormControl-fullWidth">
+													<div class="berlin-MuiInputBase-root berlin-MuiOutlinedInput-root berlin-MuiInputBase-fullWidth berlin-MuiInputBase-formControl berlin-MuiInputBase-marginDense berlin-MuiOutlinedInput-marginDense">
+														<input aria-invalid="false" placeholder="Nachricht senden" type="text" class="berlin-MuiInputBase-input berlin-MuiOutlinedInput-input berlin-MuiInputBase-inputMarginDense berlin-MuiOutlinedInput-inputMarginDense" value="">
+															<fieldset aria-hidden="true" class="berlin-nano252 berlin-MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+																<legend class="berlin-nano253" style="width: 0.01px;">
+																	<span>​</span>
+																</legend>
+															</fieldset>
+														</div>
+													</div>
+													<div class="berlin-nano259">
+														<button class="berlin-MuiButtonBase-root berlin-MuiButton-root berlin-MuiButton-contained berlin-nano261 berlin-MuiButton-containedPrimary" tabindex="0" type="button">
+															<span class="berlin-MuiButton-label">
+																<svg class="berlin-MuiSvgIcon-root berlin-MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+																	<path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+																</svg>
+															</span>
+															<span class="berlin-MuiTouchRipple-root"></span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="berlin-nano51">
+									<div class="berlin-nano53">
+										<h6 class="berlin-MuiTypography-root berlin-nano55 berlin-MuiTypography-h6">BEUTH WEBCASTER LIVESTREAM</h6>
+									</div>
+									<div class="berlin-nano52" id="nanoStream-h5live">
+										<div class="h5live-nano-h5live1">
+											<div class="h5live-nano-h5live2">
+												<div class="h5live-nano-h5live3" id="playerWrapper">
+													<div class="h5live-nano-h5live6">
+														<div>
+
+
+                                                            <!-- stats -->
+															<div class="h5live-nano-h5live8" style="visibility: hidden;">
+																<div class="h5live-nano-h5live9">
+																	<span class="h5live-MuiTypography-root h5live-MuiTypography-button h5live-MuiTypography-colorSecondary">PLAYER STATS</span>
+																	<br>
+																	</div>
+																	<div class="h5live-nano-h5live11">
+																		<svg class="h5live-MuiSvgIcon-root h5live-MuiSvgIcon-colorSecondary h5live-MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+																			<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path>
+																		</svg>
+																		<span class="h5live-MuiTypography-root h5live-MuiTypography-button h5live-MuiTypography-colorSecondary">Error Code: 5004</span>
+																	</div>
+																	<div></div>
+																</div>
+															</div>
+                            </div>
+                            
+                            <!-- nanoPlayer / Live Video Stream  -->
+														<div id="playerDiv" class="h5live-nano-h5live7" style="overflow: hidden; position: relative; background-color: black;">
+															<div id="middleView-playerDiv" style="width: 96px; height: 96px; position: absolute; left: 50%; top: 50%; margin-right: -50%; transform: translate(-50%, -50%); z-index: 1000;">
+																<canvas id="exclamationSign-playerDiv" width="96" height="96" style="z-index: 1001;"></canvas>
+															</div>
+                            </div>
+                            
+
+														<div class="h5live-nano-h5live4 h5live-nano-h5live5">
+															<div class="h5live-nano-h5live42">
+																<div class="h5live-nano-h5live46">
+																	<button class="h5live-MuiButtonBase-root h5live-MuiIconButton-root h5live-nano-h5live45 h5live-MuiIconButton-sizeSmall" tabindex="0" type="button">
+																		<span class="h5live-MuiIconButton-label">
+																			<svg class="h5live-MuiSvgIcon-root h5live-MuiSvgIcon-fontSizeInherit" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+																				<path d="M8 5v14l11-7z"></path>
+																			</svg>
+																		</span>
+																		<span class="h5live-MuiTouchRipple-root"></span>
+																	</button>
+																	<div class="h5live-nano-h5live43">
+																		<span class="h5live-MuiTypography-root h5live-nano-h5live44 h5live-MuiTypography-button"></span>
+																	</div>
+																</div>
+																<div class="h5live-nano-h5live46">
+																	<div class="h5live-nano-h5live47">
+																		<div class="h5live-nano-h5live69">
+																			<button class="h5live-MuiButtonBase-root h5live-MuiIconButton-root h5live-MuiIconButton-sizeSmall" tabindex="0" type="button">
+																				<span class="h5live-MuiIconButton-label">
+																					<svg class="h5live-MuiSvgIcon-root h5live-MuiSvgIcon-fontSizeInherit" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+																						<path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path>
+																					</svg>
+																				</span>
+																				<span class="h5live-MuiTouchRipple-root"></span>
+																			</button>
+																			<span class="h5live-MuiSlider-root h5live-MuiSlider-colorSecondary h5live-nano-h5live70">
+																				<span class="h5live-MuiSlider-rail"></span>
+																				<span class="h5live-MuiSlider-track" style="left: 0%; width: 100%;"></span>
+																				<input type="hidden" value="1">
+																					<span class="h5live-MuiSlider-thumb h5live-MuiSlider-thumbColorSecondary" tabindex="0" role="slider" data-index="0" aria-orientation="horizontal" aria-valuemax="1" aria-valuemin="0" aria-valuenow="1" style="left: 100%;"></span>
+																				</span>
+																			</div>
+																		</div>
+																		<button class="h5live-MuiButtonBase-root h5live-MuiIconButton-root h5live-nano-h5live45 h5live-MuiIconButton-sizeSmall" tabindex="0" type="button">
+																			<span class="h5live-MuiIconButton-label">
+																				<svg class="h5live-MuiSvgIcon-root h5live-MuiSvgIcon-fontSizeInherit" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
+																					<path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path>
+																				</svg>
+																			</span>
+																			<span class="h5live-MuiTouchRipple-root"></span>
+																		</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="berlin-nano53">
+												<h6 class="berlin-MuiTypography-root berlin-nano54 berlin-MuiTypography-h6">Sie sehen einen Livestream aus der nanoStream Cloud.</h6>
+											</div>
+										</div>
+									</div>
+								</main>
+							</div>
+            </div>
+            
+            <script src="nanoplayer.4.min.js?20200819"></script>
+            
+
+
+            <script>
+                var player;
+
+                var config = {
+                    "source": {
+                        "h5live": {
+                            "server": {
+                                "websocket": "wss://bintu-play.nanocosmos.de:443/h5live/stream",
+                                "hls": "https://bintu-play.nanocosmos.de:443/h5live/http/playlist.m3u8",
+                                "progressive": "https://bintu-play.nanocosmos.de:443/h5live/http/stream.mp4"
+                            },
+                            "rtmp": {
+                                "url": "rtmp://bintu-play.nanocosmos.de:80/play",
+                                "streamname": "CD6oL-2kE1g"
+                            }
+                        },
+                        "entries": [],
+                        "options": {
+                            "adaption": {},
+                            "switch": {}
+                        },
+                        "startIndex": 0
+                    },
+                    "playback": {
+                        "autoplay": true,
+                        "automute": true,
+                        "muted": true,
+                        "flashplayer": "//demo.nanocosmos.de/nanoplayer/nano.player.swf"
+                    },
+                    "style": {
+                        "displayMutedAutoplay": true
+                    }
+                };
+
+				if (window.nanoPlayerMetricsConfig) {
+    	            config.metrics = window.nanoPlayerMetricsConfig;
+	            }
+
+				var doStartPlayer = getNanoPlayerParameters();
+				if (doStartPlayer) {
+					startPlayer(config);
+				}
+
+				if (config.source.bintu) {
+					console.log(config);
+	            }
+
+
+        function startPlayer(config) {
+            if (!player) {
+                player = new NanoPlayer('playerDiv');
+            }
+            config = config || this.config;
+
+            if (window.nanoPlayerMetricsConfig) {
+                config.metrics = window.nanoPlayerMetricsConfig;
+            }
+
+            player.setup(config).then(function (conf) {
+                try {
+                    conf = JSON.stringify(conf);
+                } catch (err) { }
+                log('setup ok: ' + conf);
+            }, function (error) {
+                if (error.message) {
+                    error = error.message;
+                } else {
+                    try {
+                        var err = JSON.stringify(error);
+                        if (err === '{}') {
+                            err = error.message;
+                        }
+                        error = err;
+                    } catch (err) { }
+                }
+                log('Setup Error: ' + error);
+				alert(error);
+                //document.getElementById('status').innerText = 'Setup Error: ' + error;
+            });
+        }				
+
+                document.addEventListener('DOMContentLoaded', function () {
+					startPlayer(config);
+                });
+
+	</script>
+
+
+
+            <!-- react (inactive) -->
+            <!-- 
+						<script src="beuth.webcaster.js"></script>
+            <script id="playback" showstats="true" color="#0098a1" 
+            playbackpraefix="https://webcaster.nanocosmos.de/beuth/playback" 
+            src="nanostream.h5live.js"></script>
+            -->
+			</body>
+        </html>
+        
