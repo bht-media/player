@@ -190,11 +190,19 @@
 												</div>
 											</div>
 											<div class="berlin-nano53">
-												<h6 class="berlin-MuiTypography-root berlin-nano54 berlin-MuiTypography-h6">Sie sehen einen Livestream aus der nanoStream Cloud.</h6>
+											<h6 class="berlin-MuiTypography-root berlin-nano54 berlin-MuiTypography-h6">
+Sie sehen einen Livestream aus der nanoStream Cloud.
+<a href="" onclick="showTerms()">Weitere Infos siehe unten...</a>
+</h6>
 											</div>
 										</div>
 									</div>
 								</main>
+<div id="pageInfos" style="visibility:block">
+<h6 class="berlin-MuiTypography-root berlin-nano54 berlin-MuiTypography-h7">
+Der Beuth-LivePlayer dient dem Live Streaming von hochschulbezogenen Live Streams für Forschung, Lehre und Veranstaltungen. Der Live Stream läuft über die nanoStream Cloud - Plattform des Unternehmes nanocosmos GmbH aus Berlin. Die Übertragung erfolgt konform zu geltendem Recht, es werden nur anonymisierte Daten von und zu Server innerhalb Deutschlads bzw. der EU übertragen. Sie können den Dienst auch selbst nutzen für Hochschulzwecke. Bei Fragen wenden Sie sich bitte an den Beuth-LB Dipl.-Ing. Oliver Lietz (lietz at beuth-hochschule.de) oder Prof Robert Strzebkowski (robertst at beuth-hochschule.de). <a href="https://www.nanocosmos.de/legal">Nutzungsbedingungen und rechtliche Hinweise</a>
+</h6>
+</div>
 							</div>
             </div>
             
@@ -287,6 +295,12 @@
 					startPlayer(config);
                 });
 
+
+	function showTerms() {
+		//var win = window.open(url, '_blank');
+		var p = document.getElementById('pageInfos');
+		p.style.visibility="block";
+        }
 	</script>
 
 
