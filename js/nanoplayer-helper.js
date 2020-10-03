@@ -30,12 +30,12 @@ var getHTTPParam = function (paramKey) {
         return _HTTPParams[paramKey];
     }
     catch (e) {
-        return undefined;
+        undefined;
     }
 };
 
 
-function getNanoPlayerParameters () {
+function getNanoPlayerParameters (config) {
     var doStartPlayer = false;
     var tweaksQ = getHTTPParam('tweaks') || getHTTPParam('tweaks.buffer'),
         typed, i, len;
@@ -257,10 +257,10 @@ function getNanoPlayerParameters () {
         if (bintuQ.apiurl)
             config.source.bintu.apiurl = bintuQ.apiurl;
         config.source.bintu.streamid = bintuQ.streamid;
-        checkH5Live();
-        checkSecurity();
-        checkEntries();
-        checkOptions();
+        checkH5Live(config);
+        checkSecurity(config);
+        checkEntries(config);
+        checkOptions(config);
         doStartPlayer = true;
     }
     else if (bintuQ.streamname) {
@@ -274,10 +274,10 @@ function getNanoPlayerParameters () {
             'hls'         : 'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
             'progressive' : 'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4'
         };
-        checkH5Live();
-        checkSecurity();
-        checkEntries();
-        checkOptions();
+        checkH5Live(config);
+        checkSecurity(config);
+        checkEntries(config);
+        checkOptions(config);
         doStartPlayer = true;
     }
     else if (bintuQ.group && bintuQ.apikey) {
@@ -293,10 +293,10 @@ function getNanoPlayerParameters () {
 
         var streamsContainer = document.getElementById('streams-container');
         streamsContainer.style.display = 'block';
-        return;
+        return config;
     }
     else {
-        checkH5Live();
+        checkH5Live(config);
         var h5liveQ = {};
         h5liveQ.rtmp = {};
         h5liveQ.rtmp.url = getHTTPParam('h5live.rtmp.url');
@@ -316,9 +316,9 @@ function getNanoPlayerParameters () {
         if (dash) {
             config.source.dash = dash;
         }
-        checkSecurity();
-        checkEntries();
-        checkOptions();
+        checkSecurity(config);
+        checkEntries(config);
+        checkOptions(config);
         doStartPlayer = true;
     }
     if (config.source.entries.length) {
@@ -327,10 +327,10 @@ function getNanoPlayerParameters () {
     var startIndex = parseInt(getHTTPParam('startIndex'), 10);
     config.source.startIndex = startIndex && !isNaN(startIndex) ? startIndex : 0;
 
-    return doStartPlayer;
+    return config;
 }
 
-function checkH5Live (server) {
+function checkH5Live (config, server) {
     var h5liveQ = {};
     h5liveQ.server = server || getHTTPParam('h5live.server');
     if (h5liveQ.server) {
@@ -430,7 +430,7 @@ function checkH5Live (server) {
     }
 }
 
-function checkSecurity () {
+function checkSecurity (config) {
     var security = {};
     security.token = getHTTPParam('h5live.security.token');
     if (security.token) {
@@ -458,7 +458,7 @@ function checkSecurity () {
     }
 }
 
-function checkEntries () {
+function checkEntries (config) {
     var entries = [];
     var paramBitrate, paramWidth, paramHeight, paramFramerate;
     var streamnames = [], urls = [], servers = [], bintustreamids = [], bintuurl = [];
@@ -550,7 +550,7 @@ function checkEntries () {
     config.source.entries = entries;
 }
 
-function checkOptions () {
+function checkOptions (config) {
     config.source.options = {
         'adaption' : {},
         'switch'   : {}
