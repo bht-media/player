@@ -97,6 +97,96 @@ var configSource1 =
     "startIndex": 0
 };
 
+// test stream (abr)
+var configSource2 = {
+        "entries": [
+            {
+                "index": 0,
+                "label": "stream 1",
+                "tag": "",
+                "info": {
+                    "bitrate": 1500,
+                    "width": 0,
+                    "height": 0,
+                    "framerate": 0
+                },
+                "hls": "",
+                "h5live": {
+                    "rtmp": {
+                        "url": "rtmp://bintu-play.nanocosmos.de:80/play",
+                        "streamname": "HX26g-NRbx9"
+                    },
+                    "server": {
+                        "websocket": "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+                        "hls": "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+                        "progressive": "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+                    },
+                    "token": "",
+                    "security": {}
+                },
+                "bintu": {}
+            },
+            {
+                "index": 1,
+                "label": "stream 2",
+                "tag": "",
+                "info": {
+                    "bitrate": 800,
+                    "width": 0,
+                    "height": 0,
+                    "framerate": 0
+                },
+                "hls": "",
+                "h5live": {
+                    "rtmp": {
+                        "url": "rtmp://bintu-play.nanocosmos.de:80/play",
+                        "streamname": "HX26g-uVn3M"
+                    },
+                    "server": {
+                        "websocket": "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+                        "hls": "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+                        "progressive": "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+                    },
+                    "token": "",
+                    "security": {}
+                },
+                "bintu": {}
+            },
+            {
+                "index": 2,
+                "label": "stream 3",
+                "tag": "",
+                "info": {
+                    "bitrate": 200,
+                    "width": 0,
+                    "height": 0,
+                    "framerate": 0
+                },
+                "hls": "",
+                "h5live": {
+                    "rtmp": {
+                        "url": "rtmp://bintu-play.nanocosmos.de:80/play",
+                        "streamname": "HX26g-VbAxm"
+                    },
+                    "server": {
+                        "websocket": "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+                        "hls": "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+                        "progressive": "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+                    },
+                    "token": "",
+                    "security": {}
+                },
+                "bintu": {}
+            }
+        ],
+        "options": {
+            "adaption": {
+                "rule": "deviationOfMean2"
+            },
+            "switch": {}
+        },
+        "startIndex": 2
+    };
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
     var channel = getHTTPParam('channel');
@@ -112,6 +202,9 @@ function getChannelConfig(config) {
     } else if (channel == "bht2abr") {
         config.source = configSource1;
         title = "Ilona Buchem / Strzebkowski / ABR";
+    } else if (channel == "test2abr") {
+        config.source = configSource2;
+        title = "Test Stream / ABR";
     }
 
     // set "title2" element text
