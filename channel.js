@@ -3,6 +3,9 @@
 // get url href parameter "?channel=XXX"
 // and sets player config and title
 
+// this is an ABR config based on 
+// ingest stream "RBJ00-ZxYi1"
+// 3 profiles: passthrough 1280x720 3M, 1280x720 1.2M, 852x480 800k
 var configSource1 = 
 {
   "entries": [
@@ -94,6 +97,7 @@ var configSource1 =
     "startIndex": 0
 };
 
+// set player config based on "channel" parameter
 function getChannelConfig(config) {
     var channel = getHTTPParam('channel');
     if (channel == "test1") {
@@ -110,6 +114,7 @@ function getChannelConfig(config) {
         title = "Ilona Buchem / Strzebkowski / ABR";
     }
 
+    // set "title2" element text
     document.getElementById('title2').innerText = title;
     return config;
 }
