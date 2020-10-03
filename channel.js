@@ -190,6 +190,7 @@ var configSource2 = {
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
     var channel = getHTTPParam('channel');
+    var title = "Beuth Box Live Stream";
     if (channel == "test1") {
         config.source.h5live.rtmp.streamname = "CD6oL-2kE1g";
         title = "Beuth Box Test Stream";
