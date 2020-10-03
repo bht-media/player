@@ -22,7 +22,7 @@ var configSource1 =
         "hls": "",
         "h5live": {
             "rtmp": {
-                "url": "rtmp://bintu-play.nanocosmos.de/play",
+                "url": "rtmp://localhost/play",
                 "streamname": "RBJ00-ZxYi1"
             },
             "server": {
@@ -48,7 +48,7 @@ var configSource1 =
         "hls": "",
         "h5live": {
             "rtmp": {
-                "url": "rtmp://bintu-play.nanocosmos.de/play",
+                "url": "rtmp://localhost/play",
                 "streamname": "RBJ00-c4NS0"
             },
             "server": {
@@ -74,7 +74,7 @@ var configSource1 =
         "hls": "",
         "h5live": {
             "rtmp": {
-                "url": "rtmp://bintu-play.nanocosmos.de/play",
+                "url": "rtmp://localhost/play",
                 "streamname": "RBJ00-uSwNt"
             },
             "server": {
