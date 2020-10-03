@@ -1431,8 +1431,9 @@ label[data-shrink=false] + .berlin-MuiInputBase-formControl .berlin-MuiInputBase
   .berlin-nano55 {
     color: #fff;
     padding: 0px 0px 4px 0px;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.2;
+    font-weight: 600;
   }
 }
 
