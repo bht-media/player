@@ -12,20 +12,6 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="Beuth Online Class" content="Online Class">
 
-	<!--
-	<script src="./Beuth Online Class_files/nano.webrtc.min.js"></script>
-	<script src="./Beuth Online Class_files/nano.bintu.min.js"></script>
-	<script src="./Beuth Online Class_files/nanoplayer.4.min.js"></script>
-	<script src="./Beuth Online Class_files/nano.config.js"></script>
-	-->
-
-    <script src="./js/nanoplayer-helper.js"></script>
-    <script src="./js/nanoplayer-helper-events.js"></script>
-    <script src="./js/nanoplayer-helper-multistream.js"></script>
-    <script src="./js/nanoplayer-metrics-config.js"></script>
-    <script src="./js/multi/nano.bintu.js"></script>    
-    <script src="./js/nanoplayer/nanoplayer.4.min.js"></script>
-
 	<link rel="stylesheet" href="icon">
 	<link href="css2" rel="stylesheet">
     <title>Beuth Online Class</title>
@@ -200,10 +186,15 @@
 											</div>
 											<div class="berlin-nano53">
 											<h6 class="berlin-MuiTypography-root berlin-nano54 berlin-MuiTypography-h6">
-<li><a href="./index.html?channel=bht1">BHT Stream 1</a>
-<li><a href="./index.html?channel=bht2abr">BHT Stream 2 ABR</a>
+<ul>
+<li><a href="./index.html?channel=bht2abr">BHT Live Stream ABR</a>
+<li><a href="./index.html?channel=bht1">BHT Stream Single</a>
+</ul>
+<hr>
+<ul>Test Streams:
 <li><a href="./index.html?channel=test1">Teststream 1</a>
 <li><a href="./index.html?channel=test2">Teststream 2</a>
+</ul>
 </h6>
 											</div>
 										</div>
@@ -218,34 +209,9 @@ Bei Fragen wenden Sie sich bitte an das <a href="https://beuthbox.beuth-hochschu
 <hr><a href="https://www.nanocosmos.de/legal">Nutzungsbedingungen und rechtliche Hinweise</a>
 </h6>
 </div>
-							</div>
+			</div>
             </div>
             
-            <script src="player.js"></script>
-            <script src="channel.js"></script>
-
-            <script>
-
-                document.addEventListener('DOMContentLoaded', function () {
-					initPlayer();
-                });
-
-
-				function showTerms() {
-					//var win = window.open(url, '_blank');
-					var p = document.getElementById('pageInfos');
-					p.style.visibility="block";
-					}
-				</script>
-
-
-            <!-- react (inactive) -->
-            <!-- 
-						<script src="beuth.webcaster.js"></script>
-            <script id="playback" showstats="true" color="#0098a1" 
-            playbackpraefix="https://webcaster.nanocosmos.de/beuth/playback" 
-            src="nanostream.h5live.js"></script>
-            -->
-			</body>
-        </html>
+</body>
+</html>
         
