@@ -2130,7 +2130,8 @@ label[data-shrink=false] + .berlin-MuiInputBase-formControl .berlin-MuiInputBase
   color: #000;
 }
 #player_btn_group {
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: center;
   align-content: center;
   justify-content: center;
