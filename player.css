@@ -2155,4 +2155,8 @@ label[data-shrink=false] + .berlin-MuiInputBase-formControl .berlin-MuiInputBase
   max-width: 100vw !important;
   max-height: 100vh !important;
 }
+
+#beuthbox_logo {
+  width: 120px;
+}
 /* CUSTOM CSS */
