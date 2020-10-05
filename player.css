@@ -2159,4 +2159,11 @@ label[data-shrink=false] + .berlin-MuiInputBase-formControl .berlin-MuiInputBase
 #beuthbox_logo {
   width: 120px;
 }
+
+#footer_text {
+  font-size: 0.85em;
+}
+#footer_link {
+  font-size: 0.85em;
+}
 /* CUSTOM CSS */
