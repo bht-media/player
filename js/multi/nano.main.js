@@ -30,7 +30,7 @@ var streamobj = [];
             },
             'playback': {
                 'autoplay' : true,
-                'muted'    : true,
+                'muted'    : false,
                 'metadata' : true
             },
             'style': {
