@@ -280,7 +280,10 @@
 								</div>
 							</div>
 						</div>
+
+
 						<div class="berlin-nano53">
+            <button id="buttonMute" onclick="toggleAudioMute(this);" data-muted="true" style="float:right; ">Ton an/aus</button>
 							<p class="berlin-MuiTypography-root berlin-nano54 berlin-MuiTypography-h6" id="player_untertitel">
 								Sie sehen einen Livestream aus der Beuth Box / nanoStream Cloud.				
 							</p>
@@ -317,6 +320,27 @@
 
 	<script>
 
+                var audioMuted;
+                function toggleAudioMuteButton() {
+                        var buttonMute = document.getElementById('buttonMute');
+                        buttonMute.dataset.muted = audioMuted;
+                        buttonMute.innerText = audioMuted ? 
+                           'Ton an' : 'Ton aus';
+                }
+
+                function toggleAudioMute(e) {
+                    audioMuted = !audioMuted;
+                    var muted;
+                    //if(e) muted = (e.dataset.muted === 'true') ? true : false;
+                    muted = audioMuted;
+                    if (muted) {
+                        player.unmute();
+                    } else {
+                        player.mute();
+                    }
+                    toggleAudioMuteButton();
+                }
+
 		document.addEventListener('DOMContentLoaded', function () {
 			initPlayer();
 		});
@@ -327,6 +351,7 @@
 			var p = document.getElementById('pageInfos');
 			p.style.visibility = "block";
 		}
+
 	</script>
 
 
