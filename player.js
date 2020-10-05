@@ -29,8 +29,8 @@ function getPlayerConfig(config) {
         },
         "playback": {
             "autoplay": true,
-            "automute": true,
-            "muted": true,
+            "automute": false,
+            "muted": false,
             "flashplayer": "//demo.nanocosmos.de/nanoplayer/nano.player.swf"
         },
         "style": {
