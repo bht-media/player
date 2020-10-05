@@ -115,7 +115,7 @@
             },
             'playback': {
                 'autoplay'    : true,
-                'automute'    : false,
+                'automute'    : true,
                 'muted'       : false,
                 'flashplayer' : '//demo.nanocosmos.de/nanoplayer/nano.player.swf'
             },
