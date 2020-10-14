@@ -206,6 +206,9 @@ function getChannelConfig(config) {
     } else if (channel == "test2abr") {
         config.source = configSource2;
         title = "Test Stream / ABR";
+    } else if (channel == "asta-wahl-2020") {
+        config.source.h5live.rtmp.streamname = "RBJ00-FzI9V";
+        title = "AStA Wahl 2020";
     }
 
     // set "title2" element text
