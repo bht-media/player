@@ -187,6 +187,90 @@ var configSource2 = {
         },
         "startIndex": 2
     };
+    var configSource3 = {
+        "source": {
+            "entries": [
+	{
+		"index": 0,
+		"h5live": {
+			"server": {
+				"websocket": "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+				"hls": "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+				"progressive": "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+			},
+			"rtmp": {
+				"url": "rtmp://bintu-play.nanocosmos.de:1935/play",
+				"streamname": "RBJ00-PedKZ"
+			}
+		}
+	},
+	{
+		"index": 1,
+		"h5live": {
+			"server": {
+				"websocket": "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+				"hls": "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+				"progressive": "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+			},
+			"rtmp": {
+				"url": "rtmp://bintu-play.nanocosmos.de:1935/play",
+				"streamname": "RBJ00-ncALg"
+			}
+		}
+	},
+	{
+		"index": 2,
+		"h5live": {
+			"server": {
+				"websocket": "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+				"hls": "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+				"progressive": "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+			},
+			"rtmp": {
+				"url": "rtmp://bintu-play.nanocosmos.de:1935/play",
+				"streamname": "RBJ00-yMGa9"
+			}
+		}
+	},
+	{
+		"index": 3,
+		"h5live": {
+			"server": {
+				"websocket": "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+				"hls": "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+				"progressive": "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+			},
+			"rtmp": {
+				"url": "rtmp://bintu-play.nanocosmos.de:1935/play",
+				"streamname": "RBJ00-QDLBk"
+			}
+		}
+	}
+],
+            "options": {
+                "adaption": {
+                    "rule": "deviationOfMean2"
+                },
+                "switch": {}
+            },
+            "startIndex": 0
+        },
+        "playback": {
+            "autoplay": true,
+            "automute": true,
+            "muted": false,
+            "flashplayer": "//demo.nanocosmos.de/nanoplayer/nano.player.swf"
+        }
+    };
+    document.addEventListener('DOMContentLoaded', function () {
+        player = new NanoPlayer("playerDiv");
+        player.setup(config).then(function (config) {
+            console.log("setup success");
+            console.log("config: " + JSON.stringify(config, undefined, 4));
+        }, function (error) {
+            alert(error.message);
+        });
+    });
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
     var channel = getHTTPParam('channel');
@@ -206,6 +290,9 @@ function getChannelConfig(config) {
     } else if (channel == "test2abr") {
         config.source = configSource2;
         title = "Test Stream / ABR";
+    }  else if (channel == "test-abr-3") {
+        config.source = configSource3;
+        title = "Test ABR Config-Source-3";
     } else if (channel == "asta-wahl-2020") {
         config.source.h5live.rtmp.streamname = "RBJ00-FzI9V";
         title = "AStA Wahl 2020";
