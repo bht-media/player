@@ -200,7 +200,6 @@ var configSource2 = {
 
 
 var config_ABR_1 = {
-    source: {
       entries: [
         {
           index: 0,
@@ -278,14 +277,13 @@ var config_ABR_1 = {
         switch: {},
       },
       startIndex: 0,
-    },
     playback: {
       autoplay: true,
       automute: true,
       muted: false,
       flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
-    },
-  };
+    }
+};
 
 
 
