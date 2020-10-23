@@ -262,15 +262,6 @@ var configSource2 = {
             "flashplayer": "//demo.nanocosmos.de/nanoplayer/nano.player.swf"
         }
     };
-    document.addEventListener('DOMContentLoaded', function () {
-        player = new NanoPlayer("playerDiv");
-        player.setup(config).then(function (config) {
-            console.log("setup success");
-            console.log("config: " + JSON.stringify(config, undefined, 4));
-        }, function (error) {
-            alert(error.message);
-        });
-    });
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
     var channel = getHTTPParam('channel');
