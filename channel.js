@@ -301,16 +301,16 @@ function getChannelConfig(config) {
     title = 'Beuth Box Test Stream 2';
   } else if (channel == 'bht1') {
     config.source.h5live.rtmp.streamname = 'RBJ00-IYDH9';
-    title = 'Physik für die minimalinvasive Chirurgie';
+    title = 'Ilona Buchem / Rainer Schneider';
   } else if (channel == 'bht2abr') {
     config.source = configSource1;
-    title = 'Physik für die minimalinvasive Chirurgie';
+    title = 'Ilona Buchem / Rainer Schneider';
   } else if (channel == 'test2abr') {
     config.source = configSource2;
     title = 'Test Stream / ABR';
   } else if (channel == 'test-abr-3') {
     config.source = config_ABR_1;
-    title = 'Test ABR Config-Source-3';
+    title = 'Physik für die minimalinvasive Chirurgie';
   } else if (channel == 'asta-wahl-2020') {
     config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
     title = 'AStA Wahl 2020';
