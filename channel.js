@@ -301,10 +301,10 @@ function getChannelConfig(config) {
     title = 'Beuth Box Test Stream 2';
   } else if (channel == 'bht1') {
     config.source.h5live.rtmp.streamname = 'RBJ00-IYDH9';
-    title = 'Ilona Buchem / Rainer Schneider';
+    title = 'Physik für die minimalinvasive Chirurgie';
   } else if (channel == 'bht2abr') {
     config.source = configSource1;
-    title = 'Ilona Buchem / Rainer Schneider';
+    title = 'Physik für die minimalinvasive Chirurgie';
   } else if (channel == 'test2abr') {
     config.source = configSource2;
     title = 'Test Stream / ABR';
