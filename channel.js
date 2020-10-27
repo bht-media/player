@@ -310,7 +310,7 @@ function getChannelConfig(config) {
     title = 'Test Stream / ABR';
   } else if (channel == 'test-abr-3') {
     config.source = config_ABR_1;
-    title = 'Physik für die minimalinvasive Chirurgie';
+    title = 'Vitalparametermonitoring in kirgisistan';
   } else if (channel == 'asta-wahl-2020') {
     config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
     title = 'AStA Wahl 2020';
