@@ -314,7 +314,14 @@ function getChannelConfig(config) {
   } else if (channel == 'asta-wahl-2020') {
     config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
     title = 'AStA Wahl 2020';
+  } else if (channel == 'b101-stream') {
+    config.source.h5live.rtmp.streamname = 'RBJ00-PedKZ';
+    title = 'B101 Stream';
   }
+
+
+  
+
 
   // set "title2" element text
   document.getElementById('title2').innerText = title;
