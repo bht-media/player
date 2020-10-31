@@ -310,7 +310,7 @@ function getChannelConfig(config) {
     title = 'Test Stream / ABR';
   } else if (channel == 'test-abr-3') {
     config.source = config_ABR_1;
-    title = 'Ausbildung zum/r Medizinphysik-Experten/in im Studiengang Physikalische Technik-Medizinphysik - 11:00 Uhr & Was hat Excel mit Chemie und Umwelt zu tun? - 13:00 Uhr';
+    title = 'Begrüßung der Erstsemester im Fachbereich 5r';
   } else if (channel == 'asta-wahl-2020') {
     config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
     title = 'AStA Wahl 2020';
