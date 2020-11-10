@@ -289,6 +289,68 @@ var config_ABR_1 = {
 
 
 
+var config_ABR_2 = {
+            entries: [
+	{
+		index: 0,
+		h5live: {
+			server: {
+				websocket: "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+				hls: "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+				progressive: "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+			},
+			rtmp: {
+				url: "rtmp://bintu-play.nanocosmos.de:1935/play",
+				streamname: "RBJ00-W4xU1"
+			}
+		}
+	},
+	{
+		index: 1,
+		h5live: {
+			server: {
+				websocket: "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+				hls: "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+				progressive: "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+			},
+			rtmp: {
+				url: "rtmp://bintu-play.nanocosmos.de:1935/play",
+				streamname: "RBJ00-M7JHe"
+			}
+		}
+	},
+	{
+		index: 2,
+		h5live: {
+			server: {
+				websocket: "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
+				hls: "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
+				progressive: "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
+			},
+			rtmp: {
+				url: "rtmp://bintu-play.nanocosmos.de:1935/play",
+				streamname: "RBJ00-Oe97A"
+      },
+    },
+  },
+],
+options: {
+  adaption: {
+    rule: 'deviationOfMean2',
+  },
+  switch: {},
+},
+startIndex: 0,
+playback: {
+autoplay: true,
+automute: true,
+muted: false,
+flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+}
+};
+
+
+
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
   var channel = getHTTPParam('channel');
@@ -311,6 +373,9 @@ function getChannelConfig(config) {
   } else if (channel == 'test-abr-3') {
     config.source = config_ABR_1;
     title = 'Begrüßung der Erstsemester im Fachbereich 5';
+  } else if (channel == 'test-abr-4') {
+    config.source = config_ABR_2;
+    title = 'Teststream 4';
   } else if (channel == 'asta-wahl-2020') {
     config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
     title = 'AStA Wahl 2020';
