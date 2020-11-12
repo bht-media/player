@@ -657,19 +657,19 @@ function getChannelConfig(config) {
   } else if (channel == 'b101-stream') {
     config.source.h5live.rtmp.streamname = 'RBJ00-PedKZ';
     title = 'B101 Stream';
-  } else if (channel == 'Media Stream 1') {
+  } else if (channel == 'media-stream-1') {
     config.source = config_MS_1;
     title = 'Media Stream 1';
-  } else if (channel == 'Media Stream 2') {
+  } else if (channel == 'media-stream-2') {
     config.source = config_MS_2;
     title = 'Media Stream 2';
-  } else if (channel == 'Media Stream 3') {
+  } else if (channel == 'media-stream-3') {
     config.source = config_MS_3;
     title = 'Media Stream 3';
-  } else if (channel == 'Media Stream 4') {
+  } else if (channel == 'media-stream-4') {
     config.source = config_MS_4;
     title = 'Media Stream 4';
-  } else if (channel == 'Media Stream 5') {
+  } else if (channel == 'media-stream-5') {
     config.source = config_MS_5;
     title = 'Media Stream 5';
   }
