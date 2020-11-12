@@ -198,158 +198,436 @@ var configSource2 = {
   startIndex: 2,
 };
 
-
 var config_ABR_1 = {
-      entries: [
-        {
-          index: 0,
-          h5live: {
-            server: {
-              websocket:
-                'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
-              hls:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
-              progressive:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
-            },
-            rtmp: {
-              url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
-              streamname: 'RBJ00-PedKZ',
-            },
-          },
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
         },
-        {
-          index: 1,
-          h5live: {
-            server: {
-              websocket:
-                'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
-              hls:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
-              progressive:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
-            },
-            rtmp: {
-              url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
-              streamname: 'RBJ00-ncALg',
-            },
-          },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-PedKZ',
         },
-        {
-          index: 2,
-          h5live: {
-            server: {
-              websocket:
-                'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
-              hls:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
-              progressive:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
-            },
-            rtmp: {
-              url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
-              streamname: 'RBJ00-yMGa9',
-            },
-          },
-        },
-        {
-          index: 3,
-          h5live: {
-            server: {
-              websocket:
-                'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
-              hls:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
-              progressive:
-                'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
-            },
-            rtmp: {
-              url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
-              streamname: 'RBJ00-QDLBk',
-            },
-          },
-        },
-      ],
-      options: {
-        adaption: {
-          rule: 'deviationOfMean2',
-        },
-        switch: {},
-      },
-      startIndex: 0,
-    playback: {
-      autoplay: true,
-      automute: true,
-      muted: false,
-      flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
-    }
-};
-
-
-
-
-
-var config_ABR_2 = {
-            entries: [
-	{
-		index: 0,
-		h5live: {
-			server: {
-				websocket: "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
-				hls: "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
-				progressive: "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
-			},
-			rtmp: {
-				url: "rtmp://bintu-play.nanocosmos.de:1935/play",
-				streamname: "RBJ00-W4xU1"
-			}
-		}
-	},
-	{
-		index: 1,
-		h5live: {
-			server: {
-				websocket: "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
-				hls: "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
-				progressive: "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
-			},
-			rtmp: {
-				url: "rtmp://bintu-play.nanocosmos.de:1935/play",
-				streamname: "RBJ00-M7JHe"
-			}
-		}
-	},
-	{
-		index: 2,
-		h5live: {
-			server: {
-				websocket: "wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4",
-				hls: "https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8",
-				progressive: "https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4"
-			},
-			rtmp: {
-				url: "rtmp://bintu-play.nanocosmos.de:1935/play",
-				streamname: "RBJ00-Oe97A"
       },
     },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-ncALg',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-yMGa9',
+        },
+      },
+    },
+    {
+      index: 3,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-QDLBk',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
   },
-],
-options: {
-  adaption: {
-    rule: 'deviationOfMean2',
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
   },
-  switch: {},
-},
-startIndex: 0,
-playback: {
-autoplay: true,
-automute: true,
-muted: false,
-flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
-}
 };
 
+var config_MS_1 = {
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-W4xU1',
+        },
+      },
+    },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-M7JHe',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-Oe97A',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
+  },
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+  },
+};
 
+var config_MS_2 = {
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-zh5N',
+        },
+      },
+    },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-Cuqve',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-2mjS4',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
+  },
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+  },
+};
+
+var config_MS_3 = {
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-BUlFc',
+        },
+      },
+    },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-w2ehP',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-OQA1A',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
+  },
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+  },
+};
+
+var config_MS_4 = {
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-SE30h',
+        },
+      },
+    },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-cBrkW',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-WkojJ',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
+  },
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+  },
+};
+
+var config_MS_5 = {
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-Hq9sw',
+        },
+      },
+    },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-PcX5R',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-jyGEG',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
+  },
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+  },
+};
 
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
@@ -373,20 +651,28 @@ function getChannelConfig(config) {
   } else if (channel == 'test-abr-3') {
     config.source = config_ABR_1;
     title = 'Begrüßung der Erstsemester im Fachbereich 5';
-  } else if (channel == 'test-abr-4') {
-    config.source = config_ABR_2;
-    title = 'Teststream 4';
   } else if (channel == 'asta-wahl-2020') {
     config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
     title = 'AStA Wahl 2020';
   } else if (channel == 'b101-stream') {
     config.source.h5live.rtmp.streamname = 'RBJ00-PedKZ';
     title = 'B101 Stream';
+  } else if (channel == 'Media Stream 1') {
+    config.source = config_MS_1;
+    title = 'Media Stream 1';
+  } else if (channel == 'Media Stream 2') {
+    config.source = config_MS_2;
+    title = 'Media Stream 2';
+  } else if (channel == 'Media Stream 3') {
+    config.source = config_MS_3;
+    title = 'Media Stream 3';
+  } else if (channel == 'Media Stream 4') {
+    config.source = config_MS_4;
+    title = 'Media Stream 4';
+  } else if (channel == 'Media Stream 5') {
+    config.source = config_MS_5;
+    title = 'Media Stream 5';
   }
-
-
-  
-
 
   // set "title2" element text
   document.getElementById('title2').innerText = title;
