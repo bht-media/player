@@ -368,7 +368,7 @@ var config_MS_2 = {
         },
         rtmp: {
           url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
-          streamname: 'RBJ00-zh5N',
+          streamname: 'RBJ00-zh5NC',
         },
       },
     },
