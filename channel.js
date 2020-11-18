@@ -702,6 +702,7 @@ var config_PV = {
 function getChannelConfig(config) {
   var channel = getHTTPParam('channel');
   var title = 'Beuth Box Live Stream';
+  var buttonBB = true;
   if (channel == 'test1') {
     config.source.h5live.rtmp.streamname = 'CD6oL-2kE1g';
     title = 'Beuth Box Test Stream';
@@ -744,9 +745,16 @@ function getChannelConfig(config) {
   } else if (channel == 'beuth-pv-2020') {
     config.source = config_MS_5;
     title = 'Beuth-Personalversammlung 2020';
+    buttonBB = false;
   }
 
   // set "title2" element text
   document.getElementById('title2').innerText = title;
+  // set Brückenkurs-Button visibility
+  if(buttonBB){
+    document.getElementById('bb_link').style.display = "block";
+  } else {
+    document.getElementById('bb_link').style.display = "none";
+  }
   return config;
 }
