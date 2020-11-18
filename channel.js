@@ -743,7 +743,7 @@ function getChannelConfig(config) {
     config.source = config_MS_5;
     title = 'Media Stream 5';
   } else if (channel == 'beuth-pv-2020') {
-    config.source = config_MS_5;
+    config.source = config_PV;
     title = 'Beuth-Personalversammlung 2020';
     buttonBB = false;
   }
