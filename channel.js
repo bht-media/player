@@ -629,6 +629,75 @@ var config_MS_5 = {
   },
 };
 
+var config_PV = {
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-efvMJ',
+        },
+      },
+    },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-0o6Hs',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-R5bs8',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
+  },
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+  },
+};
+
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
   var channel = getHTTPParam('channel');
@@ -672,6 +741,9 @@ function getChannelConfig(config) {
   } else if (channel == 'media-stream-5') {
     config.source = config_MS_5;
     title = 'Media Stream 5';
+  } else if (channel == 'beuth-pv-2020') {
+    config.source = config_MS_5;
+    title = 'Beuth-Personalversammlung 2020';
   }
 
   // set "title2" element text
