@@ -698,6 +698,76 @@ var config_PV = {
   },
 };
 
+
+var config_AV = {
+  entries: [
+    {
+      index: 0,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-6CxLI',
+        },
+      },
+    },
+    {
+      index: 1,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-cTKMk',
+        },
+      },
+    },
+    {
+      index: 2,
+      h5live: {
+        server: {
+          websocket:
+            'wss://bintu-h5live.nanocosmos.de:443/h5live/stream/stream.mp4',
+          hls:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/playlist.m3u8',
+          progressive:
+            'https://bintu-h5live.nanocosmos.de:443/h5live/http/stream.mp4',
+        },
+        rtmp: {
+          url: 'rtmp://bintu-play.nanocosmos.de:1935/play',
+          streamname: 'RBJ00-tGBKp',
+        },
+      },
+    },
+  ],
+  options: {
+    adaption: {
+      rule: 'deviationOfMean2',
+    },
+    switch: {},
+  },
+  startIndex: 0,
+  playback: {
+    autoplay: true,
+    automute: true,
+    muted: false,
+    flashplayer: '//demo.nanocosmos.de/nanoplayer/nano.player.swf',
+  },
+};
+
 // set player config based on "channel" parameter
 function getChannelConfig(config) {
   var channel = getHTTPParam('channel');
@@ -745,6 +815,10 @@ function getChannelConfig(config) {
   } else if (channel == 'beuth-pv-2020') {
     config.source = config_PV;
     title = 'Beuth-Personalversammlung 2020';
+    buttonBB = false;
+  } else if (channel == 'beuth-av-2021') {
+    config.source = config_AV;
+    title = 'Beuth Akademische Versammlung 2021';
     buttonBB = false;
   }
 
