@@ -247,8 +247,8 @@ function getNanoPlayerParameters (config) {
     else {
         bintuQ = {};
         bintuQ.apiurl = getHTTPParam('bintu.apiurl') || 'https://bintu.nanocosmos.de';
-        bintuQ.streamid = getHTTPParam('bintu.streamid');
-        bintuQ.streamname = getHTTPParam('bintu.streamname');
+        bintuQ.streamid = getHTTPParam('bintu.streamid') || getHTTPParam('streamid');
+        bintuQ.streamname = getHTTPParam('bintu.streamname') || getHTTPParam('streamname');
         bintuQ.group = getHTTPParam('bintu.group');
         bintuQ.apikey = getHTTPParam('bintu.apikey');
     }
