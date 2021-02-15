@@ -162,10 +162,13 @@
 }
 
 #bb_link_container {
+  display: none;
+  /*
+  display: flex;
+  */
   text-align: center;
   width: 100%;
   position: relative;
-  display: flex;
   align-items: center;
   justify-items: center;
   justify-content: center;
@@ -2703,8 +2706,10 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
 }
 
 #player_btn_group {
-  /* display: flex; */
+  display: flex;
+  /*
   display: none;
+  */
   align-items: center;
   align-content: center;
   justify-content: center;

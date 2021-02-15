@@ -1,44 +1,46 @@
 /* eslint-disable no-undef, no-console, no-unused-vars */
+
 var events = {};
 
 events.onReady = function () {
-    log('ready');
-    document.getElementById('status').innerText = 'ready';
+    logStatus('ready');
 };
 events.onPlay = function (e) {
-    log('playing');
+    logStatus('playing');
     log('play stats: ' + JSON.stringify(e.data));
-    document.getElementById('status').innerText = 'playing';
-    hideErrorWarning();
+    //hideErrorWarning();
 };
 events.onPause = function (e) {
     var reason = (e.data.reason !== 'normal') ? ' ($reason$)'.replace('$reason$', e.data.reason) : '';
-    log('pause' + reason);
-    document.getElementById('status').innerText = 'paused' + reason;
+    logStatus('pause' + reason);
 };
 events.onLoading = function () {
-    log('loading');
-    document.getElementById('status').innerText = 'loading';
+    logStatus('loading');
+};
+events.buffering = {
+    start: 0,
+    end: 0
 };
 events.onStartBuffering = function () {
-    buffering.start = new Date();
+    events.buffering.start = new Date();
     setTimeout(function () {
-        if (buffering.start) {
-            document.getElementById('status').innerText = 'buffering';
+        if (events.buffering.start) {
+            logStatus('buffering');
         }
     }, 2000);
 };
 events.onStopBuffering = function () {
-    buffering.stop = new Date();
-    if (buffering.start) {
-        var duration = Math.abs(buffering.stop - buffering.start);
+    events.buffering.stop = new Date();
+    if (events.buffering.start) {
+        var duration = Math.abs(events.buffering.stop - events.buffering.start);
         if (duration > 1000) {
-            log('buffering ' + duration + 'ms');
+            logStatus('buffering ' + duration + 'ms');
         }
-        buffering.stop = buffering.start = 0;
+        events.buffering.stop = events.buffering.start = 0;
     }
-    document.getElementById('status').innerText = 'playing';
+    logStatus('playing');
 };
+events_error_id = document.getElementById('error');
 events.onError = function (e) {
     try {
         var err = JSON.stringify(e);
@@ -49,28 +51,23 @@ events.onError = function (e) {
     }
     catch (err) { }
     log('Error = ' + e);
-    document.getElementById('error').innerText = e;
-    document.getElementById('error-container').style.display = 'block';
+    if(events_error_id) 
+      events_error_id.innerText = e;
+    else
+      alert(e);
 };
 events.onWarning = function (e) {
-    log('Warning = ' + e.data.message);
-    document.getElementById('warning').innerText = e.data.message;
-    document.getElementById('warning-container').style.display = 'block';
+    logStatus('Warning = ' + e.data.message);
 };
 events.onMetaData = function (e) {
     var metadata = JSON.stringify(e.data);
     (metadata.length > 100) && (metadata = metadata.substr(0, 100) + '...');
-    document.getElementById('metadata').innerText = metadata;
-    document.getElementById('metadata-container').style.display = 'block';
-    clearTimeout(metaDataTimeout);
-    metaDataTimeout = setTimeout(function () {
-        document.getElementById('metadata-container').style.display = 'none';
-    }, 5000);
     log('onMetaData');
     log(e, true);
 };
 events.onStats = function (e) {
     var stats = e.data.stats;
+    /*
     document.getElementById('currentTime').textContent = stats.currentTime.toFixed(1);
     document.getElementById('playTimeStart').textContent = stats.playout.start.toFixed(1);
     document.getElementById('playTimeEnd').textContent = stats.playout.end.toFixed(1);
@@ -95,7 +92,7 @@ events.onStats = function (e) {
     }
     if (stats.adaptive && (stats.adaptive.deviationOfMean || stats.adaptive.deviationOfMean2) && document.getElementById('adaptiveBufferTimeDelayDeviation')) {
         document.getElementById('adaptiveBufferTimeDelayDeviation').textContent = stats.adaptive.deviationOfMean ? stats.adaptive.deviationOfMean.buffer.delay.deviation.toFixed(2) : stats.adaptive.deviationOfMean2.buffer.delay.deviation.toFixed(2);
-    }
+    }*/
 };
 events.onMute = function () {
     log('onMute');
@@ -112,102 +109,41 @@ events.onStreamInfo = function (e) {
 };
 events.onStreamInfoUpdate = function (e) {
     var streamInfo = JSON.stringify(e.data.streamInfo);
-    log('onStreamInfoUpdate: ' + streamInfo);
+    logStatus('onStreamInfoUpdate: ' + streamInfo);
 };
 events.onDestroy = function () {
-    log('destroy');
-    document.getElementById('status').innerText = 'destroy';
+    logStatus('destroy');
 };
 events.onUpdateSourceInit = function (e) {
     var data = JSON.stringify(e.data);
-    log('onUpdateSourceInit: ' + data);
-    var updateSourceInit = document.getElementById('updateSourceInit');
-    if (updateSourceInit !== null) {
-        updateSourceInit.textContent = parseInt(updateSourceInit.textContent, 10) + 1;
-    }
+    logStatus('onUpdateSourceInit: ' + data);
 };
 events.onUpdateSourceSuccess = function (e) {
     var data = JSON.stringify(e.data);
-    log('onUpdateSourceSuccess: ' + data);
-    var updateSourceSuccess = document.getElementById('updateSourceSuccess');
-    if (updateSourceSuccess !== null) {
-        updateSourceSuccess.textContent = parseInt(updateSourceSuccess.textContent, 10) + 1;
-        updateSourceCompleted.textContent = parseInt(updateSourceCompleted.textContent, 10) + 1;
-    }
+    logStatus('onUpdateSourceSuccess: ' + data);
 };
 events.onUpdateSourceFail = function (e) {
     var data = JSON.stringify(e.data);
-    log('onUpdateSourceFail: ' + data);
-    var updateSourceFail = document.getElementById('updateSourceFail');
-    if (updateSourceFail !== null) {
-        updateSourceFail.textContent = parseInt(updateSourceFail.textContent, 10) + 1;
-        updateSourceCompleted.textContent = parseInt(updateSourceCompleted.textContent, 10) + 1;
-    }
+    logStatus('onUpdateSourceFail: ' + data);
 };
 events.onUpdateSourceAbort = function (e) {
     var data = JSON.stringify(e.data);
     log('onUpdateSourceAbort: ' + data);
-    var updateSourceAbortEqual = document.getElementById('updateSourceAbortEqual');
-    var updateSourceAbortFrequency = document.getElementById('updateSourceAbortFrequency');
-    var updateSourceAbortSuperseded = document.getElementById('updateSourceAbortSuperseded');
-    if (updateSourceAbortEqual !== null && e.data.reason === 'equalsource') {
-        updateSourceAbortEqual.textContent = parseInt(updateSourceAbortEqual.textContent, 10) + 1;
-        updateSourceCompleted.textContent = parseInt(updateSourceCompleted.textContent, 10) + 1;
-    }
-    if (updateSourceAbortFrequency !== null && e.data.reason === 'updatefrequency') {
-        updateSourceAbortFrequency.textContent = parseInt(updateSourceAbortFrequency.textContent, 10) + 1;
-        updateSourceCompleted.textContent = parseInt(updateSourceCompleted.textContent, 10) + 1;
-    }
-    if (updateSourceAbortSuperseded !== null && e.data.reason === 'superseded') {
-        updateSourceAbortSuperseded.textContent = parseInt(updateSourceAbortSuperseded.textContent, 10) + 1;
-        updateSourceCompleted.textContent = parseInt(updateSourceCompleted.textContent, 10) + 1;
-    }
 };
 events.onSwitchStreamInit = function (e) {
     var data = JSON.stringify(e.data);
-    log('onSwitchStreamInit: ' + data);
+    logStatus('onSwitchStreamInit: ' + data);
 };
 events.onSwitchStreamSuccess = function (e) {
     var data = JSON.stringify(e.data);
-    log('onSwitchStreamSuccess: ' + data);
+    logStatus('onSwitchStreamSuccess: ' + data);
 };
 events.onSwitchStreamFail = function (e) {
     var data = JSON.stringify(e.data);
-    log('onSwitchStreamFail: ' + data);
+    logStatus('onSwitchStreamFail: ' + data);
 };
 events.onSwitchStreamAbort = function (e) {
     var data = JSON.stringify(e.data);
     log('onSwitchStreamAbort: ' + data);
 };
-events.onFullscreenChange = function (e) {
-    ___isFullscreen___ = e.data.entered;
-    var data = JSON.stringify(e.data);
-    log('onFullscreenChange: ' + data);
-};
-events.onFullscreenError = function (e) {
-    ___isFullscreen___ = false;
-    var data = JSON.stringify(e.data);
-    log('onFullscreenError: ' + data);
-};
-events.onServerInfo = function (e) {
-    var serverInfo = JSON.stringify(e.data.serverInfo);
-    log('onServerInfo: ' + serverInfo);
-};
-
-['change', 'blur', 'input', 'focus', 'keyup'].forEach(function () {
-    // ['inputUrl', 'inputStreamname'].forEach(function (input) {
-    //     document.getElementById(input).addEventListener(event, function (e) {
-    //         if (config && config.source && config.source.h5live && e.currentTarget.value.length > 0) {
-    //             config.source.h5live.rtmp = config.source.h5live.rtmp || {};
-    //             config.source.h5live.rtmp[e.currentTarget.dataset.prop] = e.currentTarget.value;
-    //         }
-    //     });
-    // });
-    // document.getElementById('inputServer').addEventListener(event, function (e) {
-    //     if (config && config.source && config.source.h5live && e.currentTarget.value.length > 0) {
-    //         checkH5Live(e.currentTarget.value);
-    //     }
-    // });
-});
-
 
