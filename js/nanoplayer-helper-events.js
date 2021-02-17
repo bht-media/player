@@ -1,5 +1,10 @@
 /* eslint-disable no-undef, no-console, no-unused-vars */
 
+// nanoplayer-helper-events
+// nanoplayer sample event handlers and logging
+// (c) 2018-2021, nanocosmos gmbh
+// https://www.nanocosmos.de
+
 var events = {};
 
 events.onReady = function () {
@@ -68,6 +73,7 @@ events.onMetaData = function (e) {
 events.onStats = function (e) {
     var stats = e.data.stats;
     /*
+    console.log(stats);
     document.getElementById('currentTime').textContent = stats.currentTime.toFixed(1);
     document.getElementById('playTimeStart').textContent = stats.playout.start.toFixed(1);
     document.getElementById('playTimeEnd').textContent = stats.playout.end.toFixed(1);
