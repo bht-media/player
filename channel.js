@@ -821,7 +821,7 @@ function getChannelConfig(config) {
     title = 'Beuth Akademische Versammlung 2021';
     buttonBB = false;
   } else if (channel == 'brueckenkurs') {
-    config.source = config_AV;
+    config.source = configSource2;
     title = 'Brückenkurs Sommersemester 2021';
     buttonBB = false;
   }
