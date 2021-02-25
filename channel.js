@@ -772,6 +772,7 @@ var config_AV = {
 function getChannelConfig(config) {
   var channel = getHTTPParam('channel');
   var title = 'Beuth Box Live Stream';
+  var titleMain = 'Beuth Hochschule für Technik - Stream';
 
   var buttonBB = true;
   var buttonBK = false;
@@ -799,7 +800,8 @@ function getChannelConfig(config) {
     title = 'AStA Wahl 2020';
   } else if (channel == 'brueckenkurs') {
     config.source.h5live.rtmp.streamname = 'RBJ00-PedKZ';
-    title = 'Brückenkurs';
+    title = 'Beuth Hochschule für Technik - Stream';
+    titleMain = 'Brückenkurs';
     buttonBK = true;
   } else if (channel == 'media-stream-1') {
     config.source = config_MS_1;
@@ -828,16 +830,21 @@ function getChannelConfig(config) {
 
   // set "title2" element text
   document.getElementById('title2').innerText = title;
+  document.getElementById('title1').innerText = titleMain;
   // set Brückenkurs-Button visibility
   if(buttonBB){
     document.getElementById('bb_link').style.display = "block";
+    document.getElementById('bb_link_container').style.display = "inline";
   } else {
     document.getElementById('bb_link').style.display = "none";
+    document.getElementById('bb_link_container').style.display = "none";
   }
   if(buttonBK){
     document.getElementById('bk_link').style.display = "block";
+    document.getElementById('bk_link_container').style.display = "inline";
   } else {
     document.getElementById('bk_link').style.display = "none";
+    document.getElementById('bk_link_container').style.display = "none";
   }
   return config;
 }

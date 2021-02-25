@@ -176,7 +176,7 @@
 }
 
 #bb_link_container {
-  display: none;
+  display: inline;
   /*
   display: flex;
   */
@@ -192,7 +192,7 @@
 }
 
 #bk_link_container {
-  display: none;
+  display: inline;
   /*
   display: flex;
   */
