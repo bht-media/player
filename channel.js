@@ -792,18 +792,16 @@ function getChannelConfig(config) {
   } else if (channel == 'test2abr') {
     config.source = configSource2;
     title = 'Test Stream / ABR';
-  } else if (channel == 'test-abr-3') {
-    config.source = config_ABR_1;
-    title = 'Begrüßung der Erstsemester im Fachbereich 5';
-  } else if (channel == 'asta-wahl-2020') {
-    config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
-    title = 'AStA Wahl 2020';
   } else if (channel == 'brueckenkurs') {
-    config.source.h5live.rtmp.streamname = 'RBJ00-PedKZ';
+    config.source = config_ABR_1;
     title = 'Beuth Hochschule für Technik - Stream';
     titleMain = 'Brückenkurs';
     buttonBK = true;
     buttonBB = false;
+    title = 'Brückenkurs';
+  } else if (channel == 'asta-wahl-2020') {
+    config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
+    title = 'AStA Wahl 2020';
   } else if (channel == 'media-stream-1') {
     config.source = config_MS_1;
     title = 'Media Stream 1';
@@ -832,6 +830,7 @@ function getChannelConfig(config) {
   // set "title2" element text
   document.getElementById('title2').innerText = title;
   document.getElementById('title1').innerText = titleMain;
+  
   // set Brückenkurs-Button visibility
   if(buttonBB){
     document.getElementById('bb_link').style.display = "block";
