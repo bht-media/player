@@ -773,18 +773,16 @@ function getChannelConfig(config) {
   var channel = getHTTPParam('channel');
   var title = 'Beuth Box Live Stream';
   var buttonBB = true;
-  if (channel == 'test1') {
-    config.source.h5live.rtmp.streamname = 'CD6oL-2kE1g';
-    title = 'Beuth Box Test Stream';
+
+  if (channel == 'brueckenkurs') {
+    config.source = configSource1;
+    title = 'Brückenkurs Sommersemester 2021';
   } else if (channel == 'test2') {
     config.source.h5live.rtmp.streamname = 'HX26g-NRbx9';
     title = 'Beuth Box Test Stream 2';
   } else if (channel == 'bht1') {
     config.source.h5live.rtmp.streamname = 'RBJ00-IYDH9';
     title = 'Ilona Buchem / Rainer Schneider';
-  } else if (channel == 'brueckenkurs') {
-    config.source = configSource1;
-    title = 'Brückenkurs Sommersemester 2021';
   } else if (channel == 'test2abr') {
     config.source = configSource2;
     title = 'Test Stream / ABR';
