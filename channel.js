@@ -803,6 +803,7 @@ function getChannelConfig(config) {
     title = 'Beuth Hochschule für Technik - Stream';
     titleMain = 'Brückenkurs';
     buttonBK = true;
+    buttonBB = false;
   } else if (channel == 'media-stream-1') {
     config.source = config_MS_1;
     title = 'Media Stream 1';
