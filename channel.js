@@ -782,9 +782,9 @@ function getChannelConfig(config) {
   } else if (channel == 'bht1') {
     config.source.h5live.rtmp.streamname = 'RBJ00-IYDH9';
     title = 'Ilona Buchem / Rainer Schneider';
-  } else if (channel == 'bht2abr') {
+  } else if (channel == 'brueckenkurs') {
     config.source = configSource1;
-    title = 'Ilona Buchem / Rainer Schneider';
+    title = 'Brückenkurs Sommersemester 2021';
   } else if (channel == 'test2abr') {
     config.source = configSource2;
     title = 'Test Stream / ABR';
@@ -819,10 +819,6 @@ function getChannelConfig(config) {
   } else if (channel == 'beuth-av-2021') {
     config.source = config_AV;
     title = 'Beuth Akademische Versammlung 2021';
-    buttonBB = false;
-  } else if (channel == 'brueckenkurs') {
-    config.source = configSource2;
-    title = 'Brückenkurs Sommersemester 2021';
     buttonBB = false;
   }
 
