@@ -792,14 +792,14 @@ function getChannelConfig(config) {
   } else if (channel == 'test2abr') {
     config.source = configSource2;
     title = 'Test Stream / ABR';
-  } else if (channel == 'brueckenkurs') {
+  } /*else if (channel == 'brueckenkurs') {
     config.source = config_ABR_1;
     title = 'Brückenkurs';
     //titleMain = 'Brückenkurs';
     //buttonBK = true;
     //buttonBB = false;
     title = 'Brückenkurs';
-  } else if (channel == 'asta-wahl-2020') {
+  }*/ else if (channel == 'asta-wahl-2020') {
     config.source.h5live.rtmp.streamname = 'RBJ00-FzI9V';
     title = 'AStA Wahl 2020';
   } else if (channel == 'media-stream-1') {
@@ -821,9 +821,9 @@ function getChannelConfig(config) {
     config.source = config_PV;
     title = 'Beuth-Personalversammlung 2020';
     buttonBB = false;
-  } else if (channel == 'beuth-av-2021') {
+  } else if (channel == 'brueckenkurs') {
     config.source = config_AV;
-    title = 'Beuth Akademische Versammlung 2021';
+    title = 'Brückenkurs Sommersemester 2021';
     buttonBB = false;
   }
 
