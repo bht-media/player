@@ -775,7 +775,7 @@ function getChannelConfig(config) {
   var buttonBB = true;
 
   if (channel == 'brueckenkurs') {
-    config.source = configSource1;
+    config.source = configSource2;
     title = 'Brückenkurs Sommersemester 2021';
   } else if (channel == 'test2') {
     config.source.h5live.rtmp.streamname = 'HX26g-NRbx9';
