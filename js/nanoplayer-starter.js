@@ -95,11 +95,14 @@ function startPlayerSimpleConfig(playerDiv, stream) {
     // set Brückenkurs-Button visibility
     let buttonBB = (stream.tag.indexOf("ckenkurs")>=0);
     let bbId = document.getElementById('bb_link');
+    let bbIdInfo = document.getElementById('bb_link_info');
     if(bbId) {
       if(buttonBB){
         bbId.style.display = "block";
+	bbIdInfo.style.display = "block";
       } else {
         bbId.style.display = "none";
+	bbIdInfo.style.display = "none";
       }
     }
 
