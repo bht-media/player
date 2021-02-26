@@ -45,7 +45,6 @@ events.onStopBuffering = function () {
     }
     logStatus('playing');
 };
-events_error_id = document.getElementById('error');
 events.onError = function (e) {
     try {
         var err = JSON.stringify(e);
@@ -56,10 +55,16 @@ events.onError = function (e) {
     }
     catch (err) { }
     log('Error = ' + e);
+    var error_text = e;
+    var json = JSON.parse(e);
+    if(json && json.data.message) {
+      error_text = json.data.message;
+    } 
+    var events_error_id = document.getElementById('error');
     if(events_error_id) 
-      events_error_id.innerText = e;
+      events_error_id.innerText = error_text;
     else
-      alert(e);
+      alert(error_text);
 };
 events.onWarning = function (e) {
     logStatus('Warning = ' + e.data.message);
