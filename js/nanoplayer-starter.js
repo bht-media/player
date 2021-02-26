@@ -100,13 +100,13 @@ function startPlayerSimpleConfig(playerDiv, stream) {
     let bbIdbb = document.getElementById('bb_bb');
     if(bbId) {
       if(buttonBB){
-        bbId.style.display = "block";
-	bbIdInfo.style.display = "block";
+        bbId.style.display = "flex";
+	bbIdInfo.style.display = "flex";
 	bbIdbb.style.display = "none";
       } else {
         bbId.style.display = "none";
 	bbIdInfo.style.display = "none";
-	bbIdbb.style.display = "block";
+	bbIdbb.style.display = "flex";
       }
     }
 
