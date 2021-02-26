@@ -93,7 +93,7 @@ function startPlayerSimpleConfig(playerDiv, stream) {
     let titleId = document.getElementById('title2');
     if(titleId&&stream.title) titleId.innerText = stream.title;
     // set Brückenkurs-Button visibility
-    let buttonBB = (stream.tag.indexOf("Brücken")>=0);
+    let buttonBB = (stream.tag.indexOf("ckenkurs")>=0);
     let bbId = document.getElementById('bb_link');
     if(bbId) {
       if(buttonBB){
