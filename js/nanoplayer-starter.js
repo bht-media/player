@@ -96,13 +96,16 @@ function startPlayerSimpleConfig(playerDiv, stream) {
     let buttonBB = (stream.tag.indexOf("ckenkurs")>=0);
     let bbId = document.getElementById('bb_link');
     let bbIdInfo = document.getElementById('bb_link_info');
+    let bbIdbb = document.getElementById('bb_bb');
     if(bbId) {
       if(buttonBB){
         bbId.style.display = "block";
 	bbIdInfo.style.display = "block";
+	bbIdbb.style.display = "none";
       } else {
         bbId.style.display = "none";
 	bbIdInfo.style.display = "none";
+	bbIdbb.style.display = "block";
       }
     }
 
