@@ -36,6 +36,11 @@
 .messaging {
 }
 
+#error {
+ text-align: center; 
+ font-family: Source Sans Pro, sans-serif;
+}
+
 .time_date {
   color: #fff;
   font-size: 0.8rem;
