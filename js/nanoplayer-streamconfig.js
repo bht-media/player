@@ -48,7 +48,20 @@ streams[5] = { "tag": "brueckenkurse",
                ]
              };
 
-streams[6] = { 
+// doppelt brueckenkurs/brueckenkurse
+streams[6] = { "tag": "brueckenkurs",
+               "title": "Brückenkurse",
+               "entries": [
+                 { "streamname": "RBJ00-ZxYi1", // high
+                   "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 } },
+                 { "streamname": "RBJ00-c4NS0", // medium
+                   "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 25 } },
+                 { "streamname": "RBJ00-uSwNt", // low
+                   "info": { "bitrate": 800,  "width": 852,  "height": 480, "framerate": 25 } }
+               ]
+             };
+
+streams[7] = { 
                //"tag": "bht-es5",
                //"title": "Begrüßung der Erstsemester im Fachbereich 5",
                "tag": "b101",
@@ -65,7 +78,7 @@ streams[6] = {
                ]
              };
 
-streams[7] = { "tag": "media-stream-1",
+streams[8] = { "tag": "media-stream-1",
                "title": "Media Stream 1",
                "entries": [
                  { "streamname": "RBJ00-W4xU1", // high
@@ -77,7 +90,7 @@ streams[7] = { "tag": "media-stream-1",
                ]
              };
 
-streams[8] = { "tag": "media-stream-2",
+streams[9] = { "tag": "media-stream-2",
                "title": "Media Stream 2",
                "entries": [
                  { "streamname": "RBJ00-zh5NC", // high
@@ -89,7 +102,7 @@ streams[8] = { "tag": "media-stream-2",
                ]
              };
 
-streams[9] = { "tag": "media-stream-3",
+streams[10] = { "tag": "media-stream-3",
                "title": "Media Stream 3",
                "entries": [
                  { "streamname": "RBJ00-BUlFc", // high
@@ -101,7 +114,7 @@ streams[9] = { "tag": "media-stream-3",
                ]
              };
 
-streams[10] = { "tag": "media-stream-4",
+streams[11] = { "tag": "media-stream-4",
                "title": "Media Stream 4",
                "entries": [
                  { "streamname": "RBJ00-SE30h", // high
@@ -113,7 +126,7 @@ streams[10] = { "tag": "media-stream-4",
                ]
              };
 
-streams[11] = { "tag": "media-stream-5",
+streams[12] = { "tag": "media-stream-5",
                "title": "Media Stream 5",
                "entries": [
                  { "streamname": "RBJ00-Hq9sw", // high
@@ -125,7 +138,7 @@ streams[11] = { "tag": "media-stream-5",
                ]
              };
 
-streams[12] = { "tag": "beuth-pv",
+streams[13] = { "tag": "beuth-pv",
                "title": "BHT Personalversammlung",
                "entries": [
                  { "streamname": "RBJ00-efvMJ", // high
@@ -138,7 +151,7 @@ streams[12] = { "tag": "beuth-pv",
              };
 
 
-streams[13] = { "tag": "beuth-av",
+streams[14] = { "tag": "beuth-av",
                "title": "BHT Akademische Versammlung",
                "entries": [
                  { "streamname": "RBJ00-6CxLI", // high
@@ -151,7 +164,7 @@ streams[13] = { "tag": "beuth-av",
              };
 
 
-streams[14] = { "tag": "hrz-test1",
+streams[15] = { "tag": "hrz-test1",
                 "title": "HRZ Test 1",
                 "entries": [ { "streamname": "nH9ig-FwldJ" } ]
               };
