@@ -36,8 +36,8 @@ streams[4] = { "tag": "bht1",
                "entries": [ { "streamname": "RBJ00-IYDH9" } ]
              };
 
-streams[5] = { "tag": "bht2abr",
-               "title": "Ilona Buchem / Rainer Schneider",
+streams[5] = { "tag": "brueckenkurse",
+               "title": "Brückenkurse",
                "entries": [
                  { "streamname": "RBJ00-ZxYi1", // high
                    "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 } },
