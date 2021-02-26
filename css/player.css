@@ -2696,6 +2696,7 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
   min-height: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #player_btn_group {
