@@ -169,3 +169,8 @@ streams[15] = { "tag": "hrz-test1",
                 "entries": [ { "streamname": "nH9ig-FwldJ" } ]
               };
 
+streams[16] = { "tag": "insta-test",
+               "title": "360° Stream",
+               "entries": [ { "streamname": "RBJ00-ERrTa" } ]
+             };
+
