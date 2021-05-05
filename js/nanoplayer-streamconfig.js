@@ -174,8 +174,8 @@ streams[16] = { "tag": "insta-test",
                "entries": [ { "streamname": "RBJ00-ERrTa" } ]
              };
 
-streams[17] = { "tag": "test-2021",
-               "title": "Teststream 2021",
-               "entries": [ { "streamname": "RBJ00-1Aaxg" } ]
+streams[17] = { "tag": "mixed-reality",
+               "title": "Forschungsprojekt Mixed-Reality",
+               "entries": [ { "streamname": "RBJ00-Gpt3e" } ]
              };
 
