@@ -186,3 +186,15 @@ streams[17] = { "tag": "getreide-informationstagung17Juni2021",
                ]
              };
 
+streams[18] = { "tag": "klima-ringvorlesung",
+               "title": "1.5 °C global warming by 2030? Consequences | risk reduction | adaption",
+               "entries": [
+                 { "streamname": "RBJ00-RBJ00-i89Mx", // high
+                   "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 } },
+                 { "streamname": "RBJ00-BRfzZ", // medium
+                   "info": { "bitrate": 1200,  "width": 852,  "height": 480, "framerate": 25 } },
+                 { "streamname": "RBJ00-VrybE", // low
+                   "info": { "bitrate": 800,  "width": 640,  "height": 360, "framerate": 25 } }
+               ]
+             };
+
