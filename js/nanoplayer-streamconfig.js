@@ -174,8 +174,15 @@ streams[16] = { "tag": "insta-test",
                "entries": [ { "streamname": "RBJ00-ERrTa" } ]
              };
 
-streams[17] = { "tag": "mixed-reality",
-               "title": "Forschungsprojekt Mixed-Reality",
-               "entries": [ { "streamname": "RBJ00-Gpt3e" } ]
+streams[17] = { "tag": "getreide-informationstagung17Juni2021",
+               "title": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
+               "entries": [
+                 { "streamname": "RBJ00-Gpt3e", // high
+                   "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 } },
+                 { "streamname": "RBJ00-DmKyl", // medium
+                   "info": { "bitrate": 1200,  "width": 852,  "height": 480, "framerate": 25 } },
+                 { "streamname": "RBJ00-JlRU0", // low
+                   "info": { "bitrate": 800,  "width": 640,  "height": 360, "framerate": 25 } }
+               ]
              };
 
