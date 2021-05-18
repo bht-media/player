@@ -175,7 +175,7 @@ streams[16] = { "tag": "insta-test",
              };
 
 streams[17] = { "tag": "getreide-informationstagung17Juni2021",
-               "title": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
+               "title": "Berlin-Brandenburgische Gesellschaft für Getreideforschung e.V.",
                "entries": [
                  { "streamname": "RBJ00-Gpt3e", // high
                    "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 } },
