@@ -1771,6 +1771,7 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
 
 @media (min-width:0px) {
   .berlin-nano48 {
+    display: flex;
     flex-direction: row flex-wrap: wrap align-content: space-around justify-content: flex-end align-items: flex-end;
     flex-wrap: wrap;
     align-content: space-around;
@@ -1781,6 +1782,7 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
 
 @media (min-width:600px) {
   .berlin-nano48 {
+    display: flex;
     flex-direction: row flex-wrap: wrap align-content: space-around justify-content: flex-end align-items: flex-end;
     flex-wrap: wrap;
     align-content: space-around;
