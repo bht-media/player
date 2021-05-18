@@ -1786,6 +1786,7 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
     align-content: space-around;
     justify-content: center;
     align-items: center;
+    margin: 10vh 1vw;
   }
 }
 
