@@ -83,7 +83,7 @@
 }
 
 .disclaimer {
-  font-size: 0.8em;
+  font-size: 16px;
   margin: 0;
   margin-bottom: 5px;
   color: #e0e0e0
@@ -148,8 +148,19 @@
   display: inline-block;
 }
 
-#title1 {
+#titleTop {
+  font-family: Source Sans Pro, sans-serif;
+  margin-bottom: 10px;
+  font-size: 2em;
   margin-top: 0px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#titleSub {
+  font-family: Source Sans Pro, sans-serif;
+  margin-bottom: 15px;
+  font-size: 1.4em;
 }
 
 #bb_link_container {
@@ -1807,8 +1818,18 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
 
 @media (min-width:0px) {
   .berlin-nano51 {
+    width: 90%;
+    display: block;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width:740px) {
+  .berlin-nano51 {
     width: 640px;
-    display: flex;
+    display: block;
     max-width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -1891,6 +1912,20 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
     line-height: 1.2;
     font-weight: 600;
   }
+}
+
+header {
+  max-height: 65px;
+}
+
+.berlin-nano1 {
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .h5live-MuiTouchRipple-root {
@@ -2679,12 +2714,6 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
   text-align: center;
   box-shadow: 0 0 black;
   padding: 10px 0px;
-}
-
-#title2 {
-  font-family: Source Sans Pro, sans-serif;
-  margin-bottom: 15px;
-  font-size: 1.4em;
 }
 
 .player_btn {
