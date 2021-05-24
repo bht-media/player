@@ -124,6 +124,7 @@ function startPlayerSimpleConfig(playerDiv, stream) {
 
     //set Background Image
     if(stream.image) {
+      console.log("Set Background Image: " + backgroundImage);
       let rootElem = document.getElementById("root");
       rootElem.style.backgroundImage = "url(" + stream.image + ")";
       rootElem.style.backgroundPosition = "center";
