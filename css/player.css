@@ -1874,6 +1874,8 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
   }
 }
 
+#player_untertitel { color: #fff !important}
+
 @media (min-width:0px) {
   .berlin-nano54 {
     color: #000;
