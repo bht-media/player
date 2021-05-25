@@ -281,8 +281,8 @@ streams[17] = {
 
 streams[18] = {
   "tag": "klima-ringvorlesung",
-  "titleTop": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
-  "title": "1.5 °C global warming by 2030? Consequences | risk reduction | adaption",
+  "titleTop": "1.5 °C Global Warming by 2030?",
+  "title": "Consequences | Risk Reduction | Adaption",
   "image": "https://player.bht-media.de/assets/img/climate-background-2.jpg",
   "entries": [
     {
