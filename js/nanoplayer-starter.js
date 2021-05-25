@@ -130,6 +130,14 @@ function startPlayerSimpleConfig(playerDiv, stream) {
       rootElem.style.backgroundPosition = "center";
       rootElem.style.backgroundSize = "cover";
     }
+    console.log(stream.partnerBox);
+    if(stream.partnerBox){
+      console.log("Activate Partner Box");
+      document.getElementById("partner-wrapper").style.display = "block";
+    } else {
+      console.log("Deactivate Partner Box");
+      document.getElementById("partner-wrapper").style.display = "none";
+    }
 
 
 

@@ -284,6 +284,7 @@ streams[18] = {
   "titleTop": "1.5 °C Global Warming by 2030?",
   "title": "Consequences | Risk Reduction | Adaption",
   "image": "https://player.bht-media.de/assets/img/climate-background-2.jpg",
+  "partnerBox": true,
   "entries": [
     {
       "streamname": "RBJ00-i89Mx", // high

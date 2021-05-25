@@ -1876,6 +1876,62 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
 
 #player_untertitel { color: #fff !important}
 
+.partner-wrapper {
+  display: none;
+}
+
+.partner-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.partner-title { 
+  width: 100%;
+  text-align: center;
+  color: #000;
+  margin: 10px;
+}
+
+.partner-image {
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+@media (min-width:0px) {
+  .partner-link {
+    margin: 3px;
+  }
+  .partner-image {
+    width: 60px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width:300px) {
+  .partner-link {
+    margin: 4px;
+  }
+  .partner-image {
+    width: 75px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width:600px) {
+  .partner-link {
+    margin: 10px;
+  }
+  .partner-image {
+    width: 120px;
+    border-radius: 10px;
+  }
+}
+
 @media (min-width:0px) {
   .berlin-nano54 {
     color: #000;
@@ -1922,6 +1978,7 @@ header {
 
 .berlin-nano1 {
   height: 100vh;
+  min-height: 1100px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
