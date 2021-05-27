@@ -229,7 +229,7 @@ streams[13] = {
 
 
 streams[14] = {
-  "tag": "beuth-av",
+  "tag": "beuth-av-2021",
   "title": "BHT Akademische Versammlung",
   "entries": [
     {
