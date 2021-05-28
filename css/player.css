@@ -83,7 +83,7 @@
 }
 
 .disclaimer {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
   margin-bottom: 5px;
   color: #e0e0e0
@@ -129,7 +129,7 @@
 
 .msg_history {
   position: relative;
-  height: 500px;
+  height: 380px;
   overflow: scroll;
 }
 
@@ -1960,6 +1960,9 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
     font-weight: 900;
     transform-text: uppercase;
   }
+  #title1 > h6 {
+    font-size: 1.2rem !important;
+  }
 }
 
 @media (min-width:600px) {
@@ -1969,6 +1972,9 @@ label[data-shrink=false]+.berlin-MuiInputBase-formControl .berlin-MuiInputBase-i
     font-size: 2.2rem;
     line-height: 1.2;
     font-weight: 600;
+  }
+  #title1 > h6 {
+    font-size: 1.6rem !important;
   }
 }
 
