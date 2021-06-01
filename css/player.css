@@ -60,7 +60,9 @@
 }
 
 .incoming_withd_msg {
-  text-align:right;
+  text-align:left;
+  width: 100%;
+
 }
 
 .incoming-user-name, .outgoing-user-name {
@@ -130,7 +132,8 @@
 .msg_history {
   position: relative;
   height: 380px;
-  overflow: scroll;
+  overflow-y: scroll;
+  padding-right: 5px;
 }
 
 .type_msg {
@@ -144,8 +147,11 @@
 .incoming_single_msg, .outgoing_single_msg {
   font-size: 1.0714285714285714rem;
   font-family: Source Sans Pro, sans-serif;
-  font-size: 1.01rem;
+  font-size: 16px;
   display: inline-block;
+  text-align: left !important;
+  white-space: break-spaces;
+  padding: 8px;
 }
 
 #titleTop {
