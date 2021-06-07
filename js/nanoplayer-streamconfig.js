@@ -262,7 +262,9 @@ streams[16] = {
 
 streams[17] = {
   "tag": "getreide-informationstagung17Juni2021",
+  "titleTop": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
   "title": "Berlin-Brandenburgische Gesellschaft für Getreideforschung e.V.",
+  "image": "https://player.bht-media.de/assets/img/getreidetagung-background.jpg",
   "entries": [
     {
       "streamname": "RBJ00-Gpt3e", // high
