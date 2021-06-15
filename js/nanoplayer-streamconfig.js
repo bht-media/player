@@ -303,3 +303,23 @@ streams[18] = {
   ]
 };
 
+streams[19] = {
+  "tag": "professur-2021",
+  "titleTop": "Professur Beuth Hochschule",
+  "title": "1. + 2.07.2021",
+  "entries": [
+    {
+      "streamname": "RBJ00-hWx6N", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-fsnCQ", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-cUzfG", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }
+  ]
+};
+
