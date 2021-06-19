@@ -14,7 +14,7 @@ streams[0] = {
 streams[1] = {
   "tag": "test1",
   "title": "Test Stream 1",
-  "entries": [{ "streamname": "HX26g-NRbx9" }]
+  "entries": [{ "streamname": "RBJ00-6uALm" }]
 };
 
 streams[2] = {
@@ -22,15 +22,15 @@ streams[2] = {
   "title": "Test Stream 2 / ABR",
   "entries": [
     {
-      "streamname": "HX26g-NRbx9", // high
+      "streamname": "RBJ00-6uALm", // high
       "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 30 }
     },
     {
-      "streamname": "HX26g-uVn3M", // medium
+      "streamname": "RBJ00-J0hGb", // medium
       "info": { "bitrate": 800, "width": 854, "height": 480, "framerate": 15 }
     },
     {
-      "streamname": "HX26g-VbAxm", // low
+      "streamname": "RBJ00-SS48m", // low
       "info": { "bitrate": 400, "width": 640, "height": 360, "framerate": 15 }
     }
   ]
