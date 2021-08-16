@@ -323,3 +323,24 @@ streams[19] = {
   ]
 };
 
+streams[20] = {
+  "tag": "D338",
+  "titleTop": "Stream im Raum D338",
+  "title": "Live Unterricht aus dem Raum D338",
+  "entries": [
+    {
+      "streamname": "RBJ00-6uALm", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-J0hGb", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-SS48m", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }
+  ]
+};
+
+
