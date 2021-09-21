@@ -304,9 +304,9 @@ streams[18] = {
 };
 
 streams[19] = {
-  "tag": "professur-2021",
-  "titleTop": "Professur Beuth Hochschule",
-  "title": "1. + 2.07.2021",
+  "tag": "fabAccess-Workshop",
+  "titleTop": "FabAccess Workshop",
+  "title": "22.09.2021",
   "entries": [
     {
       "streamname": "RBJ00-hWx6N", // high
