@@ -306,6 +306,7 @@ streams[18] = {
 streams[19] = {
   "tag": "fabAccess-Workshop",
   "titleTop": "FabAccess Workshop",
+  "image": "https://player.bht-media.de/assets/FabLabBackgroundColo.jpg",
   "title": "22.09.2021",
   "entries": [
     {
