@@ -32,7 +32,7 @@ body{
 /** Header Style ******************************************/
 
 #header{
-    flex: content;
+    /** flex: content; **/
     display: flex;
     align-items: flex-start;
     flex-direction: row;
