@@ -64,7 +64,7 @@ body{
     justify-content: flex-start;
     align-items: center;
 
-    background-color: rgb(190, 226, 226);
+    background-color: rgb(234,234,234);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -73,7 +73,7 @@ body{
     flex: initial;
     display: flex;
     align-items: flex-end;
-    color: #0098a1;
+    color: rgb(51,51,51);
     font-size: 2em;
     padding: 10px;
     margin-top: 50px;
