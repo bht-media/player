@@ -384,18 +384,18 @@ streams.push({
 streams.push({
   "tag": "Userbility-Engineering",
   "titleTop": "Userbility Engineering",
-  "title": "",
+  "title": "Lehrveranstaltung von Herr Prof. Dr. Strzebkowski",
   "image": "",
   "debug": false,
   "chat": false,
-  "partnerBox": [
+  /*"partnerBox": [
     {}],
   "linkBox": [
     {
       "text": "",
       "image": "https://www.beuth-hochschule.de/fileadmin/images/Beuth_Logo_horizontal.png",
       "url": "https://www.beuth-hochschule.de/"
-    }],
+    }],*/
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "RBJ00-J5qUb", // high
