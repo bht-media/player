@@ -376,32 +376,20 @@ streams.push({
     }]
 });
 
-// Workshop Stream : Lecture Recording
-// 23.09.2021 + 28.09.2021
-// Veranstalter : Team beuthBox
+// Userbility Engineering Stream von Robert Strzebkowski
+// 14.10.2021
+// Veranstaltung : Userbility Engineering
+// Veranstalter : Robert Strzebkowski
+// Ort : Raum D338
 streams.push({
-  "tag": "LR-Workshop",
-  "titleTop": "Workshop - Lecture Recording",
-  "title": "Dieser text dient als Beispielbeschreibung für unseren heutigen Workshop und kann frei gewählt werden. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  "image": "https://www.beuth-hochschule.de/fileadmin/oe/pressestelle/bild/news/2020-01-27_Neuer-Name_Beuth-Buchstaben-verhuellt.jpg",
-  "debug": true,
-  "chat": true,
+  "tag": "Userbility-Engineering",
+  "titleTop": "Userbility Engineering",
+  "title": "",
+  "image": "",
+  "debug": false,
+  "chat": false,
   "partnerBox": [
-    {
-      "text": "Beuth Hoschschule für Technik",
-      "image": "https://www.beuth-hochschule.de/fileadmin/images/Beuth_Logo_horizontal.png",
-      "url": "https://www.beuth-hochschule.de/"
-    },
-    {
-      "text": "",
-      "image": "https://beuthbox.beuth-hochschule.de/assets/beuthbox-logo.svg",
-      "url": "https://beuthbox.beuth-hochschule.de/"
-    },
-    {
-      "text": "",
-      "image": "https://www.nanocosmos.de/v6/images/logo-nav.png",
-      "url": "https://www.nanocosmos.de/"
-    }],
+    {}],
   "linkBox": [
     {
       "text": "",
