@@ -1,0 +1,4 @@
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*

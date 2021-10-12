@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+#contentChat{
+    display: flex;
+    flex: 0.5;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#chat{
+    display: flex;
+    font-family: Source Sans Pro, sans-serif;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background: #0098a1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100%;
+}
+
+#chatTitle{
+    flex: 0.5;
+    font-size: 1.6rem;
+    padding: 0 0 4px 0;
+}
+
+#disclaimer{
+    flex: 0.5;
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.container{
+    flex: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.mesgs{
+    display: flex;
+    height: 100%;
+    min-height: 280px;
+    max-height: 800px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.msg_history {
+    flex: auto;
+    resize: vertical;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    border-radius: 10px;
+    background-color: #ffffff47;
+    height: 30vh;
+    overflow-y: auto;
+    min-height: 100px;
+}
+.input_msg_write{
+    display: flex;
+    margin-bottom: 1vh;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.type_msg{
+    flex: 1;
+}
+
+
+/** Send Button Design */
+.msg_send_btn{
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 3px;
+    color: rgb(97, 97, 97);
+    background: rgb(190, 226, 226);
+}
+
+/** input Design */
+.write_msg {
+    width: 100%;
+    resize: none;
+    padding: 8px 3px;
+    border-radius: 5px;
+    border: 0;
+}
+
+@media only screen and (max-width: 1500px)  {
+
+    #chat{
+        margin-top: 1vh;
+        width: 95%;
+    }
+
+    #contentChat{
+        align-items: center;
+    }
+    #chatTitle{
+        font-size: 1.5em;
+    }
+
+    #disclaimer{
+        font-size: 0.8em;
+    }
+
+    #content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 988px;
+        width: 100%;
+    }
+
+    .msg_history{
+        height: 10vh;
+    }
+}
