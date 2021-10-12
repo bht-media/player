@@ -378,12 +378,12 @@ streams.push({
 
 // Userbility Engineering Stream von Robert Strzebkowski
 // 14.10.2021
-// Veranstaltung : Userbility Engineering
+// Veranstaltung : Usability Engineering
 // Veranstalter : Robert Strzebkowski
 // Ort : Raum D338
 streams.push({
-  "tag": "Userbility-Engineering",
-  "titleTop": "Userbility Engineering",
+  "tag": "Usability-Engineering",
+  "titleTop": "Usability Engineering",
   "title": "Lehrveranstaltung von Herr Prof. Dr. Strzebkowski",
   "image": "",
   "debug": false,
