@@ -87,7 +87,7 @@ body{
 #titleSub{
     flex: initial;
     width: 100%;
-    color: white;
+    color: rgb(119,119,119);
     font-size: 1.4em;
     padding: 10px 2em 30px;
     text-align: center;
@@ -117,14 +117,14 @@ body{
 /** ---------------------------------------------------------*/
 
 #playerSubtitle{
-    color: white;
+    color: rgb(119,119,119);
     padding: 10px;
     width: 80%;
     font-style: oblique;
     text-align: center;
 }
 #error{
-    color: white;
+    color: rgb(119,119,119);
     width: 80%;
     text-align: center;
     margin-bottom: 20px;
@@ -158,13 +158,13 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    color: #30b7c0;
+    color: rgb(51,51,51);
     transition: 0.1s;
 }
 
 .linkButton:hover{
     color: white;
-    background-color: #30b7c0;
+    background-color: rgb(51,51,51);
     font-weight: bold;
     font-size: 1em;
 
