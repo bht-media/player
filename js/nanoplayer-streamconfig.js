@@ -429,22 +429,22 @@ streams.push({
 */
 streams.push({
   "tag": "Rupp+Hubrach-Wissenschaftspreis",
-  "titleTop": "Festveranstaltung zur Verleihung des Rupp+Hubrach-Wissenschaftspreises Augenoptik/Optometrie",
+  "titleTop": "Festveranstaltung zur Verleihung des Rupp+Hubrach-Wissenschaftspreises",
   "title": "Virtual-Reality-basierte Untersuchung des Orientierungsverhaltens bei Glaukom",
-  "image": "",
+  "image": "assets/img/backgrounds/R+H_background2021.jpg",
   "debug": false,
   "chat": false,
   /*"partnerBox": [
     {
       "image": "",
-      "url": "https://www.rh-brillenglas.de/"
-     }],
+      "url": ""
+     }],*/
   "linkBox": [
     {
       "text": "",
-      "image": "https://www.beuth-hochschule.de/fileadmin/images/Beuth_Logo_horizontal.png",
-      "url": "https://www.beuth-hochschule.de/"
-    }],*/
+      "image": "assets/img/logos/logoR+H2021.png",
+      "url": "https://www.rh-brillenglas.de/"
+    }],
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "RBJ00-4E5xr", // high

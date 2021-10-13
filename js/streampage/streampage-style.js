@@ -97,7 +97,8 @@ let setLinkBox = function (streamConfig){
 
     if (streamConfig.linkBox !== undefined) {
         let linkBoxes = streamConfig.linkBox;
-        console.log("LINKBOXES : " + streamConfig.linkBox.length);
+
+        // For every LinkBox item
         for (let i = 0; i < streamConfig.linkBox.length; i++){
 
             let a = document.createElement("a");
@@ -105,17 +106,19 @@ let setLinkBox = function (streamConfig){
             a.target = "_blank";
             a.className = "linkButton";
 
-            let div = document.createElement("div");
-            div.className = "linkText";
-            div.innerText = linkBoxes[i].text;
-            a.appendChild(div);
+            if(linkBoxes[i].text !== "" && linkBoxes[i].image === ""){
+                let div = document.createElement("div");
+                div.className = "linkText";
+                div.innerText = linkBoxes[i].text;
+                a.appendChild(div);
+            } else{
+                let image = document.createElement("img");
+                image.src = linkBoxes[i].image;
+                image.className = "linkBoxImages";
+                a.appendChild(image);
+            }
             //a.innerText = linkBoxes[i].text;
             //a.style.backgroundImage = "url(" + linkBoxes[i].image + ")";
-
-
-            let image = document.createElement("img");
-            image.src = linkBoxes[i].image;
-            a.appendChild(image);
 
             linkBoxElement.appendChild(a);
         }

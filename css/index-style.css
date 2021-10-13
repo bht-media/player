@@ -163,16 +163,19 @@ body{
 }
 
 .linkButton:hover{
-    color: white;
-    background-color: rgb(51,51,51);
+    /*color: white;
+    background-color: rgb(51,51,51);*/
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
 
 }
 
-a:hover img{
+.linkBoxImages{
+    height: 1em;
+}
+
+a:hover{
     /*filter: blur(4px);*/
-    backdrop-filter: blur(4px);
     color: #1b6d85;
 }
 
