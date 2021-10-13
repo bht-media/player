@@ -423,3 +423,52 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
+
+/**
+  
+*/
+streams.push({
+  "tag": "Rupp+Hubrach-Wissenschaftspreis",
+  "titleTop": "Festveranstaltung zur Verleihung des Rupp+Hubrach-Wissenschaftspreises Augenoptik/Optometrie",
+  "title": "Virtual-Reality-basierte Untersuchung des Orientierungsverhaltens bei Glaukom",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  /*"partnerBox": [
+    {
+      "image": "",
+      "url": "https://www.rh-brillenglas.de/"
+     }],
+  "linkBox": [
+    {
+      "text": "",
+      "image": "https://www.beuth-hochschule.de/fileadmin/images/Beuth_Logo_horizontal.png",
+      "url": "https://www.beuth-hochschule.de/"
+    }],*/
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-4E5xr", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-m2iIC", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-xf0DT", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-5Sr8X", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-eCnYR", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-qVRuP", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
