@@ -382,20 +382,20 @@ streams.push({
 // Veranstalter : Robert Strzebkowski
 // Ort : Raum D338
 streams.push({
-  "tag": "Usability-Engineering",
-  "titleTop": "Usability Engineering",
-  "title": "Lehrveranstaltung von Herr Prof. Dr. Strzebkowski",
+  "tag": "Berufungskommission",
+  "titleTop": "Berufungskommission Architektur 1106",
+  "title": "Fachbereich IV",
   "image": "",
   "debug": false,
-  "chat": false,
+  "chat": true,
   /*"partnerBox": [
-    {}],
+    {}],*/
   "linkBox": [
     {
-      "text": "",
-      "image": "https://www.beuth-hochschule.de/fileadmin/images/Beuth_Logo_horizontal.png",
-      "url": "https://www.beuth-hochschule.de/"
-    }],*/
+      "text": "Fachbereich IV (Architektur)",
+      "image": "",
+      "url": "https://www.bht-berlin.de/iv"
+    }],
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "RBJ00-J5qUb", // high
@@ -431,7 +431,7 @@ streams.push({
   "tag": "Rupp+Hubrach-Wissenschaftspreis",
   "titleTop": "Festveranstaltung zur Verleihung des Rupp+Hubrach-Wissenschaftspreises",
   "title": "Virtual-Reality-basierte Untersuchung des Orientierungsverhaltens bei Glaukom",
-  "image": "assets/img/backgrounds/R+H_background2021.jpg",
+  "image": "assets/img/backgrounds/R+H_backgroundWHITE2021.jpg",
   "debug": false,
   "chat": false,
   /*"partnerBox": [

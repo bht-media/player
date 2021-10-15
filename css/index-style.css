@@ -44,6 +44,9 @@ body{
     padding-right: 20px;
     padding-left: 20px;
 }
+#header a{
+    height: 100%;
+}
 
 #beuth-logo{
     height: 100%;
@@ -176,7 +179,7 @@ body{
 
 a:hover{
     /*filter: blur(4px);*/
-    color: #1b6d85;
+    color: rgb(119,119,119);
 }
 
 .linkImage{
