@@ -388,10 +388,8 @@ streams.push({
   "image": "",
   "debug": false,
   "chat": true,
-  /*"partnerBox": [
-    {}],*/
-  "linkBox": [
-    {
+  /*"partnerBox": [{}],*/
+  "linkBox": [{
       "text": "Fachbereich IV (Architektur)",
       "image": "",
       "url": "https://www.bht-berlin.de/iv"

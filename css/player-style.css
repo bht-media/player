@@ -95,6 +95,8 @@ video{
     visibility: visible;
     align-items: center;
     justify-content: center;
+    transition: 1s;
+    backdrop-filter: blur(2px);
 }
 
 svg{
