@@ -301,6 +301,9 @@ streams.push({
   ]
 });
 
+/**
+ * Veralteter D338er Stream
+ */
 streams.push({
   "tag": "D338",
   "titleTop": "D338 - Live Stream",
@@ -321,6 +324,9 @@ streams.push({
   ]
 });
 
+/**
+ * Test Stream
+ */
 streams.push({
   "tag": "dualTest",
   "titleTop": "Dual Stream Test",
@@ -376,11 +382,10 @@ streams.push({
     }]
 });
 
-// Userbility Engineering Stream von Robert Strzebkowski
-// 14.10.2021
-// Veranstaltung : Usability Engineering
-// Veranstalter : Robert Strzebkowski
 // Ort : Raum D338
+/**
+ * Stream für den Raum D338 : Thema anpassbar
+ */
 streams.push({
   "tag": "Berufungskommission",
   "titleTop": "Berufungskommission Architektur 1106",
@@ -423,7 +428,7 @@ streams.push({
 });
 
 /**
-  
+ * Wissenschaftspreis am 09.11.2021
 */
 streams.push({
   "tag": "Rupp+Hubrach-Wissenschaftspreis",
@@ -467,6 +472,55 @@ streams.push({
     },
     {
       "streamname": "RBJ00-qVRuP", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+* FSI Stream am 28.10.2021
+ */
+streams.push({
+  "tag": "FSI",
+  "titleTop": "Abschluss- und Alumniveranstaltung",
+  "title": "28.10.2021",
+  "image": "assets/img/backgrounds/FSI_background.jpg",
+  "debug": false,
+  "chat": false,
+  "partnerBox": [
+    {
+      "image":"assets/img/logos/logo-netzwerk-iq.svg",
+      "url": "https://www.netzwerk-iq.de/"
+     }],
+  "linkBox": [
+    {
+      "text": "Fernstudieninstitut der BHT",
+      "image": "",
+      "url": "https://www.bht-berlin.de/fsi"
+    }],
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-iXM8d", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-xHQOa", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-yKAdb", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-fwXOB", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-5KhPa", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-ZdLZ2", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });

@@ -213,7 +213,9 @@ a:hover{
     flex-wrap: wrap;
 }
 
-
+.partnerBoxImages{
+    height: 2em;
+}
 
 /** Debugger Style ******************************************/
 #debug{

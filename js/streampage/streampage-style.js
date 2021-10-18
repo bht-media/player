@@ -141,14 +141,21 @@ let setPartnerBox = function (streamConfig){
 
     if (streamConfig.partnerBox !== undefined) {
         let linkBoxes = streamConfig.partnerBox;
-        console.log("PARTNERBOXES : " + streamConfig.partnerBox.length);
+        //console.log("PARTNERBOXES : " + streamConfig.partnerBox.length);
         for (let i = 0; i < streamConfig.partnerBox.length; i++){
 
             let a = document.createElement("a");
             a.href = linkBoxes[i].url;
             a.target = "_blank";
-            a.innerText = linkBoxes[i].text;
-            a.style.backgroundImage = "url(" + linkBoxes[i].image + ")";
+            if(linkBoxes[i].text !== "undefined" && linkBoxes[i].image === undefined){
+                a.innerText = linkBoxes[i].text;
+            }else{
+                let image = document.createElement("img");
+                image.src = linkBoxes[i].image;
+                image.className = "partnerBoxImages";
+                a.appendChild(image);
+                //a.style.backgroundImage = "url(" + linkBoxes[i].image + ")";
+            }
             a.className = "linkButton";
 
             partnerBoxElement.appendChild(a);
