@@ -24,6 +24,7 @@
     background-color: #0f0f0f;
     aspect-ratio: 16/9;
     border-radius: 10px;
+    min-width: 320px;
     width: 95%;
 }
 
