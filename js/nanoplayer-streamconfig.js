@@ -535,10 +535,10 @@ streams.push({
   "image": "",
   "debug": false,
   "chat": true,
-  "partnerBox": [
+  /*"partnerBox": [
     {}],
   "linkBox": [
-    {}],
+    {}],*/
   "entries":[
     {
       "streamname": "RBJ00-VPZm9", // high
