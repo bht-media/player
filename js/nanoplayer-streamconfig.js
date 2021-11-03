@@ -578,9 +578,12 @@ streams.push({
   "debug": false,
   "chat": false,
   /*"partnerBox": [
-    {}],
-  "linkBox": [
     {}],*/
+  "linkBox": [
+    {       "text": "Akademischer Senat",
+            "image": "",
+            "url": "https://www.bht-berlin.de/as"
+    }],
   "entries":[
     {
       "streamname": "RBJ00-hiPby", // high
