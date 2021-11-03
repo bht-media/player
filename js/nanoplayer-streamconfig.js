@@ -566,3 +566,45 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
+
+/**
+* Akademische Senats Sitzung 25.11.2021
+ */
+streams.push({
+  "tag": "AS-Sitzung",
+  "titleTop": "Akademische Senats Sitzung",
+  "title": "25.11.2021",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [
+    {}],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-hiPby", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-XYg00", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-5uDPG", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-sRdlg", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-Aq0v3", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-5TLcc", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
