@@ -90,6 +90,7 @@ body{
 #titleSub{
     flex: initial;
     width: 100%;
+    font-weight: bold;
     color: rgb(119,119,119);
     font-size: 1.4em;
     padding: 10px 2em 30px;
