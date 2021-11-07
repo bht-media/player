@@ -362,7 +362,6 @@ let fadeControls = {
     }
 }
 
-
 /**
  * Switch between hide and show of the play button
  */

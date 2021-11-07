@@ -22,10 +22,11 @@
     overflow: hidden;
     position: relative;
     background-color: #0f0f0f;
-    aspect-ratio: 16/9;
-    /*padding-top: 56.25%;*/
     border-radius: 10px;
+    /*aspect-ratio: 16/9;*/
+    /*padding-top: 56.25%;*/
     /*min-width: 320px;*/
+    height: 480px;
     width: 95%;
 }
 
@@ -89,6 +90,7 @@ video{
     width: 100%;
     height: 50px;
     max-height: 71px;
+    min-height: 50px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.61);
     bottom: 0;
@@ -230,7 +232,7 @@ svg{
 }
 
 /** Style from 900px ******************************************/
-@media only screen and (max-width: 1500px)  {
+@media screen and (max-width: 1650px)  {
 
     #player{
         width: 100%;
@@ -239,11 +241,45 @@ svg{
         width: 100%;
     }
 
+    #playerDivs{
+        height: 480px;
+    }
+
     #contentPlayer{
         align-items: center;
     }
 
     #playerSubtitle, #error{
         font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #playerDiv{
+        width: 100%;
+    }
+
+    #playerDivs{
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #playerDiv{
+        width: 100%;
+    }
+
+    #playerDivs{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .controls{
+        height: 70%;
+    }
+
+    #volume{
+        width: 100%;
     }
 }
