@@ -209,7 +209,8 @@ streams.push({
 
 streams.push({
   "tag": "beuth-av-2021",
-  "title": "Akademische Versammlung 2021",
+  "titleTop": "Akademische Versammlung 2021",
+  "title" : "BHT Berlin",
   "entries": [
     {
       "streamname": "RBJ00-6CxLI", // high
@@ -559,20 +560,7 @@ streams.push({
     {
       "streamname": "RBJ00-3c7dn", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-rQDRP", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-0q5zF", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-ZyHXP", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
+    }]
 });
 
 /**
