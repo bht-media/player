@@ -24,6 +24,7 @@ let applyStreamStyle = function (){
         setBackgroundImage(streamConfig);
         setLinkBox(streamConfig);
         setPartnerBox(streamConfig);
+        applyExtraStyle(streamConfig);
 
         console.log("Stream Style applied")
     }else {
@@ -160,6 +161,16 @@ let setPartnerBox = function (streamConfig){
 
             partnerBoxElement.appendChild(a);
         }
+    }
+}
+
+let applyExtraStyle = function (streamConfig){
+    if (streamConfig.customStyle !== undefined && streamConfig.customStyle){
+        let style = document.createElement("style")
+        style.id = getStreamID() + "_style";
+        style.appendChild(document.createTextNode(""));
+        style.textContent = streamConfig.customStyle;
+        document.head.appendChild(style);
     }
 }
 

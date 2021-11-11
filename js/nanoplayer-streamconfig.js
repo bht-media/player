@@ -328,10 +328,18 @@ streams.push({
  * Test Stream
  */
 streams.push({
-  "tag": "dualTest",
+  "tag": "test",
   "titleTop": "Dual Stream Test",
   "title": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages",
   "image": "/assets/img/background.jpg",
+  "customStyle": `
+            #playerDiv2 {
+            background-color: BLUE;
+            position: fixed;
+            }
+            #titleSub {
+            background-color: RED;
+            }`,
   "partnerBox": [
     {
       "text": "beuthBox", // high
