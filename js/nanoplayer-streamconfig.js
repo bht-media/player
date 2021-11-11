@@ -211,6 +211,11 @@ streams.push({
   "tag": "beuth-av-2021",
   "titleTop": "Akademische Versammlung 2021",
   "title" : "BHT Berlin",
+  "linkBox": [{
+      "text": "Akademische Versammlung",
+      "image": "",
+      "url": "https://www.bht-berlin.de/av"
+    }],
   "entries": [
     {
       "streamname": "RBJ00-6CxLI", // high
