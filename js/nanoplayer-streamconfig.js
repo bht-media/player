@@ -573,11 +573,19 @@ streams.push({
  */
 streams.push({
   "tag": "AS-Sitzung",
-  "titleTop": "Akademische Senats Sitzung",
-  "title": "25.11.2021",
-  "image": "",
+  "titleTop": "Lecture Recording System",
+  "title": "Media Service Team der BHT Berlin",
+  //Quelle Image: https://uploads.panopto.com/2019/10/23114038/epiphan-peal-mini-panopto-integration.jpg
+  "image": "assets/img/backgrounds/epiphan-peal-mini.jpg",
   "debug": false,
   "chat": false,
+  "customStyle": `
+            #titleTop {
+            background-color: #ffffffa6;
+            }
+            #titleSub{
+            font-weight: normal;
+            }`,
   /*"partnerBox": [
     {}],*/
   "linkBox": [
@@ -609,6 +617,74 @@ streams.push({
     },
     {
       "streamname": "RBJ00-5TLcc", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ * Planet [A]rch 01.12.2021 - 12.01.2021 (Jeden Mittwoch)
+ */
+streams.push({
+  "tag": "planet-arch",
+  "titleTop": "planet [A]rch",
+  "title": "Fachbereich IV - Architektur",
+  "image": "assets/img/backgrounds/background-planet-arch02.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            #titleTop {
+            background-color: #E74011;
+            color: white;
+            }
+            #titleSub{
+            background-color: #575756;
+            font-weight: normal;
+            }
+            #main{
+            background-color: white;
+            }
+            #linkBox{
+            background: rgba(254,194,16,0.9);
+            }`,
+  /*"partnerBox": [
+    {}],*/
+  "linkBox": [
+    { "text": "bautrieb@gmail.com",
+      "image": "",
+      "url": "mailto:bautrieb@gmail.com"
+    },
+      { "text": "facebook.com/bautrieb",
+        "image": "",
+        "url": "facebook.com/bautrieb"
+      },
+    { "text": "instagram@bautrieb",
+      "image": "",
+      "url": "https://www.instagram.com/bautrieb/"
+    },],
+  "entries":[
+    {
+      "streamname": "RBJ00-JsmUW", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-XYg00", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-5uDPG", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-o8kaC", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-jyQue", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-5o8H3", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });

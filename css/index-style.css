@@ -66,7 +66,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
+    background-position: center;
     background-color: rgb(234,234,234);
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +142,9 @@ body{
 }
 #linkBox{
     display: flex;
-    width: 80%;
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
     justify-content: center;
     margin-bottom: 70px;
     align-items: center;
@@ -159,7 +161,6 @@ body{
     border-radius: 8px;
     padding: 10px 25px;
     text-align: center;
-    margin-bottom: 2vh;
     margin-left: 1vh;
     margin-right: 1vh;
     font-size: 0.7em;
