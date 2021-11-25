@@ -631,7 +631,7 @@ streams.push({
   "image": "assets/img/backgrounds/background-planet-arch02.jpg",
   "debug": false,
   "chat": false,
-  /*"customStyle": `
+  "customStyle": `
             #titleTop {
             background-color: #E74011;
             color: white;
@@ -645,7 +645,7 @@ streams.push({
             }
             #linkBox{
             background: rgba(254,194,16,0.9);
-            }`,*/
+            }`,
   /*"partnerBox": [
     {}],*/
   "linkBox": [
@@ -663,28 +663,28 @@ streams.push({
     },],
   "entries":[
     {
-      "streamname": "RBJ00-JsmUW", // high
+      "streamname": "RBJ00-NYU0l", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-XYg00", // medium
+      "streamname": "RBJ00-PcSop", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-5uDPG", // low
+      "streamname": "RBJ00-0PfXF", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-o8kaC", // high
+      "streamname": "RBJ00-RFaTn", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-jyQue", // medium
+      "streamname": "RBJ00-OzZbJ", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-5o8H3", // low
+      "streamname": "RBJ00-P1ISi", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
