@@ -631,7 +631,7 @@ streams.push({
   "image": "assets/img/backgrounds/background-planet-arch02.jpg",
   "debug": false,
   "chat": false,
-  "customStyle": `
+  /*"customStyle": `
             #titleTop {
             background-color: #E74011;
             color: white;
@@ -645,7 +645,7 @@ streams.push({
             }
             #linkBox{
             background: rgba(254,194,16,0.9);
-            }`,
+            }`,*/
   /*"partnerBox": [
     {}],*/
   "linkBox": [
