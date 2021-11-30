@@ -652,6 +652,9 @@ streams.push({
             #error, #contentBox, #playerSubtitle{
             display:none;
             }
+            a:link, a:visited{
+            color: red;
+            }
             `,
   /*"partnerBox": [
     {}],*/
