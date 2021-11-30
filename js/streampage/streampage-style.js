@@ -24,6 +24,7 @@ let applyStreamStyle = function (){
         setBackgroundImage(streamConfig);
         setLinkBox(streamConfig);
         setPartnerBox(streamConfig);
+        setTextFields(streamConfig);
         applyExtraStyle(streamConfig);
 
         console.log("Stream Style applied")
@@ -161,6 +162,45 @@ let setPartnerBox = function (streamConfig){
 
             partnerBoxElement.appendChild(a);
         }
+    }
+}
+
+let setTextFields = function (streamConfig){
+    let textFieldDivs = document.getElementById("textField");
+
+
+    if (streamConfig.textFields !== undefined && streamConfig.textFields) {
+
+        let textFieldTitleDiv = document.createElement("div");
+        textFieldTitleDiv.className = "textFieldTitle";
+        textFieldTitleDiv.innerHTML = streamConfig.textFields[0].title;
+        textFieldDivs.appendChild(textFieldTitleDiv);
+
+        let textFieldContentDiv = document.createElement("div");
+        textFieldContentDiv.className = "textFieldContent";
+        textFieldDivs.appendChild(textFieldContentDiv);
+
+        for (let i = 1; i < streamConfig.textFields.length; i++){
+
+            //let frameDiv = document.createElement("div");
+            //frameDiv.className = "textField_content";
+            let textBoxDiv = document.createElement("div");
+            textBoxDiv.className = "textBox"
+            let headerDiv = document.createElement("div");
+            headerDiv.className = "textBox_header";
+            headerDiv.innerHTML = streamConfig.textFields[i].header;
+            let textDiv = document.createElement("div");
+            textDiv.className = "textBox_text";
+            textDiv.innerHTML = streamConfig.textFields[i].text;
+
+            textBoxDiv.appendChild(headerDiv);
+            textBoxDiv.appendChild(textDiv);
+            //textFieldDivs.appendChild(textBoxDiv);
+
+            textFieldContentDiv.appendChild(textBoxDiv);
+        }
+    }else {
+        textFieldDivs.parentNode.removeChild(textFieldDivs);
     }
 }
 

@@ -637,15 +637,22 @@ streams.push({
             color: white;
             }
             #titleSub{
-            background-color: #575756;
+            background: rgba(254,194,16,0.9);
             font-weight: normal;
             }
             #main{
             background-color: white;
             }
             #linkBox{
-            background: rgba(254,194,16,0.9);
-            }`,
+            background-color: #5757569c;
+            }
+            .textFieldTitle{
+            color: white;
+            }
+            #error, #contentBox, #playerSubtitle{
+            display:none;
+            }
+            `,
   /*"partnerBox": [
     {}],*/
   "linkBox": [
@@ -661,6 +668,25 @@ streams.push({
       "image": "",
       "url": "https://www.instagram.com/bautrieb/"
     },],
+  "textFields" : [
+    { "title": "<p>Jeden Mittwoch ab 18 Uhr&ensp;<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODk2ODZjYmYtNDk0ZC00ZmY4LWIzM2UtOTcwYmQ3YTZkZDNi%40thread.v2/0?context=%7b%22Tid%22%3a%2253bc5889-4f98-49b1-97c2-1b0d33acec73%22%2c%22Oid%22%3a%22ac64bc64-e5c3-4223-aa48-ca528aa7145a%22%7d'>hier</a>&ensp;zu erreichen.</p> <br> <p class='important'>Bitte achten Sie darauf, vor dem Beitreten Ihr Mikrofon/Kamera zu deaktivieren, vielen Danke.</p>"
+    },
+    { "header": "01.12.2021",
+      "text": "Stefan Bauer von architects for future, Berlin"
+    },
+    { "header": "08.12.2021",
+      "text": "Andrea Heil von architects for future, München"
+    },
+    { "header": "15.12.2021",
+      "text": "Sanna Richter von City Förster, Hannover"
+    },
+    { "header": "05.01.2022",
+      "text": "Sanna Richter von City Förster, Hannover"
+    },
+    { "header": "12.01.2022",
+      "text": "Marcel Özer von EPEA, Stuttgart"
+    },
+  ],
   "entries":[
     {
       "streamname": "RBJ00-NYU0l", // high
