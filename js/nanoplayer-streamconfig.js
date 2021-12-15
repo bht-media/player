@@ -681,7 +681,7 @@ streams.push({
       "text": "Andrea Heil von architects for future, München"
     },
     { "header": "15.12.2021",
-      "text": "Nils Nolting von TH Köln"
+      "text": "Nils Nolting"
     },
     { "header": "12.01.2022",
       "text": "Marcel Özer von EPEA, Stuttgart"
