@@ -672,7 +672,7 @@ streams.push({
       "url": "https://www.instagram.com/bautrieb/"
     },],
   "textFields" : [
-    { "title": "<p>Jeden Mittwoch ab 18 Uhr&ensp;<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODk2ODZjYmYtNDk0ZC00ZmY4LWIzM2UtOTcwYmQ3YTZkZDNi%40thread.v2/0?context=%7b%22Tid%22%3a%2253bc5889-4f98-49b1-97c2-1b0d33acec73%22%2c%22Oid%22%3a%22ac64bc64-e5c3-4223-aa48-ca528aa7145a%22%7d'>hier</a>&ensp;zu erreichen.</p> <br> <p class='important'>Bitte achten Sie darauf, vor dem Beitreten Ihr Mikrofon/Kamera zu deaktivieren, vielen Danke.</p>"
+    { "title": "<p>Jeden Mittwoch ab 18 Uhr&ensp;<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODk2ODZjYmYtNDk0ZC00ZmY4LWIzM2UtOTcwYmQ3YTZkZDNi%40thread.v2/0?context=%7b%22Tid%22%3a%2253bc5889-4f98-49b1-97c2-1b0d33acec73%22%2c%22Oid%22%3a%22ac64bc64-e5c3-4223-aa48-ca528aa7145a%22%7d'>hier</a>&ensp;zu erreichen.</p> <br> <p class='important'>Bitte achten Sie darauf, vor dem Beitreten Ihr Mikrofon/Kamera zu deaktivieren, vielen Dank.</p>"
     },
     { "header": "01.12.2021",
       "text": "Stefan Bauer von architects for future, Berlin"
@@ -681,10 +681,7 @@ streams.push({
       "text": "Andrea Heil von architects for future, München"
     },
     { "header": "15.12.2021",
-      "text": "Sanna Richter von City Förster, Hannover"
-    },
-    { "header": "05.01.2022",
-      "text": "Sanna Richter von City Förster, Hannover"
+      "text": "Nils Nolting von TH Köln"
     },
     { "header": "12.01.2022",
       "text": "Marcel Özer von EPEA, Stuttgart"
