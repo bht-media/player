@@ -689,6 +689,49 @@ streams.push({
   ],
   "entries":[
     {
+      "streamname": "", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ * Roberts Stream - 26.01.2021
+ */
+streams.push({
+  "tag": "usability-engineering",
+  "titleTop": "Usability Engineering",
+  "title": "Teststream",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  "customStyle": ``,
+  /*"partnerBox": [
+    {}],*/
+  "linkBox": [],
+  "textFields" : [],
+  "entries":[
+    {
       "streamname": "RBJ00-NYU0l", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
