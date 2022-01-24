@@ -741,7 +741,7 @@ streams.push({
       "text": "xx.xx.2022 <br> xx.xx.2022"
     },
     { "header": "Modulhandbuch",
-      "text": "Medieninformatik (Master of Science)<br><a href='https://mmi.bht-berlin.de/module/m07/'>Usability Engineering</a>"
+      "text": "<a href='https://mmi.bht-berlin.de/module/m07/'>M 07</a>"
     }
   ],
   "entries":[
