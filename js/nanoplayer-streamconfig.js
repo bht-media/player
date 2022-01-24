@@ -725,7 +725,9 @@ streams.push({
   "image": "",
   "debug": false,
   "chat": false,
-  "customStyle": ``,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+            `,
   /*"partnerBox": [
     {}],*/
   "linkBox": [],
