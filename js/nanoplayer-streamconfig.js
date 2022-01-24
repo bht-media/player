@@ -721,7 +721,7 @@ streams.push({
 streams.push({
   "tag": "usability-engineering",
   "titleTop": "Usability Engineering",
-  "title": "Teststream",
+  "title": "Masterstudiengang der Medieninformatik von Prof. Dr. Robert Strzebkowski",
   "image": "",
   "debug": false,
   "chat": false,
