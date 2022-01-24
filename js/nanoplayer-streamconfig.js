@@ -738,7 +738,7 @@ streams.push({
       "text": "<a href='https://lms.bht-berlin.de/login/index.php'>Usability Engineering</a>"
     },
     { "header": "Prüfungstermine",
-      "text": "xx.xx.2022 <br> xx.xx.2022"
+      "text": "15.02.2022 <br> 20.03.2022"
     },
     { "header": "Modulhandbuch",
       "text": "<a href='https://mmi.bht-berlin.de/module/m07/'>M 07</a>"
