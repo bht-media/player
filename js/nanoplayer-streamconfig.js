@@ -729,7 +729,19 @@ streams.push({
   /*"partnerBox": [
     {}],*/
   "linkBox": [],
-  "textFields" : [],
+  "textFields" : [
+    { "title": "<p>Wichtige Termine</p>"
+    },
+    { "header": "xx.xx.2022",
+      "text": "Testeintrag: Inforamtionen 01"
+    },
+    { "header": "xx.xx.2022",
+      "text": "Testeintrag: Inforamtionen 02"
+    },
+    { "header": "xx.xx.2022",
+      "text": "Testeintrag: Inforamtionen 03"
+    }
+  ],
   "entries":[
     {
       "streamname": "RBJ00-NYU0l", // high
