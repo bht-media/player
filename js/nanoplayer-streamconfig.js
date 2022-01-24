@@ -732,16 +732,16 @@ streams.push({
     {}],*/
   "linkBox": [],
   "textFields" : [
-    { "title": "<p>Wichtige Termine</p>"
+    { "title": "<p>Informationen zum Kurs Usalility Engineering</p>"
     },
-    { "header": "xx.xx.2022",
-      "text": "Testeintrag: Inforamtionen 01"
+    { "header": "Moodlekurs",
+      "text": "<a href='https://lms.bht-berlin.de/login/index.php'>Usability Engineering</a>"
     },
-    { "header": "xx.xx.2022",
-      "text": "Testeintrag: Inforamtionen 02"
+    { "header": "Prüfungstermine",
+      "text": "xx.xx.2022 <br> xx.xx.2022"
     },
-    { "header": "xx.xx.2022",
-      "text": "Testeintrag: Inforamtionen 03"
+    { "header": "Modulhandbuch",
+      "text": "Medieninformatik (Master of Science)<br><a href='https://mmi.bht-berlin.de/module/m07/'>Usability Engineering</a>"
     }
   ],
   "entries":[
