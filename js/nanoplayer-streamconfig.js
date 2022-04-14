@@ -837,7 +837,7 @@ streams.push({
       "url": "https://www.bht-berlin.de/item/cal/event/detail/2022/04/28/1428?cHash=ae4c7c37af22c5b0b8fde366a038e326"
     }],
   "textFields" : [
-    { "title": "Vortragsreihe '"'BHT Young Scientist Minds'"' mit Felix Ambrus (10:00 - 11:00 Uhr)"
+    { "title": "Vortragsreihe <b>BHT Young Scientist Minds</b> mit Felix Ambrus (10:00 - 11:00 Uhr)"
     },
     { "header": "28.04.2022",
       "text": "???"
