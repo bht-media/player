@@ -822,7 +822,7 @@ streams.push({
 
 // BHT Young Scientist Minds (28.04.2022 - 07.07.2022) ------------------------------------------------------------------------------------------------------------
 streams.push({
-  "tag": "ysm",
+  "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
   "title": "pro-aktiven Bekämpfung von Produktpiraterie",
   "image": "",
