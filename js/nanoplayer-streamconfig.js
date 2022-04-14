@@ -824,20 +824,43 @@ streams.push({
 streams.push({
   "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
-  "title": "pro-aktiven Bekämpfung von Produktpiraterie",
+  "title": "Vortragsreihe mit Felix Ambrus",
   "image": "",
   "debug": false,
   "chat": true,
-  "partnerBox": [
+  "customStyle": `
+            #titleTop {
+            background-color: #E74011;
+            color: white;
+            }
+            #titleSub{
+            background: rgba(254,194,16,0.9);
+            font-weight: normal;
+            }
+            #main{
+            background-color: white;
+            }
+            #linkBox{
+            background-color: #5757569c;
+            }
+            .textFieldTitle{
+            color: white;
+            }
+            `,
+  /**"partnerBox": [
     {
-    }],
+    }],*/
   "linkBox": [
     { "text": "BHT Young Scientist Minds",
       "image": "",
       "url": "https://www.bht-berlin.de/item/cal/event/detail/2022/04/28/1428?cHash=ae4c7c37af22c5b0b8fde366a038e326"
+    },
+   { "text": "Zentrum für Forschung und Innovation",
+      "image": "",
+      "url": "https://www.bht-berlin.de/zfi"
     }],
   "textFields" : [
-    { "title": "Vortragsreihe <b>BHT Young Scientist Minds</b> mit Felix Ambrus (10:00 - 11:00 Uhr)"
+    { "title": "Bekämpfung von Produktpiraterie (10:00 - 11:00 Uhr)"
     },
     { "header": "28.04.2022",
       "text": "???"
