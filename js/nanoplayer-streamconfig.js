@@ -3,6 +3,36 @@
 // stream groups: each stream group has 3 ABR streams
 let streams = [];
 
+// ROHFASSUNG eines Streams ---------------------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "",
+  "titleTop": "",
+  "title": "",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [
+    {}],*/
+  "entries":[
+    {
+      "streamname": "", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }]
+});
+
+
+
+// TEST Stream 00 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "test0",
   "titleTop": "Test Title Top",
@@ -11,12 +41,14 @@ streams.push({
   "entries": [{ "streamname": "CD6oL-2kE1g" }]
 });
 
+// TEST Stream 01 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "test1",
   "title": "Test Stream 1",
   "entries": [{ "streamname": "RBJ00-6uALm" }]
 });
 
+// TEST Stream 02 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "test2abr",
   "title": "Test Stream 2 / ABR",
@@ -36,12 +68,14 @@ streams.push({
   ]
 });
 
+// BHT Asta Wahl --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "bht-asta-wahl",
   "title": "BHT AStA-Wahl",
   "entries": [{ "streamname": "RBJ00-FzI9V" }]
 });
 
+// BHT Stream 1 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "bht1",
   "title": "BHT Stream 1",
@@ -49,6 +83,7 @@ streams.push({
   "entries": [{ "streamname": "RBJ00-IYDH9" }]
 });
 
+// Brückenkurse --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "brueckenkurse",
   "title": "Brückenkurse",
@@ -68,6 +103,7 @@ streams.push({
   ]
 });
 
+// Begrüßung der Erstsemester im Fachbereich 5 -----------------------------------------------------------------------------------------------------------------
 streams.push({
   //"tag": "bht-es5",
   //"title": "Begrüßung der Erstsemester im Fachbereich 5",
@@ -93,6 +129,7 @@ streams.push({
   ]
 });
 
+// Media Stream 1 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "media-stream-1",
   "title": "Media Stream 1",
@@ -112,6 +149,7 @@ streams.push({
   ]
 });
 
+// Media Stream 2 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "media-stream-2",
   "title": "Media Stream 2",
@@ -131,6 +169,7 @@ streams.push({
   ]
 });
 
+// Media Stream 3 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "media-stream-3",
   "title": "Media Stream 3",
@@ -150,6 +189,7 @@ streams.push({
   ]
 });
 
+// Media Stream 4 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "media-stream-4",
   "title": "Media Stream 4",
@@ -169,6 +209,7 @@ streams.push({
   ]
 });
 
+// Media Stream 5 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "media-stream-5",
   "title": "Media Stream 5",
@@ -188,6 +229,7 @@ streams.push({
   ]
 });
 
+// BHT Personalversammlung --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "beuth-pv",
   "title": "BHT Personalversammlung",
@@ -207,6 +249,7 @@ streams.push({
   ]
 });
 
+// Akademische Versammlung 2021 ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "beuth-av-2021",
   "titleTop": "Akademische Versammlung 2021",
@@ -232,18 +275,21 @@ streams.push({
   ]
 });
 
+// HRZ Test 1 ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "hrz-test1",
   "title": "HRZ Test 1",
   "entries": [{ "streamname": "nH9ig-FwldJ" }]
 });
 
+// 360° Stream ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "insta-test",
   "title": "360° Stream",
   "entries": [{ "streamname": "RBJ00-ERrTa" }]
 });
 
+// getreide-informationstagung ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "getreide-informationstagung17Juni2021",
   "titleTop": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
@@ -265,6 +311,7 @@ streams.push({
   ]
 });
 
+// klima-ringvorlesung ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "klima-ringvorlesung",
   "titleTop": "1.5 °C Global Warming by 2030?",
@@ -287,6 +334,7 @@ streams.push({
   ]
 });
 
+// FabAccess Workshop ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "fabAccess-Workshop",
   "titleTop": "FabAccess Workshop",
@@ -308,7 +356,7 @@ streams.push({
 });
 
 /**
- * Veralteter D338er Stream
+ * Veralteter D338er Stream -----------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "D338",
@@ -331,7 +379,7 @@ streams.push({
 });
 
 /**
- * Test Stream
+ * Test Stream ----------------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "test",
@@ -398,7 +446,7 @@ streams.push({
 
 // Ort : Raum D338
 /**
- * Stream für den Raum D338 : Thema anpassbar
+ * Stream für den Raum D338 : Thema anpassbar -------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "Berufungskommission",
@@ -442,7 +490,7 @@ streams.push({
 });
 
 /**
- * Wissenschaftspreis am 09.11.2021
+ * Wissenschaftspreis am 09.11.2021 -------------------------------------------------------------------------------------------------------------------------
 */
 streams.push({
   "tag": "Rupp+Hubrach-Wissenschaftspreis",
@@ -491,7 +539,7 @@ streams.push({
 });
 
 /**
-* FSI Stream am 28.10.2021
+* FSI Stream am 28.10.2021 -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "FSI",
@@ -540,7 +588,7 @@ streams.push({
 });
 
 /**
-* Personalversammlung 24.11.2021
+* Personalversammlung 24.11.2021 -----------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "Personalversammlung",
@@ -569,7 +617,7 @@ streams.push({
 });
 
 /**
-* Akademische Senats Sitzung 25.11.2021
+* Akademische Senats Sitzung 25.11.2021 ------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "AS-Sitzung",
@@ -622,7 +670,7 @@ streams.push({
 });
 
 /**
- * Planet [A]rch 01.12.2021 - 12.01.2021 (Jeden Mittwoch)
+ * Planet [A]rch 01.12.2021 - 12.01.2021 (Jeden Mittwoch) -----------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "planet-arch",
@@ -716,7 +764,7 @@ streams.push({
 });
 
 /**
- * Roberts Stream - 26.01.2021
+ * Roberts Stream - 26.01.2021 --------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "usability-engineering",
@@ -770,4 +818,54 @@ streams.push({
       "streamname": "RBJ00-P1ISi", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
+});
+
+// BHT Young Scientist Minds (28.04.2022 - 07.07.2022) ------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "ysm",
+  "titleTop": "BHT Young Scientist Minds",
+  "title": "pro-aktiven Bekämpfung von Produktpiraterie",
+  "image": "",
+  "debug": false,
+  "chat": true,
+  "partnerBox": [
+    {
+    }],
+  "linkBox": [
+    { "text": "BHT Young Scientist Minds",
+      "image": "",
+      "url": "https://www.bht-berlin.de/item/cal/event/detail/2022/04/28/1428?cHash=ae4c7c37af22c5b0b8fde366a038e326"
+    }],
+  "textFields" : [
+    { "title": "Vortragsreihe '"'BHT Young Scientist Minds'"' mit Felix Ambrus (10:00 - 11:00 Uhr)"
+    },
+    { "header": "28.04.2022",
+      "text": "???"
+    },
+    { "header": "12.05.2022",
+      "text": "???"
+    },
+    { "header": "09.06.2022",
+      "text": "???"
+    },
+    { "header": "23.06.2022",
+      "text": "???"
+    },
+    { "header": "07.07.2022",
+      "text": "???"
+    },
+  ],
+  "entries":[
+    {
+      "streamname": "", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }]
 });
