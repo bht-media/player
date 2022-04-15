@@ -844,25 +844,27 @@ streams.push({
   "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
   "title": "Vortragsreihe mit Felix Ambrus",
-  "image": "assets/img/backgrounds/BHT-Kartenbild_hell.jpg",
+  "image": "assets/img/backgrounds/BHT-Kartenbild.jpg",
   "debug": false,
   "chat": true,
   "customStyle": `
-            #titleTop {
-            }
             #titleSub{
-            font-weight: normal;
+              font-weight: normal;
             }
-            #main{
+            #playerSubtitle{
+              color: #575756;
             }
             #linkBox{
-            background-color: #5757569c;
+               background-color: #5757569c;
             }
             .textFieldTitle{
-            color: white;
+              color: white;
             }
             .textBox{
-            max-width: 400px;
+              max-width: 400px;
+            }
+            #error {
+              color: rgb(235 0 0);
             }
             `,
   /**"partnerBox": [
