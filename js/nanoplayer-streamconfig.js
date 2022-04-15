@@ -868,7 +868,6 @@ streams.push({
               color: rgb(235 0 0);
               width: auto;
               font-weight: bold;
-              background-color: rgb(255 255 255 / 92%);
               border-radius: 10px;
               display: flex;
               margin-top: 20px;
