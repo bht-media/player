@@ -867,11 +867,6 @@ streams.push({
             #error {
               color: rgb(235 0 0);
               width: auto;
-              font-weight: bold;
-              border-radius: 10px;
-              display: flex;
-              margin-top: 20px;
-              padding: 10px;
               justify-content: center;
             }
             `,
