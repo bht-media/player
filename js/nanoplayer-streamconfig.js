@@ -11,10 +11,29 @@ streams.push({
   "image": "",
   "debug": false,
   "chat": false,
-  /*"partnerBox": [
-    {}],
-  "linkBox": [
-    {}],*/
+  /* "customStyle": `
+      `,
+      
+  "partnerBox": [ // in Footer Box
+    {
+      "text": "",
+      "image": "",
+      "url": ""
+    }],
+    
+  "linkBox": [ //down TextField Box
+    "text": "",
+      "image": "",
+      "url": ""
+    }],
+    
+    "textFields" : [ // down Player
+    { "title": ""
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
   "entries":[
     {
       "streamname": "", // high
@@ -830,11 +849,9 @@ streams.push({
   "chat": true,
   "customStyle": `
             #titleTop {
-            background-color: #E74011;
             color: white;
             }
             #titleSub{
-            background: rgba(254,194,16,0.9);
             font-weight: normal;
             }
             #main{
