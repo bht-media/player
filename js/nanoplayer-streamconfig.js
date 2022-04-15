@@ -860,6 +860,7 @@ streams.push({
             }
             .textFieldTitle{
               color: white;
+              padding-bottom: 0.5em;
             }
             .textBox{
               max-width: 400px;
