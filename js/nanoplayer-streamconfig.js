@@ -849,7 +849,6 @@ streams.push({
   "chat": true,
   "customStyle": `
             #titleTop {
-            color: white;
             }
             #titleSub{
             font-weight: normal;
@@ -862,6 +861,9 @@ streams.push({
             }
             .textFieldTitle{
             color: white;
+            }
+            .textBox{
+            max-width: 400px;
             }
             `,
   /**"partnerBox": [
