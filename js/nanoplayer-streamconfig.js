@@ -854,7 +854,6 @@ streams.push({
             font-weight: normal;
             }
             #main{
-            background-color: white;
             }
             #linkBox{
             background-color: #5757569c;
