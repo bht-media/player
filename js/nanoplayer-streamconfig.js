@@ -852,7 +852,8 @@ streams.push({
               font-weight: normal;
             }
             #playerSubtitle{
-              color: #575756;
+              text-shadow: 0.1em 0.1em 0.2em black;
+              color: rgb(255 255 255 / 92%);
             }
             #linkBox{
                background-color: #5757569c;
@@ -865,6 +866,13 @@ streams.push({
             }
             #error {
               color: rgb(235 0 0);
+              font-weight: bold;
+              background-color: rgb(255 255 255 / 92%);
+              border-radius: 10px;
+              display: flex;
+              margin-top: 20px;
+              padding: 10px;
+              justify-content: center;
             }
             `,
   /**"partnerBox": [
