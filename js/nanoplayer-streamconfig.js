@@ -844,7 +844,7 @@ streams.push({
   "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
   "title": "Vortragsreihe mit Felix Ambrus",
-  "image": ""assets/img/backgrounds/BHT-Kartenbild.jpg",
+  "image": "assets/img/backgrounds/BHT-Kartenbild.jpg",
   "debug": false,
   "chat": true,
   "customStyle": `
