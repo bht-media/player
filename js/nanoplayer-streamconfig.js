@@ -805,7 +805,7 @@ streams.push({
       "text": "<a href='https://lms.bht-berlin.de/login/index.php'>Usability Engineering</a>"
     },
     { "header": "Prüfungstermine",
-      "text": "15.02.2022 <br> 20.03.2022"
+      "text": "xx.xx.2022 <br> xx.xx.2022"
     },
     { "header": "Modulhandbuch",
       "text": "<a href='https://mmi.bht-berlin.de/module/m07/'>M 07</a>"
@@ -813,6 +813,31 @@ streams.push({
   ],
   "entries":[
     {
+      "streamname": "RBJ00-2tr1O", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-ADvhZ", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-Uym1S", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-oG8Fp", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-jCPsT", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-l6Au6", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+    /**{ ---------------------------------------------- Stream IDs für diesen Kurs -----------------------------------------------
       "streamname": "RBJ00-NYU0l", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
@@ -836,7 +861,7 @@ streams.push({
     {
       "streamname": "RBJ00-P1ISi", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
+    }],**/
 });
 
 // BHT Young Scientist Minds (28.04.2022 - 07.07.2022) ------------------------------------------------------------------------------------------------------------
