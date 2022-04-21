@@ -794,6 +794,12 @@ streams.push({
   "chat": false,
   "customStyle": `
   .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
             `,
   /*"partnerBox": [
     {}],*/
