@@ -790,7 +790,7 @@ streams.push({
   "titleTop": "Usability Engineering",
   "title": "Masterstudiengang der Medieninformatik von Prof. Dr. Robert Strzebkowski",
   "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
-  "debug": false,
+  "debug": true,
   "chat": false,
   "customStyle": `
   .textFieldTitle{ color: white; }
