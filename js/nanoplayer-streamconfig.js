@@ -787,8 +787,8 @@ streams.push({
  */
 streams.push({
   "tag": "usability-engineering",
-  "titleTop": "Usability Engineering",
-  "title": "Masterstudiengang der Medieninformatik von Prof. Dr. Robert Strzebkowski",
+  "titleTop": "Berliner Hochschule für Technik",
+  "title": "Informations Stream",
   "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
   "debug": false,
   "chat": true,
@@ -808,16 +808,16 @@ streams.push({
     {}],*/
   "linkBox": [],
   "textFields" : [
-    { "title": "<p>Informationen zum Kurs Usalility Engineering</p>"
+    { "title": "<p>Events und Veranstaltungen</p>"
     },
-    { "header": "Moodlekurs",
-      "text": "<a href='https://lms.bht-berlin.de/login/index.php'>Usability Engineering</a>"
+    { "header": "27.04.2022 13:00 Uhr",
+      "text": "<a href='https://www.bht-berlin.de/item/cal/event/detail/2022/04/27/1439?cHash=2551868a337c6fc56bdbf817a7254d76'>Lunchtalk #09: Bienenstock 2.0</a>"
     },
-    { "header": "Prüfungstermine",
-      "text": "xx.xx.2022 <br> xx.xx.2022"
+    { "header": "28.04.2022, ca. 12:30 Uhr",
+      "text": "<a href='https://www.bht-berlin.de/3326/article/8194'>Girls'Day 2022 an der BHT</a>"
     },
-    { "header": "Modulhandbuch",
-      "text": "<a href='https://mmi.bht-berlin.de/module/m07/'>M 07</a>"
+    { "header": "04.05.2022 18:00 Uhr",
+      "text": "<a href='https://www.bht-berlin.de/item/cal/event/detail/2022/05/04/1492?cHash=3fe6b13064046ec03d8c5a43d0445909'>Proteine und ihre (Fehl)-Faltung: Alzheimer, Huntington und Neurodegeneration</a>"
     }
   ],
   "entries":[
