@@ -800,6 +800,9 @@ streams.push({
   #error {
     color: rgb(112 0 0);
     }
+  #chat{
+    background-color: #000000a8;
+    }
             `,
   /*"partnerBox": [
     {}],*/
