@@ -789,7 +789,7 @@ streams.push({
   "tag": "usability-engineering",
   "titleTop": "Usability Engineering",
   "title": "Masterstudiengang der Medieninformatik von Prof. Dr. Robert Strzebkowski",
-  "image": "",
+  "image": "assets/img/backgrounds/csm_2022-04-06_BHT.Magazin-1-22_8e3489a5fe.jpg",
   "debug": false,
   "chat": false,
   "customStyle": `
