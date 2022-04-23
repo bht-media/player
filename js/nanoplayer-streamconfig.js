@@ -877,7 +877,7 @@ streams.push({
 streams.push({
   "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
-  "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojekten organisiert von Frau Blankenburg",
+  "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojekten",
   "image": "assets/img/backgrounds/BHT-Kartenbild.jpg",
   "debug": false,
   "chat": true,
@@ -925,7 +925,7 @@ streams.push({
       "url": "https://www.bht-berlin.de/zfi"
     }],
   "textFields" : [
-    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr)"
+    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr), wird organisiert von Frau Blankenburg"
     },
     { "header": "28.04.2022",
       "text": "<b>Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation</b> <br> - <i>Angelika Hönemann</i> -"
