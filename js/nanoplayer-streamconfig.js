@@ -877,13 +877,16 @@ streams.push({
 streams.push({
   "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
-  "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojektenorganisiert von Frau Blankenburg",
+  "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojekten organisiert von Frau Blankenburg",
   "image": "assets/img/backgrounds/BHT-Kartenbild.jpg",
   "debug": false,
   "chat": true,
   "customStyle": `
             #titleSub{
               font-weight: normal;
+            }
+            .textBox_text{
+              flex-direction: column;
             }
             #playerSubtitle{
               text-shadow: 0.1em 0.1em 0.2em black;
@@ -925,19 +928,19 @@ streams.push({
     { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr)"
     },
     { "header": "28.04.2022",
-      "text": "<b>Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation</b> <br><br> - Angelika Hönemann -"
+      "text": "<b>Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation</b> <br> - <i>Angelika Hönemann</i> -"
     },
     { "header": "12.05.2022",
-      "text": "<b>Beitrag zur Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation</b> <br> <br> - Felix Ambrus -"
+      "text": "<b>Beitrag zur Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation</b> <br> - <i>Felix Ambrus</i> -"
     },
     { "header": "09.06.2022",
-      "text": "<b>tba</b> <br><br> - Nicki Lena Kämpf -"
+      "text": "<b>tba</b> <br> - <i>Nicki Lena Kämpf</i> -"
     },
     { "header": "23.06.2022",
-      "text": "<b>tba</b> <br> <br> - Teodor Chiaburu -"
+      "text": "<b>tba</b> <br> - <i>Teodor Chiaburu</i> -"
     },
     { "header": "07.07.2022",
-      "text": "<b>tba</b> <br> <br> - Andreas Gürlich -"
+      "text": "<b>tba</b> <br> - <i>Andreas Gürlich</i> -"
     },
   ],
   "entries":[
