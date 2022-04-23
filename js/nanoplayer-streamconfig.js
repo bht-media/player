@@ -931,7 +931,7 @@ streams.push({
       "text": "<b>'Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation'</b> - <i>Angelika Hönemann</i>"
     },
     { "header": "12.05.2022",
-      "text": "<b>Beitrag zur Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation</b> - <i>Felix Ambrus</i>"
+      "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
     },
     { "header": "09.06.2022",
       "text": "<b>TBA</b> - <i>Nicki Lena Kämpf</i>"
