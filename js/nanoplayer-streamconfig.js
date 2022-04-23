@@ -928,19 +928,19 @@ streams.push({
     { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr), wird organisiert von Frau Blankenburg"
     },
     { "header": "28.04.2022",
-      "text": "<b>""Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation""</b> - <i>Angelika Hönemann</i>"
+      "text": "<b>'"'Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation'"'</b> - <i>Angelika Hönemann</i>"
     },
     { "header": "12.05.2022",
       "text": "<b>Beitrag zur Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation</b> - <i>Felix Ambrus</i>"
     },
     { "header": "09.06.2022",
-      "text": "<b>tba</b> - <i>Nicki Lena Kämpf</i>"
+      "text": "<b>TBA</b> - <i>Nicki Lena Kämpf</i>"
     },
     { "header": "23.06.2022",
-      "text": "<b>tba</b> - <i>Teodor Chiaburu</i>"
+      "text": "<b>TBA</b> - <i>Teodor Chiaburu</i>"
     },
     { "header": "07.07.2022",
-      "text": "<b>tba</b> - <i>Andreas Gürlich</i>"
+      "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
     },
   ],
   "entries":[
