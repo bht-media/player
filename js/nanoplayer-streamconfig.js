@@ -877,7 +877,7 @@ streams.push({
 streams.push({
   "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
-  "title": "Vortragsreihe mit Felix Ambrus",
+  "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojekten <br>  - Organisatorin Frau Blankenburg -",
   "image": "assets/img/backgrounds/BHT-Kartenbild.jpg",
   "debug": false,
   "chat": true,
@@ -904,6 +904,10 @@ streams.push({
               width: auto;
               justify-content: center;
             }
+            #disclaimer{
+            content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
+                            verzögert angezeigt.";
+            }
             `,
   /**"partnerBox": [
     {
@@ -911,29 +915,29 @@ streams.push({
   "linkBox": [
     { "text": "BHT Young Scientist Minds",
       "image": "",
-      "url": "https://www.bht-berlin.de/item/cal/event/detail/2022/04/28/1428?cHash=ae4c7c37af22c5b0b8fde366a038e326"
+      "url": "https://www.bht-berlin.de/promotion"
     },
    { "text": "Zentrum für Forschung und Innovation",
       "image": "",
       "url": "https://www.bht-berlin.de/zfi"
     }],
   "textFields" : [
-    { "title": "Bekämpfung von Produktpiraterie (10:00 - 11:00 Uhr)"
+    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr)"
     },
     { "header": "28.04.2022",
-      "text": "???"
+      "text": "'Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation' <br> - Angelika Hönemann -"
     },
     { "header": "12.05.2022",
-      "text": "???"
+      "text": "'Beitrag zur Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation' <br> - Felix Ambrus -"
     },
     { "header": "09.06.2022",
-      "text": "???"
+      "text": "'tba' <br> - Nicki Lena Kämpf -"
     },
     { "header": "23.06.2022",
-      "text": "???"
+      "text": "'tba' <br> - Teodor Chiaburu -"
     },
     { "header": "07.07.2022",
-      "text": "???"
+      "text": "'tba' <br> - Andreas Gürlich -"
     },
   ],
   "entries":[
