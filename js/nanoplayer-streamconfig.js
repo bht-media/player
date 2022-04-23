@@ -882,6 +882,9 @@ streams.push({
   "debug": false,
   "chat": true,
   "customStyle": `
+            #textField{
+              height: 100%;
+            }
             #titleSub{
               font-weight: normal;
             }
