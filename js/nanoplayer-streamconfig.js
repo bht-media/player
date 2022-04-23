@@ -882,6 +882,9 @@ streams.push({
   "debug": false,
   "chat": true,
   "customStyle": `
+            #linkBox{
+              padding: 1.5em;
+            }
             #textField{
               height: 100%;
             }
