@@ -1016,7 +1016,7 @@ streams.push({
             .partnerBoxImages {
               height: 50px;
             }
-            #partner-box a, #partner-box a:hover{
+            #partner-box .linkbutton a, #partner-box .linkButton a:hover{
               background-color: none;
               margin: 0;
               padding: 0;
