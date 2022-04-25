@@ -977,7 +977,10 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
-// Langenacht der Wissenschaften ---------------------------------------------------------------------------------------------------------------------------
+
+/**
+ * Stream: Lange Nacht der Wissenschaften -------------------------------------------------------------------------------------------------------------------
+ */
 streams.push({
   "tag": "lndw",
   "titleTop": "Lange Nacht der Wissenschaften",
@@ -985,30 +988,26 @@ streams.push({
   "image": "",
   "debug": false,
   "chat": false,
-  /* "customStyle": `
-      `,
-
-  "partnerBox": [ // in Footer Box
-    {
-      "text": "",
-      "image": "",
-      "url": ""
-    }],
-  **/
-  "linkBox": [ //down TextField Box
-    "text": "Lange Nacht der Wissenschaften - BHT Berlin",
+  /*"partnerBox": [{}],*/
+  "linkBox": [{
+      "text": "LAnge Nacht der Wissenschaften",
       "image": "",
       "url": "https://www.bht-berlin.de/lndw"
     }],
-  /*
-    "textFields" : [ // down Player
-    { "title": ""
+  "entries":
+    {
+      "streamname": "", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
-    { "header": "",
-      "text": ""
+    {
+      "streamname": "", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
-  ],*/
-  "entries":[
+    {
+      "streamname": "", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
     {
       "streamname": "", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
