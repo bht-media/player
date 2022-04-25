@@ -986,7 +986,6 @@ streams.push({
   "debug": false,
   "chat": false,
   "customStyle": `
-  
             #page, #header{
               background-color: black;
             }
@@ -1017,7 +1016,6 @@ streams.push({
               margin: 0;
               padding: 0;
             }
-            
             #footer{
               background-color: black;
             }
