@@ -993,7 +993,7 @@ streams.push({
             #header{
               background-color: black;
             }
-            #beuth-logo{
+            #beuth-logo, beuthbox-logo{
               filter: invert(1);
             }
             #titleTop{
