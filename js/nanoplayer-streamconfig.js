@@ -986,6 +986,16 @@ streams.push({
   "debug": false,
   "chat": false,
   "customStyle": `
+  
+            #page{
+              background-color: black;
+            }
+            #header{
+              background-color: black;
+            }
+            #beuth-logo{
+              filter: contrast;
+            }
             #titleTop{
               color: #3ed2ff;
               background-color: rgb(0 0 0);
