@@ -987,12 +987,12 @@ streams.push({
   "chat": false,
   "customStyle": `
             #titleTop{
-              color: white;
-              background-color: rgb(63 62 126 / 78%);
+              color: #3ed2ff;
+              background-color: rgb(0 0 0);
             }
             #titleSub {
               color: #ffffff73;
-              background-color: rgb(68 71 159 / 91%);
+              background-color: rgb(0 0 0 / 40%);
             }
             .linkButton {
               color: rgb(234 234 234 / 55%);
@@ -1005,7 +1005,11 @@ streams.push({
               background-color: black;
             }
             #footer a{
-            color:#7555b3;
+            color:#3ed2ff;
+            text-decoration: none;
+            }
+            #footer a:hover{
+            color:white;
             }
            
             `,
