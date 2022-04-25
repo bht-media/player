@@ -931,7 +931,7 @@ streams.push({
       "url": "https://www.bht-berlin.de/zfi"
     }],
   "textFields" : [
-    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr), wird organisiert von Frau Blankenburg"
+    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr), wird organisiert von Frau Dr. Blankenburg"
     },
     { "header": "28.04.2022",
       "text": "<b>'Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation'</b> - <i>Angelika Hönemann</i>"
