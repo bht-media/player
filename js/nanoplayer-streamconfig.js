@@ -994,7 +994,7 @@ streams.push({
               background-color: black;
             }
             #beuth-logo{
-              filter: contrast;
+              image: url('assets/img/logo/bht_logo-black.png');
             }
             #titleTop{
               color: #3ed2ff;
