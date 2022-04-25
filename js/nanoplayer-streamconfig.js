@@ -987,10 +987,7 @@ streams.push({
   "chat": false,
   "customStyle": `
   
-            #page{
-              background-color: black;
-            }
-            #header{
+            #page, #header{
               background-color: black;
             }
             #beuth-logo, #beuthbox-logo{
@@ -1005,11 +1002,12 @@ streams.push({
               background-color: rgb(0 0 0 / 40%);
             }
             .linkButton {
-              color: rgb(234 234 234 / 55%);
-              background-color: #000000c7;
+              color: black;
+              background-color: #ffc900;
             }
             .linkButton:hover {
               color: white;
+              background-color: black;
             }
             #footer{
               background-color: black;
