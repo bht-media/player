@@ -986,6 +986,27 @@ streams.push({
   "debug": false,
   "chat": false,
   "customStyle": `
+            #titleTop{
+              color: white;
+              background-color: rgb(63 62 126 / 78%);
+            }
+            #titleSub {
+              color: #ffffff73;
+              background-color: rgb(68 71 159 / 91%);
+            }
+            .linkButton {
+              color: rgb(234 234 234 / 55%);
+              background-color: #000000c7;
+            }
+            .linkButton:hover {
+              color: white;
+            }
+            #footer{
+              background-color: black;
+            }
+            #footer a{
+            color:#7555b3;
+            }
            
             `,
   /**"partnerBox": [
