@@ -993,7 +993,7 @@ streams.push({
     }],*/
   "linkBox": [
     { "text": "BHT Berlin: Lange Nacht der Wissenschaften",
-      "image": "",
+      "image": "assets/img/backgrounds/lndw-jh-2022-01.jpg",
       "url": "https://www.bht-berlin.de/lndw"
     }],
   /**"textFields" : [
