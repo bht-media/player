@@ -1021,9 +1021,10 @@ streams.push({
             }
            
             `,
-  /**"partnerBox": [
-    {
-    }],*/
+  "partnerBox": [{
+      "image":"https://www.langenachtderwissenschaften.de/typo3conf/ext/bb_templates/Resources/Public/bootstrap_package/_p/logo.png",
+      "url": "https://www.langenachtderwissenschaften.de/"
+    }],
   "linkBox": [
     { "text": "BHT Berlin: Lange Nacht der Wissenschaften",
       "image": "",
