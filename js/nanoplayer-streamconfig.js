@@ -1020,5 +1020,5 @@ streams.push({
     {
       "streamname": "", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }]
+    }],
 });
