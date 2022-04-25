@@ -998,7 +998,7 @@ streams.push({
             }
             #titleTop{
               color: white;
-              background-color: rgb(0 0 0);
+              background-color: #0085cf;
             }
             #titleSub {
               color: #ffffff73;
@@ -1015,7 +1015,7 @@ streams.push({
               background-color: black;
             }
             #footer a{
-            color:#3ed2ff;
+            color: #ffc900;
             text-decoration: none;
             }
             #footer a:hover{
