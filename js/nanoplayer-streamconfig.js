@@ -878,7 +878,7 @@ streams.push({
   "tag": "young-scientist-minds",
   "titleTop": "BHT Young Scientist Minds",
   "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojekten",
-  "image": "assets/img/backgrounds/BHT-Kartenbild-high.jpg",
+  "image": "assets/img/backgrounds/BHT-Kartenbild-middle.jpg",
   "debug": false,
   "chat": true,
   "customStyle": `
