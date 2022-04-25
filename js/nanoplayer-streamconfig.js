@@ -1002,13 +1002,19 @@ streams.push({
               background-color: rgb(0 0 0 / 40%);
             }
             .linkButton {
-              color: black;
-              background-color: #ffc900;
-            }
-            .linkButton:hover {
               color: white;
               background-color: black;
             }
+            .linkButton:hover {
+            color: black;
+              background-color: #ffc900;
+            }
+            #partner-box a, #partner-box a:hover{
+              background-color: none;
+              margin: 0;
+              padding: 0;
+            }
+            
             #footer{
               background-color: black;
             }
