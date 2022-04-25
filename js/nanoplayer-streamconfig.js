@@ -923,7 +923,7 @@ streams.push({
     {
     }],*/
   "linkBox": [
-    { "text": "Promotion: BHT Berlin (bht-berlin.de)",
+    { "text": "Promotion: BHT Berlin",
       "image": "",
       "url": "https://www.bht-berlin.de/promotion"
     },
