@@ -1009,6 +1009,13 @@ streams.push({
             color: black;
               background-color: #ffc900;
             }
+            #partner-box .linkbutton{
+              min-height: auto;
+              min-width: auto;
+            }
+            .partnerBoxImages {
+              height: 50px;
+            }
             #partner-box a, #partner-box a:hover{
               background-color: none;
               margin: 0;
