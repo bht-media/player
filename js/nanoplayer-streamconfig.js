@@ -1016,7 +1016,7 @@ streams.push({
 "tag": "dk-2022",
   "titleTop": "Digitalisierungs Kommission",
   "title": "BHT Berlin",
-  "image": "assets/img/backgrounds/tk-background.jpg",
+  "image": "assets/img/backgrounds/dk-background.jpg",
   "debug": false,
   "chat": false,
   "customStyle": `
