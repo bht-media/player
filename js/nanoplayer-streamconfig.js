@@ -3,54 +3,6 @@
 // stream groups: each stream group has 3 ABR streams
 let streams = [];
 
-// ROHFASSUNG eines Streams ---------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "",
-  "titleTop": "",
-  "title": "",
-  "image": "",
-  "debug": false,
-  "chat": false,
-  /* "customStyle": `
-      `,
-      
-  "partnerBox": [ // in Footer Box
-    {
-      "text": "",
-      "image": "",
-      "url": ""
-    }],
-    
-  "linkBox": [ //down TextField Box
-    "text": "",
-      "image": "",
-      "url": ""
-    }],
-    
-    "textFields" : [ // down Player
-    { "title": ""
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "entries":[
-    {
-      "streamname": "", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }]
-});
-
-
-
 // TEST Stream 00 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "test0",
@@ -1055,6 +1007,48 @@ streams.push({
     },
     {
       "streamname": "", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+// ---- Digitalisierungs Kommission ----------------------------------------------------------------------------------------------------
+streams.push({
+"tag": "dk-2022",
+  "titleTop": "Digitalisierungs Kommission",
+  "title": "BHT Berlin",
+  "image": "assets/img/backgrounds/tk-background.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            
+            `,
+  /**"partnerBox": [{
+      "image":"https://www.langenachtderwissenschaften.de/typo3conf/ext/bb_templates/Resources/Public/bootstrap_package/_p/logo.png",
+      "url": "https://www.langenachtderwissenschaften.de/"
+    }],
+  "linkBox": [
+    { "text": "BHT Berlin: Lange Nacht der Wissenschaften",
+      "image": "",
+      "url": "https://www.bht-berlin.de/lndw"
+    }],
+    "textFields" : [
+    { "title": ""
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-umlOg", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-HMpUV", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-Gb6g9", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
