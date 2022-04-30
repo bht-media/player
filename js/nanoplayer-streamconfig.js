@@ -886,8 +886,8 @@ streams.push({
   "textFields" : [
     { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
     },
-    { "header": "28.04.2022",
-      "text": "<b>'Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation'</b> - <i>Angelika Hönemann</i>"
+    { "header": "28.04.2022 (Ausgefallen)",
+      "text": "<b style=\"color: grey\"> 'Grenzen der Differenzierbarkeit von Attitüden in der Kommunikation'</b><p style=\"color: grey\"> - </p><i style=\"color: grey\">Angelika Hönemann</i>"
     },
     { "header": "12.05.2022",
       "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
