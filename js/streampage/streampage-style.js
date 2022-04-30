@@ -165,6 +165,10 @@ let setPartnerBox = function (streamConfig){
     }
 }
 
+/**
+ * Activate and Set the Text Field content
+ * @param streamConfig the stream config
+ */
 let setTextFields = function (streamConfig){
     let textFieldDivs = document.getElementById("textField");
 
@@ -204,6 +208,10 @@ let setTextFields = function (streamConfig){
     }
 }
 
+/**
+ * Overwrite the standard css with "this" css configs
+ * @param streamConfig the stream config
+ */
 let applyExtraStyle = function (streamConfig){
     if (streamConfig.customStyle !== undefined && streamConfig.customStyle){
         let style = document.createElement("style")
