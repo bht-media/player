@@ -933,7 +933,7 @@ streams.push({
 streams.push({
 "tag": "lndw-2022",
   "titleTop": "Lange Nacht der Wissenschaften",
-  "title": "BHT Berlin",
+  "title": "BHT Berlin am 02.07.2022",
   "image": "assets/img/backgrounds/lndw-jh-2022-01.jpg",
   "debug": false,
   "chat": false,
