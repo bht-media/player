@@ -34,6 +34,18 @@ let applyStreamStyle = function (){
 }
 
 /**
+ * Set the player picture
+ * @param streamConfig
+ */
+let setPlayerPicture = function (streamConfig){
+    let errorElement = document.getElementById("error");
+    if(errorElement != null){
+        document.getElementById("playerDiv").style.backgroundImage = "../assets/img/error/stream-offline.jpg";
+    }else{}
+}
+
+
+/**
  * Sets the page title of the Streaming page
  * @param streamConfig the stream config
  */
