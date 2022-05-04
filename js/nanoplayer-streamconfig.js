@@ -740,8 +740,8 @@ streams.push({
 
 streams.push({
   "tag": "usability-engineering",
-  "titleTop": "Berliner Hochschule für Technik",
-  "title": "Informations Stream",
+  "titleTop": "Human-Computer Interaction",
+  "title": "Lehrveranstaltung von Prof. Dr. Robert Strzebkowski",
   "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
   "debug": false,
   "chat": true,
@@ -760,19 +760,20 @@ streams.push({
   /*"partnerBox": [
     {}],*/
   "linkBox": [],
-  "textFields" : [
-    { "title": "<p>Events und Veranstaltungen</p>"
+  /**"textFields" : [
+    { "title": ""
     },
-    { "header": "27.04.2022 13:00 Uhr",
-      "text": "<a href='https://www.bht-berlin.de/item/cal/event/detail/2022/04/27/1439?cHash=2551868a337c6fc56bdbf817a7254d76'>Lunchtalk #09: Bienenstock 2.0</a>"
+    { "header": "",
+      "text": ""
     },
-    { "header": "28.04.2022, ca. 12:30 Uhr",
-      "text": "<a href='https://www.bht-berlin.de/3326/article/8194'>Girls'Day 2022 an der BHT</a>"
+    { "header": "",
+      "text": ""
     },
-    { "header": "04.05.2022 18:00 Uhr",
-      "text": "<a href='https://www.bht-berlin.de/item/cal/event/detail/2022/05/04/1492?cHash=3fe6b13064046ec03d8c5a43d0445909'>Proteine und ihre (Fehl)-Faltung: Alzheimer, Huntington und Neurodegeneration</a>"
+    { "header": "",
+      "text": ""
     }
-  ],
+  ],*/
+  // ---------------------------- LR-Wagen 01 ------------------------------------ //
   "entries":[
     {
       "streamname": "RBJ00-2tr1O", // high
