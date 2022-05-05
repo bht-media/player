@@ -1053,3 +1053,243 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
+
+/**
+ *  Stream Haus Bauwesen(D) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "haus-bauwesen",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Bauwesen(D)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-h8rIn", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-cUqxZ", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-Ci3go", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-JwYEV", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-gcBCa", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-EMiF4", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ *  Stream Haus Beuth(A) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "haus-beuth",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Beuth(A)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-XUrlP", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-Lwl2G", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-2p2Vn", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-8JvJp", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-V8ipu", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-GYQZY", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ *  Stream Haus Grashof(C) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "haus-grashof",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Grashof(C)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-B2MWN", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-TLVLZ", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-oQ0x8", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-Bq4fn", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-Oxc2U", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-26wqm", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ *  Stream Haus Gauß(B) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "haus-gauß",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Gauß(B)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-kqn5g", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-0yDQg", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-q782N", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-vqR0Q", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-yYdjg", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-whkRf", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
