@@ -588,7 +588,7 @@ streams.push({
 });
 
 /**
-* Akademische Senats Sitzung 25.11.2021 ------------------------------------------------------------------------------------------------------------------
+* Akademischer Senats Sitzung 25.11.2021 ------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "AS-Sitzung",
@@ -636,6 +636,57 @@ streams.push({
     },
     {
       "streamname": "RBJ00-5TLcc", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+/**
+ * Akademische Versammlung 05.2022 ------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "av",
+  "titleTop": "Akademische Versammlung",
+  "title": "Berliner Hochschule für Technik",
+  "image": "../assets/img/backgrounds/klassenraum01.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            #titleTop {
+            background-color: #ffffffa6;
+            }
+            #titleSub{
+            font-weight: normal;
+            }`,
+  /*"partnerBox": [
+    {}],*/
+  "linkBox": [
+    {       "text": "Akademische Versammlung",
+      "image": "",
+      "url": "https://www.bht-berlin.de/av"
+    }],
+  "entries":[
+    {
+      "streamname": "RBJ00-gzmUD", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-Utv9f", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-AZavH", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-NXynE", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-peIip", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-Hghgx", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
