@@ -653,6 +653,9 @@ streams.push({
             #titleTop {
             background-color: #ffffffa6;
             }
+            #playerSubtitle {
+              color: rgb(255 255 255);
+            }
             #titleSub{
             font-weight: normal;
             }`,
