@@ -982,12 +982,12 @@ streams.push({
     }],
 });
 
-// BHT Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
+// BHT FabLab Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "fablab",
   "titleTop": "FabAccess",
   "title": "Offener Zugang für offene Menschen",
-  "image": "assets/img/backgrounds/fablab-background.jpg",
+  "image": "assets/img/backgrounds/fablab-background02.jpg",
   "debug": false,
   "chat": false,
   "customStyle": `
@@ -1024,32 +1024,34 @@ streams.push({
                             verzögert angezeigt.";
             }
             `,
-  /*"partnerBox": [
+  "partnerBox": [
    {
-    }],*/
-
-  "linkBox": [
-    { "text": "FabAccess",
-      "image": "",
-      "url": "https://fab-access.org/de/blog/api_release_0_3/"
+     "image":"assets/img/logos/FabLab/FabAccess_Logo.svg",
+     "url": "https://fab-access.org/de/blog/api_release_0_3/"
     }],
   /*
-  "textFields" : [
-    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
-    },
-    { "header": "09.06.2022",
-      "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
-    },
-    { "header": "23.06.2022",
-      "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
-    },
-    { "header": "14.07.2022",
-      "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
-    },
-    { "header": "28.07.2022",
-      "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
-    },
-  ],*/
+    "linkBox": [
+      { "text": "FabAccess",
+        "image": "",
+        "url": "https://fab-access.org/de/blog/api_release_0_3/"
+    }],
+
+    "textFields" : [
+      { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
+      },
+      { "header": "09.06.2022",
+        "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
+      },
+      { "header": "23.06.2022",
+        "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
+      },
+      { "header": "14.07.2022",
+        "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
+      },
+      { "header": "28.07.2022",
+        "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
+      },
+    ],*/
   "entries":[
     {
       "streamname": "RBJ00-2tr1O", // high
