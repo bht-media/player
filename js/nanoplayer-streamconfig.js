@@ -981,6 +981,110 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
+
+// BHT Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "bht",
+  "titleTop": "FabAccess",
+  "title": "Offener Zugang für offene Menschen",
+  "image": "assets/img/logos/FabLab/Borpin_Logo.svg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            #linkBox{
+              padding: 1.5em;
+            }
+            #textField{
+              height: 100%;
+            }
+            #titleSub{
+              font-weight: normal;
+            }
+            .textBox_text{
+              flex-direction: column;
+            }
+            #playerSubtitle{
+              text-shadow: 0.1em 0.1em 0.2em black;
+              color: rgb(255 255 255 / 92%);
+            }
+            #linkBox{
+               background-color: #5757569c;
+            }
+            .textFieldTitle{
+              color: white;
+              padding-bottom: 0.5em;
+            }
+            .textBox{
+              max-width: 400px;
+            }
+            #error {
+              color: rgb(235 0 0);
+              width: auto;
+              justify-content: center;
+            }
+            #disclaimer{
+            content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
+                            verzögert angezeigt.";
+            }
+            `,
+  /*"partnerBox": [
+   {
+    }],*/
+
+  "linkBox": [
+    { "text": "FabAccess",
+      "image": "",
+      "url": "https://fab-access.org/de/blog/api_release_0_3/"
+    },
+    { "text": "Zentrum für Forschung und Innovation",
+      "image": "",
+      "url": "https://www.bht-berlin.de/zfi"
+    }],
+  /*
+  "textFields" : [
+    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
+    },
+    { "header": "09.06.2022",
+      "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
+    },
+    { "header": "23.06.2022",
+      "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
+    },
+    { "header": "14.07.2022",
+      "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
+    },
+    { "header": "28.07.2022",
+      "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-2tr1O", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-ADvhZ", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-Uym1S", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-oG8Fp", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-jCPsT", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-l6Au6", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
 // ---- Lange Nacht der Wissenschaften ----------------------------------------------------------------------------------------------------
 streams.push({
 "tag": "lndw-2022",
