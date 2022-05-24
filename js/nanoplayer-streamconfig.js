@@ -987,12 +987,15 @@ streams.push({
   "tag": "fablab",
   "titleTop": "FabAccess",
   "title": "Offener Zugang für offene Menschen",
-  "image": "assets/img/backgrounds/fablab-background02.jpg",
+  "image": "assets/img/backgrounds/fablab-background03.jpg",
   "debug": false,
   "chat": false,
   "customStyle": `
             #linkBox{
               padding: 1.5em;
+            }
+            .partnerBoxImages {
+              height: 5em;
             }
             #textField{
               height: 100%;
@@ -1029,13 +1032,13 @@ streams.push({
      "image":"assets/img/logos/FabLab/FabAccess_Logo.svg",
      "url": "https://fab-access.org/de/blog/api_release_0_3/"
     }],
-  /*
+
     "linkBox": [
       { "text": "FabAccess",
         "image": "",
         "url": "https://fab-access.org/de/blog/api_release_0_3/"
     }],
-
+/*
     "textFields" : [
       { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
       },
