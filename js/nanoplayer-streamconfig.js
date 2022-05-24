@@ -984,10 +984,10 @@ streams.push({
 
 // BHT Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
 streams.push({
-  "tag": "bht",
+  "tag": "fablab",
   "titleTop": "FabAccess",
   "title": "Offener Zugang für offene Menschen",
-  "image": "assets/img/logos/FabLab/Borpin_Logo.svg",
+  "image": "assets/img/backgrounds/fablab-background.jpg",
   "debug": false,
   "chat": false,
   "customStyle": `
@@ -1006,9 +1006,6 @@ streams.push({
             #playerSubtitle{
               text-shadow: 0.1em 0.1em 0.2em black;
               color: rgb(255 255 255 / 92%);
-            }
-            #linkBox{
-               background-color: #5757569c;
             }
             .textFieldTitle{
               color: white;
@@ -1035,10 +1032,6 @@ streams.push({
     { "text": "FabAccess",
       "image": "",
       "url": "https://fab-access.org/de/blog/api_release_0_3/"
-    },
-    { "text": "Zentrum für Forschung und Innovation",
-      "image": "",
-      "url": "https://www.bht-berlin.de/zfi"
     }],
   /*
   "textFields" : [
