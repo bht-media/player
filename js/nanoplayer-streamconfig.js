@@ -1029,8 +1029,8 @@ streams.push({
             `,
   "partnerBox": [
    {
-     "image":"assets/img/logos/FabLab/FabAccess_Logo.svg",
-     "url": "https://fab-access.org/de/blog/api_release_0_3/"
+     "image":"assets/img/logos/FabLab/FabInfra_Logo.svg",
+     "url": "https://fab-access.org/de/"
     }],
 
     "linkBox": [
