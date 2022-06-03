@@ -925,6 +925,14 @@ streams.push({
             content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
                             verzögert angezeigt.";
             }
+            a:link, a:visited, a:active{
+              color: rgb(7 12 66);
+              text-decoration: none;
+            }
+            a:hover{
+              color: rgb(52 58 131);
+              text-decoration: none;
+            }
             `,
   /**"partnerBox": [
     {
