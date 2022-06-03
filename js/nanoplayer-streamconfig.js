@@ -942,10 +942,10 @@ streams.push({
     { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
     },
     { "header": "09.06.2022",
-      "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
+      "text": "<b>'Künstliche Intelligenz und Forecasting: Aktuelle Fortschritte und deren Potenzial für die Praxis'</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
     },
-    { "header": "23.06.2022",
-      "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
+    { "header": "30.06.2022",
+      "text": "<b>'Das Summen der Pixel: Versteht die KI, was eine Biene ist?'</b> - <i>Teodor Chiaburu</i>"
     },
     { "header": "14.07.2022",
       "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
