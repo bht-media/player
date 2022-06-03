@@ -942,16 +942,16 @@ streams.push({
     { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
     },
     { "header": "09.06.2022",
-      "text": "<b>'Künstliche Intelligenz und Forecasting: Aktuelle Fortschritte und deren Potenzial für die Praxis'</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
+      "text": "<b><a href='https://www.bht-berlin.de/item/cal/event/detail/2022/06/09/1407?cHash=939ba78d384136eb365bb4a155ebc597'>'Künstliche Intelligenz und Forecasting: Aktuelle Fortschritte und deren Potenzial für die Praxis'</a></b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
     },
     { "header": "30.06.2022",
-      "text": "<b>'Das Summen der Pixel: Versteht die KI, was eine Biene ist?'</b> - <i>Teodor Chiaburu</i>"
+      "text": "<b><a href='https://www.bht-berlin.de/item/cal/event/detail/2022/06/30/1517?cHash=b63afc75f627b156cb447d78946a43d5'> 'Das Summen der Pixel: Versteht die KI, was eine Biene ist?'</a></b> - <i>Teodor Chiaburu</i>"
     },
     { "header": "14.07.2022",
       "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
     },
     { "header": "28.07.2022",
-      "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
+      "text": "<b><a href='https://www.bht-berlin.de/4511/cal/event/detail/2022/07/28/1428?cHash=4cf443dcfd9dcc472a12edc7a0b3c2b2'>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</a></b> - <i>Felix Ambrus</i>"
     },
   ],
   "entries":[
