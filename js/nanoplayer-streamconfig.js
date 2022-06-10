@@ -1462,13 +1462,19 @@ streams.push({
   "tag": "jobwunder",
   "titleTop": "Jobwunder",
   "title": "Die Karrieremesse der Technischen Universität Berlin",
-  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "image": "assets/img/backgrounds/jobwunder/jobwunder-bg01.jpg",
   "debug": false,
   "chat": true,
   "customStyle": `
   .textFieldTitle{ color: white; }
   #playerSubtitle {
       color: #2DD977;
+    }
+    #chat, #titleSub {
+    background-color: #007a3599;
+    }
+    .partnerBoxImages {
+    height: 4em;
     }
   #error {
     color: rgb(112 0 0);
