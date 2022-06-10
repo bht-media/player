@@ -1467,12 +1467,6 @@ streams.push({
   "chat": true,
   "customStyle": `
   .textFieldTitle{ color: white; }
-  #playerSubtitle {
-      color: #2DD977;
-    }
-    #chat, #titleSub {
-    background-color: #007a3599;
-    }
     .partnerBoxImages {
     height: 4em;
     }
@@ -1482,15 +1476,19 @@ streams.push({
   #chat{
     background-color: #000000a8;
     }
-            `,
+    `,
       "partnerBox": [{
         "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
         "url": "https://www.alumni.tu-berlin.de/home/"
         },
         { "image":"assets/img/logos/jobwunder/b_sen_wienbe_logo_de_h_pw_rgb.496x0-is.png",
           "url": "https://www.berlin.de/sen/web/" }],
+  "linkBox": [{
+      "text":"jobwunder",
+      "image":"",
+      "url":"https://jobwunder-karrieremesse.de/"
+  }],
   /*
-  "linkBox": [],
   "textFields" : [
     { "title": "<"
     },
