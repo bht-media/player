@@ -1454,3 +1454,68 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
+
+/**
+ *  Stream Haus Gauß(B) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "jobwunder",
+  "titleTop": "Jobwunder",
+  "title": "Die Karrieremesse der Technischen Universität Berlin",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": true,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: #2DD977;
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+      "partnerBox": [{
+        "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
+        "url": "https://www.alumni.tu-berlin.de/home/"
+        },
+        { "image":"assets/img/logos/jobwunder/b_sen_wienbe_logo_de_h_pw_rgb.496x0-is.png",
+          "url": "https://www.berlin.de/sen/web/" }],
+  /*
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "RBJ00-250t9", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-qWXog", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-EHlSR", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-u8AGV", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-sS7qw", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-eZYgm", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
