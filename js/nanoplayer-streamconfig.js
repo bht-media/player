@@ -1486,7 +1486,7 @@ streams.push({
     max-width: 600px;}
     
     .titleTop, .textFieldTitle{
-    color: #2DD977;
+    color: #2DD977;}
     
     .textBox_header {
         background-color: white;}
