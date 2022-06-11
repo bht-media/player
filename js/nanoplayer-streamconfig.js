@@ -1485,7 +1485,7 @@ streams.push({
     .textBox{
     max-width: 600px;}
     
-    .titleTop, .textFieldTitle{
+    #titleTop, .textFieldTitle{
     color: #2DD977;}
     
     #textField{
@@ -1524,10 +1524,14 @@ streams.push({
   "textFields" : [
     { "title": "TU Berlin Außencampus & online im jobwunderPORTAL"
     },
-    { "header": "15-17.Juni",
+    { "header": "15 - 17.Juni von 10 - 17:00 Uhr",
       "text": "Es erwarten dich vielfältige Unternehmen, " +
           "passende Jobangebote sowie informative Vorträge " +
-          "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
+          "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!" +
+          "<br><br>" +
+          "Instagram: <p style='color:#2DD977'><strong>@jobwunder</strong></p>" +
+          "<br><br>" +
+          "Du hast noch Fragen: <p style='color:#2DD977'><strong>jobwunder@tubs.de</strong></p>"
     },
   ],
   "entries":[
