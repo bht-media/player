@@ -1476,11 +1476,16 @@ streams.push({
   #chat{
     background-color: #000000a8;
     }
+    .linkBoxImages {
+    height: 3em;}
+    
+   .linkButton {
+    margin-top: 1em;}
+    
     `,
       "partnerBox": [{
         "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
-        "url": "https://www.alumni.tu-berlin.de/home/"
-        },
+        "url": "https://www.alumni.tu-berlin.de/home/"},
         { "image":"assets/img/logos/jobwunder/b_sen_wienbe_logo_de_h_pw_rgb.496x0-is.png",
           "url": "https://www.berlin.de/sen/web/" },
         { "image":"assets/img/logos/jobwunder/cfe.85x0-is.png",
@@ -1491,8 +1496,8 @@ streams.push({
           "url": "https://www.berlin-partner.de/" },
         { "image":"assets/img/logos/jobwunder/logo_careerservice.200x0-is.png",
           "url": "https://www.career.tu-berlin.de/menue/if_career_service/" },
-        { "image":"assets/img/logos/jobwunder/masterplan_industriestadt_logo_2021_rot.png",
-          "url": "https://webkiosk.berlin-partner.de/" },
+        { "image":"assets/img/logos/jobwunder/maxsize_be9ed7c9b1bf5bcfe917af38bf8ec38b_logomasterplan.jpg",
+          "url": "https://www.berlin.de/industriestadt/geschaeftsstelle/" },
         { "image":"assets/img/logos/jobwunder/tu_logo_kurz_rgb_rot.114x0-is.jpg",
           "url": "https://www.tu.berlin/" },
         { "image":"assets/img/logos/jobwunder/uvb_logo_kompakt_v1_rgb.166x0-is.jpg",
