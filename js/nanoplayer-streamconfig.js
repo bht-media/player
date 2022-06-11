@@ -1460,7 +1460,7 @@ streams.push({
  */
 streams.push({
   "tag": "jobwunder",
-  "titleTop": "<img src='assets/img/logos/jobwunder/jw_Logo_kurz_online_hellgrün.jpg'>",
+  "titleTop": "jobwunder",
   "title": "Die Karrieremesse der Technischen Universität Berlin",
   "image": "assets/img/backgrounds/jobwunder/jobwunder-bg01.jpg",
   "debug": false,
