@@ -1527,12 +1527,8 @@ streams.push({
     { "header": "15 - 17.Juni von 10 - 17:00 Uhr",
       "text": "Es erwarten dich vielfältige Unternehmen, " +
           "passende Jobangebote sowie informative Vorträge " +
-          "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!" +
-          "<br><br>" +
-          "Instagram: <p style='color:#2DD977'><strong>@jobwunder</strong></p>" +
-          "<br><br>" +
-          "Du hast noch Fragen: <p style='color:#2DD977'><strong>jobwunder@tubs.de</strong></p>"
-    },
+          "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
+          },
   ],
   "entries":[
     {
