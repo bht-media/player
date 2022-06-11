@@ -1506,7 +1506,12 @@ streams.push({
   "linkBox": [{
       "text":"",
       "image":"assets/img/backgrounds/jobwunder/jobwunder-logo.png",
-      "url":"https://jobwunder-karrieremesse.de/"
+      "url":"https://jobwunder-karrieremesse.de/"},
+    {
+      "text":"",
+      "image":"assets/img/logos/jobwunder/tubs.png",
+      "url":"https://www.tubs.de/"
+
   }],
   /*
   "textFields" : [
