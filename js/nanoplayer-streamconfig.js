@@ -1482,10 +1482,25 @@ streams.push({
         "url": "https://www.alumni.tu-berlin.de/home/"
         },
         { "image":"assets/img/logos/jobwunder/b_sen_wienbe_logo_de_h_pw_rgb.496x0-is.png",
-          "url": "https://www.berlin.de/sen/web/" }],
+          "url": "https://www.berlin.de/sen/web/" },
+        { "image":"assets/img/logos/jobwunder/cfe.85x0-is.png",
+          "url": "https://www.tu.berlin/entrepreneurship/" },
+        { "image":"assets/img/logos/jobwunder/ch-logo-campushunter-online_350.199x0-is.png",
+          "url": "https://campushunter.de/" },
+        { "image":"assets/img/logos/jobwunder/images.png",
+          "url": "https://www.berlin-partner.de/" },
+        { "image":"assets/img/logos/jobwunder/logo_careerservice.200x0-is.png",
+          "url": "https://www.career.tu-berlin.de/menue/if_career_service/" },
+        { "image":"assets/img/logos/jobwunder/masterplan_industriestadt_logo_2021_rot.png",
+          "url": "https://webkiosk.berlin-partner.de/" },
+        { "image":"assets/img/logos/jobwunder/tu_logo_kurz_rgb_rot.114x0-is.jpg",
+          "url": "https://www.tu.berlin/" },
+        { "image":"assets/img/logos/jobwunder/uvb_logo_kompakt_v1_rgb.166x0-is.jpg",
+          "url": "https://www.uvb-online.de/" },
+      ],
   "linkBox": [{
-      "text":"jobwunder",
-      "image":"",
+      "text":"",
+      "image":"assets/img/backgrounds/jobwunder/jobwunder-logo.png",
       "url":"https://jobwunder-karrieremesse.de/"
   }],
   /*
