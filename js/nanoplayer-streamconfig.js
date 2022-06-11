@@ -1513,14 +1513,15 @@ streams.push({
       "url":"https://www.tubs.de/"
 
   }],
-  /*
   "textFields" : [
-    { "title": "<"
+    { "title": "TU Berlin Außencampus & online im jobwunderPORTAL"
     },
-    { "header": "",
-      "text": ""
+    { "header": "15-17.Juni",
+      "text": "Es erwarten dich vielfältige Unternehmen, " +
+          "passende Jobangebote sowie informative Vorträge " +
+          "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
     },
-  ],*/
+  ],
   "entries":[
     {
       "streamname": "RBJ00-250t9", // high
