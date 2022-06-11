@@ -1482,6 +1482,14 @@ streams.push({
    .linkButton {
     margin-top: 1em;}
     
+    .textBox{
+    max-width: 600px;}
+    
+    .titleTop, .textFieldTitle{
+    color: #2DD977;
+    
+    .textBox_header {
+        background-color: white;}
     `,
       "partnerBox": [{
         "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
