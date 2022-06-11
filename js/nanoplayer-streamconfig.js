@@ -1488,7 +1488,7 @@ streams.push({
     .titleTop, .textFieldTitle{
     color: #2DD977;}
     
-    .textBox_header {
+    #textField{
         background-color: white;}
     `,
       "partnerBox": [{
