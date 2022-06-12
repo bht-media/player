@@ -1493,9 +1493,11 @@ streams.push({
         background-color: white;}
     a{
         text-decoration: none;
-        color: #ffcc5c;
+        color: #fbac00;
         font-weight: bold;
         }
+    .textBox_text{
+        flex-direction: column}
     `,
       "partnerBox": [{
         "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
@@ -1534,7 +1536,7 @@ streams.push({
       "text": "Es erwarten dich vielfältige Unternehmen, " +
           "passende Jobangebote sowie informative Vorträge " +
           "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
-      + "<a href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
+      + "<br><a href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
           },
   ],
   "entries":[
