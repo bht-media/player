@@ -1466,28 +1466,36 @@ streams.push({
   "debug": false,
   "chat": true,
   "customStyle": `
-  .textFieldTitle{ color: white; }
   
     .partnerBoxImages {
-    height: 4em;
+      height: 4em;
     }
-  #error {
-    color: rgb(112 0 0);
+    #error {
+      color: rgb(112 0 0);
     }
-  #chat{
-    background-color: #000000a8;
+    #chat{
+      background-color: #000000a8;
     }
     .linkBoxImages {
-    height: 3em;}
+      height: 3em;}
     
    .linkButton {
-    margin-top: 1em;}
+      margin-top: 1em;}
+    
+    #textField {
+      background-color: white;
+      padding: 1em;
+    }
     
     .textBox{
-    max-width: 600px;}
+      max-width: 600px;}
     
     #titleTop, .textFieldTitle{
-    color: #2DD977;}
+      color: #2DD977;}
+    
+    .textFieldTitle{
+      font-size: 1.5em;
+      padding-bottom: 0.5em;}
     
     #textField{
         background-color: white;}
@@ -1499,8 +1507,11 @@ streams.push({
     .textBox_text{
         flex-direction: column}
         
-    #text-link{
-        margin-top: 4em; }
+    #text-link {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      font-size: 1.5em;
+    }
     `,
       "partnerBox": [{
         "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
