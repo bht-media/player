@@ -1550,7 +1550,7 @@ streams.push({
       "text": "Es erwarten dich vielfältige Unternehmen, " +
           "passende Jobangebote sowie informative Vorträge " +
           "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
-      + "<a id='text-link' href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
+      + "<a id='text-link' target=\"_blank\" href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
           },
   ],
   "entries":[
