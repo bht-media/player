@@ -1467,6 +1467,7 @@ streams.push({
   "chat": true,
   "customStyle": `
   .textFieldTitle{ color: white; }
+  
     .partnerBoxImages {
     height: 4em;
     }
@@ -1490,6 +1491,11 @@ streams.push({
     
     #textField{
         background-color: white;}
+    a{
+        text-decoration: none;
+        color: #ffcc5c;
+        font-weight: bold;
+        }
     `,
       "partnerBox": [{
         "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
@@ -1524,10 +1530,11 @@ streams.push({
   "textFields" : [
     { "title": "TU Berlin Außencampus & online im jobwunderPORTAL"
     },
-    { "header": "15 - 17.Juni von 10 - 17:00 Uhr",
+    { "header": "15. - 17. Juni von 10:00 - 17:00 Uhr",
       "text": "Es erwarten dich vielfältige Unternehmen, " +
           "passende Jobangebote sowie informative Vorträge " +
           "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
+      + "<a href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
           },
   ],
   "entries":[
