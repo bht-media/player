@@ -1498,6 +1498,9 @@ streams.push({
         }
     .textBox_text{
         flex-direction: column}
+        
+    #text-link{
+        margin-top: 4em; }
     `,
       "partnerBox": [{
         "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
@@ -1536,7 +1539,7 @@ streams.push({
       "text": "Es erwarten dich vielfältige Unternehmen, " +
           "passende Jobangebote sowie informative Vorträge " +
           "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
-      + "<br><a href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
+      + "<a id='text-link' href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
           },
   ],
   "entries":[
