@@ -1565,7 +1565,7 @@ streams.push({
     {
       "streamname": "RBJ00-EHlSR", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
+    }],/**
   "dual": [
     {
       "streamname": "RBJ00-u8AGV", // high
@@ -1578,5 +1578,5 @@ streams.push({
     {
       "streamname": "RBJ00-eZYgm", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
+    }],*/
 });
