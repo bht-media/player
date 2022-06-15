@@ -10,6 +10,11 @@
     flex-wrap: nowrap;
 }
 
+/** Incomming massage */
+.incoming_msg{
+    margin-top: 0.5em;
+}
+
 #chat{
     display: flex;
     font-family: Source Sans Pro, sans-serif;
