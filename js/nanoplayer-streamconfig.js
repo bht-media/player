@@ -956,7 +956,7 @@ streams.push({
       "text": "<b><a href='https://www.bht-berlin.de/item/cal/event/detail/2022/06/30/1517?cHash=b63afc75f627b156cb447d78946a43d5'> 'Das Summen der Pixel: Versteht die KI, was eine Biene ist?'</a></b> - <i>Teodor Chiaburu</i>"
     },
     { "header": "14.07.2022",
-      "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
+      "text": "<b><a href='https://www.bht-berlin.de/item/cal/event/detail/2022/07/14/1419?cHash=59d1066cdb7e87f3fbcfb36b18b1ba63'>'Fahrzeugsicherheitsbarrieren als Architekturen der Sicherheit im öffentlichen Raum: Methodik und aktuelle Forschung'</a></b> - <i>Andreas Gürlich</i>"
     },
     { "header": "28.07.2022",
       "text": "<b><a href='https://www.bht-berlin.de/4511/cal/event/detail/2022/07/28/1428?cHash=4cf443dcfd9dcc472a12edc7a0b3c2b2'>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</a></b> - <i>Felix Ambrus</i>"
