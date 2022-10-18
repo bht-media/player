@@ -28,7 +28,7 @@ let getStreamID = function (){
 
 /**
  * Searches for given stream tag in the nanoplayer-streamconfig.js and returns it as an Array
- * @param streamTag the tag of the config
+ * @param streamTag the tag of the config as integer (array index) or String
  * @returns {Array} containing all the relevant stream config data
  */
 let getStreamConfig = function (streamTag) {
@@ -40,7 +40,7 @@ let getStreamConfig = function (streamTag) {
             //stream = streams[id].streamnames;
             streamConfig = streams[streamTag];
         } else if (typeof (streamTag) == "string") {
-            // find stream by tag
+            // find stream by tag || str.tag only https relevant
             streamConfig = streams.find(str => str.tag == streamTag) || streamTag;
         }
     } catch (e) {
@@ -80,3 +80,18 @@ let toggleElementVisibility = function(element){
         buttonElement.style.display = displayAttribute;
     } else buttonElement.style.display = "none";
 }
+
+
+/**
+ * Simple logging function for objects
+ * @param e function to be logged
+ */
+let logObject = function (e) {
+    if (typeof e === 'object') {
+        try {
+            e = JSON.stringify(e);
+        } catch (err) {
+        }
+    }
+    console.log(e);
+};

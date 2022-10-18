@@ -1,28 +1,27 @@
 
 // define ABR playback stream names
 // stream groups: each stream group has 3 ABR streams
+/**
+ * The Streams and its custom styles bundled in an Array
+ * @type {*[]}
+ */
 let streams = [];
 
-// TEST Stream 00 --------------------------------------------------------------------------------------------------------------------------------------
+// TEST Stream 01 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
-  "tag": "test0",
+  "tag": "test01",
   "titleTop": "Test Title Top",
   "title": "Test Stream 0",
   "image": "https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2020-06/ASpot_MonitoringWeather.jpg?h=d1cb525d&itok=3jSPVbXF",
   "entries": [{ "streamname": "CD6oL-2kE1g" }]
 });
 
-// TEST Stream 01 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "test1",
-  "title": "Test Stream 1",
-  "entries": [{ "streamname": "RBJ00-6uALm" }]
-});
-
 // TEST Stream 02 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
-  "tag": "test2abr",
-  "title": "Test Stream 2 / ABR",
+  "tag": "test2",
+  "titleTop": "Veranstaltungstitel",
+  "title": "Untertitel",
+  "chat": true,
   "entries": [
     {
       "streamname": "RBJ00-6uALm", // high
@@ -39,168 +38,7 @@ streams.push({
   ]
 });
 
-// BHT Asta Wahl --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "bht-asta-wahl",
-  "title": "BHT AStA-Wahl",
-  "entries": [{ "streamname": "RBJ00-FzI9V" }]
-});
-
-// BHT Stream 1 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "bht1",
-  "title": "BHT Stream 1",
-  //"title": "Ilona Buchem / Rainer Schneider",
-  "entries": [{ "streamname": "RBJ00-IYDH9" }]
-});
-
-// Brückenkurse --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "brueckenkurse",
-  "title": "Brückenkurse",
-  "entries": [
-    {
-      "streamname": "RBJ00-ZxYi1", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-c4NS0", // medium
-      "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-uSwNt", // low
-      "info": { "bitrate": 800, "width": 852, "height": 480, "framerate": 25 }
-    }
-  ]
-});
-
-// Begrüßung der Erstsemester im Fachbereich 5 -----------------------------------------------------------------------------------------------------------------
-streams.push({
-  //"tag": "bht-es5",
-  //"title": "Begrüßung der Erstsemester im Fachbereich 5",
-  "tag": "b101",
-  "title": "b101",
-  "entries": [
-    {
-      "streamname": "RBJ00-PedKZ", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-ncALg", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-yMGa9", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-QDLBk", // low
-      "info": { "bitrate": 400, "width": 640, "height": 360, "framerate": 15 }
-    }
-  ]
-});
-
-// Media Stream 1 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "media-stream-1",
-  "title": "Media Stream 1",
-  "entries": [
-    {
-      "streamname": "RBJ00-W4xU1", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-M7JHe", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-Oe97A", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// Media Stream 2 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "media-stream-2",
-  "title": "Media Stream 2",
-  "entries": [
-    {
-      "streamname": "RBJ00-zh5NC", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-Cuqve", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-2mjS4", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// Media Stream 3 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "media-stream-3",
-  "title": "Media Stream 3",
-  "entries": [
-    {
-      "streamname": "RBJ00-BUlFc", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-w2ehP", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-OQA1A", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// Media Stream 4 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "media-stream-4",
-  "title": "Media Stream 4",
-  "entries": [
-    {
-      "streamname": "RBJ00-SE30h", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-cBrkW", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-WkojJ", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// Media Stream 5 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "media-stream-5",
-  "title": "Media Stream 5",
-  "entries": [
-    {
-      "streamname": "RBJ00-Hq9sw", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-PcX5R", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-jyGEG", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// BHT Personalversammlung --------------------------------------------------------------------------------------------------------------------------------------
+// BHT Personalversammlung (TODO Wird dies noch benutzt???) --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "beuth-pv",
   "title": "BHT Personalversammlung",
@@ -220,7 +58,7 @@ streams.push({
   ]
 });
 
-// Akademische Versammlung 2021 ------------------------------------------------------------------------------------------------------------------------------
+// 2021 Akademische Versammlung ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "beuth-av-2021",
   "titleTop": "Akademische Versammlung 2021",
@@ -246,21 +84,7 @@ streams.push({
   ]
 });
 
-// HRZ Test 1 ------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "hrz-test1",
-  "title": "HRZ Test 1",
-  "entries": [{ "streamname": "nH9ig-FwldJ" }]
-});
-
-// 360° Stream ------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "insta-test",
-  "title": "360° Stream",
-  "entries": [{ "streamname": "RBJ00-ERrTa" }]
-});
-
-// getreide-informationstagung ------------------------------------------------------------------------------------------------------------------------------
+// 2021 getreide-informationstagung ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "getreide-informationstagung17Juni2021",
   "titleTop": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
@@ -282,7 +106,7 @@ streams.push({
   ]
 });
 
-// klima-ringvorlesung ------------------------------------------------------------------------------------------------------------------------------
+// 2021 klima-ringvorlesung ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "klima-ringvorlesung",
   "titleTop": "1.5 °C Global Warming by 2030?",
@@ -305,7 +129,7 @@ streams.push({
   ]
 });
 
-// FabAccess Workshop ------------------------------------------------------------------------------------------------------------------------------
+// 2022 FabAccess Workshop ------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "fabAccess-Workshop",
   "titleTop": "FabAccess Workshop",
@@ -321,29 +145,6 @@ streams.push({
     },
     {
       "streamname": "RBJ00-cUzfG", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-/**
- * Veralteter D338er Stream -----------------------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "D338",
-  "titleTop": "D338 - Live Stream",
-  "title": "Live Unterricht aus dem Raum D338",
-  "entries": [
-    {
-      "streamname": "RBJ00-6uALm", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-J0hGb", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-SS48m", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }
   ]
@@ -367,14 +168,27 @@ streams.push({
             }`,
   "partnerBox": [
     {
-      "text": "beuthBox", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
     },{
-      "text": "beuthBox", // high
-      "image": "",
-      "url": "1234"
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
     }],
+  "textFields" : [
+    { "title": "<p>Jeden Mittwoch ab 18 Uhr&ensp;<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODk2ODZjYmYtNDk0ZC00ZmY4LWIzM2UtOTcwYmQ3YTZkZDNi%40thread.v2/0?context=%7b%22Tid%22%3a%2253bc5889-4f98-49b1-97c2-1b0d33acec73%22%2c%22Oid%22%3a%22ac64bc64-e5c3-4223-aa48-ca528aa7145a%22%7d'>hier</a>&ensp;zu erreichen.</p> <br> <p class='important'>Bitte achten Sie darauf, vor dem Beitreten Ihr Mikrofon/Kamera zu deaktivieren, vielen Dank.</p>"
+    },
+    { "header": "Test 01 2022",
+      "text": "Vortrag 01"
+    },
+    { "header": "Test 02 2022",
+      "text": "Vortrag 02"
+    },
+    { "header": "Test 03 2022",
+      "text": "Vortrag 03"
+    },
+  ],
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "RBJ00-6uALm", // high
@@ -401,7 +215,7 @@ streams.push({
       "streamname": "RBJ00-SS48m", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
-  "debug": true,
+  "debug": false,
   "chat": true,
   "linkBox": [
     {
@@ -925,14 +739,6 @@ streams.push({
             content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
                             verzögert angezeigt.";
             }
-            a:link, a:visited, a:active{
-              color: rgb(7 12 66);
-              text-decoration: none;
-            }
-            a:hover{
-              color: rgb(52 58 131);
-              text-decoration: none;
-            }
             `,
   /**"partnerBox": [
     {
@@ -950,16 +756,16 @@ streams.push({
     { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
     },
     { "header": "09.06.2022",
-      "text": "<b><a href='https://www.bht-berlin.de/item/cal/event/detail/2022/06/09/1407?cHash=939ba78d384136eb365bb4a155ebc597'>'Künstliche Intelligenz und Forecasting: Aktuelle Fortschritte und deren Potenzial für die Praxis'</a></b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
+      "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
     },
-    { "header": "30.06.2022",
-      "text": "<b><a href='https://www.bht-berlin.de/item/cal/event/detail/2022/06/30/1517?cHash=b63afc75f627b156cb447d78946a43d5'> 'Das Summen der Pixel: Versteht die KI, was eine Biene ist?'</a></b> - <i>Teodor Chiaburu</i>"
+    { "header": "23.06.2022",
+      "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
     },
     { "header": "14.07.2022",
-      "text": "<b><a href='https://www.bht-berlin.de/item/cal/event/detail/2022/07/14/1419?cHash=59d1066cdb7e87f3fbcfb36b18b1ba63'>'Fahrzeugsicherheitsbarrieren als Architekturen der Sicherheit im öffentlichen Raum: Methodik und aktuelle Forschung'</a></b> - <i>Andreas Gürlich</i>"
+      "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
     },
     { "header": "28.07.2022",
-      "text": "<b><a href='https://www.bht-berlin.de/4511/cal/event/detail/2022/07/28/1428?cHash=4cf443dcfd9dcc472a12edc7a0b3c2b2'>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</a></b> - <i>Felix Ambrus</i>"
+      "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
     },
   ],
   "entries":[
@@ -1456,127 +1262,404 @@ streams.push({
 });
 
 /**
- *  Stream Haus Gauß(B) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ *  Stream für die Bachelorarbeit Steve Margenfeld Julia Hoffmann --------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
-  "tag": "jobwunder",
-  "titleTop": "jobwunder",
-  "title": "Die Karrieremesse der Technischen Universität Berlin",
-  "image": "assets/img/backgrounds/jobwunder/jobwunder-bg01.jpg",
+  "tag": "bachelor-hoffmann-margenfeld",
+  "titleTop": "Testseite für die Bachelorarbeit Hoffmann & Margenfeld",
+  "title": "User Interface Design und Funktionalität einer Interaktiven Streaming Webseite & Web-technische Umsetzung einer interaktiven/konfigurierbaren Streaming Webseite",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
   "debug": false,
-  "chat": true,
+  "chat": false,
+  "sessionChat": true,
   "customStyle": `
-  
-    .partnerBoxImages {
-      height: 4em;
-    }
+    .textFieldTitle{ color: white; }
+    #playerSubtitle {
+        color: rgb(251 251 251 / 52%);
+      }
     #error {
       color: rgb(112 0 0);
-    }
+      }
     #chat{
       background-color: #000000a8;
+      }
+    #h5live-playerDiv2 {
+      background-color: #303030 !important; 
     }
-    .linkBoxImages {
-      height: 3em;}
-    
-   .linkButton {
-      margin-top: 1em;}
-    
-    #textField {
-      background-color: white;
-      padding: 1em;
+    #h5live-playerDiv1 {
+      background-color: black !important; 
     }
-    
-    .textBox{
-      max-width: 600px;}
-    
-    #titleTop, .textFieldTitle{
-      color: #2DD977;}
-    
-    .textFieldTitle{
-      font-size: 1.5em;
-      padding-bottom: 0.5em;}
-    
-    #textField{
-        background-color: white;}
-    a{
-        text-decoration: none;
-        color: #fbac00;
-        font-weight: bold;
-        }
-    .textBox_text{
-        flex-direction: column}
-        
-    #text-link {
-      margin-top: 1em;
-      margin-bottom: 1em;
-      font-size: 1.5em;
-    }
-    `,
-      "partnerBox": [{
-        "image":"assets/img/logos/jobwunder/alumni_logo_cmyk.jpg",
-        "url": "https://www.alumni.tu-berlin.de/home/"},
-        { "image":"assets/img/logos/jobwunder/b_sen_wienbe_logo_de_h_pw_rgb.496x0-is.png",
-          "url": "https://www.berlin.de/sen/web/" },
-        { "image":"assets/img/logos/jobwunder/cfe.85x0-is.png",
-          "url": "https://www.tu.berlin/entrepreneurship/" },
-        { "image":"assets/img/logos/jobwunder/ch-logo-campushunter-online_350.199x0-is.png",
-          "url": "https://campushunter.de/" },
-        { "image":"assets/img/logos/jobwunder/images.png",
-          "url": "https://www.berlin-partner.de/" },
-        { "image":"assets/img/logos/jobwunder/logo_careerservice.200x0-is.png",
-          "url": "https://www.career.tu-berlin.de/menue/if_career_service/" },
-        { "image":"assets/img/logos/jobwunder/maxsize_be9ed7c9b1bf5bcfe917af38bf8ec38b_logomasterplan.jpg",
-          "url": "https://www.berlin.de/industriestadt/geschaeftsstelle/" },
-        { "image":"assets/img/logos/jobwunder/tu_logo_kurz_rgb_rot.114x0-is.jpg",
-          "url": "https://www.tu.berlin/" },
-        { "image":"assets/img/logos/jobwunder/uvb_logo_kompakt_v1_rgb.166x0-is.jpg",
-          "url": "https://www.uvb-online.de/" },
-      ],
-  "linkBox": [{
-      "text":"",
-      "image":"assets/img/backgrounds/jobwunder/jobwunder-logo.png",
-      "url":"https://jobwunder-karrieremesse.de/"},
-    {
-      "text":"",
-      "image":"assets/img/logos/jobwunder/tubs.png",
-      "url":"https://www.tubs.de/"
-
+    .textBox_header, .textBox_text {
+    font-size: 14px;}
+              `,
+  "partnerBox": [{
+    "image":"https://www.nanocosmos.de/v6/images/logo-nav.png",
+    "url": "https://www.nanocosmos.de/v6/"
   }],
+  "linkBox": [],
   "textFields" : [
-    { "title": "TU Berlin Außencampus & online im jobwunderPORTAL"
+    { "title": "Zeiten"
     },
-    { "header": "15. - 17. Juni von 10:00 - 17:00 Uhr",
-      "text": "Es erwarten dich vielfältige Unternehmen, " +
-          "passende Jobangebote sowie informative Vorträge " +
-          "und Workshops zur Vorbereitung deines Berufseinstiegs. Sei dabei!"
-      + "<a id='text-link' target=\"_blank\" href='https://jobwunder-karrieremesse.de/site/assets/files/1813/jobwunder_2022_programm.pdf'>Programmübersicht</>"
-          },
+    { "header": "08 Uhr, 12 Uhr, 16 Uhr",
+      "text": "Ein Stream"
+    },{ "header": "09 Uhr, 13 Uhr",
+      "text": "Zwei Streams, Link Box, info Texte"
+    },{ "header": "10 Uhr, 14 Uhr",
+      "text": "Ein Stream, Chat, Link Box"
+    },{ "header": "11 Uhr, 15 Uhr",
+      "text": "Zwei Streams, Chat, Text Feld"
+    },{ "header": "ab 17 Uhr",
+      "text": "Zwei Streams, Chat, Partnerbox, Link Box, Text Feld"
+    },
   ],
   "entries":[
     {
-      "streamname": "RBJ00-250t9", // high
+      "streamname": "RBJ00-NCFgX", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-qWXog", // medium
+      "streamname": "RBJ00-SJ1BL", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-EHlSR", // low
+      "streamname": "RBJ00-VEu9G", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],/**
+    }],
   "dual": [
     {
-      "streamname": "RBJ00-u8AGV", // high
+      "streamname": "RBJ00-t9gHm", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-sS7qw", // medium
+      "streamname": "RBJ00-6dpl9", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-eZYgm", // low
+      "streamname": "RBJ00-9KLKM", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],*/
+    }],
+  "time": [{
+    "startDate": "2021, 1, 1",
+    "endDate": "2032, 1, 1",
+    // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+    "weekDay": "0,1,2,3,4,5,6,7",
+    "hour": 8,
+    "minute": 0,
+    // duration in minutes
+    "duration": 60,
+    "titleTop": "Eisberge und deren Bedeutung für den BER",
+    "title": "Eine Analyse des Schmelzpunktes von Eisbergen auf dem BER",
+    "image": "assets/img/backgrounds/climate-background.jpg",
+    "chat": false,
+    "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub {
+            background-color: #0098a1;
+          }`,
+    "partnerBox": [],
+    "linkBox": [],
+    "textFields" : [],
+    "dual": [],
+  }, // 8:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 9,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Vernetzt in der Neuzeit",
+      "title": "von Professor Mustermann",
+      "image": "assets/img/backgrounds/dk-background.jpg",
+      "chat": false,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub {
+            background-color: rgb(50 50 240 / 52%);
+          }
+          #textField{
+          background-color: rgb(50 50 240 / 52%);
+          }
+        #error {
+          color: rgb(112 0 0);
+          }
+        #chat{
+          background-color: #000000a8;
+          }
+              `,
+      "partnerBox": [],
+      "linkBox": [
+        { "text": "BHT Berlin",
+          "image": "",
+          "url": "https://www.bht-berlin.de/"
+        },{ "text": "",
+          "image": "https://www.bht-berlin.de/fileadmin/images/BHT_Logo_horizontal_Anthrazit.svg",
+          "url": "https://www.bht-berlin.de/"
+        }],
+      "textFields" : [
+        { "title": "Informationen zum Stream um 9Uhr"
+        },
+        { "header": "Kurs Informationen",
+          "text": "<i><a href='https://lms.bht-berlin.de/login/index.php'>Moodle</a></i>"
+        },
+        { "header": "Infotag",
+          "text": "<i>12.12.2022 12Uhr</i>"
+        }
+      ],
+    },        // 9:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 10,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Agrarwirtschaft Bachelor",
+      "title": "Dr. Prof G. Treide",
+      "image": "assets/img/backgrounds/getreidetagung-background.jpg",
+      "chat": true,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub, #chat {
+            background-color: rgb(240 116 50 / 52%) !important;
+          }
+        #error {
+          color: rgb(112 0 0);
+          }
+        #chat{
+          background-color: #000000a8;
+          }
+              `,
+      "partnerBox": [],
+      "linkBox": [
+        { "text": "BHT Berlin",
+          "image": "",
+          "url": "https://www.bht-berlin.de/"
+        },{ "text": "",
+          "image": "https://www.bht-berlin.de/fileadmin/images/BHT_Logo_horizontal_Anthrazit.svg",
+          "url": "https://www.bht-berlin.de/"
+        },{ "text": "",
+          "image": "data:image/png;base64,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",
+          "url": "https://lms.bht-berlin.de/login/index.php"
+        }],
+      "textFields" : [],
+      "dual": [],
+    },        // 10:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 11,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Versammlung zum 90. Jahrestag der Hochschule",
+      "title": "Event des Jahres",
+      "image": "assets/img/backgrounds/klassenraum01.jpg",
+      "chat": true,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub {
+            background-color: rgb(50 50 240 / 52%);
+          }
+        #error {
+          color: rgb(112 0 0);
+          }
+        #chat{
+          background-color: #000000a8;
+          }
+              `,
+      "textFields" : [
+        { "title": "Informationen"
+        },
+        { "header": "Sammelpunkt",
+          "text": "<i>Haus F Raum 981b</i>"
+        },
+        { "header": "Wichtige Gäste",
+          "text": "<i>Dr. Willi W. Ichtig<br>Dr. Frau</i>"
+        },
+      ],
+    },        // 11:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 12,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Eisberge und deren Bedeutung für den BER",
+      "title": "Eine Analyse des Schmelzpunktes von Eisbergen auf dem BER",
+      "image": "assets/img/backgrounds/climate-background.jpg",
+      "chat": false,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub {
+            background-color: #0098a1;
+          }`,
+      "partnerBox": [],
+      "linkBox": [],
+      "textFields" : [],
+      "dual": [],
+    },        // 12:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 13,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Vernetzt in der Neuzeit",
+      "title": "von Professor Mustermann",
+      "image": "assets/img/backgrounds/dk-background.jpg",
+      "chat": false,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub {
+            background-color: rgb(50 50 240 / 52%);
+          }
+          #textField{
+          background-color: rgb(50 50 240 / 52%);
+          }
+        #error {
+          color: rgb(112 0 0);
+          }
+        #chat{
+          background-color: #000000a8;
+          }
+              `,
+      "partnerBox": [],
+      "linkBox": [
+        { "text": "BHT Berlin",
+          "image": "",
+          "url": "https://www.bht-berlin.de/"
+        },{ "text": "",
+          "image": "https://www.bht-berlin.de/fileadmin/images/BHT_Logo_horizontal_Anthrazit.svg",
+          "url": "https://www.bht-berlin.de/"
+        }],
+      "textFields" : [
+        { "title": "Informationen zum Stream um 9Uhr"
+        },
+        { "header": "Kurs Informationen",
+          "text": "<i><a href='https://lms.bht-berlin.de/login/index.php'>Moodle</a></i>"
+        },
+        { "header": "Infotag",
+          "text": "<i>12.12.2022 12Uhr</i>"
+        }
+      ],
+    },        // 13:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 14,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Agrarwirtschaft Bachelor",
+      "title": "Dr. Prof G. Treide",
+      "image": "assets/img/backgrounds/getreidetagung-background.jpg",
+      "chat": true,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub, #chat {
+            background-color: rgb(240 116 50 / 52%) !important;
+          }
+        #error {
+          color: rgb(112 0 0);
+          }
+        #chat{
+          background-color: #000000a8;
+          }
+              `,
+      "partnerBox": [],
+      "linkBox": [
+        { "text": "BHT Berlin",
+          "image": "",
+          "url": "https://www.bht-berlin.de/"
+        },{ "text": "",
+          "image": "https://www.bht-berlin.de/fileadmin/images/BHT_Logo_horizontal_Anthrazit.svg",
+          "url": "https://www.bht-berlin.de/"
+        },{ "text": "",
+          "image": "data:image/png;base64,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",
+          "url": "https://lms.bht-berlin.de/login/index.php"
+        }],
+      "textFields" : [],
+      "dual": [],
+    },        // 14:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 15,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Versammlung zum 90. Jahrestag der Hochschule",
+      "title": "Event des Jahres",
+      "image": "assets/img/backgrounds/klassenraum01.jpg",
+      "chat": true,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub {
+            background-color: rgb(50 50 240 / 52%);
+          }
+        #error {
+          color: rgb(112 0 0);
+          }
+        #chat{
+          background-color: #000000a8;
+          }
+          #h5live-playerDiv2 {
+            background-color: #303030 !important; 
+          } 
+          #h5live-playerDiv1 {
+            background-color: black !important; 
+          }
+              `,
+      "textFields" : [
+        { "title": "Informationen"
+        },
+        { "header": "Sammelpunkt",
+          "text": "<i>Haus F Raum 981b</i>"
+        },
+        { "header": "Wichtige Gäste",
+          "text": "<i>Dr. Willi W. Ichtig<br>Dr. Frau</i>"
+        },
+      ],
+    },        // 15:00
+    {
+      "startDate": "2021, 1, 1",
+      "endDate": "2032, 1, 1",
+      // "Sunday (0)","Monday (1)","Tuesday (2)","Wednesday (3)","Thursday (4)","Friday (5)","Saturday (6)" seperated thru comma (,)
+      "weekDay": "0,1,2,3,4,5,6,7",
+      "hour": 16,
+      "minute": 0,
+      // duration in minutes
+      "duration": 60,
+      "titleTop": "Eisberge und deren Bedeutung für den BER",
+      "title": "Eine Analyse des Schmelzpunktes von Eisbergen auf dem BER",
+      "image": "assets/img/backgrounds/climate-background.jpg",
+      "chat": false,
+      "customStyle": `
+        .textFieldTitle{ color: white; }
+        #titleSub {
+            background-color: #0098a1;
+          }`,
+      "partnerBox": [],
+      "linkBox": [],
+      "textFields" : [],
+      "dual": [],
+    }         // 16:00
+  ]
 });

@@ -2,7 +2,7 @@
 + A simple style injector for educational use only
 + In cooperation with the Berliner Hochschule für Technik (https://www.beuth-hochschule.de/)
 + and Nanocosmos Berlin (https://www.nanocosmos.de/)
-+ Copyright (c) 2021 Steve Margenfeld (margenfeld.s@gmail.com)
++ Copyright (c) 2021 Steve Margenfeld (margenfeld.s@gmail.com) & Julia Hoffmann (julia.h.design@gmail.com)
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /**
@@ -11,7 +11,7 @@
  */
 let secondPlayerPosition = "bottomRight";
 
-let sideView = true;
+let sideBySide = false;
 
 let timerStack = {};
 
@@ -57,16 +57,18 @@ let initPlayerControls = function () {
         playerFullscreen();
     }
     document.getElementById("exitFullscreen").onclick = function () {
+        playerExitFullscreen();
         hideShowFullscreenButton();
         hideShowExitFullscreenButton();
-        playerExitFullscreen();
     }
     document.getElementById("switch").onclick = function () {
         rotatePlayerTwoAlignment.switchPosition(secondPlayerPosition);
     }
 
     document.getElementById("halfScreen").onclick = function () {
-        halfScreenPlayer();
+        sideBySide = !sideBySide
+        sideBySideFunction.changeSideBySide();
+
     }
 
     document.getElementById("changePosition").onclick = function () {
@@ -87,8 +89,13 @@ let nanocosmosBugfix = function () {
     // Nanocosmos player changes the attributes of the second(mini) player after fullscreen event is fired
     let observer = new MutationObserver(function (mutations) {
         mutations.forEach(function (mutations) {
-            //if (!sideView) rotatePlayerTwoAlignment.refresh();
-            rotatePlayerTwoAlignment.refresh();
+            if(!sideBySide) {
+                rotatePlayerTwoAlignment.refresh();
+            }
+            else {
+                sideBySideFunction.checkSideBySide();
+            }
+            console.log(sideBySide)
         })
     });
     observer.observe(document.getElementById("playerDiv2"), {
@@ -100,32 +107,36 @@ let nanocosmosBugfix = function () {
  * Start all Player Videos
  */
 let playerStartPlayPlayback = function () {
-    player.play();
-    if (player2 !== undefined) player2.play();
+    players.forEach(e => {
+        e.player.play();
+    })
 }
 
 /**
  * Stop all Player Videos
  */
 let playerStopPlayback = function () {
-    player.pause();
-    if (player2 !== undefined) player2.pause();
+    players.forEach(e => {
+        e.player.pause();
+    })
 }
 
 /**
  * Mute the Player
  */
 let playerMute = function () {
-    player.mute();
-    if (player2 !== undefined) player2.mute();
+    players.forEach(e => {
+        e.player.mute();
+    })
 }
 
 /**
  * Unmute the Player
  */
 let playerUnmute = function () {
-    player.unmute();
-    if (player2 !== undefined) player2.unmute();
+    players.forEach(e => {
+        e.player.unmute();
+    })
 }
 
 /**
@@ -135,12 +146,14 @@ let changeVolume = function () {
     let volumeValue = document.getElementById("volume").value;
     let value = volumeValue / 100;
 
-    player.setVolume(value);
-    if (player2 !== undefined) player2.setVolume(value);
+    players.forEach(e => {
+        e.player.setVolume(value);
+    })
 }
 
+
 /**
- * Make the Player to fullscreen
+ * Make the Player to fullscreen (Button)
  */
 let playerFullscreen = function () {
     let playerDivs = document.getElementById("playerDivs")
@@ -155,7 +168,7 @@ let playerFullscreen = function () {
 }
 
 /**
- * Exit the Fullscreen
+ * Exit the Fullscreen (Button)
  */
 let playerExitFullscreen = function () {
     if (document.exitFullscreen) {
@@ -168,11 +181,22 @@ let playerExitFullscreen = function () {
 }
 
 /**
+ * Exit the fullscreen (ESC)
+ */
+function exitHandler() {
+    if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
+        hideShowExitFullscreenButton();
+        hideShowFullscreenButton();
+    }
+}
+
+/**
  * Holder for rotating functions of the player
  * @type {{getLastState: ((function(): (string))|*), switchPosition: rotatePlayerTwoAlignment.switchPosition, refresh: rotatePlayerTwoAlignment.refresh}}
  */
 let rotatePlayerTwoAlignment = {
 
+    //TODO not suitable for more than 2 divs
     /**
      * Switches position of the player to given position (in plain text)
      * @param position position to be switched to in plain text camel cased (e.g. "bottomRight")
@@ -250,48 +274,90 @@ let rotatePlayerTwoAlignment = {
  */
 let switchPlayerPosition = function () {
 
-    let videoOneElement = document.getElementById("h5live-playerDiv");
+    //TODO NOT suitable for more than 2 players
+    let videoOneElement = document.getElementById("h5live-playerDiv1");
     let videoTwoElement = document.getElementById("h5live-playerDiv2");
 
     videoOneElement.id = "h5live-playerDiv2";
-    videoTwoElement.id = "h5live-playerDiv";
+    videoTwoElement.id = "h5live-playerDiv1";
 
-    document.getElementById("playerDiv").appendChild(videoTwoElement);
+    document.getElementById("playerDiv1").appendChild(videoTwoElement);
     document.getElementById("playerDiv2").appendChild(videoOneElement);
 }
 
 /**
- * switch the screen to half screen
+ * switch the screen to half screen (side by side mode)
  */
-let halfScreenPlayer = function () {
-    let player = document.getElementById("playerDiv");
-    let player2 = document.getElementById("playerDiv2");
+let sideBySideFunction = {
 
-    if (player2.style.top)
+    /**
+     *  change the side by side mode (ON/OFF)
+     */
+    changeSideBySide: function () {
+        if (sideBySide) {
+            console.log("Side by side on")
+            this.sideBySideOn();
+            document.getElementById("halfScreen").style.backgroundColor = "grey" ;
 
-        if (player2.style.width === "30%") {
-
-            sideView = true;
-            player.style.width = "50%";
-
-            player2.style.width = "50%";
-            player2.style.height = "100%";
-            player2.style.margin = "0";
-            player2.style.borderRadius = "0";
-
-            document.getElementById("switch").style.display = "none";
         } else {
-
-            sideView = false;
-            player.style.width = "100%";
-
-            player2.style.width = "30%";
-            player2.style.height = "auto";
-            player2.style.margin = "5px";
-            player2.style.borderRadius = "10px";
-
-            document.getElementById("switch").style.display = "block";
+            console.log("Side by side off")
+            this.sideBySideOff();
+            document.getElementById("halfScreen").style.backgroundColor = null ;
         }
+    },
+
+    /**
+     * activate side by side
+     */
+    sideBySideOn: function (){
+        let player = document.getElementById("playerDiv1");
+        let player2 = document.getElementById("playerDiv2");
+
+
+        player.style.width = "50%";
+
+        player2.style.width = "50%";
+        player2.style.height = "100%";
+        player2.style.right = "0";
+        player2.style.left = null;
+        player2.style.margin = "0";
+        player2.style.borderRadius = "0";
+
+        console.log("setting side by side true")
+
+        if (document.getElementById("switch").style.display !== "none"){
+            toggleElementVisibility(document.getElementById("switch"));
+        }
+    },
+    /**
+     * deactivate side by side
+     */
+    sideBySideOff: function (){
+        let player = document.getElementById("playerDiv1");
+        let player2 = document.getElementById("playerDiv2");
+
+        player.style.width = "100%";
+
+        player2.style.width = "30%";
+        player2.style.height = "auto";
+        player2.style.margin = "5px";
+        player2.style.borderRadius = "10px";
+
+        if (document.getElementById("switch").style.display === "none"){
+            toggleElementVisibility(document.getElementById("switch"));
+        }
+    },
+
+    /**
+     * check the mode of side by side (ON/OFF)
+     */
+    checkSideBySide: function () {
+        if(sideBySide) {
+            this.sideBySideOn();
+        }
+        else this.sideBySideOff();
+    }
+
 }
 
 
@@ -331,7 +397,6 @@ let fadeControls = {
 
     start: function () {
         if (timerStack.playBarTimer === undefined){
-            console.log("mouseTimeout START");
             let timeout;
             document.onmousemove = function(){
                 clearTimeout(timeout);
@@ -341,11 +406,9 @@ let fadeControls = {
             }
         }
         if (!timerStack.playBarTimer) {
-            console.log("display controls")
             document.getElementById("controls-playerDiv").style.display = "flex";
             this.timer(function () {
                 document.getElementById("controls-playerDiv").style.display = "none";
-                console.log("hide controls");
                 timerStack.playBarTimer = false;
             }, 1000);
             timerStack.playBarTimer = true;
@@ -407,6 +470,8 @@ let hideShowExitFullscreenButton = function () {
 /**
  * Injector to start this script
  */
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded',function () {
     initializeControls();
 });
+
+

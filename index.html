@@ -13,9 +13,10 @@
     <script src="js/lib/nanoplayer/nanoplayer.4.min.js"></script>
 
     <script src="js/nanoplayer-streamconfig.js"></script>
-    <script src="js/nanoplayerInit/nanoplayer-starter.js"></script>
+    <script src="js/streampage/streampage-starter.js"></script>
     <script src="js/streampage/chat.js"></script>
 
+    <script src="js/streampage/util/defaultConfig.js"></script>
     <script src="js/streampage/streampage-debug.js"></script>
     <script src="js/streampage/streampage-player-controls.js"></script>
     <script src="js/streampage/streampage-style.js"></script>
@@ -25,38 +26,46 @@
     <link rel="stylesheet" href="css/chat-style.css">
 </head>
 <body>
-<!-- Test -->
-
 <div id="page">
+    <!-- Debug Menu, TODO überarbeiten oder Löschen! -->
     <div id="debug">
         <div class="debug-style" id="debug-chat"><p>Chat</p></div>
         <div class="debug-style" id="debug-brueckenkurs"><p>Brückenkurse</p></div>
         <div class="debug-style" id="debug-partner"><p>Partner</p></div>
         <div class="debug-style" id="debug-dualPlayer"><p>Dual Player</p></div>
     </div>
+
+    <!-- Header -->
     <div id="header">
         <a href="https://www.bht-berlin.de/"  target="_blank">
             <img id="beuth-logo" src="assets/img/logos/bht_logo.png">
         </a>
         <a href="https://beuthbox.beuth-hochschule.de/" target="_blank">
-            <img id="beuthbox-logo" src="assets/img/logos/mediabox-big-logo.jpg">
+            <img id="beuthbox-logo" alt="MediaBox Logo" src="assets/img/logos/mediabox-big-logo.jpg">
         </a>
     </div>
+
+    <!-- Main -->
     <div id="main" class="bottom-top-shadow">
-        <div id="titleTop">Beuth Hochschule für Technik - Stream</div>
-        <div id="subBackground"><div id="titleSub">Akademische Versammlung 2021</div></div>
+        <div id="titleTop">Beuth Hochschule für Technik - Live Stream</div>
+        <div id="subBackground"><div id="titleSub">Live Veranstaltungen</div></div>
+
+        <!-- Content (Player & Chat) -->
         <div id="contentBox">
             <div id="content">
+                <!-- Player Configurations-->
                 <div id="player">
                     <div id="contentPlayer">
+                        <!-- Player Divs -->
                         <div id="playerDivs">
-                            <div id="playerDiv" class="h5live-nano-h5live7" style="display: block; width: 100%">
+                            <div id="playerDiv1" class="h5live-nano-h5live7" style="display: block; width: 100%">
 
                             </div>
                             <div id="playerDiv2" class="h5live-nano-h5live7" style="display: block; width: 30%; right: 0; bottom: 0">
-
                             </div>
+                            <!-- Player Controls -->
                             <div id="controls-playerDiv">
+                                <!-- Play/Stop Button -->
                                 <div id="playPause-controls-playerDiv">
                                     <div class="controls" id="playButton" style="display: none">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
@@ -70,6 +79,7 @@
                                         </svg>
                                     </div>
                                 </div>
+                                <!-- Sound on/off Button -->
                                 <div id="sound-controls-PlayerDiv">
                                     <div class="controls" id="soundUnmuteButton" style="display: block">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 374.05 420.92">
@@ -80,16 +90,18 @@
                                         </svg>
                                     </div>
                                     <div class="controls soundTooltip" id="soundMuteButton" style="display: none">
-                                        <div role="tooltip">Sound an/aus</div>
+                                        <!--<div role="tooltip">Sound off</div>-->
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 411">
                                             <path d="M345,44,165,166V333L345,455Z" transform="translate(-135 -44)"/>
                                             <rect y="122" width="30" height="167"/>
                                         </svg>
                                     </div>
                                 </div>
+                                <!-- Soundbar -->
                                 <div id="volumeSound">
                                     <input id="volume" type="range" min="1" max="100" value="50">
                                 </div>
+                                <!-- Player Switch Button -->
                                 <div id="switch-PlayerDiv">
                                     <div class="controls" id="switch">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308.76 296.15">
@@ -102,6 +114,7 @@
                                         </svg>
                                     </div>
                                 </div>
+                                <!-- change Position Button -->
                                 <div id="changePosition-PlayerDiv">
                                     <div class="controls" id="changePosition">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 282.9">
@@ -113,6 +126,7 @@
                                         </svg>
                                     </div>
                                 </div>
+                                <!-- side by side Button -->
                                 <div id="halfScreen-PlayerDiv">
                                     <div class="controls" id="halfScreen">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 385 291">
@@ -123,6 +137,7 @@
                                         </svg>
                                     </div>
                                 </div>
+                                <!-- fullscreen Button -->
                                 <div id="fullscreen-PlayerDiv">
                                     <div class="controls" id="fullscreen" style="display: block">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427.37 428.73">
@@ -146,41 +161,36 @@
                         </div>
                     </div>
                 </div>
-                <div id="contentChat">
+                <!-- Chat Configurations-->
+                <div id="chat_configuration">
                     <div id="chat">
-                        <h6 id="chatTitle">
-                            Chat
-                        </h6>
-                        <p id="disclaimer">Dieser Chat wird moderiert und Ihre Nachrichten werden möglicherweise
-                            verzögert angezeigt.</p>
-                        <div class="container">
-                            <div class="input_msg_write">
-                                <input id="name" type="text" class="write_msg" placeholder="Name"/>
-                            </div>
+                        <h6 id="chatTitle"> Chat </h6>
+                        <p id="disclaimer">Dieser Chat wird moderiert und Ihre Nachrichten werden möglicherweise verzögert angezeigt.</p>
+                        <div id="chat_container">
                             <hr>
-                            <div class="messaging">
-                                <div class="mesgs">
-                                    <div class="msg_history" id="all_messages">
-                                    </div>
-                                    <div class="type_msg">
-                                        <div class="input_msg_write">
-                                        <textarea type="text" onkeydown="enterMessage(event)" class="write_msg"
-                                                  id="message"
+                            <div id="chat_content">
+                                <div id="chat_history"></div>
+                                <div id="chat_input">
+                                    <div id="msg_input">
+                                        <div id="msg_name">
+                                            <input class="write_msg" id="name" type="text" placeholder="Name"/>
+                                            <!-- <input type="color" id="html5colorpicker" onchange="clickColor(0, -1, -1, 5)" value="#ff0000"> -->
+                                        </div>
+                                        <div id="msg">
+                                        <textarea type="text" class="write_msg" id="message"
                                                   placeholder="Schreiben Sie Ihre Nachricht, max.200 Zeichen."
                                                   rows="3" maxlength="200"></textarea>
-                                            <button class="msg_send_btn" type="button" onclick="sendChatMessage()">
-                                                Senden
-                                            </button>
                                         </div>
                                     </div>
+                                    <button class="msg_send_btn" type="button" onclick="sendChatMessage()"> Senden </button>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
+
         <div id="playerSubtitle">Sie sehen einen Livestream der vom Media-Service Team der BHT betreut wird, über die nanoStream Cloud.</div>
         <div id="textField"></div>
         <div id="linkBox">
@@ -190,6 +200,8 @@
         </div>
         <div id="error"></div>
     </div>
+
+    <!-- Footer -->
     <div id="footer">
         <div class="partner-wrapper" id="partner-wrapper">
             <h3 id="partner-title">Partner des Events</h3>
@@ -210,7 +222,6 @@
         <a href="https://beuthbox.beuth-hochschule.de/aboutus" target="_blank">Media-Service Team</a> / Prof. Dr. Robert
         Strzebkowski
         (robertst at bht-berlin.de) oder BHT-LB Dipl.-Ing. Oliver Lietz (lietz at bht-berlin.de).
-
         <p>
             <a href="https://www.bht-berlin.de/impressum" target="_blank">Impressum BHT</a> |
             <a href="https://www.nanocosmos.de/legal" target="_blank">Nutzungsbedingungen und rechtliche Hinweise Live

@@ -1,5 +1,5 @@
 (function () {
-    var useMetrics = true;
+    let useMetrics = true;
     if (useMetrics) {
         window.nanoPlayerMetricsConfig = {
             'accountId'     : 'beuth-university',

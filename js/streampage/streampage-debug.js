@@ -42,7 +42,7 @@ let displayAttributeSwitchControl;
  * Displays/Hides the contentChat(Chat) div Element
  */
 let showChat = function (){
-    let chatElement = document.getElementById("contentChat");
+    let chatElement = document.getElementById("chat_configuration");
     if (displayAttributeStatusChat === undefined) displayAttributeStatusChat = chatElement.style.display;
     if (chatElement.style.display === "none") chatElement.style.display = displayAttributeStatusChat;
     else chatElement.style.display = "none";

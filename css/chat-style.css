@@ -1,18 +1,20 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ CSS Chat configurations
++ In cooperation with the Berliner Hochschule für Technik (https://www.beuth-hochschule.de/)
++ and Nanocosmos Berlin (https://www.nanocosmos.de/)
++ Copyright (c) 2022 Julia Hoffmann (julia.h.design@gmail.com)
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
 *{
     margin: 0;
 }
 
-#contentChat{
+#chat_configuration{
     display: flex;
     flex: 0.5;
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: nowrap;
-}
-
-/** Incomming massage */
-.incoming_msg{
-    margin-top: 0.5em;
 }
 
 #chat{
@@ -23,7 +25,7 @@
     border-radius: 10px;
     margin-left: 2vw;
     margin-right: 2vw;
-    background: rgb(119,119,119);
+    background: rgba(119, 119, 119, 0.88);
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
@@ -47,7 +49,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.container{
+#chat_container{
     flex: auto;
     display: flex;
     width: 100%;
@@ -57,7 +59,7 @@
     justify-content: space-evenly;
 }
 
-.mesgs{
+#chat_content{
     display: flex;
     height: 100%;
     max-height: 800px;
@@ -65,7 +67,8 @@
     flex-wrap: nowrap;
 }
 
-.msg_history {
+/** chat history window ********************************************/
+#chat_history {
     flex: auto;
     resize: vertical;
     position: relative;
@@ -77,27 +80,79 @@
     overflow-y: auto;
     min-height: 150px;
 }
-.input_msg_write{
+
+/** chat input areas ********************************************/
+#chat_input{
     display: flex;
-    margin-bottom: 1vh;
     flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
     align-items: stretch;
+    flex-wrap: nowrap;
 }
 
-.type_msg{
-    flex: 1;
+#msg_input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/** name input area ********************************************/
+#msg_name{
+    margin-bottom: 1vh;
+    border-radius: 0;
 }
 
+#name{
+    font-size: 16px;
+    font-family: Arial, serif;
+}
+/** message input area ********************************************/
+#msg{
+    height: 100%;
+    display: flex;
+    position: relative;
+}
 
-/** Send Button Design */
+.write_msg {
+    width: 100%;
+    padding: 8px 3px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#message{
+    font-size: 16px;
+    font-family: Arial, serif;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    resize: vertical;
+    min-height: 50px;
+    max-height: 200px;
+}
+
+/** Send Button Design ********************************************/
 .msg_send_btn{
     padding: 8px 15px;
     border-radius: 10px;
     border: 0;
-    margin-left: 3px;
+    margin-left: 1vh;
     color: rgb(97, 97, 97);
     background: rgb(234,234,234);
     cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, serif;
+    font-weight: bold;
+
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.msg_send_btn:hover{
+    color: rgb(234,234,234);
+    background: rgb(97, 97, 97);
+    font-weight: bold;
 }
 
 .msg_send_btn:active{
@@ -105,15 +160,8 @@
     background: rgb(97, 97, 97);
 }
 
-/** input Design */
-.write_msg {
-    width: 100%;
-    resize: none;
-    padding: 8px 3px;
-    border-radius: 5px;
-    border: 0;
-}
 
+/** Screen max-width: 1500px */
 @media only screen and (max-width: 1500px)  {
 
     #chat{
@@ -121,7 +169,7 @@
         width: 95%;
     }
 
-    #contentChat{
+    #chat_configuration{
         align-items: center;
     }
     #chatTitle{
@@ -139,7 +187,7 @@
         width: 100%;
     }
 
-    .msg_history{
+    #chat_history{
         height: 10vh;
     }
 }
