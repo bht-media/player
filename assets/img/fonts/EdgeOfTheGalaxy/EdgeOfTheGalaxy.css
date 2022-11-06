@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'EdgeOfTheGalaxyRegular';
+    src: local('EdgeOfTheGalaxyRegular'), url('EdgeOfTheGalaxyRegular-OVEa6.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EdgeOfTheGalaxyItalic';
+    src: local('EdgeOfTheGalaxyItalic'), url('EdgeOfTheGalaxyItalic-ZVJB3.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EdgeOfTheGalaxyPoster';
+    src: local('EdgeOfTheGalaxyItalic'), url('EdgeOfTheGalaxyPoster-3zRAp.ttf') format('truetype');
+    letter-spacing: 0.1em;
+}
+
+@font-face {
+    font-family: 'EdgeOfTheGalaxyPosterItalic';
+    src: local('EdgeOfTheGalaxyItalic'), url('EdgeOfTheGalaxyPosterItalic-x3o1m.ttf') format('truetype');
+}

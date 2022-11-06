@@ -101,6 +101,8 @@ function startPlayerDefaultConfig(playerDiv, stream) {
     // create source entries from stream
     let entries = [];
 
+    let configEntries;
+
     if (typeof (stream) === "string") {
         // stream is a string stream name
         let entry = {};
@@ -110,7 +112,7 @@ function startPlayerDefaultConfig(playerDiv, stream) {
     } else {
         // stream is a simple stream config array
         // TODO needs change for more than 2 (needs changes in config entries1, entries2, entries3, ...)
-        let configEntries;
+
         if (playerDiv.id === "playerDiv1") configEntries = stream.entries;
         else configEntries = stream.dual;
 
@@ -133,7 +135,12 @@ function startPlayerDefaultConfig(playerDiv, stream) {
     // }
 
     console.log("startplayerdefaultconfig final")
-    startPlayer(playerDiv, config);
+    if (configEntries.length > 0 ){
+        startPlayer(playerDiv, config);
+    }else {
+        console.log("ERROR : cannot find stream entry for " + playerDiv.id)
+    }
+
 }
 
 /**

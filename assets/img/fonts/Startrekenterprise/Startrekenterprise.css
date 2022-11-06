@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'StartrekenterprisefutureItalic';
+    src: local('StartrekenterprisefutureItalic'), url('StartrekenterprisefutureItalic-a4KK.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Startrekfuture';
+    src: local('Startrekfuture'), url('Startrekfuture-EK6e.ttf') format('truetype');
+}
