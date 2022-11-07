@@ -1267,14 +1267,25 @@ streams.push({
  */
 streams.push({
   "tag": "startrek",
-  "titleTop": "11. Intergalaktische Vorlesung",
-  "title": "Wissenschaft und Science Fiction mit Captain Zitt",
+  "titleTop": "11. Intergalaktische Gastvorlesung",
+  "title": "Wissenschaft und Science-Fiction mit Captain Zitt",
   "image": "",
   "debug": false,
   "chat": false,
   "customStyle": `
   
-  body, #footer, #header{ background-color: #00000075 }
+  
+    #header {
+      height: 70px;
+      background-color: black;
+      margin: 0;
+    }
+    
+    #beuth-logo{
+      padding: 12px;
+    }
+
+  body, #footer{ background-color: #00000075 }
   
   #footer a{
     color: #9795fb;
@@ -1289,6 +1300,7 @@ streams.push({
   #titleTop{
     font-family: 'Startrekfuture', serif;
     font-size: 60px;
+    margin-top: 40px;
     margin-left: 1.3em;
     padding-right: 1.3em;
     border-top-left-radius: 20px;
@@ -1296,13 +1308,12 @@ streams.push({
     color: white;
   }
   #titleSub{
-    font-family: 'Sterilict', serif;
+    font-family: 'trebuc', serif;
     color: black;
     font-style: italic;
     background-color: rgb(204 204 254);
     margin-top: 0.3em;
     font-size: 18px;
-    letter-spacing: 0.1em;
   }
   
   #subBackground{
@@ -1311,13 +1322,7 @@ streams.push({
   }
   
   #playerSubtitle {
-    color: #336799;
-    width: 60%;
-    font-family: "Arial", san-serif;
-    text-transform: uppercase;
-    background-color: #9a99ff1a;
-    font-size: 12px;
-    font-style: italic;
+    display: none;
     }
   
   #contentBox{
@@ -1341,7 +1346,7 @@ streams.push({
   }
 
   body{
-    font-family: 'Sterilict', serif;
+    font-family: 'trebuc', serif;
   }
   
   #beuth-logo, #beuthbox-logo{
@@ -1350,8 +1355,7 @@ streams.push({
   }
   
   #footer{
-    font-family: "Impact", sans-serif;
-    text-transform: uppercase;
+    font-family: "trebuc", sans-serif;
   }
   
   #textField{
@@ -1361,7 +1365,7 @@ streams.push({
   }
   
   #h5live-playerDiv1{
-    background: black url("assets/img/weltraum/offline.jpg") ;
+    background: black url("assets/img/weltraum/offline2.jpg") ;
     background-size: cover;
   }
   
@@ -1372,7 +1376,7 @@ streams.push({
   /* MENU -----------------------------------------*/
   .textBox{
     Display: flex;
-    font-family: "Impact", sans-serif;
+    font-family: "trebuc", sans-serif;
     text-transform: uppercase;
     margin: 10px;
     flex-direction: column;
@@ -1393,91 +1397,10 @@ streams.push({
     text-align: right;
   }
   
-  .textBox .textBox_header{
+  .textBox .textBox_header, .textBox .textBox_text{
     display: none;
-    
-  }
-  .textBox:nth-child(2), .textBox:nth-child(5){
-    background-color: #6598fe;
-    border-radius: 0;
-    flex: initial;
-    writing-mode: vertical-rl;
-    -ms-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    align-items: flex-end;
-  }
-  
-  
-  .textBox:nth-child(3){
-    margin-right: 0;
-    flex-direction: column;
-    background-color: yellow;
-    background-color: #f0f8ff00;
-  }
-  
-  .textBox:nth-child(3) .textBox_text{
-    text-align: right;
-    letter-spacing: 0.2em;
-    color: white;
-  }
-  
-  .textBox:nth-child(4){
-    flex-direction: column;
-    background-color: #00000000;
-  }
-  
-  .textBox:nth-child(4) a{
-    text-decoration: none;
-    letter-spacing: 0.2em;
-    font-size: 1em;
-    font-style: normal;
-    color: #fd9800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .textBox:nth-child(4) .textBox_header:hover, .textBox:nth-child(4) .textBox_text:hover{
-    background-color: red;
-  }
-    
-  .textBox:nth-child(4) .textBox_header{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    background-color: #ffcb65;
-    border-radius: 0;
-    flex: 1;
-    margin-bottom: 0.5em;
   }
 
-  .textBox:nth-child(4) .textBox_text{
-    background-color: #fd9800;
-    flex-direction: column;
-    flex: 1;
-    margin-top: 0.5em;
-  }
-  
-  .textBox:nth-child(4) .textBox_text a{
-    display: flex;
-    color: #ffcb65;
-  }
-  
-  .textBox:last-child{
-    background-color: #336799;
-    border-bottom-right-radius: 5em;
-    border-top-right-radius: 5em;
-    align-items: flex-start;
-    font-size: 1.5em;
-  }
-  
-  .textBox:last-child .textBox_text{
-    text-align:left;
-  }
   
   
   .textFieldTitle {
@@ -1485,7 +1408,6 @@ streams.push({
   padding-top: 0;
   margin-bottom: 1em;
   border-radius: 5px;
-  height: 100px;
   overflow: hidden;
   }
   
@@ -1501,41 +1423,6 @@ streams.push({
   height: 190%;
   color: white;
   text-align: center;
-  letter-spacing: 0.2em;
-  
-  /* animation properties */
-  -moz-transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  
-  -moz-animation: my-animation 30s linear infinite;
-  -webkit-animation: my-animation 30s linear infinite;
-  animation: my-animation 30s linear infinite;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateY(100%); }
-  to { -moz-transform: translateY(-100%); }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(-100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
-  to {
-    -moz-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
 }
 
 /* Background Animation -------------------------------------------------- */
@@ -1603,21 +1490,6 @@ streams.push({
 
 .stars {
     background: black url("assets/img/weltraum/weltraum.jpg") ;
-
-}
-
-.stars2 {
-    background: black url("assets/img/weltraum/weltraum2.jpg") ;
-    filter: brightness(1);
-    
-    -moz-animation:star 5s linear infinite;
-    -ms-animation:star 5s linear infinite;
-    -o-animation:star 5s linear infinite;
-    -webkit-animation:star 5s linear infinite;
-    animation:star 5s linear infinite;
-}
-
-.stars, .stars2{
     background-size: cover;
     position: absolute;
     top: 0;
@@ -1668,35 +1540,17 @@ streams.push({
 
   "textFields" : [
     { "title": "<div id=\"scroll-text\">\n" +
-          "Dozent Hubert Zitt von der Hochschule Kaiserslautern, <br>" +
-          "erlaeutert ob die technischen Visionen " +
-          "aus der Fernsehserie Star Trek in Zukunft " +
-          "umsetzbar sind.  <br> <br> <br> Die Veranstaltung " +
-          "findet im Ingeborg-Meising-Saal der BHT statt(Haus Grashof, " +
-          "Luxemburger Straße 10, 13353 Berlin-Wedding). <br><br>" +
-          "Der Eintritt ist kostenlos, " +
-          "die Platzzahl ist jedoch begrenzt. <br><br>Der Einlass für Kostümierte " +
-          "beginnt um 13:30 Uhr, für alle anderen um 14:00 Uhr." +
+          "Capt. Zitt von der Starfleet Academy Twobridges (mit irdischem Namen Dr. Hubert Zitt, " +
+          "Hochschule Kaiserslautern, Campus Zweibrücken) erläutert, ob die technischen Visionen aus Star Trek Wirklichkeit werden können.<br><br><br>" +
+          "Die Veranstaltung findet im Ingeborg-Meising-Saal der BHT (Haus Grashof, Luxemburger Straße 10, 13353 Bln-Wedding) von 15:00 bis 17:00 Uhr statt.<br><br><br>" +
+          "Der Eintritt ist kostenlos, die Platzzahl ist jedoch begrenzt.<br><br>" +
+          "Einlass für Kostümierte ab 13:30 Uhr (Sternzeit -300138.2)<br><br>" +
+          "Einlass für alle anderen ab 14:00 Uhr (Sternzeit -300138.1)" +
           "</div>"
     },
     { "header": "",
-      "text": "11.11<br>2022<br><br><br><br>15:00<br>Uhr"
-    },
-    { "header": "",
-      "text": "-300138.01369863015"
-    },
-    { "header": "",
-      "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
-    },
-    { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Vorlesung</div>",
-      "text": "<a href='https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/hubert-zitt' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
-    },
-    { "header": "",
-      "text": "-300137.7853881279"
-    },
-    { "header": "",
-      "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
-    },
+      "text": ""
+    }
   ],
   /*"linkBox": [
       {
