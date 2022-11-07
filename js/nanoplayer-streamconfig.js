@@ -1268,7 +1268,7 @@ streams.push({
 streams.push({
   "tag": "startrek",
   "titleTop": "11. Intergalaktische Gastvorlesung",
-  "title": "Wissenschaft und Science-Fiction mit Captain Zitt",
+  "title": "Wissenschaft & Science-Fiction mit Captain Zitt",
   "image": "",
   "debug": false,
   "chat": false,
