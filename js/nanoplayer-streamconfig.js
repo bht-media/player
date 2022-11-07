@@ -1541,7 +1541,7 @@ streams.push({
   "textFields" : [
     { "title": "<div id=\"scroll-text\">\n" +
           "Capt. Zitt von der Starfleet Academy Twobridges (mit irdischem Namen Dr. Hubert Zitt, " +
-          "Hochschule Kaiserslautern, Campus Zweibrücken) erläutert, ob die technischen Visionen aus Star Trek Wirklichkeit werden können.<br><br><br>" +
+          "Hochschule Kaiserslautern, Campus Zweibrücken) erläutert, <br> ob die technischen Visionen aus Star Trek Wirklichkeit werden können.<br><br><br>" +
           "Die Veranstaltung findet im Ingeborg-Meising-Saal der BHT (Haus Grashof, Luxemburger Straße 10, 13353 Bln-Wedding) von 15:00 bis 17:00 Uhr statt.<br><br><br>" +
           "Der Eintritt ist kostenlos, die Platzzahl ist jedoch begrenzt.<br><br>" +
           "Einlass für Kostümierte ab 13:30 Uhr (Sternzeit -300138.2)<br><br>" +
