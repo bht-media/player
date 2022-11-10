@@ -1802,7 +1802,6 @@ streams.push({
   .textFieldTitle {
   flex: 0.4;
   padding-top: 0;
-  margin-bottom: 1em;
   border-radius: 5px;
   overflow: hidden;
   }
@@ -1817,7 +1816,7 @@ streams.push({
   max-width: 988px;
   color: white;
   text-align: center;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
 }
 /* Background Animation -------------------------------------------------- */
 @keyframes move-background {
@@ -1926,34 +1925,25 @@ streams.push({
    `,
 
   "textFields" : [
-    { "title": "<div id=\"scroll-text\">\n" +
-          "Capt. Zitt von der Starfleet Academy Twobridges (mit irdischem Namen Dr. Hubert Zitt, " +
-          "Hochschule Kaiserslautern, Campus Zweibrücken) erläutert, <br> " +
-          "ob die technischen Visionen aus Star Trek Wirklichkeit werden können.<br><br><br>" +
-          "Warp-Antrieb, Phaser-Pistole oder Teleportation („Beam me up, Scotty“) – " +
-          "die Technologien in der Science-Fiction-Serie Star Trek funktionieren bislang " +
-          "nur in der Fantasie. Doch können die technischen Visionen aus der Welt von " +
-          "Raumschiff Enterprise eines Tages Wirklichkeit werden? <br><br>"
-
-
+    { "title": ""
     },
     { "header": "",
-      "text": "11.11.<br>2022<br><br><br><br>15:00<br>Uhr"
+      "text": ""
     },
     { "header": "",
-      "text": "-300138.01369863015"
+      "text": "<br>"
     },
     { "header": "",
-      "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
+      "text": "<br><br><br><br><br><br>"
     },
     { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Vorlesung</div>",
       "text": "<a href='https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/hubert-zitt' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
     },
     { "header": "",
-      "text": "-300137.7853881279"
+      "text": "<br>"
     },
     { "header": "",
-      "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
+      "text": ""
     },
   ],
   /*"linkBox": [
