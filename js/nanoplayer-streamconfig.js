@@ -1365,7 +1365,7 @@ streams.push({
   }
   
   #h5live-playerDiv1{
-    background: black url("assets/img/weltraum/offline2.jpg") ;
+    background: black url("assets/img/startrek/offline2.jpg") ;
     background-size: cover;
   }
   
@@ -1489,7 +1489,7 @@ streams.push({
 }
 
 .stars {
-    background: black url("assets/img/weltraum/weltraum.jpg") ;
+    background: black url("assets/img/startrek/weltraum.jpg") ;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -1503,7 +1503,7 @@ streams.push({
 .clouds {
     width:200%;
     height: 100%;
-    background: transparent url("assets/img/weltraum/weltraumWolken.png") repeat;
+    background: transparent url("assets/img/startrek/weltraumWolken.png") repeat;
     background-size: 1000px 1000px;
     position: absolute;
     right: 0;
@@ -1521,7 +1521,7 @@ streams.push({
 .clouds2 {
     width:200%;
     height: 100%;
-    background: transparent url("assets/img/weltraum/weltraumWolken2.png") repeat;
+    background: transparent url("assets/img/startrek/weltraumWolken2.png") repeat;
     background-size: 1000px 1000px;
     position: absolute;
     right: 0;
@@ -1579,6 +1579,405 @@ streams.push({
     }],
   "dual": [],
 });
+
+/**
+ * Stream Star Trek Entwurf Vorlesung ------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "startrek-entwurf",
+  "titleTop": "11. Intergalaktische Vorlesung",
+  "title": "Wissenschaft und Science Fiction mit Captain Zitt",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  
+  body, #footer{ background-color: #00000075 }
+  
+  #header{ 
+  background-color: black;
+  height: 50px;
+  margin: 0;
+  }
+  
+  #footer a{
+    color: #9795fb;
+  }
+  #footer a:hover {
+    color: red;
+  }
+  #footer a:visited {
+  color: #ed9692;
+  }
+  #titleTop{
+    font-family: 'Startrekfuture', serif;
+    font-size: 60px;
+    margin-left: 1.3em;
+    padding-right: 1.3em;
+    border-top-left-radius: 20px;
+    background-color: #00000000;
+    color: white;
+  }
+  #titleSub{
+    font-family: 'Sterilict', serif;
+    color: black;
+    font-style: italic;
+    background-color: rgb(204 204 254);
+    margin-top: 0.3em;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+  
+  #subBackground{
+  padding-bottom: 0px;
+  width: auto;
+  }
+  
+  #playerSubtitle {
+    display:none;
+    }
+  
+  #contentBox{
+    width: 100%;
+  }
+  #content{ 
+    width: 80%;
+  }
+  
+  #contentPlayer{
+     margin-top: 1em;
+     margin-bottom: 1em;
+  }
+  
+  #linkBox{
+  display: none; 
+  }
+  
+  a.linkButton{
+    background-color: #ffcd04;
+  }
+  body{
+    font-family: 'trebuc', serif;
+  }
+  
+  #beuth-logo, #beuthbox-logo{
+     -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+  
+  #footer{
+    font-family: "Impact", sans-serif;
+    text-transform: uppercase;
+  }
+  
+  #textField{
+    width: 90%;
+    display: block;
+    background-color: #00000000;
+  }
+  
+  #h5live-playerDiv1{
+    background: black url("assets/img/startrek/offline1.jpg") ;
+    background-size: cover;
+  }
+  
+  #main{ background-color: #00000000; }
+  
+  #page{ position: absolute; }
+  
+  /* MENU -----------------------------------------*/
+  .textBox{
+    Display: flex;
+    font-family: "Impact", sans-serif;
+    text-transform: uppercase;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  
+  .textBox:first-child{
+    padding:0;
+    font-size: 1.5em;
+    align-items: flex-end;
+    border-bottom-left-radius: 5em;
+    border-top-left-radius: 5em;
+    background-color: #98ccfe;
+  }
+  
+  .textBox:first-child .textBox_text{
+    text-align: right;
+  }
+  
+  .textBox .textBox_header{
+    display: none;
+    
+  }
+  .textBox:nth-child(2), .textBox:nth-child(5){
+    background-color: #6598fe;
+    border-radius: 0;
+    flex: initial;
+    writing-mode: vertical-rl;
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    align-items: flex-end;
+  }
+  
+  
+  .textBox:nth-child(3){
+    margin-right: 0;
+    flex-direction: column;
+    background-color: yellow;
+    background-color: #f0f8ff00;
+  }
+  
+  .textBox:nth-child(3) .textBox_text{
+    text-align: right;
+    letter-spacing: 0.2em;
+    color: white;
+  }
+  
+  .textBox:nth-child(4){
+    flex-direction: column;
+    background-color: #00000000;
+  }
+  
+  .textBox:nth-child(4) a{
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    font-style: normal;
+    color: #fd9800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .textBox:nth-child(4) .textBox_header:hover, .textBox:nth-child(4) .textBox_text:hover{
+    background-color: red;
+  }
+    
+  .textBox:nth-child(4) .textBox_header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #ffcb65;
+    border-radius: 0;
+    flex: 1;
+    margin-bottom: 0.5em;
+  }
+  .textBox:nth-child(4) .textBox_text{
+    background-color: #fd9800;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 0.5em;
+  }
+  
+  .textBox:nth-child(4) .textBox_text a{
+    display: flex;
+    color: #ffcb65;
+  }
+  
+  .textBox:last-child{
+    background-color: #336799;
+    border-bottom-right-radius: 5em;
+    border-top-right-radius: 5em;
+    align-items: flex-start;
+    font-size: 1.5em;
+  }
+  
+  .textBox:last-child .textBox_text{
+    text-align:left;
+  }
+  
+  
+  .textFieldTitle {
+  flex: 0.4;
+  padding-top: 0;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  overflow: hidden;
+  }
+  
+  .textFieldContent{
+    overflow: inherit;
+    overflow-x: inherit;
+    flex: 0;
+  }
+/* Scroll Text Animation ---------------------------------------------------*/
+  #scroll-text {
+  max-width: 988px;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+/* Background Animation -------------------------------------------------- */
+@keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+@-webkit-keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+@-moz-keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+@-webkit-keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+
+@keyframes star {
+    0% {opacity: 0.7; }
+    80% {opacity: 0;}
+    100% { opacity: 0.7; }
+}
+
+.background-container{
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+
+.stars{
+  background: black url("assets/img/startrek/weltraum.jpg") ;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 0;
+}
+.clouds {
+    width:200%;
+    height: 100%;
+    background: transparent url("assets/img/startrek/weltraumWolken.png") repeat;
+    background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    -moz-animation:move-background 50s linear infinite;
+    -ms-animation:move-background 50s linear infinite;
+    -o-animation:move-background 50s linear infinite;
+    -webkit-animation:move-background 50s linear infinite;
+    animation:move-background 50s linear infinite;
+}
+.clouds2 {
+    width:200%;
+    height: 100%;
+    background: transparent url("assets/img/startrek/weltraumWolken2.png") repeat;
+    background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    -moz-animation:move-background 25s linear infinite;
+    -ms-animation:move-background 25s linear infinite;
+    -o-animation:move-background 25s linear infinite;
+    -webkit-animation:move-background 25s linear infinite;
+    animation:move-background 25s linear infinite;
+}
+  
+   `,
+
+  "textFields" : [
+    { "title": "<div id=\"scroll-text\">\n" +
+          "Capt. Zitt von der Starfleet Academy Twobridges (mit irdischem Namen Dr. Hubert Zitt, " +
+          "Hochschule Kaiserslautern, Campus Zweibrücken) erläutert, <br> " +
+          "ob die technischen Visionen aus Star Trek Wirklichkeit werden können.<br><br><br>" +
+          "Warp-Antrieb, Phaser-Pistole oder Teleportation („Beam me up, Scotty“) – " +
+          "die Technologien in der Science-Fiction-Serie Star Trek funktionieren bislang " +
+          "nur in der Fantasie. Doch können die technischen Visionen aus der Welt von " +
+          "Raumschiff Enterprise eines Tages Wirklichkeit werden? <br><br>"
+
+
+    },
+    { "header": "",
+      "text": "11.11.<br>2022<br><br><br><br>15:00<br>Uhr"
+    },
+    { "header": "",
+      "text": "-300138.01369863015"
+    },
+    { "header": "",
+      "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
+    },
+    { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Vorlesung</div>",
+      "text": "<a href='https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/hubert-zitt' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
+    },
+    { "header": "",
+      "text": "-300137.7853881279"
+    },
+    { "header": "",
+      "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
+    },
+  ],
+  /*"linkBox": [
+      {
+      "text": "Star Trek Vorlesung",
+      "image": "",
+      "url": ""
+      },
+  ],
+  "partnerBox": [
+    {}],
+  */
+  "entries":[
+    {
+      "streamname": "RBJ00-oE9ul", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-XsL5l", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-oLuan", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [],
+});
+
 
 /**
  *  Stream für die Bachelorarbeit Steve Margenfeld Julia Hoffmann --------------------------------------------------------------------------------------------------------------------------------
