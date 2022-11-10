@@ -1263,7 +1263,7 @@ streams.push({
 
 
 /**
- * Stream Star Trek Vorlesung ------------------------------------------------------------------------------------------
+ * Stream Star Trek ALT ------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "startrek-alt",
@@ -1581,12 +1581,12 @@ streams.push({
 });
 
 /**
- * Stream Star Trek Entwurf Vorlesung ------------------------------------------------------------------------------------------
+ * Stream Star Trek Vorlesung ------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "startrek",
-  "titleTop": "11. Intergalaktische Vorlesung",
-  "title": "Wissenschaft und Science Fiction mit Captain Zitt",
+  "titleTop": "11. Intergalaktische Gastvorlesung",
+  "title": "Wissenschaft und Science-Fiction mit Captain Zitt",
   "image": "",
   "debug": false,
   "chat": false,
@@ -1770,7 +1770,7 @@ streams.push({
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-color: #ffcb65;
+    background-color: #ffea9f;
     border-radius: 0;
     flex: 1;
     margin-bottom: 0.5em;
@@ -1785,7 +1785,7 @@ streams.push({
   
   .textBox:nth-child(4) .textBox_text a{
     display: flex;
-    color: #ffcb65;
+    color: #ffea9f;
   }
   
   .textBox:last-child{
@@ -1805,7 +1805,6 @@ streams.push({
   flex: 0.4;
   padding-top: 0;
   border-radius: 5px;
-  height: 100px;
   overflow: hidden;
   }
   
@@ -1819,6 +1818,7 @@ streams.push({
   max-width: 988px;
   color: white;
   margin-bottom: 2em;
+  margin-top: 0.5em;
   text-align: center;
   letter-spacing: 0.15em;
 }
@@ -1933,23 +1933,24 @@ streams.push({
           "Dozent Hubert Zitt von der Hochschule Kaiserslautern, <br>" +
           "erlaeutert ob die technischen Visionen " +
           "aus der Fernsehserie Star Trek in Zukunft " +
-          "umsetzbar sind." +
+          "umsetzbar sind. <br><br>" +
+          "Fuer zusaetzliche informationen besuchen Sie bitte die Offizielle Veranstaltungsseite.<br>" +
           "</div>"
     },
     { "header": "",
       "text": "11.11.<br>2022<br><br><br><br>15:00<br>Uhr"
     },
     { "header": "",
-      "text": "-300138.2"
+      "text": "-300138.0"
     },
     { "header": "",
       "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
     },
-    { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Vorlesung</div>",
+    { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Veranstaltung</div>",
       "text": "<a href='https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/hubert-zitt' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
     },
     { "header": "",
-      "text": "-300138.1"
+      "text": "-300137.8"
     },
     { "header": "",
       "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
