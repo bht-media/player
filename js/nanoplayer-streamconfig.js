@@ -1683,6 +1683,7 @@ streams.push({
   #h5live-playerDiv1{
     background: black url("assets/img/startrek/offline1.jpg") ;
     background-size: cover;
+    background-position: 50% 50%;
   }
   
   #main{ background-color: #00000000; }
@@ -1717,7 +1718,7 @@ streams.push({
     display: none;
     
   }
-  .textBox:nth-child(2), .textBox:nth-child(5){
+  .textBox:nth-child(5){
     background-color: #6598fe;
     border-radius: 0;
     flex: initial;
@@ -1729,26 +1730,12 @@ streams.push({
     align-items: flex-end;
   }
   
-  
-  .textBox:nth-child(3){
-    margin-right: 0;
-    flex-direction: column;
-    background-color: yellow;
-    background-color: #f0f8ff00;
-  }
-  
-  .textBox:nth-child(3) .textBox_text{
-    text-align: right;
-    letter-spacing: 0.2em;
-    color: white;
-  }
-  
-  .textBox:nth-child(4){
+  .textBox:nth-child(2){
     flex-direction: column;
     background-color: #00000000;
   }
   
-  .textBox:nth-child(4) a{
+  .textBox:nth-child(2) a{
     text-decoration: none;
     letter-spacing: 0.2em;
     font-size: 1em;
@@ -1761,11 +1748,11 @@ streams.push({
     height: 100%;
   }
   
-  .textBox:nth-child(4) .textBox_header:hover, .textBox:nth-child(4) .textBox_text:hover{
+  .textBox:nth-child(2) .textBox_header:hover, .textBox:nth-child(2) .textBox_text:hover{
     background-color: red;
   }
     
-  .textBox:nth-child(4) .textBox_header{
+  .textBox:nth-child(2) .textBox_header{
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -1774,14 +1761,14 @@ streams.push({
     flex: 1;
     margin-bottom: 0.5em;
   }
-  .textBox:nth-child(4) .textBox_text{
+  .textBox:nth-child(2) .textBox_text{
     background-color: #fd9800;
     flex-direction: column;
     flex: 1;
     margin-top: 0.5em;
   }
   
-  .textBox:nth-child(4) .textBox_text a{
+  .textBox:nth-child(2) .textBox_text a{
     display: flex;
     color: #ffcb65;
   }
@@ -1815,6 +1802,7 @@ streams.push({
   #scroll-text {
   max-width: 988px;
   color: white;
+  margin-bottom: 2em;
   text-align: center;
   letter-spacing: 0.15em;
 }
@@ -1925,22 +1913,18 @@ streams.push({
    `,
 
   "textFields" : [
-    { "title": ""
+    { "title": "<div id=\"scroll-text\">\n" +
+          "Dozent Hubert Zitt von der Hochschule Kaiserslautern, <br>" +
+          "erlaeutert ob die technischen Visionen " +
+          "aus der Fernsehserie Star Trek in Zukunft " +
+          "umsetzbar sind." +
+          "</div>"
     },
     { "header": "",
       "text": ""
     },
-    { "header": "",
-      "text": "<br>"
-    },
-    { "header": "",
-      "text": "<br><br><br><br><br><br>"
-    },
     { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Vorlesung</div>",
       "text": "<a href='https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/hubert-zitt' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
-    },
-    { "header": "",
-      "text": "<br>"
     },
     { "header": "",
       "text": ""
