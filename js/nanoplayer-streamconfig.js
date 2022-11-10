@@ -1266,7 +1266,7 @@ streams.push({
  * Stream Star Trek Vorlesung ------------------------------------------------------------------------------------------
  */
 streams.push({
-  "tag": "startrek",
+  "tag": "startrek-alt",
   "titleTop": "11. Intergalaktische Gastvorlesung",
   "title": "Wissenschaft & Science-Fiction mit Captain Zitt",
   "image": "",
@@ -1584,7 +1584,7 @@ streams.push({
  * Stream Star Trek Entwurf Vorlesung ------------------------------------------------------------------------------------------
  */
 streams.push({
-  "tag": "startrek-entwurf",
+  "tag": "startrek",
   "titleTop": "11. Intergalaktische Vorlesung",
   "title": "Wissenschaft und Science Fiction mit Captain Zitt",
   "image": "",
@@ -1661,7 +1661,7 @@ streams.push({
     background-color: #ffcd04;
   }
   body{
-    font-family: 'trebuc', serif;
+    font-family: 'Sterilict', serif;
   }
   
   #beuth-logo, #beuthbox-logo{
@@ -1718,7 +1718,7 @@ streams.push({
     display: none;
     
   }
-  .textBox:nth-child(5){
+  .textBox:nth-child(2), .textBox:nth-child(5){
     background-color: #6598fe;
     border-radius: 0;
     flex: initial;
@@ -1730,12 +1730,26 @@ streams.push({
     align-items: flex-end;
   }
   
-  .textBox:nth-child(2){
+  
+  .textBox:nth-child(3){
+    margin-right: 0;
+    flex-direction: column;
+    background-color: yellow;
+    background-color: #f0f8ff00;
+  }
+  
+  .textBox:nth-child(3) .textBox_text{
+    text-align: right;
+    letter-spacing: 0.2em;
+    color: white;
+  }
+  
+  .textBox:nth-child(4){
     flex-direction: column;
     background-color: #00000000;
   }
   
-  .textBox:nth-child(2) a{
+  .textBox:nth-child(4) a{
     text-decoration: none;
     letter-spacing: 0.2em;
     font-size: 1em;
@@ -1748,11 +1762,11 @@ streams.push({
     height: 100%;
   }
   
-  .textBox:nth-child(2) .textBox_header:hover, .textBox:nth-child(2) .textBox_text:hover{
+  .textBox:nth-child(4) .textBox_header:hover, .textBox:nth-child(4) .textBox_text:hover{
     background-color: red;
   }
     
-  .textBox:nth-child(2) .textBox_header{
+  .textBox:nth-child(4) .textBox_header{
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -1761,14 +1775,15 @@ streams.push({
     flex: 1;
     margin-bottom: 0.5em;
   }
-  .textBox:nth-child(2) .textBox_text{
+
+  .textBox:nth-child(4) .textBox_text{
     background-color: #fd9800;
     flex-direction: column;
     flex: 1;
     margin-top: 0.5em;
   }
   
-  .textBox:nth-child(2) .textBox_text a{
+  .textBox:nth-child(4) .textBox_text a{
     display: flex;
     color: #ffcb65;
   }
@@ -1790,6 +1805,7 @@ streams.push({
   flex: 0.4;
   padding-top: 0;
   border-radius: 5px;
+  height: 100px;
   overflow: hidden;
   }
   
@@ -1921,13 +1937,22 @@ streams.push({
           "</div>"
     },
     { "header": "",
-      "text": ""
+      "text": "11.11.<br>2022<br><br><br><br>15:00<br>Uhr"
+    },
+    { "header": "",
+      "text": "-300138.2"
+    },
+    { "header": "",
+      "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
     },
     { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Vorlesung</div>",
       "text": "<a href='https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/hubert-zitt' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
     },
     { "header": "",
-      "text": ""
+      "text": "-300138.1"
+    },
+    { "header": "",
+      "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
     },
   ],
   /*"linkBox": [
