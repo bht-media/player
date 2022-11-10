@@ -1596,9 +1596,13 @@ streams.push({
   
   #header{ 
   background-color: black;
-  height: 50px;
+  height: 70px;
   margin: 0;
   }
+  
+  #beuth-logo {
+    padding: 12px;
+}
   
   #footer a{
     color: #9795fb;
