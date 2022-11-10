@@ -1603,6 +1603,12 @@ streams.push({
   #beuth-logo {
     padding: 12px;
 }
+
+  #footer{
+    font-family: 'Impact', serif;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+  }
   
   #footer a{
     color: #9795fb;
@@ -1668,11 +1674,7 @@ streams.push({
      -webkit-filter: invert(1);
     filter: invert(1);
   }
-  
-  #footer{
-    font-family: "Impact", sans-serif;
-    text-transform: uppercase;
-  }
+ 
   
   #textField{
     width: 90%;
