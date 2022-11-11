@@ -1940,7 +1940,7 @@ streams.push({
           "erlaeutert ob die technischen Visionen " +
           "aus der Fernsehserie Star Trek in Zukunft " +
           "umsetzbar sind. <br><br>" +
-          "Fuer zusaetzliche informationen besuchen Sie bitte die <a href='https://www.bht-berlin.de/3897/article/8457'>Offizielle Veranstaltungsseite.</a><br>" +
+          "Fuer zusaetzliche informationen besuchen Sie bitte die <a href='https://www.bht-berlin.de/3897/article/8457' target='_blank'>Offizielle Veranstaltungsseite.</a><br>" +
           "</div>"
     },
     { "header": "",
