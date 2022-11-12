@@ -1263,324 +1263,6 @@ streams.push({
 
 
 /**
- * Stream Star Trek ALT ------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "startrek-alt",
-  "titleTop": "11. Intergalaktische Gastvorlesung",
-  "title": "Wissenschaft & Science-Fiction mit Captain Zitt",
-  "image": "",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-  
-  
-    #header {
-      height: 70px;
-      background-color: black;
-      margin: 0;
-    }
-    
-    #beuth-logo{
-      padding: 12px;
-    }
-
-  body, #footer{ background-color: #00000075 }
-  
-  #footer a{
-    color: #9795fb;
-  }
-  #footer a:hover {
-    color: red;
-  }
-  #footer a:visited {
-  color: #ed9692;
-  }
-
-  #titleTop{
-    font-family: 'Startrekfuture', serif;
-    font-size: 60px;
-    margin-top: 40px;
-    margin-left: 1.3em;
-    padding-right: 1.3em;
-    border-top-left-radius: 20px;
-    background-color: #00000000;
-    color: white;
-  }
-  #titleSub{
-    font-family: 'trebuc', serif;
-    color: black;
-    font-style: italic;
-    background-color: rgb(204 204 254);
-    margin-top: 0.3em;
-    font-size: 18px;
-  }
-  
-  #subBackground{
-  padding-bottom: 0px;
-  width: auto;
-  }
-  
-  #playerSubtitle {
-    display: none;
-    }
-  
-  #contentBox{
-    width: 100%;
-  }
-  #content{ 
-    width: 80%;
-  }
-  
-  #contentPlayer{
-     margin-top: 1em;
-     margin-bottom: 1em;
-  }
-  
-  #linkBox{
-  display: none; 
-  }
-  
-  a.linkButton{
-    background-color: #ffcd04;
-  }
-
-  body{
-    font-family: 'trebuc', serif;
-  }
-  
-  #beuth-logo, #beuthbox-logo{
-     -webkit-filter: invert(1);
-    filter: invert(1);
-  }
-  
-  #footer{
-    font-family: "trebuc", sans-serif;
-  }
-  
-  #textField{
-    width: 90%;
-    display: block;
-    background-color: #00000000;
-  }
-  
-  #h5live-playerDiv1{
-    background: black url("assets/img/startrek/offline2.jpg") ;
-    background-size: cover;
-  }
-  
-  #main{ background-color: #00000000; }
-  
-  #page{ position: absolute; }
-  
-  /* MENU -----------------------------------------*/
-  .textBox{
-    Display: flex;
-    font-family: "trebuc", sans-serif;
-    text-transform: uppercase;
-    margin: 10px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
-  }
-  
-  .textBox:first-child{
-    padding:0;
-    font-size: 1.5em;
-    align-items: flex-end;
-    border-bottom-left-radius: 5em;
-    border-top-left-radius: 5em;
-    background-color: #98ccfe;
-  }
-  
-  .textBox:first-child .textBox_text{
-    text-align: right;
-  }
-  
-  .textBox .textBox_header, .textBox .textBox_text{
-    display: none;
-  }
-
-  
-  
-  .textFieldTitle {
-  flex: 0.4;
-  padding-top: 0;
-  margin-bottom: 1em;
-  border-radius: 5px;
-  overflow: hidden;
-  }
-  
-  .textFieldContent{
-    overflow: inherit;
-    overflow-x: inherit;
-    flex: 0;
-  }
-
-/* Scroll Text Animation ---------------------------------------------------*/
-  #scroll-text {
-  width: 80%;
-  height: 190%;
-  color: white;
-  text-align: center;
-}
-
-/* Background Animation -------------------------------------------------- */
-
-@keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-@-webkit-keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-
-@-moz-keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-
-@-webkit-keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-
-@keyframes star {
-    0% {opacity: 0.7; }
-    80% {opacity: 0;}
-    100% { opacity: 0.7; }
-}
-
-.background-container{
-    position: fixed;
-    top: 0;
-    left:0;
-    bottom: 0;
-    right: 0;
-}
-
-.stars {
-    background: black url("assets/img/startrek/weltraum.jpg") ;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    z-index: 0;
-}
-
-.clouds {
-    width:200%;
-    height: 100%;
-    background: transparent url("assets/img/startrek/weltraumWolken.png") repeat;
-    background-size: 1000px 1000px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
-
-    -moz-animation:move-background 50s linear infinite;
-    -ms-animation:move-background 50s linear infinite;
-    -o-animation:move-background 50s linear infinite;
-    -webkit-animation:move-background 50s linear infinite;
-    animation:move-background 50s linear infinite;
-}
-
-.clouds2 {
-    width:200%;
-    height: 100%;
-    background: transparent url("assets/img/startrek/weltraumWolken2.png") repeat;
-    background-size: 1000px 1000px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
-
-    -moz-animation:move-background 25s linear infinite;
-    -ms-animation:move-background 25s linear infinite;
-    -o-animation:move-background 25s linear infinite;
-    -webkit-animation:move-background 25s linear infinite;
-    animation:move-background 25s linear infinite;
-}
-  
-   `,
-
-  "textFields" : [
-    { "title": "<div id=\"scroll-text\">\n" +
-          "Capt. Zitt von der Starfleet Academy Twobridges (mit irdischem Namen Dr. Hubert Zitt, " +
-          "Hochschule Kaiserslautern, Campus Zweibrücken) erläutert, <br> ob die technischen Visionen aus Star Trek Wirklichkeit werden können.<br><br><br>" +
-          "Die Veranstaltung findet im Ingeborg-Meising-Saal der BHT (Haus Grashof, Luxemburger Straße 10, 13353 Bln-Wedding) von 15:00 bis 17:00 Uhr statt.<br><br><br>" +
-          "Der Eintritt ist kostenlos, die Platzzahl ist jedoch begrenzt.<br><br>" +
-          "Einlass für Kostümierte ab 13:30 Uhr (Sternzeit -300138.2)<br><br>" +
-          "Einlass für alle anderen ab 14:00 Uhr (Sternzeit -300138.1)" +
-          "</div>"
-    },
-    { "header": "",
-      "text": ""
-    }
-  ],
-  /*"linkBox": [
-      {
-      "text": "Star Trek Vorlesung",
-      "image": "",
-      "url": ""
-      },
-  ],
-
-  "partnerBox": [
-    {}],
-
-  */
-  "entries":[
-    {
-      "streamname": "RBJ00-oE9ul", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-XsL5l", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-oLuan", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [],
-});
-
-/**
  * Stream Star Trek Vorlesung ------------------------------------------------------------------------------------------
  */
 streams.push({
@@ -1983,6 +1665,83 @@ streams.push({
     },
     {
       "streamname": "RBJ00-oLuan", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [],
+});
+
+/**
+ *  Stream Hochschultag 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "hochschultag2022",
+  "titleTop": "Hochschultag 2022",
+  "title": "Berliner Hochschule für Technik",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  
+  body{
+    background-image: url("assets/img/backgrounds/2022_Hochschultag.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "BHT-CaseMicro", sans-serif;
+  }
+  
+  #header{ 
+    height: 60px;
+    
+    margin: 0;
+  }
+  
+  #footer{
+    background-image: linear-gradient(to top, white 0%, #ffffffc7 50%);
+    background-color: #ffffff00;
+    font-family: "BHT-Case", sans-serif;
+  }
+  
+  #error{
+    font-family: "BHT-Case", sans-serif;
+  }
+  
+  
+  #main{
+      background-color: rgb(234 234 234 / 0%);
+  }
+
+
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [
+  { "text": "BHT Berlin",
+     "image": "",
+     "url": "https://www.bht-berlin.de/"
+   }],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "linkBox": [
+    { "text": "Hochschultag 2022",
+      "image": "",
+      "url": "https://www.bht-berlin.de/hochschultag"
+    }],
+  "entries":[
+    {
+      "streamname": "RBJ00-bI1IX", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-D5TS3", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-qbmPi", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [],
