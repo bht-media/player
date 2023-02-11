@@ -1,6 +1,10 @@
 
 // define ABR playback stream names
 // stream groups: each stream group has 3 ABR streams
+
+
+//TODO: Neue Anordnung der Streams -> neuester Stream nach oben / an den Anfang der Datei
+
 /**
  * The Streams and its custom styles bundled in an Array
  * @type {*[]}
@@ -37,6 +41,56 @@ streams.push({
     }
   ]
 });
+
+/**
+ * 11.02.2023 Facility Management D352L -------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "facility-management",
+  "titleTop": "Facility Management",
+  "title": "Eine Vorlesung aus dem Raum D352L",
+  "image": "assets/img/backgrounds/klassenraum01.jpg",
+  "debug": false,
+  "chat": false,
+  /*"partnerBox": [
+    {
+      "image":"",
+      "url": ""
+    }],*/
+  "linkBox": [
+    {
+      "text": "Labor Facility Management",
+      "image": "",
+      "url": "https://www.bht-berlin.de/labor/detail/FAMA"
+    }],
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-xJiR4", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-A9diN", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-L4sfD", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-PWL86", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-tGb8N", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-ZdLZ2", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
 
 // BHT Personalversammlung (TODO Wird dies noch benutzt???) --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
