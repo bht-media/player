@@ -49,7 +49,7 @@ streams.push({
   "tag": "augenoptik",
   "titleTop": "Jahreshauptversammlung 2023",
   "title": "Förderverein Augenoptiker/ Optometrie der Berliner Hochschule für Technik e.V.",
-  "image": "assets/img/backgrounds/klassenraum01.jpg",
+  "image": "assets/img/backgrounds/2023 Augenoptiker Hintergrund 01.jpg",
   "debug": false,
   "chat": false,
   /*"partnerBox": [
