@@ -43,6 +43,55 @@ streams.push({
 });
 
 /**
+ * 2023.3.30 Augenoptiker Event -------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "augenoptik",
+  "titleTop": "Jahreshauptversammlung 2023",
+  "title": "Förderverein Augenoptiker/ Optometrie der Berliner Hochschule für Technik e.V.",
+  "image": "assets/img/backgrounds/klassenraum01.jpg",
+  "debug": false,
+  "chat": false,
+  /*"partnerBox": [
+    {
+      "image":"",
+      "url": ""
+    }],*/
+  "linkBox": [
+    {
+      "text": "Labor Facility Management",
+      "image": "",
+      "url": "https://www.bht-berlin.de/labor/detail/FAMA"
+    }],
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-1Shx6", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-Bm6yD", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-tnDhe", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-11wtD", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-Z7l5p", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-J3rYO", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
  * 11.02.2023 Facility Management D352L -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
