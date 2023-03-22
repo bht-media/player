@@ -59,9 +59,9 @@ streams.push({
     }],*/
   "linkBox": [
     {
-      "text": "Labor Facility Management",
+      "text": "Studiengang Augenoptik/Optometrie",
       "image": "",
-      "url": "https://www.bht-berlin.de/labor/detail/FAMA"
+      "url": "https://studiengang.bht-berlin.de/ao/"
     }],
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
