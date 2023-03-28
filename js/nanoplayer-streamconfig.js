@@ -65,28 +65,28 @@ streams.push({
     }],
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
-      "streamname": "RBJ00-1Shx6", // high
+      "streamname": "RBJ00-2tr1O", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-Bm6yD", // medium
+      "streamname": "RBJ00-ADvhZ", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-tnDhe", // low
+      "streamname": "RBJ00-Uym1S", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-11wtD", // high
+      "streamname": "RBJ00-oG8Fp", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-Z7l5p", // medium
+      "streamname": "RBJ00-jCPsT", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-J3rYO", // low
+      "streamname": "RBJ00-l6Au6", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
@@ -854,7 +854,7 @@ streams.push({
    { "text": "Zentrum für Forschung und Innovation",
       "image": "",
       "url": "https://www.bht-berlin.de/zfi"
-    }],
+    }],/**
   "textFields" : [
     { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
     },
@@ -896,7 +896,7 @@ streams.push({
     {
       "streamname": "RBJ00-l6Au6", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
+    }],*/
 });
 
 // BHT FabLab Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
