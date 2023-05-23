@@ -19,6 +19,8 @@ streams.push({
   "titleTop": "Titel",
   "title": "Untertitel",
   "image": "/assets/img/background.jpg",
+  /**
+   * 
   "customStyle": `
             #titleSub {
             background-color: RED;
@@ -43,6 +45,7 @@ streams.push({
       "url": "1234"
     }
     ],
+   **/
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "RBJ00-...", // high
