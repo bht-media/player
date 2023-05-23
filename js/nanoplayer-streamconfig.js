@@ -114,11 +114,36 @@ streams.push({
   "tag": "LNdW",
   "titleTop": "Lange Nacht der Wissenschaften",
   "title": "Übertragung aus dem Lehrfilmstudio",
-  "image": "/assets/img/background.jpg",
+  "image": "assets/img/backgrounds/2023LNdW/LNdW01.JPG",
    "customStyle": `
    #titleSub {
-            background-color: RED;
-            }`,
+            background-color: #6692af9c;
+            color: #ffffffc4;
+            }
+   #titleTop { 
+            background-color: #000312; 
+            color: white;
+              }
+   #main    {
+            animation: fadeBackground 50s  infinite;
+            }
+            
+   @keyframes fadeBackground {
+            0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center;}
+            13%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center;}
+            26%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"); background-position: left; }
+            39%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"); background-position: right; }
+            52%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"); background-position: center; }
+            75%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: left; }
+            88%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
+            }
+   @media screen and (min-width:1400px) {
+            #main{ background-size: 120%; }
+            
+            
+            }
+}
+            `,
    "partnerBox": [
    {
       "text": "MediaBox", // high
