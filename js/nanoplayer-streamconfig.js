@@ -20,7 +20,7 @@ streams.push({
   "title": "Untertitel",
   "image": "/assets/img/background.jpg",
   /**
-   * 
+   *
   "customStyle": `
             #titleSub {
             background-color: RED;
@@ -110,7 +110,64 @@ streams.push({
 /**
  * 2023 Lange Nacht der Wissenschaften -------------------------------------------------------------------------------------------------------------------------------------
  */
-
+streams.push({
+  "tag": "LNdW",
+  "titleTop": "Lange Nacht der Wissenschaften",
+  "title": "Übertragung aus dem Lehrfilmstudio",
+  "image": "/assets/img/background.jpg",
+   "customStyle": `
+   #titleSub {
+            background-color: RED;
+            }`,
+   "partnerBox": [
+   {
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
+    }],
+   "textFields" : [
+   { "title": "Titel"
+    },
+   { "header": "Information",
+      "text": "Beschreibung"
+    }
+   ],
+   "linkBox": [
+   {
+      "text": "Logobeschreibung", // high
+      "image": "/assets/beuthbox-logo.png",
+      "url": "1234"
+    }
+   ],
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-3sPIU", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-ROGTG", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-jlDHW", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-KYRaA", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-rKCGN", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-1Yiz9", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
+  "chat": false
+});
 
 
 /**
