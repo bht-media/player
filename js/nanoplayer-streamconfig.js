@@ -124,14 +124,8 @@ streams.push({
             background-color: #000312; 
             color: white;
               }
-   #titleSub:before {
-              content:url("assets/img/backgrounds/2023LNdW/LNdW02.JPG")
-              url("assets/img/backgrounds/2023LNdW/LNdW02.JPG")
-              url("assets/img/backgrounds/2023LNdW/LNdW03.JPG")
-              url("assets/img/backgrounds/2023LNdW/LNdW04.JPG")
-              url("assets/img/backgrounds/2023LNdW/LNdW05.JPG")
-              url("assets/img/backgrounds/2023LNdW/LNdW06.JPG");
-              display:none;
+   #main:before {
+              
              }
    
    #main    {
@@ -139,6 +133,12 @@ streams.push({
             -moz-animation: fadeBackground 50s  infinite;
             -o-animation: fadeBackground 50s  infinite;
             animation: fadeBackground 50s  infinite;
+            background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"),
+              url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"), 
+              url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"), 
+              url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"), 
+              url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"), 
+              url("assets/img/backgrounds/2023LNdW/LNdW06.JPG") !important;
             } 
                    
    @keyframes fadeBackground {
