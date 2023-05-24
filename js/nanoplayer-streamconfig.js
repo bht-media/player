@@ -124,7 +124,7 @@ streams.push({
             background-color: #000312; 
             color: white;
               }
-   #main:before {
+   #titleSub:before {
               content:url("assets/img/backgrounds/2023LNdW/LNdW02.JPG")
               url("assets/img/backgrounds/2023LNdW/LNdW02.JPG")
               url("assets/img/backgrounds/2023LNdW/LNdW03.JPG")
@@ -135,6 +135,9 @@ streams.push({
              }
    
    #main    {
+            -webkit-animation: fadeBackground 50s  infinite;
+            -moz-animation: fadeBackground 50s  infinite;
+            -o-animation: fadeBackground 50s  infinite;
             animation: fadeBackground 50s  infinite;
             } 
                    
@@ -147,6 +150,7 @@ streams.push({
             75%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: left; }
             88%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
             }
+            
    @media screen and (min-width:1400px) {
             #main{ background-size: 120%; }
             
