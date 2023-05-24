@@ -124,8 +124,19 @@ streams.push({
             background-color: #000312; 
             color: white;
               }
-   #main:before {
-              
+   body:after { 
+               position:absolute; 
+               width:0; 
+               height:0; 
+               overflow:hidden; 
+               z-index:-1; 
+               content:url(assets/img/backgrounds/2023LNdW/LNdW01.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW02.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW03.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW04.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW05.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW06.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW07.JPG);
              }
    
    #main    {
@@ -133,13 +144,7 @@ streams.push({
             -moz-animation: fadeBackground 50s  infinite;
             -o-animation: fadeBackground 50s  infinite;
             animation: fadeBackground 50s  infinite;
-            background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"),
-              url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"), 
-              url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"), 
-              url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"), 
-              url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"), 
-              url("assets/img/backgrounds/2023LNdW/LNdW06.JPG") !important;
-            } 
+            }
                    
    @keyframes fadeBackground {
             0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center;}
