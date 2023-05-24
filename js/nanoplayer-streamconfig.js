@@ -116,15 +116,9 @@ streams.push({
   "title": "Übertragung aus dem Lehrfilmstudio",
   "image": "assets/img/backgrounds/2023LNdW/LNdW01.JPG",
    "customStyle": `
-   #titleSub {
-            background-color: #6692af9c;
-            color: #ffffffc4;
-            }
-   #titleTop { 
-            background-color: #000312; 
-            color: white;
-              }
-   body:after { 
+      body{     font-family: BHT-Case;
+                }
+      body:after { 
                position:absolute; 
                width:0; 
                height:0; 
@@ -138,15 +132,30 @@ streams.push({
                url(assets/img/backgrounds/2023LNdW/LNdW06.JPG) 
                url(assets/img/backgrounds/2023LNdW/LNdW07.JPG);
              }
+             
+      #titleSub {
+            background-color: #6692af9c;
+            font-family: BHT-Case;
+            font-size: 18px;
+            color: #ffffffc4;
+            }
+            
+      #titleTop { 
+            background-color: #000312;
+            font-family: BHT-CaseMicro; 
+            color: white;
+              }
+      
+      #error   { display:none; }
    
-   #main    {
-            -webkit-animation: fadeBackground 50s  infinite;
+      #main    {
+            -webkit-transition: fadeBackground 50s  infinite;
             -moz-animation: fadeBackground 50s  infinite;
             -o-animation: fadeBackground 50s  infinite;
             animation: fadeBackground 50s  infinite;
             }
                    
-   @keyframes fadeBackground {
+      @keyframes fadeBackground {
             0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center;}
             13%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center;}
             26%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"); background-position: left; }
@@ -156,11 +165,14 @@ streams.push({
             88%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
             }
             
-   @media screen and (min-width:1400px) {
+      @media screen and (min-width:1400px) {
             #main{ background-size: 120%; }
-            
-            
             }
+            
+      .textFieldTitle{
+            color: white;
+            font-family: BHT-CaseMicro; 
+      }
 }
             `,
    "partnerBox": [
@@ -170,7 +182,7 @@ streams.push({
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],
    "textFields" : [
-   { "title": "Titel"
+   { "title": "Programm"
     },
    { "header": "Information",
       "text": "Beschreibung"
