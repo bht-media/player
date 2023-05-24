@@ -124,18 +124,28 @@ streams.push({
             background-color: #000312; 
             color: white;
               }
+   #main:before {
+              content:url("assets/img/backgrounds/2023LNdW/LNdW02.JPG")
+              url("assets/img/backgrounds/2023LNdW/LNdW02.JPG")
+              url("assets/img/backgrounds/2023LNdW/LNdW03.JPG")
+              url("assets/img/backgrounds/2023LNdW/LNdW04.JPG")
+              url("assets/img/backgrounds/2023LNdW/LNdW05.JPG")
+              url("assets/img/backgrounds/2023LNdW/LNdW06.JPG");
+              display:none;
+             }
+   
    #main    {
             animation: fadeBackground 50s  infinite;
-            }
-            
+            } 
+                   
    @keyframes fadeBackground {
             0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center;}
-            13%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center;}
-            26%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"); background-position: left; }
-            39%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"); background-position: right; }
-            52%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"); background-position: center; }
-            75%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: left; }
-            88%   { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
+            13%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center;}
+            26%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"); background-position: left; }
+            39%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"); background-position: right; }
+            52%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"); background-position: center; }
+            75%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: left; }
+            88%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
             }
    @media screen and (min-width:1400px) {
             #main{ background-size: 120%; }
