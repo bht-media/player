@@ -116,8 +116,8 @@ streams.push({
   "title": "Übertragung aus dem Lehrfilmstudio",
   "image": "assets/img/backgrounds/2023LNdW/LNdW01.JPG",
    "customStyle": `
-      body{     font-family: BHT-Case;
-                }
+      body {   font-family: BHT-Case; }
+      
       body:after { 
                position:absolute; 
                width:0; 
@@ -134,7 +134,7 @@ streams.push({
              }
              
       #titleSub {
-            background-color: #6692af9c;
+            background-color: #213670ab;
             font-family: BHT-Case;
             font-size: 18px;
             color: #ffffffc4;
@@ -142,37 +142,82 @@ streams.push({
             
       #titleTop { 
             background-color: #000312;
-            font-family: BHT-CaseMicro; 
+            font-family: BHT-CaseMicro;
             color: white;
               }
       
       #error   { display:none; }
    
       #main    {
-            -webkit-transition: fadeBackground 50s  infinite;
-            -moz-animation: fadeBackground 50s  infinite;
-            -o-animation: fadeBackground 50s  infinite;
-            animation: fadeBackground 50s  infinite;
+            -webkit-transition: fadeBackground 1200s  infinite;
+            -moz-animation: fadeBackground 1200s  infinite;
+            -o-animation: fadeBackground 1200s  infinite;
+            animation: fadeBackground 1200s  infinite;
             }
                    
       @keyframes fadeBackground {
-            0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center;}
-            13%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center;}
+            0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center; }
+            13%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center; }
             26%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"); background-position: left; }
             39%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"); background-position: right; }
             52%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"); background-position: center; }
             75%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: left; }
             88%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
             }
+          
+          @keyframes slide-in {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+             transform: translateX(0%);
+          }
+          }    
+            
             
       @media screen and (min-width:1400px) {
             #main{ background-size: 120%; }
             }
             
       .textFieldTitle{
-            color: white;
-            font-family: BHT-CaseMicro; 
+            display: none;
       }
+      
+      body, #page, #header, #footer{
+            background-color: black;
+      }
+      
+      #header img, #partner-box a img{
+           filter: invert(100%);
+      }
+      
+      #textField {
+            background-color: #21367000;
+      }
+      
+      #footer, .textBox{ 
+            background-image: url("assets/img/backgrounds/sternenhimmel.jpg"); 
+            background-repeat: no-repeat;
+            background-size: cover;
+      }
+      
+      .textBox_header{ 
+            background-color: #000b1200; 
+            color: white;
+      }
+      
+      .textBox_text{
+            background-color: rgb(96 106 205 / 38%);
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            color: #94a9b9;
+            margin: 4px;
+      }
+      
+      #partner-box a{ background-color: black; }
+      .linkButton{ background-color: #000b12b3; }
+      a:link { color: #d5d5d5;}
+      a:hover{ color: #0092ff; }
 }
             `,
    "partnerBox": [
@@ -186,7 +231,10 @@ streams.push({
     },
    { "header": "Information",
       "text": "Beschreibung"
-    }
+    },
+     { "header": "Information",
+       "text": "Beschreibung"
+     }
    ],
    "linkBox": [
    {
