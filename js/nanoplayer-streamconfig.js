@@ -283,6 +283,80 @@ streams.push({
 });
 
 /**
+ * 2023 Molly -------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "molly",
+  "titleTop": "Molly Live Stream aus dem LFS",
+  "title": "Dies ist ein Live Stream vom Molly",
+  "image": "assets/img/backgrounds/2023Molly/MollyBoxSmall.jpg",
+
+   "customStyle": `
+   
+   #error   { display:none; }
+   
+   -.linkButton:first-child{
+        content: image-set("assets/img/logos/mediabox-big-logo.jpg");
+        height: 90%;
+   }
+   
+   
+   `,
+
+   /**
+   *
+   "partnerBox": [
+   {
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
+    }],
+   "textFields" : [
+   { "title": "Titel"
+    },
+   { "header": "Information",
+      "text": "Beschreibung"
+    }
+   ],**/
+   "linkBox": [
+   {
+      "text": "Logobeschreibung", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "1234"
+    }
+   ],
+
+  "entries":[
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
+  "chat": false
+});
+
+/**
  * 2023.4.29 Vorstellung Kandidaten Präsidium -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
