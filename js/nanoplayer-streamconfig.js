@@ -11,6 +11,71 @@
  */
 let streams = [];
 
+/**
+ * STREAM ROHLING -------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "rohlingTag",
+  "titleTop": "Titel",
+  "title": "Untertitel",
+  "image": "/assets/img/background.jpg",
+  /**
+   *
+   "customStyle": `
+   #titleSub {
+            background-color: RED;
+            }`,
+   "partnerBox": [
+   {
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
+    }],
+   "textFields" : [
+   { "title": "Titel"
+    },
+   { "header": "Information",
+      "text": "Beschreibung"
+    }
+   ],
+   "linkBox": [
+   {
+      "text": "Logobeschreibung", // high
+      "image": "/assets/beuthbox-logo.png",
+      "url": "1234"
+    }
+   ],
+   **/
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
+  "chat": true
+});
+
 // TEST Stream 01 --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "test01",
@@ -41,6 +106,175 @@ streams.push({
     }
   ]
 });
+
+/**
+ * 2023 Lange Nacht der Wissenschaften -------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "LNdW",
+  "titleTop": "Lange Nacht der Wissenschaften",
+  "title": "Übertragung aus dem Lehrfilmstudio",
+  "image": "assets/img/backgrounds/2023LNdW/LNdW01.JPG",
+  "customStyle": `
+      body {   font-family: BHT-Case; }
+      
+      body:after { 
+               position:absolute; 
+               width:0; 
+               height:0; 
+               overflow:hidden; 
+               z-index:-1; 
+               content:url(assets/img/backgrounds/2023LNdW/LNdW01.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW02.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW03.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW04.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW05.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW06.JPG) 
+               url(assets/img/backgrounds/2023LNdW/LNdW07.JPG);
+             }
+             
+      #titleSub {
+            background-color: #213670ab;
+            font-family: BHT-Case;
+            font-size: 18px;
+            color: #ffffffc4;
+            }
+            
+      #titleTop { 
+            background-color: #000312;
+            font-family: BHT-CaseMicro;
+            color: white;
+              }
+      
+      #error   { display:none; }
+   
+      #main    {
+            -webkit-transition: fadeBackground 1200s  infinite;
+            -moz-animation: fadeBackground 1200s  infinite;
+            -o-animation: fadeBackground 1200s  infinite;
+            animation: fadeBackground 1200s  infinite;
+            }
+                   
+      @keyframes fadeBackground {
+            0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center; }
+            13%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center; }
+            26%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"); background-position: left; }
+            39%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"); background-position: right; }
+            52%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"); background-position: center; }
+            75%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: left; }
+            88%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
+            }
+          
+          @keyframes slide-in {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+             transform: translateX(0%);
+          }
+          }    
+            
+            
+      @media screen and (min-width:1400px) {
+            #main{ background-size: 120%; }
+            }
+            
+      .textFieldTitle{
+            display: none;
+      }
+      
+      body, #page, #header, #footer{
+            background-color: black;
+      }
+      
+      #header img, #partner-box a img{
+           filter: invert(100%);
+      }
+      
+      #textField {
+            background-color: #21367000;
+      }
+      #footer{
+            
+      }
+      #footer, .textBox{ 
+            background-image: url("assets/img/backgrounds/sternenhimmel.jpg"); 
+            background-repeat: no-repeat;
+            background-size: cover;
+      }
+      
+      .textBox_header{ 
+            background-color: #000b1200; 
+            color: white;
+      }
+      
+      .textBox_text{
+            background-color: rgb(96 106 205 / 38%);
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            color: #94a9b9;
+            margin: 4px;
+      }
+      
+      #partner-box a{ background-color: black; }
+      .linkButton{ background-color: #000b12b3; }
+      a:link { color: #d5d5d5;}
+      a:hover{ color: #0092ff; }
+}
+            `,
+  "partnerBox": [
+    {
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
+    }],
+  "textFields" : [
+    { "title": "Programm"
+    },
+    { "header": "Information",
+      "text": "Beschreibung"
+    },
+    { "header": "Information",
+      "text": "Beschreibung"
+    }
+  ],
+  "linkBox": [
+    {
+      "text": "Logobeschreibung", // high
+      "image": "/assets/beuthbox-logo.png",
+      "url": "1234"
+    }
+  ],
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-3sPIU", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-ROGTG", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-jlDHW", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-KYRaA", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-rKCGN", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-1Yiz9", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
+  "chat": false
+});
+
 
 /**
  * 2023.4.29 Vorstellung Kandidaten Präsidium -------------------------------------------------------------------------------------------------------------------------------------
