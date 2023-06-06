@@ -43,6 +43,89 @@ streams.push({
 });
 
 /**
+ * 2023.4.29 Vorstellung Kandidaten Präsidium -------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "praesidium",
+  "titleTop": "Präsidiumswahl 2023",
+  "title": "Vorstellung der Kandidaten",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            #textField {
+              flex-wrap: wrap;
+              width: 500px;
+              max-width: 800px;
+            .textFieldContent {
+              flex: none;
+            }
+            .textBox {
+              display: flex;
+              flex-direction: column;
+            }
+            .textBox_header img{
+            width: 100%;
+            height: auto;
+            }
+            `,
+  /*"partnerBox": [
+    {
+      "image":"",
+      "url": ""
+    }],*/
+  "linkBox": [
+    {
+      "text": "BHT Präsidium",
+      "image": "",
+      "url": "https://www.bht-berlin.de/praesidium"
+    }],
+  "textFields" : [
+    { "title": "Die Kandidaten"
+    },
+    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
+      "text": "Vortrag 01"
+    },
+    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
+      "text": "Vortrag 02"
+    },
+    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
+      "text": "Vortrag 03"
+    },
+    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
+      "text": "Vortrag 03"
+    },
+
+  ],
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-2tr1O", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-ADvhZ", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-Uym1S", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-oG8Fp", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-jCPsT", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-l6Au6", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
  * 2023.3.30 Augenoptiker Event -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
