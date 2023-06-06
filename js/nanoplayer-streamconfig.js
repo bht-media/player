@@ -172,9 +172,8 @@ streams.push({
           to {
              transform: translateX(0%);
           }
-          }    
-            
-            
+      }    
+             
       @media screen and (min-width:1400px) {
             #main{ background-size: 120%; }
             }
@@ -208,10 +207,18 @@ streams.push({
             color: white;
       }
       
+      .textBox{
+            opacity: 0.8;
+      }
+      .textBox:hover{
+            opacity: 1;
+      }
       .textBox_text{
             background-color: rgb(96 106 205 / 38%);
             border-bottom-right-radius: 5px;
             border-bottom-left-radius: 5px;
+            text-align: left;
+            justify-content: left;
             color: #94a9b9;
             margin: 4px;
       }
@@ -231,10 +238,10 @@ streams.push({
   "textFields" : [
     { "title": "Programm"
     },
-    { "header": "Information",
-      "text": "Beschreibung"
+    { "header": "Interviews",
+      "text": "12 Uhr - Herr .... <br> 14 Uhr - Frau Dr. ..."
     },
-    { "header": "Information",
+    { "header": "Ablaufplan",
       "text": "Beschreibung"
     }
   ],
@@ -274,7 +281,6 @@ streams.push({
   "debug": false,
   "chat": false
 });
-
 
 /**
  * 2023.4.29 Vorstellung Kandidaten Präsidium -------------------------------------------------------------------------------------------------------------------------------------
