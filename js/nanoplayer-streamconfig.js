@@ -328,28 +328,28 @@ streams.push({
 
   "entries":[
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "RBJ00-i5uCR", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "RBJ00-5aQej", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "RBJ00-QrSgT", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "RBJ00-YgamN", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "RBJ00-fQIbc", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "RBJ00-wZs7g", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
