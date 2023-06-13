@@ -196,6 +196,10 @@ streams.push({
             font-size: 11px;
       }
       
+      .partnerBoxImages {
+            height: 3em;
+      }
+      
       .textFieldTitle {
             flex: 0;
             font-size: 21px;
