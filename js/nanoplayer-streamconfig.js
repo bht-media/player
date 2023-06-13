@@ -124,15 +124,16 @@ streams.push({
                height:0; 
                overflow:hidden; 
                z-index:-1; 
-               content:url(assets/img/backgrounds/2023LNdW/LNdW01.JPG) 
-               url(assets/img/backgrounds/2023LNdW/LNdW02.JPG) 
-               url(assets/img/backgrounds/2023LNdW/LNdW03.JPG) 
-               url(assets/img/backgrounds/2023LNdW/LNdW04.JPG) 
-               url(assets/img/backgrounds/2023LNdW/LNdW05.JPG) 
-               url(assets/img/backgrounds/2023LNdW/LNdW06.JPG) 
-               url(assets/img/backgrounds/2023LNdW/LNdW07.JPG);
+               content:url(assets/img/backgrounds/2023LNdW/1lfs-normal.JPG) 
+               url(assets/img/backgrounds/2023LNdW/2lfs-white.JPG) 
+               url(assets/img/backgrounds/2023LNdW/3lfs-green.JPG) 
+               url(assets/img/backgrounds/2023LNdW/4lfs-green_blue.JPG) 
+               url(assets/img/backgrounds/2023LNdW/5lfs-blue.JPG) 
+               url(assets/img/backgrounds/2023LNdW/6lfs-blue_red.JPG) 
+               url(assets/img/backgrounds/2023LNdW/7lfs-red.JPG)
+               url(assets/img/backgrounds/2023LNdW/8lfs-red_green02.JPG);
              }
-             
+                   
       #titleSub {
             background-color: #213670ab;
             font-family: BHT-Case;
@@ -144,25 +145,26 @@ streams.push({
             background-color: #000312;
             font-family: BHT-CaseMicro;
             color: white;
+            font-size: 24px
               }
       
       #error   { display:none; }
    
       #main    {
-            -webkit-transition: fadeBackground 1200s  infinite;
-            -moz-animation: fadeBackground 1200s  infinite;
-            -o-animation: fadeBackground 1200s  infinite;
-            animation: fadeBackground 1200s  infinite;
+            -webkit-transition: fadeBackground 1800s  infinite;
+            -moz-animation: fadeBackground 1800s  infinite;
+            -o-animation: fadeBackground 1800s  infinite;
+            animation: fadeBackground 1800s  infinite;
             }
                    
       @keyframes fadeBackground {
-            0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/LNdW01.JPG"); background-position: center; }
-            13%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW02.JPG"); background-position: center; }
-            26%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW03.JPG"); background-position: left; }
-            39%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW04.JPG"); background-position: right; }
-            52%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW05.JPG"); background-position: center; }
-            75%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: left; }
-            88%         { background-image: url("assets/img/backgrounds/2023LNdW/LNdW06.JPG"); background-position: right; }
+            0%, 100%    { background-image: url("assets/img/backgrounds/2023LNdW/2lfs-white.JPG"); background-position: center; }
+            13%         { background-image: url("assets/img/backgrounds/2023LNdW/3lfs-green.JPG"); background-position: center; }
+            26%         { background-image: url("assets/img/backgrounds/2023LNdW/4lfs-green_blue.JPG"); background-position: left; }
+            39%         { background-image: url("assets/img/backgrounds/2023LNdW/5lfs-blue.JPG"); background-position: right; }
+            52%         { background-image: url("assets/img/backgrounds/2023LNdW/6lfs-blue_red.JPG"); background-position: center; }
+            75%         { background-image: url("assets/img/backgrounds/2023LNdW/7lfs-red.JPG"); background-position: left; }
+            88%         { background-image: url("assets/img/backgrounds/2023LNdW/8lfs-red_green02.JPG"); background-position: right; }
             }
           
           @keyframes slide-in {
@@ -178,9 +180,6 @@ streams.push({
             #main{ background-size: 120%; }
             }
             
-      .textFieldTitle{
-            display: none;
-      }
       
       body, #page, #header, #footer{
             background-color: black;
@@ -190,37 +189,112 @@ streams.push({
            filter: invert(100%);
       }
       
-      #textField {
-            background-color: #21367000;
-      }
-      #footer{
-            
-      }
-      #footer, .textBox{ 
+      #footer{ 
             background-image: url("assets/img/backgrounds/sternenhimmel.jpg"); 
             background-repeat: no-repeat;
             background-size: cover;
+            font-size: 11px;
+      }
+      
+      .textFieldTitle {
+            flex: 0;
+            font-size: 21px;
+            color: white;
+            margin-bottom: 15px;
+      }
+      
+      #textField{
+            width: 90%;
+            border-radius: 10px;
+            max-width: 1080px;
+      }
+      .textFieldContent{
+            width: 99%;
+            justify-content: space-between;
+      }
+      
+      .textFieldContent::-webkit-scrollbar{
+            width: 0.5em;
+            background-color:  #000b1200;
+      }
+      
+      .textFieldContent::-webkit-scrollbar-thumb{
+            background-color:  #a7a7a7a3;
+            max-width: 10px;
+            border-radius: 10px;
+      }
+      
+      .textFieldContent::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+      border-radius: 10px;
       }
       
       .textBox_header{ 
             background-color: #000b1200; 
-            color: white;
+            color: #012831b3;
+            font-style: normal;
       }
       
       .textBox{
-            opacity: 0.8;
+            opacity: 0.9;
+            max-width: 500px;
+            min-width: 200px;
+            background-color: #00e7ffba;
+            border-style: solid;
+            border-color: #00e7ff; 
       }
+      
+      .textBox:first-child{
+            border-style: solid;
+            border-color: #1bff00;
+            background-color: #1bff0085;
+            color: #25ff00;
+      }
+      
+      .textBox:first-child .textBox_header, .textBox:last-child .textBox_header{
+            color: white;
+      }
+      
+      .textBox:first-child .textBox_text{
+            color: #ffffff;
+            background-color: #0aff1199;
+      }
+      
+      .textBox:last-child{
+            border-style: solid;
+            border-color: #ff0000;
+            background-color: #ff0000b5;
+            color: #ff0000;
+      }
+      
+      .textBox:last-child .textBox_text{
+            color: #efc5c5;
+            background-color: #ff00008f;
+      }
+      
       .textBox:hover{
             opacity: 1;
       }
+      
       .textBox_text{
-            background-color: rgb(96 106 205 / 38%);
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
-            text-align: left;
-            justify-content: left;
-            color: #94a9b9;
+            background-color: #00e7ff73;
+            border-radius: 5px;
+            min-height: 80px;
+            text-align: center;
+            justify-content: center;
+            color: #feffff;
             margin: 4px;
+      }
+      .textBox_text a, .textBox_text a:visited, .textBox_text a:active{
+            color: #286599;
+      }
+      .textBox_text a:hover{
+            color: #8ffb00;
+      }
+      
+      .linkButton{
+            color: rgb(189 187 187);
       }
       
       #partner-box a{ background-color: black; }
@@ -234,22 +308,66 @@ streams.push({
       "text": "MediaBox", // high
       "image": "assets/img/logos/mediabox-small-logo.jpg",
       "url": "https://www.bht-berlin.de/digitale-medien"
+    },
+    {
+      "text": "LNdW", // high
+      "image": "assets/img/logos/lndw_logo_N8_weiß.jpg",
+      "url": "https://www.bht-berlin.de/lndw"
     }],
   "textFields" : [
-    { "title": "Programm"
+    { "title": "Programm am 17.06.23 von 17:00 bis 00:00 Uhr"
     },
-    { "header": "Interviews",
-      "text": "12 Uhr - Herr .... <br> 14 Uhr - Frau Dr. ..."
+    { "header": "<p style=''>17:00</p>&nbsp; - &nbsp;Start",
+      "text": "Die Tore des LFS werden geöffnet"
     },
-    { "header": "Ablaufplan",
-      "text": "Beschreibung"
+    { "header": "17:30 - Begrüßung",
+      "text": "Herr Prof. Dr. Strzebkowski & Herr Antoniazzi"
+    },
+    { "header": "17:50 - Einblick",
+      "text": "Lassen Sie sich von Uns hinter die Kulissen führen"
+    },
+    { "header": "18:00 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "! Informationen folgen !"
+    },
+    { "header": "18:15 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "! Informationen folgen !"
+    },
+    { "header": "18:30 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "! Informationen folgen !"
+    },
+    { "header": "19:00 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "Herr Prof. Kummert"
+    },
+    { "header": "19:15 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "! Informationen folgen !"
+    },
+    { "header": "20:00 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": " Ralf Zehr - RBB 88.8"
+    },
+    { "header": "20:25 - MOLLY",
+      "text": "<a href='https://player.bht-media.de/index.html?channel=molly' target='_blank'>Lecture Streaming & Recording - Dual View Base</a>"
+    },
+    { "header": "20:43 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "Herr Dr. Pieper"
+    },
+    { "header": "20:58 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "! Informationen folgen !"
+    },
+    { "header": "23:20 - Resüme",
+      "text": "Eine Zusammenfassung des Tages"
+    },
+    { "header": "23:40 - Abschied",
+      "text": "Abmoderation des Events"
+    },
+    { "header": "00:00 - Ende",
+      "text": "Das LFS geht ins Wochenende"
     }
   ],
   "linkBox": [
     {
-      "text": "Logobeschreibung", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
+      "text": "Lange Nacht der Wissenschaften", // high
+      "image": "",
+      "url": "https://www.bht-berlin.de/lndw"
     }
   ],
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
@@ -299,8 +417,8 @@ streams.push({
         content: image-set("assets/img/logos/mediabox-big-logo.jpg");
         height: 90%;
    }
-   
-   
+   #footer{ font-size: 11px; }
+       
    `,
 
    /**
@@ -320,9 +438,9 @@ streams.push({
    ],**/
    "linkBox": [
    {
-      "text": "Logobeschreibung", // high
-      "image": "assets/img/logos/mediabox-small-logo.jpg",
-      "url": "1234"
+      "text": "Lange Nacht der Wissenschaften", // high
+      "image": "",
+      "url": ""
     }
    ],
 
@@ -1397,7 +1515,7 @@ streams.push({
     }],
 });
 
-// ---- Lange Nacht der Wissenschaften ----------------------------------------------------------------------------------------------------
+// ---- 2022 Lange Nacht der Wissenschaften ----------------------------------------------------------------------------------------------------
 streams.push({
 "tag": "lndw-2022",
   "titleTop": "Lange Nacht der Wissenschaften",
