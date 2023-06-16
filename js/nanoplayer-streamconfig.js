@@ -235,8 +235,8 @@ streams.push({
       }
       
       .textBox_header{ 
-            background-color: #000b1200; 
-            color: #012831b3;
+            background-color: #00000000; 
+            color: #0072ff;
             font-style: normal;
       }
       
@@ -244,9 +244,9 @@ streams.push({
             opacity: 0.9;
             max-width: 500px;
             min-width: 200px;
-            background-color: #00e7ffba;
+            background-color: #020555ba;
             border-style: solid;
-            border-color: #00e7ff; 
+            border-color: #3f00ff61; 
       }
       
       .textBox:first-child{
@@ -282,7 +282,7 @@ streams.push({
       }
       
       .textBox_text{
-            background-color: #00e7ff73;
+            background-color: #1209b973;
             border-radius: 5px;
             min-height: 80px;
             text-align: center;
@@ -291,7 +291,7 @@ streams.push({
             margin: 4px;
       }
       .textBox_text a, .textBox_text a:visited, .textBox_text a:active{
-            color: #286599;
+            color: #fbff02;
       }
       .textBox_text a:hover{
             color: #8ffb00;
@@ -331,31 +331,61 @@ streams.push({
       "text": "Lassen Sie sich von Uns hinter die Kulissen führen"
     },
     { "header": "18:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "! Informationen folgen !"
+          "text": "Herr Prof. Dipl.-Ing. Gerd Sedelies"
+    },
+    { "header": "18:00 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "Herr Prof. Dipl.-Ing. Gerd Sedelies"
     },
     { "header": "18:15 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "! Informationen folgen !"
+      "text": "Herr Prof. Dr.-Ing. Sven Tschirley"
     },
     { "header": "18:30 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "! Informationen folgen !"
+      "text": "Frau Chrysanthie Emmanouilidou"
+    },
+    { "header": "18:45 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Herr Dipl.-Ing. Tasso Mulzer"
     },
     { "header": "19:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Prof. Kummert"
+      "text": "Herr Prof. Dipl.-Kfm. Kai Kummert"
     },
     { "header": "19:15 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "! Informationen folgen !"
+      "text": "Herr Erik Bussek"
+    },
+    { "header": "19:30 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Frau Prof. Dr. Ilona Buchem"
+    },
+    { "header": "19:45 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Besucher*Innen im Studio"
     },
     { "header": "20:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": " Ralf Zehr - RBB 88.8"
+      "text": "Herr Ralf Zehr - RBB 88.8"
+    },
+    { "header": "20:20 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Herr Dr. Justinus Pieper"
     },
     { "header": "20:25 - MOLLY",
       "text": "<a href='https://player.bht-media.de/index.html?channel=molly' target='_blank'>Lecture Streaming & Recording - Dual View Base</a>"
     },
-    { "header": "20:43 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Dr. Pieper"
+    { "header": "21:00 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "Frau Elli Strauven-Dejean + Startups"
     },
-    { "header": "20:58 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "! Informationen folgen !"
+    { "header": "21:30 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "Herr Mustafa Tevik Lafci"
+    },
+    { "header": "21:45 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Frau Marie Hennings"
+    },
+    { "header": "22:00 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Frau Friederike Fröbel"
+    },
+    { "header": "22:15 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Herr Prof. Dr. Steffen Prowe"
+    },
+    { "header": "22:30 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Herr Florian Schindler & Herr Wolfgang Hahn"
+    },
+    { "header": "22:50 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Herr Lukas Runge"
     },
     { "header": "23:20 - Resüme",
       "text": "Eine Zusammenfassung des Tages"
@@ -365,7 +395,10 @@ streams.push({
     },
     { "header": "00:00 - Ende",
       "text": "Das LFS geht ins Wochenende"
-    }
+    },
+    { "header": "23:40 - Abschied",
+          "text": "Abmoderation des Events"
+    },
   ],
   "linkBox": [
     {
