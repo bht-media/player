@@ -333,9 +333,6 @@ streams.push({
     { "header": "18:00 - &nbsp;<p style='color:white;'>Interview</p>",
           "text": "Herr Prof. Dipl.-Ing. Gerd Sedelies"
     },
-    { "header": "18:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Prof. Dipl.-Ing. Gerd Sedelies"
-    },
     { "header": "18:15 - &nbsp;<p style='color:white;'>Interview</p>",
       "text": "Herr Prof. Dr.-Ing. Sven Tschirley"
     },
