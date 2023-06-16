@@ -236,7 +236,7 @@ streams.push({
       
       .textBox_header{ 
             background-color: #00000000; 
-            color: #0072ff;
+            color: #ff8f00;
             font-style: normal;
       }
       
@@ -244,9 +244,9 @@ streams.push({
             opacity: 0.9;
             max-width: 500px;
             min-width: 200px;
-            background-color: #020555ba;
+            background-color: #00022bba;
             border-style: solid;
-            border-color: #3f00ff61; 
+            border-color: #2b00ad61; 
       }
       
       .textBox:first-child{
@@ -261,7 +261,7 @@ streams.push({
       }
       
       .textBox:first-child .textBox_text{
-            color: #ffffff;
+            color: #434343;
             background-color: #0aff1199;
       }
       
@@ -273,7 +273,7 @@ streams.push({
       }
       
       .textBox:last-child .textBox_text{
-            color: #efc5c5;
+            color: #434343;
             background-color: #ff00008f;
       }
       
@@ -282,12 +282,12 @@ streams.push({
       }
       
       .textBox_text{
-            background-color: #1209b973;
+            background-color: #06007973;
             border-radius: 5px;
             min-height: 80px;
             text-align: center;
             justify-content: center;
-            color: #feffff;
+            color: #8fbbff;
             margin: 4px;
       }
       .textBox_text a, .textBox_text a:visited, .textBox_text a:active{
@@ -395,9 +395,6 @@ streams.push({
     },
     { "header": "00:00 - Ende",
       "text": "Das LFS geht ins Wochenende"
-    },
-    { "header": "23:40 - Abschied",
-          "text": "Abmoderation des Events"
     },
   ],
   "linkBox": [
