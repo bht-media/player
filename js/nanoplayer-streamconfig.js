@@ -213,9 +213,16 @@ streams.push({
             max-width: 1080px;
       }
       .textFieldContent{
+            flex: auto;
             width: 99%;
+            height: 200px;
+            text-wrap: balance;
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow-y: scroll;
             justify-content: space-between;
       }
+      
       
       .textFieldContent::-webkit-scrollbar{
             width: 0.5em;
@@ -242,8 +249,8 @@ streams.push({
       
       .textBox{
             opacity: 0.9;
-            max-width: 500px;
-            min-width: 200px;
+            max-width: 250px;
+            min-width: 175px;
             background-color: #00022bba;
             border-style: solid;
             border-color: #2b00ad61; 
