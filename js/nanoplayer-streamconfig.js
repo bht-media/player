@@ -250,7 +250,7 @@ streams.push({
       .textBox{
             opacity: 0.9;
             max-width: 250px;
-            min-width: 175px;
+            min-width: 200px;
             background-color: #00022bba;
             border-style: solid;
             border-color: #2b00ad61; 
@@ -332,64 +332,67 @@ streams.push({
       "text": "Die Tore des LFS werden geöffnet"
     },
     { "header": "17:30 - Begrüßung",
-      "text": "Herr Prof. Dr. Strzebkowski & Herr Antoniazzi"
+      "text": "Prof. Dr. Strzebkowski & Herr Antoniazzi"
     },
-    { "header": "17:50 - Einblick",
+    { "header": "17:40 - Einblick",
       "text": "Lassen Sie sich von Uns hinter die Kulissen führen"
     },
     { "header": "18:00 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Herr Prof. Dipl.-Ing. Gerd Sedelies"
+          "text": "Prof. Dipl.-Ing. Gerd Sedelies"
     },
     { "header": "18:15 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Prof. Dr.-Ing. Sven Tschirley"
+      "text": "Prof. Dr.-Ing. Sven Tschirley"
     },
     { "header": "18:30 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Frau Chrysanthie Emmanouilidou"
+      "text": "Chrysanthie Emmanouilidou"
     },
     { "header": "18:45 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Herr Dipl.-Ing. Tasso Mulzer"
+          "text": "Dipl.-Ing. Tasso Mulzer"
     },
     { "header": "19:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Prof. Dipl.-Kfm. Kai Kummert"
+      "text": "Prof. Dipl.-Kfm. Kai Kummert"
     },
-    { "header": "19:15 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Erik Bussek"
+    { "header": "19:20 - &nbsp;<p style='color:white;'>Interview</p>",
+      "text": "Erik Bussek"
     },
     { "header": "19:30 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Frau Prof. Dr. Ilona Buchem"
+          "text": "Prof. Dr. Ilona Buchem"
     },
     { "header": "19:45 - &nbsp;<p style='color:white;'>Interview</p>",
           "text": "Besucher*Innen im Studio"
     },
     { "header": "20:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Ralf Zehr - RBB 88.8"
+      "text": "Ralf Zehr - RBB 88.8"
     },
     { "header": "20:20 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Herr Dr. Justinus Pieper"
+          "text": "Dr. Justinus Pieper"
     },
-    { "header": "20:25 - MOLLY",
+    { "header": "20:35 - MOLLY",
       "text": "<a href='https://player.bht-media.de/index.html?channel=molly' target='_blank'>Lecture Streaming & Recording - Dual View Base</a>"
     },
     { "header": "21:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Frau Elli Strauven-Dejean + Startups"
+      "text": "ggf. Elli Strauven-Dejean & Sven Klinkow"
     },
-    { "header": "21:30 - &nbsp;<p style='color:white;'>Interview</p>",
+    { "header": "21:15 - &nbsp;<p style='color:white;'>Interview</p>",
       "text": "Herr Mustafa Tevik Lafci"
     },
+    { "header": "21:15 - &nbsp;<p style='color:white;'>Interview</p>",
+          "text": "Rainer Kirchknopf - ZDF"
+    },
     { "header": "21:45 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Frau Marie Hennings"
+          "text": "Marie Hennings"
     },
     { "header": "22:00 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Frau Friederike Fröbel"
+          "text": "Friederike Fröbel"
     },
     { "header": "22:15 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Herr Prof. Dr. Steffen Prowe"
+          "text": "Prof. Dr. Steffen Prowe"
     },
     { "header": "22:30 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Herr Florian Schindler & Herr Wolfgang Hahn"
+          "text": "Prof. Dr. Florian Schindler & Wolfgang Hahn"
     },
     { "header": "22:50 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Herr Lukas Runge"
+          "text": "Lukas Runge"
     },
     { "header": "23:20 - Resüme",
       "text": "Eine Zusammenfassung des Tages"
