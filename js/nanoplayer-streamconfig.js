@@ -338,13 +338,10 @@ streams.push({
       "text": "Lassen Sie sich von Uns hinter die Kulissen führen"
     },
     { "header": "18:00 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Prof. Dipl.-Ing. Gerd Sedelies"
-    },
-    { "header": "18:15 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Prof. Dr.-Ing. Sven Tschirley"
+          "text": "Prof. Dr. Sven Tschirley"
     },
     { "header": "18:30 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Chrysanthie Emmanouilidou"
+      "text": "Prof. Dr-Ing. Ivo Boblan"
     },
     { "header": "18:45 - &nbsp;<p style='color:white;'>Interview</p>",
           "text": "Dipl.-Ing. Tasso Mulzer"
@@ -358,11 +355,8 @@ streams.push({
     { "header": "19:30 - &nbsp;<p style='color:white;'>Interview</p>",
           "text": "Prof. Dr. Ilona Buchem"
     },
-    { "header": "19:45 - &nbsp;<p style='color:white;'>Interview</p>",
-          "text": "Besucher*Innen im Studio"
-    },
     { "header": "20:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Ralf Zehr - RBB 88.8"
+      "text": "Ralf Zehr & Frau - RBB 88.8"
     },
     { "header": "20:20 - &nbsp;<p style='color:white;'>Interview</p>",
           "text": "Dr. Justinus Pieper"
@@ -371,12 +365,12 @@ streams.push({
       "text": "<a href='https://player.bht-media.de/index.html?channel=molly' target='_blank'>Lecture Streaming & Recording - Dual View Base</a>"
     },
     { "header": "21:00 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "ggf. Elli Strauven-Dejean & Sven Klinkow"
+      "text": "Elli Strauven-Dejean & Alexander Götz"
     },
     { "header": "21:15 - &nbsp;<p style='color:white;'>Interview</p>",
-      "text": "Herr Mustafa Tevik Lafci"
+      "text": "Mustafa Tevik Lafci"
     },
-    { "header": "21:15 - &nbsp;<p style='color:white;'>Interview</p>",
+    { "header": "21:30 - &nbsp;<p style='color:white;'>Interview</p>",
           "text": "Rainer Kirchknopf - ZDF"
     },
     { "header": "21:45 - &nbsp;<p style='color:white;'>Interview</p>",
