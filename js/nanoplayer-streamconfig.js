@@ -108,6 +108,80 @@ streams.push({
 });
 
 /**
+ * 2023 Harald Lesch-------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "lesch",
+  "titleTop": "Harald Lesch",
+  "title": "Vortrag an der Berliner Hochschule für Technik",
+  "image": "assets/img/backgrounds/2023Lesch/background-physic.jpg",
+
+   "customStyle": `
+   #titleTop {  background-color: #3c4afbf0; 
+                color: white;
+                font-size: xx-large;}
+   #titleSub { color: #9ca4ff; background-color: #152385bd; }             
+   #page, #header, #footer { background-color: #000000; }
+   #beuth-logo, #beuthbox-logo { filter: invert(100%); }
+   #footer a:hover{ color: white; }
+   #footer a { color: #00d0ff; }
+   #error   { display:none; }
+   `,
+
+  /**
+   *
+   "partnerBox": [
+   {
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
+    }],
+   "textFields" : [
+   { "title": "Titel"
+    },
+   { "header": "Information",
+      "text": "Beschreibung"
+    }
+   ],
+   "linkBox": [
+   {
+      "text": "Logobeschreibung", // high
+      "image": "/assets/beuthbox-logo.png",
+      "url": "1234"
+    }
+   ],
+   **/
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
+  "chat": false
+});
+
+/**
  * 2023 Lange Nacht der Wissenschaften -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
@@ -514,8 +588,8 @@ streams.push({
  */
 streams.push({
   "tag": "praesidium",
-  "titleTop": "Präsidiumswahl 2023",
-  "title": "Vorstellung der Kandidaten",
+  "titleTop": "Wahlen zum Präsidium der Berliner Hochschule für Technik",
+  "title": "in der Akademischen Versammlung am 13 Juli 2023",
   "image": "",
   "debug": false,
   "chat": false,
@@ -523,18 +597,48 @@ streams.push({
             #textField {
               flex-wrap: wrap;
               width: 500px;
+              height: 500px;
               max-width: 800px;
-            .textFieldContent {
-              flex: none;
+              background-color: white;
+              border-radius: 10px;
             }
+              
+            .textFieldContent {
+            flex: auto;
+              width: 99%;
+              height: 200px;
+              text-wrap: balance;
+              flex-direction: row;
+              flex-wrap: wrap;
+              overflow-y: scroll;
+              justify-content: space-between
+            }
+    
             .textBox {
               display: flex;
               flex-direction: column;
+              min-width: 150px;
+              max-width: 150px;
             }
-            .textBox_header img{
-            width: 100%;
-            height: auto;
+            
+            .textBox_header{
+              padding: 0;
             }
+            
+              .textBox_header img{
+              width: 100%;
+              height: auto;
+              border-top-right-radius: 10px;
+              border-top-left-radius: 10px;
+            }
+            
+            .textBox_text{
+              background-color: #0089ff40;
+              height: 70px;
+              border-bottom-right-radius: 10px;
+              border-bottom-left-radius: 10px;
+            }
+            
             `,
   /*"partnerBox": [
     {
@@ -546,24 +650,32 @@ streams.push({
       "text": "BHT Präsidium",
       "image": "",
       "url": "https://www.bht-berlin.de/praesidium"
+    },
+    {
+      "text": "BHT Zentraler Wahlvorstand",
+      "image": "",
+      "url": "https://www.bht-berlin.de/zwv"
     }],
-  "textFields" : [
-    { "title": "Die Kandidaten"
-    },
-    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
-      "text": "Vortrag 01"
-    },
-    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
-      "text": "Vortrag 02"
-    },
-    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
-      "text": "Vortrag 03"
-    },
-    { "header": "<img src='assets/img/logos/mediabox-small-logo.ico'>",
-      "text": "Vortrag 03"
-    },
 
+  "textFields" : [
+    { "title": "Kandidatin / Kandidaten"
+    },
+    { "header": "<img src='assets/img/foto/christine-edmaier.jpg'>",
+      "text": "Präsidentin: <br> Christine Edmaier"
+    },
+    { "header": "<img src='assets/img/foto/Dr-Julia-Neuhaus.jpg'>",
+      "text": "Präsidentin: <br> Dr. Julia Neuhaus"
+    },
+    { "header": "<img src='assets/img/foto/wolfgang-Kesseler.jpg'>",
+      "text": "Präsident: <br> Prof. Dr. Wolfgang Kessler"
+    },{ "header": "<img src='assets/img/foto/prof-dr-rainer-schneider.jpg'>",
+      "text": "1 Vizepräsident: <br> Prof. Dr. Reiner Schneider"
+    },
+    { "header": "<img src='assets/img/foto/Dr-Julia-Neuhaus.jpg'>",
+      "text": "Dr. Julia Neuhaus"
+    },
   ],
+
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "RBJ00-2tr1O", // high
