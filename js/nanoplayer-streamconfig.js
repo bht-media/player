@@ -128,14 +128,15 @@ streams.push({
    #error   { display:none; }
    #textField, .textBox { background-color: #00000000; }
    
-   .linkButton { color: #ffffffad; background-color: #0f174dbd; font-size: 12px; }
+   .linkButton { padding-left: 2em; padding-right: 2em; color: #ffffffad; background-color: #0f174dbd; font-size: 12px; }
+   .linkButton:last-child { background-color: #00000000; box-shadow: none; }
    .textBox { max-width: 1080px; margin: 2em; }
    .textFieldTitle { display: none; }
    .textBox_text {  padding: 1em; border-bottom-right-radius: 1em;
                     border-bottom-left-radius: 1em;  background-color: #94a9f1d4;}
    .textBox_header { padding: 1em; font-size: 18px; border-top-right-radius: 1em;
                     border-top-left-radius: 1em; background-color: #ffffffc7; }
-   
+   .linkBoxImages { height: 4em; }
    `,
 
     /**
@@ -155,15 +156,15 @@ streams.push({
           "kann überzeugend argumentieren und nachhaltig handeln. Die Schüler*innen erfahren, wie sie die Energiewende in Deutschland mitgestalten und realisieren können.<br><br>" +
           "Prof. Dr. Harald Lesch eröffnet die Veranstaltung mit einem Vortrag zum Thema Klimawandel. Dr. Cecilia Scorza-Lesch stellt den Klimakoffer vor und zeigt die damit möglichen Experimente, die für den Unterricht konzipiert wurden.<br><br>"
     }
-   ],/**
+   ],
    "linkBox": [
    {
-      "text": "Logobeschreibung", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
+      "text": "", // high
+      "image": "assets/img/logos/Instagram_logo_2022.svg.png",
+      "url": "https://www.instagram.com/p/CuG8UuXA1S9/?hl=de"
     }
    ],
-   **/
+
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "RBJ00-Tz7pk", // high
@@ -198,12 +199,12 @@ streams.push({
  * 2023 Harald Lesch Single -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
-    "tag": "harald.lesch",
-    "titleTop": "Klimawandel: verstehen und handeln",
-    "title": "Prof. Dr. Harald Lesch",
-    "image": "assets/img/backgrounds/2023Lesch/background-physic.jpg",
+  "tag": "harald.lesch",
+  "titleTop": "Klimawandel: verstehen und handeln",
+  "title": "Prof. Dr. Harald Lesch",
+  "image": "assets/img/backgrounds/2023Lesch/background-physic.jpg",
 
-    "customStyle": `
+  "customStyle": `
    #titleTop {  background-color: #000431f0; 
                 color: white;
                 font-size: xx-large;}
@@ -215,57 +216,71 @@ streams.push({
    #error   { display:none; }
    #textField, .textBox { background-color: #00000000; }
    
-   .linkButton { color: #ffffffad; background-color: #0f174dbd; font-size: 12px; }
+   .linkButton { padding-left: 2em; padding-right: 2em; color: #ffffffad; background-color: #0f174dbd; font-size: 12px; }
+   .linkButton:last-child { background-color: #00000000; box-shadow: none; }
    .textBox { max-width: 1080px; margin: 2em; }
    .textFieldTitle { display: none; }
    .textBox_text {  padding: 1em; border-bottom-right-radius: 1em;
                     border-bottom-left-radius: 1em;  background-color: #94a9f1d4;}
    .textBox_header { padding: 1em; font-size: 18px; border-top-right-radius: 1em;
                     border-top-left-radius: 1em; background-color: #ffffffc7; }
-   
+   .linkBoxImages { height: 4em; }
    `,
 
-    /**
-     *
-     "partnerBox": [
-     {
+  /**
+   *
+   "partnerBox": [
+   {
       "text": "MediaBox", // high
       "image": "assets/img/logos/mediabox-small-logo.jpg",
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],*/
-    "textFields" : [
-        { "title": ""
-        },
-        { "header": "7.7.2023 um 10-13 Uhr im Ingeborg-Meising-Saal an der BHT ",
-            "text": "Diese Veranstaltung richtet sich an Lehrkräfte und deren Schüler*innen an Berliner und Brandenburger Oberschulen.<br><br>" +
-                "Die Jugend von heute wird in der Zukunft alltäglich mit dem Klimawandel auseinandersetzen müssen. Nur wer die wissenschaftlichen Hintergründe versteht, " +
-                "kann überzeugend argumentieren und nachhaltig handeln. Die Schüler*innen erfahren, wie sie die Energiewende in Deutschland mitgestalten und realisieren können.<br><br>" +
-                "Prof. Dr. Harald Lesch eröffnet die Veranstaltung mit einem Vortrag zum Thema Klimawandel. Dr. Cecilia Scorza-Lesch stellt den Klimakoffer vor und zeigt die damit möglichen Experimente, die für den Unterricht konzipiert wurden.<br><br>"
-        }
-    ],/**
-     "linkBox": [
-     {
-      "text": "Logobeschreibung", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
+  "textFields" : [
+    { "title": ""
+    },
+    { "header": "7.7.2023 um 10-13 Uhr im Ingeborg-Meising-Saal an der BHT ",
+      "text": "Diese Veranstaltung richtet sich an Lehrkräfte und deren Schüler*innen an Berliner und Brandenburger Oberschulen.<br><br>" +
+          "Die Jugend von heute wird in der Zukunft alltäglich mit dem Klimawandel auseinandersetzen müssen. Nur wer die wissenschaftlichen Hintergründe versteht, " +
+          "kann überzeugend argumentieren und nachhaltig handeln. Die Schüler*innen erfahren, wie sie die Energiewende in Deutschland mitgestalten und realisieren können.<br><br>" +
+          "Prof. Dr. Harald Lesch eröffnet die Veranstaltung mit einem Vortrag zum Thema Klimawandel. Dr. Cecilia Scorza-Lesch stellt den Klimakoffer vor und zeigt die damit möglichen Experimente, die für den Unterricht konzipiert wurden.<br><br>"
     }
-     ],
-     **/
-    "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
-        {
-            "streamname": "RBJ00-Tz7pk", // high
-            "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-        },
-        {
-            "streamname": "RBJ00-0jEJQ", // medium
-            "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-        },
-        {
-            "streamname": "RBJ00-MrrrX", // low
-            "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-        }],
-    "debug": false,
-    "chat": false
+  ],
+  "linkBox": [
+    {
+      "text": "", // high
+      "image": "assets/img/logos/Instagram_logo_2022.svg.png",
+      "url": "https://www.instagram.com/p/CuG8UuXA1S9/?hl=de"
+    }
+  ],
+
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-Tz7pk", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-0jEJQ", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-MrrrX", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-W6tPn", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-J84o4", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-KJyxL", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
+  "chat": false
 });
 
 /**
