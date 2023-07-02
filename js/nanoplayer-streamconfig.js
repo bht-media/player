@@ -114,13 +114,13 @@ streams.push({
   "tag": "lesch",
   "titleTop": "Klimawandel: verstehen und handeln",
   "title": "Prof. Dr. Harald Lesch",
-  "image": "assets/img/backgrounds/2023Lesch/background-physic.jpg",
+  "image": "assets/img/backgrounds/2023Lesch/klima3.jpg",
 
    "customStyle": `
-   #titleTop {  background-color: #000431f0; 
+   #titleTop {  background-color: #a91100f0; 
                 color: white;
                 font-size: xx-large;}
-   #titleSub { color: #ffffffad; background-color: #0f174dbd; font-size: 18px; }             
+   #titleSub { color: #ffffffad; background-color: #4d0f0fbd; font-size: 18px; }             
    #page, #header, #footer { background-color: #000000; }
    #beuth-logo, #beuthbox-logo { filter: invert(100%); }
    #footer a:hover{ color: white; }
@@ -128,14 +128,14 @@ streams.push({
    #error   { display:none; }
    #textField, .textBox { background-color: #00000000; }
    
-   .linkButton { padding-left: 2em; padding-right: 2em; color: #ffffffad; background-color: #0f174dbd; font-size: 12px; }
+   .linkButton { padding-left: 2em; padding-right: 2em; color: #ffffffad; background-color: #4d0f0fbd; font-size: 12px; }
    .linkButton:last-child { background-color: #00000000; box-shadow: none; }
    .textBox { max-width: 1080px; margin: 2em; }
    .textFieldTitle { display: none; }
    .textBox_text {  padding: 1em; border-bottom-right-radius: 1em;
-                    border-bottom-left-radius: 1em;  background-color: #94a9f1d4;}
+                    border-bottom-left-radius: 1em;  background-color: #ffffffd4;}
    .textBox_header { padding: 1em; font-size: 18px; border-top-right-radius: 1em;
-                    border-top-left-radius: 1em; background-color: #ffffffc7; }
+                    border-top-left-radius: 1em; color:white; background-color: #c90000e6; }
    .linkBoxImages { height: 4em; }
    `,
 
@@ -202,13 +202,13 @@ streams.push({
   "tag": "harald.lesch",
   "titleTop": "Klimawandel: verstehen und handeln",
   "title": "Prof. Dr. Harald Lesch",
-  "image": "assets/img/backgrounds/2023Lesch/background-physic.jpg",
+  "image": "assets/img/backgrounds/2023Lesch/klima3.jpg",
 
   "customStyle": `
-   #titleTop {  background-color: #000431f0; 
+   #titleTop {  background-color: #a91100f0; 
                 color: white;
                 font-size: xx-large;}
-   #titleSub { color: #ffffffad; background-color: #0f174dbd; font-size: 18px; }             
+   #titleSub { color: #ffffffad; background-color: #4d0f0fbd; font-size: 18px; }             
    #page, #header, #footer { background-color: #000000; }
    #beuth-logo, #beuthbox-logo { filter: invert(100%); }
    #footer a:hover{ color: white; }
@@ -216,14 +216,14 @@ streams.push({
    #error   { display:none; }
    #textField, .textBox { background-color: #00000000; }
    
-   .linkButton { padding-left: 2em; padding-right: 2em; color: #ffffffad; background-color: #0f174dbd; font-size: 12px; }
+   .linkButton { padding-left: 2em; padding-right: 2em; color: #ffffffad; background-color: #4d0f0fbd; font-size: 12px; }
    .linkButton:last-child { background-color: #00000000; box-shadow: none; }
    .textBox { max-width: 1080px; margin: 2em; }
    .textFieldTitle { display: none; }
    .textBox_text {  padding: 1em; border-bottom-right-radius: 1em;
-                    border-bottom-left-radius: 1em;  background-color: #94a9f1d4;}
+                    border-bottom-left-radius: 1em;  background-color: #ffffffd4;}
    .textBox_header { padding: 1em; font-size: 18px; border-top-right-radius: 1em;
-                    border-top-left-radius: 1em; background-color: #ffffffc7; }
+                    border-top-left-radius: 1em; color:white; background-color: #c90000e6; }
    .linkBoxImages { height: 4em; }
    `,
 
