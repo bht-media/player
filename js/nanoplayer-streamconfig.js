@@ -679,16 +679,16 @@ streams.push({
   "tag": "praesidium",
   "titleTop": "Wahlen zum Präsidium der Berliner Hochschule für Technik",
   "title": "in der Akademischen Versammlung am 13 Juli 2023",
-  "image": "",
+  "image": "assets/img/backgrounds/2023praesidium.jpg",
   "debug": false,
   "chat": false,
   "customStyle": `
             #textField {
               flex-wrap: wrap;
-              width: 500px;
+              min-width: 50px;
               height: 500px;
               max-width: 800px;
-              background-color: white;
+              background-color: #ffffffe3;
               border-radius: 10px;
             }
               
@@ -726,6 +726,11 @@ streams.push({
               height: 70px;
               border-bottom-right-radius: 10px;
               border-bottom-left-radius: 10px;
+              flex-direction: column;
+            }
+            
+            .linkButton {
+              background-color: #ffffffe3;
             }
             
             `,
@@ -750,18 +755,18 @@ streams.push({
     { "title": "Kandidatin / Kandidaten"
     },
     { "header": "<img src='assets/img/foto/christine-edmaier.jpg'>",
-      "text": "Präsidentin: <br> Christine Edmaier"
+      "text": "<h5>Kand. Präsident:</h5> <p>Christine Edmaier</p>"
     },
     { "header": "<img src='assets/img/foto/Dr-Julia-Neuhaus.jpg'>",
-      "text": "Präsidentin: <br> Dr. Julia Neuhaus"
+      "text": "<h5>Kand. Präsident:</h5> <p>Dr. Julia Neuhaus</p>"
     },
     { "header": "<img src='assets/img/foto/wolfgang-Kesseler.jpg'>",
-      "text": "Präsident: <br> Prof. Dr. Wolfgang Kessler"
+      "text": "<h5>Kand. Präsident:</h5> <p>Prof. Dr. Wolfgang Kessler</p>"
     },{ "header": "<img src='assets/img/foto/prof-dr-rainer-schneider.jpg'>",
-      "text": "1 Vizepräsident: <br> Prof. Dr. Reiner Schneider"
+      "text": "<h5>Kand. 1 Vizepräsident:</h5> <p>Prof. Dr. Reiner Schneider</p>"
     },
     { "header": "<img src='assets/img/foto/Dr-Julia-Neuhaus.jpg'>",
-      "text": "Dr. Julia Neuhaus"
+      "text": "<h5>Kand. 2 Vizepräsident:</h5> <p>Prof. Dr. Heike Ripphausen-Lipa</p>"
     },
   ],
 
