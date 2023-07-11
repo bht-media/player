@@ -686,26 +686,31 @@ streams.push({
             #textField {
               flex-wrap: wrap;
               min-width: 50px;
-              height: 500px;
-              max-width: 800px;
+              width: 80%;
+              max-width: 1020px;
               background-color: #ffffffe3;
               border-radius: 10px;
+              padding-bottom: 20px;
             }
-              
+            
+            #footer{
+              font-size: 0.70em;
+            }
+            
             .textFieldContent {
             flex: auto;
               width: 99%;
-              height: 200px;
               text-wrap: balance;
               flex-direction: row;
               flex-wrap: wrap;
-              overflow-y: scroll;
-              justify-content: space-between
+              overflow-y: auto;
+              justify-content: center;
             }
     
             .textBox {
               display: flex;
               flex-direction: column;
+              background-color: rgb(255 255 255 / 0%);
               min-width: 150px;
               max-width: 150px;
             }
@@ -714,7 +719,7 @@ streams.push({
               padding: 0;
             }
             
-              .textBox_header img{
+            .textBox_header img{
               width: 100%;
               height: auto;
               border-top-right-radius: 10px;
@@ -722,11 +727,17 @@ streams.push({
             }
             
             .textBox_text{
+              display: flex;
+              justify-content: flex-start;
               background-color: #0089ff40;
               height: 70px;
               border-bottom-right-radius: 10px;
               border-bottom-left-radius: 10px;
               flex-direction: column;
+            }
+            
+            .textBox_text h6{
+            padding-bottom: 5px;
             }
             
             .linkButton {
@@ -752,21 +763,24 @@ streams.push({
     }],
 
   "textFields" : [
-    { "title": "Kandidatin / Kandidaten"
+    { "title": "Kandidaten für die Wahl zum Präsidium"
     },
-    { "header": "<img src='assets/img/foto/christine-edmaier.jpg'>",
-      "text": "<h5>Kand. Präsident:</h5> <p>Christine Edmaier</p>"
+    { "header": "<img src='assets/img/foto/2023wahl/christine-edmaier.jpg'>",
+      "text": "<h6>Präsident</h6> <p>Christine Edmaier</p>"
     },
-    { "header": "<img src='assets/img/foto/Dr-Julia-Neuhaus.jpg'>",
-      "text": "<h5>Kand. Präsident:</h5> <p>Dr. Julia Neuhaus</p>"
+    { "header": "<img src='assets/img/foto/2023wahl/Dr-Julia-Neuhaus.jpg'>",
+      "text": "<h6>Präsident</h6> <p>Dr. Julia Neuhaus</p>"
     },
-    { "header": "<img src='assets/img/foto/wolfgang-Kesseler.jpg'>",
-      "text": "<h5>Kand. Präsident:</h5> <p>Prof. Dr. Wolfgang Kessler</p>"
-    },{ "header": "<img src='assets/img/foto/prof-dr-rainer-schneider.jpg'>",
-      "text": "<h5>Kand. 1 Vizepräsident:</h5> <p>Prof. Dr. Reiner Schneider</p>"
+    { "header": "<img src='assets/img/foto/2023wahl/wolfgang-Kesseler.jpg'>",
+      "text": "<h6>Präsident</h6> <p>Prof. Dr. Wolfgang Kessler</p>"
+    },{ "header": "<img src='assets/img/foto/2023wahl/prof-dr-rainer-schneider.jpg'>",
+      "text": "<h6>1 Vizepräsident</h6> <p>Prof. Dr. Reiner Schneider</p>"
     },
-    { "header": "<img src='assets/img/foto/Dr-Julia-Neuhaus.jpg'>",
-      "text": "<h5>Kand. 2 Vizepräsident:</h5> <p>Prof. Dr. Heike Ripphausen-Lipa</p>"
+    { "header": "<img src='assets/img/foto/2023wahl/ripphausen-lipa.jpg'>",
+      "text": "<h6>weiterer Vizepräsident</h6> <p>Prof. Dr. Heike Ripphausen-Lipa</p>"
+    },
+    { "header": "<img src='assets/img/foto/2023wahl/Joachim-Villwock.jpg'>",
+      "text": "<h6>weiterer Vizepräsident</h6> <p>Prof. Dr. Joachim Villwock</p>"
     },
   ],
 
