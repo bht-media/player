@@ -2600,21 +2600,21 @@ streams.push({
     },
   ],*/
   "linkBox": [
-    { "text": "Hochschultag 2022",
+    { "text": "Hochschultag",
       "image": "",
       "url": "https://www.bht-berlin.de/hochschultag"
     }],
   "entries":[
     {
-      "streamname": "RBJ00-bI1IX", // high
+      "streamname": "RBJ00-9Miqw", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-D5TS3", // medium
+      "streamname": "RBJ00-02JJR", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-qbmPi", // low
+      "streamname": "RBJ00-FjJI1", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [],
