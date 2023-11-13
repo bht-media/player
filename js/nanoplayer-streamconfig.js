@@ -2544,11 +2544,11 @@ streams.push({
 });
 
 /**
- *  Stream Hochschultag 2022 --------------------------------------------------------------------------------------------------------------------------------
+ *  Stream Hochschultag (Every year) --------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
-  "tag": "hochschultag2022",
-  "titleTop": "Hochschultag 2022",
+  "tag": "hochschultag",
+  "titleTop": "Hochschultag",
   "title": "Berliner Hochschule für Technik",
   "image": "",
   "debug": false,
