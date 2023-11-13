@@ -2607,15 +2607,15 @@ streams.push({
   "entries":[
     {
       "streamname": "RBJ00-9Miqw", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+      "info": { "bitrate": 4600, "width": 1920, "height": 1080, "framerate": 30 }
     },
     {
       "streamname": "RBJ00-02JJR", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+      "info": { "bitrate": 2000, "width": 1280, "height": 720, "framerate": 30 }
     },
     {
       "streamname": "RBJ00-FjJI1", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+      "info": { "bitrate": 800, "width": 852, "height": 480, "framerate": 30 }
     }],
   "dual": [],
 });
