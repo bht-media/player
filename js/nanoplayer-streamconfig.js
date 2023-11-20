@@ -2140,7 +2140,7 @@ streams.push({
  */
 streams.push({
   "tag": "startrek",
-  "titleTop": "11. Intergalaktische Gastvorlesung",
+  "titleTop": "12. Intergalaktische Gastvorlesung",
   "title": "Wissenschaft und Science-Fiction mit Captain Zitt",
   "image": "",
   "debug": false,
@@ -2495,23 +2495,23 @@ streams.push({
           "erlaeutert ob die technischen Visionen " +
           "aus der Fernsehserie Star Trek in Zukunft " +
           "umsetzbar sind. <br><br>" +
-          "Fuer zusaetzliche informationen besuchen Sie bitte die <a href='https://www.bht-berlin.de/3897/article/8457' target='_blank'>Offizielle Veranstaltungsseite.</a><br>" +
+          "Fuer zusaetzliche informationen besuchen Sie bitte die <a href='https://projekt.bht-berlin.de/nsh/wissenschaft-science-fiction' target='_blank'>Offizielle Veranstaltungsseite.</a><br>" +
           "</div>"
     },
     { "header": "",
-      "text": "11.11.<br>2022<br><br><br><br>15:00<br>Uhr"
+      "text": "23.11.<br>2022<br><br><br><br>15:00<br>Uhr"
     },
     { "header": "",
-      "text": "-300138.0"
+      "text": "-299102.4"
     },
     { "header": "",
       "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
     },
-    { "header": "<a href='https://www.bht-berlin.de/3897/article/8457' target=\"_blank\">Star Trek Veranstaltung</div>",
-      "text": "<a href='https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/hubert-zitt' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
+    { "header": "<a href='https://projekt.bht-berlin.de/fileadmin/projekt/nsh/Dokumente/Bordkarte_2023.pdf' target=\"_blank\">Star Trek Bordkarte</div>",
+      "text": "<a href='https://www.startrekvorlesung.de/' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
     },
     { "header": "",
-      "text": "-300137.8"
+      "text": "-299102.16"
     },
     { "header": "",
       "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
