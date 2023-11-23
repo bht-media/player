@@ -2218,9 +2218,16 @@ streams.push({
   display: none; 
   }
   
-  a.linkButton{
-    background-color: #ffcd04;
+  .linkButton{
+    background-color:#ff000000;
   }
+  .linkButton img {
+    height: 200px;
+  }
+  #partner-title{
+    color: #ff000000 !importent;
+  }
+  
   body{
     font-family: 'Sterilict', serif;
   }
@@ -2370,6 +2377,12 @@ streams.push({
     overflow-x: inherit;
     flex: 0;
   }
+/* Partnerbox ---------------------------------------------------*/
+  
+  #partner-title {
+    display: none;
+}
+  
 /* Scroll Text Animation ---------------------------------------------------*/
   #scroll-text {
   max-width: 988px;
@@ -2508,7 +2521,7 @@ streams.push({
       "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
     },
     { "header": "<a href='https://projekt.bht-berlin.de/fileadmin/projekt/nsh/Dokumente/Bordkarte_2023.pdf' target=\"_blank\">Star Trek Bordkarte</div>",
-      "text": "<a href='https://www.startrekvorlesung.de/' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
+      "text": "<a href='https://www.startrekvorlesung.de/crew' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
     },
     { "header": "",
       "text": "-299102.16"
@@ -2523,10 +2536,14 @@ streams.push({
       "image": "",
       "url": ""
       },
-  ],
+  ],*/
   "partnerBox": [
-    {}],
-  */
+    {
+      "image":"assets/img/logos/startrek/ZITT_ScienceFiction.png",
+      "url": "https://www.startrekvorlesung.de"
+
+    }],
+
   "entries":[
     {
       "streamname": "RBJ00-oE9ul", // high
