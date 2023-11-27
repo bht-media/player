@@ -2504,8 +2504,8 @@ streams.push({
 
   "textFields" : [
     { "title": "<div id=\"scroll-text\">\n" +
-          "Dozent Hubert Zitt von der Hochschule Kaiserslautern, <br>" +
-          "erlaeutert ob die technischen Visionen " +
+          "Dozent Hubert Zitt von der Hochschule Kaiserslautern <br>" +
+          "erlaeutert, ob die technischen Visionen " +
           "aus der Fernsehserie Star Trek in Zukunft " +
           "umsetzbar sind. <br><br>" +
           "Fuer zusaetzliche informationen besuchen Sie bitte die <a href='https://projekt.bht-berlin.de/nsh/wissenschaft-science-fiction' target='_blank'>Offizielle Veranstaltungsseite.</a><br>" +
