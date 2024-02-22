@@ -115,8 +115,7 @@ streams.push({
   "titleTop": "Notfall-Stream Berliner Hochschule für Technik",
   "title": "Wichtige Informationsveranstaltung",
   "image": "",
-  /**
-   *
+
    "customStyle": `
    #titleSub {
             background-color: #212121;
@@ -131,10 +130,11 @@ streams.push({
    { "title": "Wichtige Informationen"
     },
    { "header": "Information",
-      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung.
-gez. De. Julia Neuhaus, Präsidentin BHT"
+      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. gez. De. Julia Neuhaus, Präsidentin BHT"
     }
    ],
+   /**
+   *
    "linkBox": [
    {
       "text": "Logobeschreibung", // high
