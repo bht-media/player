@@ -156,21 +156,9 @@ streams.push({
       "streamname": "RBJ00-LfCxt", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
-  "dual": [
-    {
-      "streamname": "RBJ00-...", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-...", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-...", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
+  "dual": [],
   "debug": false,
-  "chat": true
+  "chat": false
 });
 
 /**
