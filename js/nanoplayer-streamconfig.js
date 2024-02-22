@@ -131,6 +131,8 @@ streams.push({
       "image": "assets/img/logos/mediabox-small-logo.jpg",
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],
+  /**
+   *    *
    "textFields" : [
    { "title": ""
     },
@@ -138,8 +140,7 @@ streams.push({
       "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. <br> gez. De. Julia Neuhaus, Präsidentin BHT"
     }
    ],
-   /**
-   *
+
    "linkBox": [
    {
       "text": "Logobeschreibung", // high
