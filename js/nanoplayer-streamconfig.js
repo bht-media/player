@@ -117,7 +117,7 @@ streams.push({
   "image": "",
 
    "customStyle": `
-   #titleSub {
+   body {
             background-color: #212121;
             }`,
    "partnerBox": [
@@ -127,9 +127,9 @@ streams.push({
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],
    "textFields" : [
-   { "title": "Wichtige Informationen"
+   { "title": ""
     },
-   { "header": "Information",
+   { "header": "Wichtige Informationen",
       "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. gez. De. Julia Neuhaus, Präsidentin BHT"
     }
    ],
