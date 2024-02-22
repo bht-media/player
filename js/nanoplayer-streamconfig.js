@@ -108,6 +108,72 @@ streams.push({
 });
 
 /**
+ * 2024 NOTFALLSITZUNG Hack -------------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "notfallsitzung",
+  "titleTop": "Notfall-Stream Berliner Hochschule für Technik",
+  "title": "Wichtige Informationsveranstaltung",
+  "image": "",
+  /**
+   *
+   "customStyle": `
+   #titleSub {
+            background-color: #212121;
+            }`,
+   "partnerBox": [
+   {
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
+    }],
+   "textFields" : [
+   { "title": "Wichtige Informationen"
+    },
+   { "header": "Information",
+      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung.
+gez. De. Julia Neuhaus, Präsidentin BHT"
+    }
+   ],
+   "linkBox": [
+   {
+      "text": "Logobeschreibung", // high
+      "image": "/assets/beuthbox-logo.png",
+      "url": "1234"
+    }
+   ],
+   **/
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
+  "chat": true
+});
+
+/**
  * 2023 Harald Lesch Dual-------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
