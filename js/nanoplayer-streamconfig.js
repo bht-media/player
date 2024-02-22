@@ -117,9 +117,14 @@ streams.push({
   "image": "",
 
    "customStyle": `
-   body {
-            background-color: #212121;
-            }`,
+   #main {background-color: #212121;}
+   #titleTop { background-color: #a50000; color: rgb(253 253 253); }
+   #textField { background-color: none; }
+   .textBox_text{ height: 10em; font-size: larger; }
+
+            
+            
+   `,
    "partnerBox": [
    {
       "text": "MediaBox", // high
@@ -130,7 +135,7 @@ streams.push({
    { "title": ""
     },
    { "header": "Wichtige Informationen",
-      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. gez. De. Julia Neuhaus, Präsidentin BHT"
+      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. <br> gez. De. Julia Neuhaus, Präsidentin BHT"
     }
    ],
    /**
