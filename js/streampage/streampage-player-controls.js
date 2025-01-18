@@ -453,7 +453,7 @@ let hideShowSoundMuteButton = function () {
  * Switch between hide and show of the chat
  */
 let hideShowChat = function () {
-    toggleElementVisibility(document.getElementById("chat"));
+    toggleElementVisibility(document.getElementById("chat_configuration"));
 }
 
 /**
