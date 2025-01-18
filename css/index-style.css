@@ -112,6 +112,12 @@ body{
     flex-direction: row;
 }
 /** ---------------------------------------------------------*/
+
+#chatOnOff{
+    border: none;
+    background-color: aqua;
+}
+
 /** TextBox Style -----------------------------------------*/
 #textField{
     display: flex;
