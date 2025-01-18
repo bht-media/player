@@ -1558,9 +1558,13 @@ streams.push({
     background-color: #000000a8;
     }
             `,
-  /*"partnerBox": [
-    {}],*/
-  "linkBox": [],
+  /**"partnerBox": [
+    {}],
+  "linkBox": [{
+      "text": "",
+      "image": "",
+      "url": ""
+   }],**/
   /**"textFields" : [
     { "title": ""
     },

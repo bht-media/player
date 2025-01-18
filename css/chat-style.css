@@ -32,6 +32,10 @@
     height: 100%;
 }
 
+#chatOnOff{
+    display: block;
+}
+
 #chatTitle{
     flex: 0.5;
     font-size: 1.6rem;
