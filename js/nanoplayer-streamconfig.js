@@ -787,11 +787,6 @@ streams.push({
             }
             
             `,
-  /*"partnerBox": [
-    {
-      "image":"",
-      "url": ""
-    }],*/
   "linkBox": [
     {
       "text": "BHT Präsidium",
@@ -803,7 +798,6 @@ streams.push({
       "image": "",
       "url": "https://www.bht-berlin.de/zwv"
     }],
-
   "textFields" : [
     { "title": "Kandidaten für die Wahl zum Präsidium"
     },
@@ -825,31 +819,30 @@ streams.push({
       "text": "<h6>weiterer Vizepräsident</h6> <p>Prof. Dr. Joachim Villwock</p>"
     },
   ],
-
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-2tr1O", // high
+      "streamname": "6c123d94-1c7a-4c5f-a3f8-fed22ac8517f", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-ADvhZ", // medium
+      "streamname": "2a17ab90-d706-4e7c-bec3-8deb74dcc4e3", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-Uym1S", // low
+      "streamname": "d9e7bc9f-a523-483c-8568-a9909099b152", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-oG8Fp", // high
+      "streamname": "73ebfeef-d517-4d19-8a2f-a02326e10fb0", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-jCPsT", // medium
+      "streamname": "f9774b96-285f-4948-bd53-998c6df48997", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-l6Au6", // low
+      "streamname": "f7d14388-e107-4257-9316-48375680089d", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
@@ -875,36 +868,36 @@ streams.push({
       "image": "",
       "url": "https://studiengang.bht-berlin.de/ao/"
     }],
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-2tr1O", // high
+      "streamname": "6c123d94-1c7a-4c5f-a3f8-fed22ac8517f", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-ADvhZ", // medium
+      "streamname": "2a17ab90-d706-4e7c-bec3-8deb74dcc4e3", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-Uym1S", // low
+      "streamname": "d9e7bc9f-a523-483c-8568-a9909099b152", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-oG8Fp", // high
+      "streamname": "73ebfeef-d517-4d19-8a2f-a02326e10fb0", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-jCPsT", // medium
+      "streamname": "f9774b96-285f-4948-bd53-998c6df48997", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-l6Au6", // low
+      "streamname": "f7d14388-e107-4257-9316-48375680089d", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
 
 /**
- * 11.02.2023 Facility Management D352L -------------------------------------------------------------------------------------------------------------------------------------
+ * 2023.2.11 Facility Management D352L -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "facility-management",
@@ -913,18 +906,13 @@ streams.push({
   "image": "assets/img/backgrounds/klassenraum01.jpg",
   "debug": false,
   "chat": false,
-  /*"partnerBox": [
-    {
-      "image":"",
-      "url": ""
-    }],*/
   "linkBox": [
     {
       "text": "Labor Facility Management",
       "image": "",
       "url": "https://www.bht-berlin.de/labor/detail/FAMA"
     }],
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
       "streamname": "RBJ00-xJiR4", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
@@ -939,107 +927,34 @@ streams.push({
     }],
   "dual": [
     {
-      "streamname": "RBJ00-PWL86", // high
+      "streamname": "....", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-tGb8N", // medium
+      "streamname": "....", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-ZdLZ2", // low
+      "streamname": "....", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
 
-
-// BHT Personalversammlung (TODO Wird dies noch benutzt???) --------------------------------------------------------------------------------------------------------------------------------------
+// BHT Personalversammlung --------------------------------------------------------------------------------------------------------------------------------------
 streams.push({
-  "tag": "beuth-pv",
+  "tag": "bht-pv",
   "title": "BHT Personalversammlung",
   "entries": [
     {
-      "streamname": "RBJ00-efvMJ", // high
+      "streamname": "417d19bb-4740-487b-996b-8736bba7f807", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-0o6Hs", // medium
+      "streamname": "edb9b776-1785-4d28-9a2c-c3d17125784f", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-R5bs8", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// 2021 Akademische Versammlung ------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "beuth-av-2021",
-  "titleTop": "Akademische Versammlung 2021",
-  "title" : "BHT Berlin",
-  "linkBox": [{
-      "text": "Akademische Versammlung",
-      "image": "",
-      "url": "https://www.bht-berlin.de/av"
-    }],
-  "entries": [
-    {
-      "streamname": "RBJ00-6CxLI", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-cTKMk", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-tGBKp", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-
-});
-
-// 2021 getreide-informationstagung ------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "getreide-informationstagung17Juni2021",
-  "titleTop": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
-  "title": "Berlin-Brandenburgische Gesellschaft für Getreideforschung e.V.",
-  "image": "https://player.bht-media.de/assets/img/getreidetagung-background-2.jpg",
-  "entries": [
-    {
-      "streamname": "RBJ00-Gpt3e", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-DmKyl", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-JlRU0", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// 2021 klima-ringvorlesung ------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "klima-ringvorlesung",
-  "titleTop": "1.5 °C Global Warming by 2030?",
-  "title": "Consequences | Risk Reduction | Adaption",
-  "image": "https://player.bht-media.de/assets/img/climate-background-2.jpg",
-  "partnerBox": true,
-  "entries": [
-    {
-      "streamname": "RBJ00-i89Mx", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-BRfzZ", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-VrybE", // low
+      "streamname": "fd9e264d-eae5-4304-8905-f50f20688bbc", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }
   ]
@@ -1052,76 +967,22 @@ streams.push({
   "title": "22.09.2021",
   "entries": [
     {
-      "streamname": "RBJ00-hWx6N", // high
+      "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-fsnCQ", // medium
+      "streamname": "...", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-cUzfG", // low
+      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }
   ]
 });
 
 /**
- * Test Stream ----------------------------------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "test",
-  "titleTop": "Dual Stream Test",
-  "title": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages",
-  "image": "/assets/img/background.jpg",
-  "customStyle": `
-            #playerDiv2 {
-            background-color: BLUE;
-            }
-            #titleSub {
-            background-color: RED;
-            }`,
-  "partnerBox": [
-    {
-      "text": "MediaBox", // high
-      "image": "assets/img/logos/mediabox-small-logo.jpg",
-      "url": "https://www.bht-berlin.de/digitale-medien"
-    },{
-      "text": "MediaBox", // high
-      "image": "assets/img/logos/mediabox-small-logo.jpg",
-      "url": "https://www.bht-berlin.de/digitale-medien"
-    }],
-  "textFields" : [
-    { "title": "<p>Jeden Mittwoch ab 18 Uhr&ensp;<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODk2ODZjYmYtNDk0ZC00ZmY4LWIzM2UtOTcwYmQ3YTZkZDNi%40thread.v2/0?context=%7b%22Tid%22%3a%2253bc5889-4f98-49b1-97c2-1b0d33acec73%22%2c%22Oid%22%3a%22ac64bc64-e5c3-4223-aa48-ca528aa7145a%22%7d'>hier</a>&ensp;zu erreichen.</p> <br> <p class='important'>Bitte achten Sie darauf, vor dem Beitreten Ihr Mikrofon/Kamera zu deaktivieren, vielen Dank.</p>"
-    },
-    { "header": "Test 01 2022",
-      "text": "Vortrag 01"
-    },
-    { "header": "Test 02 2022",
-      "text": "Vortrag 02"
-    },
-    { "header": "Test 03 2022",
-      "text": "Vortrag 03"
-    },
-  ],
-  "entries": [{ "streamname": "CD6oL-2kE1g" }],
-  "dual": [{ "streamname": "CD6oL-2kE1g" }],
-  "chat": true,
-  "linkBox": [
-    {
-      "text": "beuthBox", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
-    },{
-      "text": "beuthBox", // high
-      "image": "",
-      "url": "1234"
-    }]
-});
-
-// Ort : Raum D338
-/**
- * Stream für den Raum D338 : Thema anpassbar -------------------------------------------------------------------------------------------------------------------
+ * 2022 Stream für den Raum D338: Thema anpassbar -------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "Berufungskommission",
@@ -1129,92 +990,197 @@ streams.push({
   "title": "Fachbereich IV",
   "image": "",
   "debug": false,
-  "chat": true,
+  "chat": false,
   /*"partnerBox": [{}],*/
   "linkBox": [{
       "text": "Fachbereich IV (Architektur)",
       "image": "",
       "url": "https://www.bht-berlin.de/iv"
     }],
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-J5qUb", // high
+      "streamname": "9ec2fb7b-b58f-4f4f-8b83-a6a4f93f91b5", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-5MHlM", // medium
+      "streamname": "64ece552-8090-40c2-a309-565a627ec9c9", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-JHLe6", // low
+      "streamname": "339fdb2b-8a47-476c-8344-82df85b48cb0", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-TMBln", // high
+      "streamname": "660432e0-d921-4cd5-a263-a6b407d876d6", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-Hb6I8", // medium
+      "streamname": "5f41f116-01d1-4cab-91d7-7c61e4ee140d", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-VuvZf", // low
+      "streamname": "db04095b-f04b-4bcf-80d4-4a49774220e9", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
 
 /**
- * Wissenschaftspreis am 09.11.2021 -------------------------------------------------------------------------------------------------------------------------
-*/
+ * 2022 Akademische Versammlung ------------------------------------------------------------------------------------------------------------------
+ */
 streams.push({
-  "tag": "Rupp+Hubrach-Wissenschaftspreis",
-  "titleTop": "Festveranstaltung zur Verleihung des Rupp+Hubrach-Wissenschaftspreises",
-  "title": "Virtual-Reality-basierte Untersuchung des Orientierungsverhaltens bei Glaukom",
-  "image": "assets/img/backgrounds/R+H_backgroundWHITE2021.jpg",
+  "tag": "av",
+  "titleTop": "Akademische Versammlung",
+  "title": "Berliner Hochschule für Technik",
+  "image": "../assets/img/backgrounds/klassenraum01.jpg",
   "debug": false,
   "chat": false,
-  /*"partnerBox": [
-    {
-      "image": "",
-      "url": ""
-     }],*/
+  "customStyle": `
+            #titleTop {
+            background-color: #ffffffa6;
+            }
+            #playerSubtitle {
+              color: rgb(255 255 255);
+            }
+            #titleSub{
+            font-weight: normal;
+            }`,
   "linkBox": [
-    {
-      "text": "",
-      "image": "assets/img/logos/logoR+H2021.png",
-      "url": "https://www.rh-brillenglas.de/"
+    {       "text": "Akademische Versammlung",
+      "image": "",
+      "url": "https://www.bht-berlin.de/av"
     }],
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-4E5xr", // high
+      "streamname": "a5ffa698-79f0-405f-8af6-b51374126d4e", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-m2iIC", // medium
+      "streamname": "7af514ba-81ac-42e3-9716-219f49d2fbf1", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-xf0DT", // low
+      "streamname": "b7e10c4f-1e9d-4f20-9175-756294b251ca", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-5Sr8X", // high
+      "streamname": "b677ad82-452e-4085-8696-21f393f8ed15", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-eCnYR", // medium
+      "streamname": "64facedf-f0bc-4da9-8599-0e38d311d687", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-qVRuP", // low
+      "streamname": "f30ceb3e-fd16-4adc-bebe-ef7e326d5153", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+// 2022 BHT Young Scientist Minds (28.04.2022 - 07.07.2022) ------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "young-scientist-minds",
+  "titleTop": "BHT Young Scientist Minds",
+  "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojekten",
+  "image": "assets/img/backgrounds/BHT-Kartenbild-middle.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            #linkBox{
+              padding: 1.5em;
+            }
+            #textField{
+              height: 100%;
+            }
+            #titleSub{
+              font-weight: normal;
+            }
+            .textBox_text{
+              flex-direction: column;
+            }
+            #playerSubtitle{
+              text-shadow: 0.1em 0.1em 0.2em black;
+              color: rgb(255 255 255 / 92%);
+            }
+            #linkBox{
+               background-color: #5757569c;
+            }
+            .textFieldTitle{
+              color: white;
+              padding-bottom: 0.5em;
+            }
+            .textBox{
+              max-width: 400px;
+            }
+            #error {
+              color: rgb(235 0 0);
+              width: auto;
+              justify-content: center;
+            }
+            #disclaimer{
+            content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
+                            verzögert angezeigt.";
+            }
+            `,
+  /**"partnerBox": [
+   {
+   }],*/
+  "linkBox": [
+    { "text": "Promotion: BHT Berlin",
+      "image": "",
+      "url": "https://www.bht-berlin.de/promotion"
+    },
+    { "text": "Zentrum für Forschung und Innovation",
+      "image": "",
+      "url": "https://www.bht-berlin.de/zfi"
+    }],/**
+   "textFields" : [
+   { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
+   },
+   { "header": "09.06.2022",
+   "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
+   },
+   { "header": "23.06.2022",
+   "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
+   },
+   { "header": "14.07.2022",
+   "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
+   },
+   { "header": "28.07.2022",
+   "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
+   },
+   ],*/
+  "entries":[
+    {
+      "streamname": "6c123d94-1c7a-4c5f-a3f8-fed22ac8517f", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "2a17ab90-d706-4e7c-bec3-8deb74dcc4e3", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "d9e7bc9f-a523-483c-8568-a9909099b152", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "73ebfeef-d517-4d19-8a2f-a02326e10fb0", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "f9774b96-285f-4948-bd53-998c6df48997", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "f7d14388-e107-4257-9316-48375680089d", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
 
 /**
-* FSI Stream am 28.10.2021 -------------------------------------------------------------------------------------------------------------------------------------
+ * 2021.10.28 FSI Stream -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "FSI",
@@ -1227,29 +1193,29 @@ streams.push({
     {
       "image":"assets/img/logos/logo-netzwerk-iq.svg",
       "url": "https://www.netzwerk-iq.de/"
-     }],
+    }],
   "linkBox": [
     {
       "text": "Fernstudieninstitut der BHT",
       "image": "",
       "url": "https://www.bht-berlin.de/fsi"
     }],
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-iXM8d", // high
+      "streamname": "ff91d0ee-1c8f-42ff-8ec9-9691e2265a96", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-xHQOa", // medium
+      "streamname": "ac68f75a-b13b-4d06-813c-b5c8db11a1c2", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-yKAdb", // low
+      "streamname": "a368dc5c-b194-4aeb-8023-da1b4cdb674a", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-fwXOB", // high
+      "streamname": "64b4c9d3-e3ac-4d85-aebb-342f1a63c8f4", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
@@ -1263,36 +1229,78 @@ streams.push({
 });
 
 /**
-* Personalversammlung 24.11.2021 -----------------------------------------------------------------------------------------------------------------------------
- */
+ * 2021.9.11 Wissenschaftspreis -------------------------------------------------------------------------------------------------------------------------
+*/
 streams.push({
-  "tag": "Personalversammlung",
-  "titleTop": "Personalversammlung",
-  "title": "24.11.2021",
-  "image": "",
+  "tag": "Rupp+Hubrach-Wissenschaftspreis",
+  "titleTop": "Festveranstaltung zur Verleihung des Rupp+Hubrach-Wissenschaftspreises",
+  "title": "Virtual-Reality-basierte Untersuchung des Orientierungsverhaltens bei Glaukom",
+  "image": "assets/img/backgrounds/R+H_backgroundWHITE2021.jpg",
   "debug": false,
-  "chat": true,
-  /*"partnerBox": [
-    {}],
+  "chat": false,
   "linkBox": [
-    {}],*/
+    {
+      "text": "",
+      "image": "assets/img/logos/logoR+H2021.png",
+      "url": "https://www.rh-brillenglas.de/"
+    }],
   "entries":[
     {
-      "streamname": "RBJ00-VPZm9", // high
+      "streamname": "7e9ddf0e-8f80-40c0-94dd-a86650b280bf", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-vtOFO", // medium
+      "streamname": "e51c5a76-8a5d-4564-ba89-63ef57db3f33", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-3c7dn", // low
+      "streamname": "62c3d63a-c573-4af6-a17f-59f6485290ce", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }]
+    }],
+  "dual": [
+    {
+      "streamname": "98b8cbec-7f39-47e6-a2bb-27cc8253bbc8", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "6158558c-db77-4c8b-a778-585cad9dd2f3", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "1ec9da3e-4af2-4a62-9649-77a91bfb2001", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+// 2021 Akademische Versammlung ------------------------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "bht-av",
+  "titleTop": "Akademische Versammlung 2021",
+  "title" : "BHT Berlin",
+  "linkBox": [{
+    "text": "Akademische Versammlung",
+    "image": "",
+    "url": "https://www.bht-berlin.de/av"
+  }],
+  "entries": [
+    {
+      "streamname": "73b5dc75-8e97-4d1d-99ca-19a78c89094d", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "2378724c-3e04-4791-9b1c-da950d4287cc", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
+    },
+    {
+      "streamname": "af3b7c05-5fee-4d91-bd7a-f07c961e693d", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }
+  ]
+
 });
 
 /**
-* Akademischer Senats Sitzung 25.11.2021 ------------------------------------------------------------------------------------------------------------------
+ * 2021 Akademischer Senats Sitzung ------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "AS-Sitzung",
@@ -1313,93 +1321,109 @@ streams.push({
     {}],*/
   "linkBox": [
     {       "text": "Akademischer Senat",
-            "image": "",
-            "url": "https://www.bht-berlin.de/as"
-    }],
-  "entries":[
-    {
-      "streamname": "RBJ00-hiPby", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-XYg00", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-5uDPG", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-sRdlg", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-Aq0v3", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-5TLcc", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-/**
- * Akademische Versammlung 05.2022 ------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "av",
-  "titleTop": "Akademische Versammlung",
-  "title": "Berliner Hochschule für Technik",
-  "image": "../assets/img/backgrounds/klassenraum01.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-            #titleTop {
-            background-color: #ffffffa6;
-            }
-            #playerSubtitle {
-              color: rgb(255 255 255);
-            }
-            #titleSub{
-            font-weight: normal;
-            }`,
-  /*"partnerBox": [
-    {}],*/
-  "linkBox": [
-    {       "text": "Akademische Versammlung",
       "image": "",
-      "url": "https://www.bht-berlin.de/av"
+      "url": "https://www.bht-berlin.de/as"
     }],
   "entries":[
     {
-      "streamname": "RBJ00-gzmUD", // high
+      "streamname": "579ebd64-70cb-410e-8462-2e3defd6a0aa", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-Utv9f", // medium
+      "streamname": "0925f6a9-36a4-402b-abee-cfe6518a7212", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-AZavH", // low
+      "streamname": "daa8062e-2239-4c12-9242-6b2359d8cc72", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-NXynE", // high
+      "streamname": "4abe7684-3fb2-4a1d-a632-5de64acf1e85", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-peIip", // medium
+      "streamname": "a30af27d-fdd2-4f5a-b725-40f3e2f846fd", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-Hghgx", // low
+      "streamname": "40f4036c-14fc-4de9-89d5-dc237ce69da5", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
 
+// 2021 getreide-informationstagung ------------------------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "getreide-informationstagung17Juni2021",
+  "titleTop": "50. Wissenschaftliche Informationstagung am 17. Juni 2021",
+  "title": "Berlin-Brandenburgische Gesellschaft für Getreideforschung e.V.",
+  "image": "https://player.bht-media.de/assets/img/getreidetagung-background-2.jpg",
+  "entries": [
+    {
+      "streamname": "67bd29c7-c1b8-46a2-9d1c-56c4b02ca2cb", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "1a4cc4c6-ec8d-42de-88d6-c6740e9c6901", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
+    },
+    {
+      "streamname": "236d8f30-fe9a-4991-8151-24e7bb4db882", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }
+  ]
+});
+
+// 2021 klima-ringvorlesung ------------------------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "klima-ringvorlesung",
+  "titleTop": "1.5 °C Global Warming by 2030?",
+  "title": "Consequences | Risk Reduction | Adaption",
+  "image": "https://player.bht-media.de/assets/img/climate-background-2.jpg",
+  "partnerBox": true,
+  "entries": [
+    {
+      "streamname": "a98c3eeb-1058-4153-8eaa-931801734485", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "de125e6c-5596-4e83-bebd-96a8d942977d", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 25 }
+    },
+    {
+      "streamname": "872e10ec-7028-4650-afa2-145e07178859", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }
+  ]
+});
+
 /**
- * Planet [A]rch 01.12.2021 - 12.01.2021 (Jeden Mittwoch) -----------------------------------------------------------------------------------------------------
+* 2021.11.24 Personalversammlung -----------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "Personalversammlung",
+  "titleTop": "Personalversammlung",
+  "title": "24.11.2021",
+  "image": "",
+  "debug": false,
+  "chat": true,
+  "entries":[
+    {
+      "streamname": "6d06f825-ddea-4f04-86d3-46ad5fca4fe4", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "c2825716-2819-462e-bf2d-a965d4d74a63", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "aac9f599-cc04-478f-b3b1-03e7d6fb75fan", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }]
+});
+
+/**
+ * 2021 Planet [A]rch (Info Page ohne Stream) -----------------------------------------------------------------------------------------------------
  */
 streams.push({
   "tag": "planet-arch",
@@ -1493,16 +1517,15 @@ streams.push({
 });
 
 /**
- * Roberts Stream - 26.01.2021 --------------------------------------------------------------------------------------------------------------------------------
+ * 2021 Roberts Stream - usability-engineering --------------------------------------------------------------------------------------------------------------------------------
  */
-
 streams.push({
   "tag": "usability-engineering",
   "titleTop": "Human-Computer Interaction",
   "title": "Lehrveranstaltung von Prof. Dr. Robert Strzebkowski",
   "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
-  "debug": true,
-  "chat": true,
+  "debug": false,
+  "chat": false,
   "customStyle": `
   .textFieldTitle{ color: white; }
   #playerSubtitle {
@@ -1516,177 +1539,61 @@ streams.push({
     }
     
             `,
-  //"partnerBox": [],
-  //"linkBox": [],
-  /**"textFields" : [
-    { "title": ""
-    },
-    { "header": "",
-      "text": ""
-    },
-    { "header": "",
-      "text": ""
-    },
-    { "header": "",
-      "text": ""
-    }
-  ],*/
   // ---------------------------- LR-Wagen 01 ------------------------------------ //
   "entries":[
     {
-      "streamname": "RBJ00-2tr1O", // high
+      "streamname": "6c123d94-1c7a-4c5f-a3f8-fed22ac8517f", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-ADvhZ", // medium
+      "streamname": "2a17ab90-d706-4e7c-bec3-8deb74dcc4e3", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-Uym1S", // low
+      "streamname": "d9e7bc9f-a523-483c-8568-a9909099b152", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-oG8Fp", // high
+      "streamname": "73ebfeef-d517-4d19-8a2f-a02326e10fb0", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-jCPsT", // medium
+      "streamname": "f9774b96-285f-4948-bd53-998c6df48997", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-l6Au6", // low
+      "streamname": "f7d14388-e107-4257-9316-48375680089d", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
     /**{ ---------------------------------------------- Stream IDs für diesen Kurs -----------------------------------------------
-      "streamname": "RBJ00-NYU0l", // high
+      "streamname": "528f160c-22a6-4b0e-a401-9bef3ab71f9c", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-PcSop", // medium
+      "streamname": "fc3c281b-413d-4c78-9209-6d4efcb2596a", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-0PfXF", // low
+      "streamname": "90787ec7-4479-4a0b-b0e6-06caae42e24a", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-RFaTn", // high
+      "streamname": "8d3719a1-7c55-447a-b1b6-0f400c491083", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-OzZbJ", // medium
+      "streamname": "efb77292-33c3-4b0c-bf95-4b1160f4d319", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-P1ISi", // low
+      "streamname": "dc02b232-b889-4155-9bc3-7dd4bce6f093", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],**/
 });
 
-// BHT Young Scientist Minds (28.04.2022 - 07.07.2022) ------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "young-scientist-minds",
-  "titleTop": "BHT Young Scientist Minds",
-  "title": "Hochschulöffentliche Vortragsreihe zur Vorstellung von Forschungsprojekten",
-  "image": "assets/img/backgrounds/BHT-Kartenbild-middle.jpg",
-  "debug": false,
-  "chat": true,
-  "customStyle": `
-            #linkBox{
-              padding: 1.5em;
-            }
-            #textField{
-              height: 100%;
-            }
-            #titleSub{
-              font-weight: normal;
-            }
-            .textBox_text{
-              flex-direction: column;
-            }
-            #playerSubtitle{
-              text-shadow: 0.1em 0.1em 0.2em black;
-              color: rgb(255 255 255 / 92%);
-            }
-            #linkBox{
-               background-color: #5757569c;
-            }
-            .textFieldTitle{
-              color: white;
-              padding-bottom: 0.5em;
-            }
-            .textBox{
-              max-width: 400px;
-            }
-            #error {
-              color: rgb(235 0 0);
-              width: auto;
-              justify-content: center;
-            }
-            #disclaimer{
-            content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
-                            verzögert angezeigt.";
-            }
-            `,
-  /**"partnerBox": [
-    {
-    }],*/
-  "linkBox": [
-    { "text": "Promotion: BHT Berlin",
-      "image": "",
-      "url": "https://www.bht-berlin.de/promotion"
-    },
-   { "text": "Zentrum für Forschung und Innovation",
-      "image": "",
-      "url": "https://www.bht-berlin.de/zfi"
-    }],/**
-  "textFields" : [
-    { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
-    },
-    { "header": "09.06.2022",
-      "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
-    },
-    { "header": "23.06.2022",
-      "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
-    },
-    { "header": "14.07.2022",
-      "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
-    },
-    { "header": "28.07.2022",
-      "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
-    },
-  ],
-  "entries":[
-    {
-      "streamname": "RBJ00-2tr1O", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-ADvhZ", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-Uym1S", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-oG8Fp", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-jCPsT", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-l6Au6", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],*/
-});
-
-// BHT FabLab Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
+// 2022 BHT FabLab Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
 streams.push({
   "tag": "fablab",
   "titleTop": "FabAccess",
