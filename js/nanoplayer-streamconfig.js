@@ -46,7 +46,7 @@ streams.push({
     }
    ],
    **/
-  "entries":[
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
       "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
@@ -73,7 +73,7 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
-  "chat": false
+  "chat": true
 });
 
 // TEST Stream 01 --------------------------------------------------------------------------------------------------------------------------------------
@@ -90,19 +90,19 @@ streams.push({
   "tag": "test2",
   "titleTop": "Veranstaltungstitel",
   "title": "Untertitel",
-  "chat": false,
+  "chat": true,
   "entries": [
     {
-          "streamname": "216818c6-0698-4f38-8ced-a55dd9375db9", // high
-          "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 30 }
+      "streamname": "RBJ00-6uALm", // high
+      "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 30 }
     },
     {
-          "streamname": "0b2edcf1-1f0d-4c28-9d15-5d4dec789e1e", // medium
-          "info": { "bitrate": 800, "width": 854, "height": 480, "framerate": 15 }
+      "streamname": "RBJ00-J0hGb", // medium
+      "info": { "bitrate": 800, "width": 854, "height": 480, "framerate": 15 }
     },
     {
-          "streamname": "873ddae6-677d-4783-ab56-ea92db7313c8", // low
-          "info": { "bitrate": 400, "width": 640, "height": 360, "framerate": 15 }
+      "streamname": "RBJ00-SS48m", // low
+      "info": { "bitrate": 400, "width": 640, "height": 360, "framerate": 15 }
     }
   ]
 });
@@ -115,11 +115,15 @@ streams.push({
   "titleTop": "Notfall-Stream Berliner Hochschule für Technik",
   "title": "Wichtige Informationsveranstaltung",
   "image": "",
+
    "customStyle": `
    #main {background-color: #212121;}
    #titleTop { background-color: #a50000; color: rgb(253 253 253); }
    #textField { background-color: none; }
-   .textBox_text{ height: 10em; font-size: larger; }       
+   .textBox_text{ height: 10em; font-size: larger; }
+
+            
+            
    `,
    "partnerBox": [
    {
@@ -177,6 +181,15 @@ streams.push({
                     border-top-left-radius: 1em; color:white; background-color: #c90000e6; }
    .linkBoxImages { height: 4em; }
    `,
+
+    /**
+     *
+   "partnerBox": [
+   {
+      "text": "MediaBox", // high
+      "image": "assets/img/logos/mediabox-small-logo.jpg",
+      "url": "https://www.bht-berlin.de/digitale-medien"
+    }],*/
    "textFields" : [
    { "title": ""
     },
@@ -194,30 +207,31 @@ streams.push({
       "url": "https://www.instagram.com/p/CuG8UuXA1S9/?hl=de"
     }
    ],
-  "entries":[
+
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
-      "streamname": "792ca09d-890a-4203-b823-e1d65b1f2edc", // high
+      "streamname": "RBJ00-Tz7pk", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "c2f00a2d-b11d-4157-961e-072f7bfe87db", // medium
+      "streamname": "RBJ00-0jEJQ", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "b00940d9-8c2b-485c-a960-2f22309ceaa9", // low
+      "streamname": "RBJ00-MrrrX", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "03421cd5-ac0b-4732-8057-84b20ad890c1", // high
+      "streamname": "RBJ00-W6tPn", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "b2c448ae-f60b-4255-9c32-ebaa514b717c", // medium
+      "streamname": "RBJ00-J84o4", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "71e0f2b6-57b1-41b5-88d1-5971c000052a", // low
+      "streamname": "RBJ00-KJyxL", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
@@ -282,17 +296,17 @@ streams.push({
     }
   ],
 
-  "entries":[
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
-      "streamname": "792ca09d-890a-4203-b823-e1d65b1f2edc", // high
+      "streamname": "RBJ00-Tz7pk", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "c2f00a2d-b11d-4157-961e-072f7bfe87db", // medium
+      "streamname": "RBJ00-0jEJQ", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "b00940d9-8c2b-485c-a960-2f22309ceaa9", // low
+      "streamname": "RBJ00-MrrrX", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
@@ -599,28 +613,28 @@ streams.push({
   ],
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
-      "streamname": "b76a9d3e-6274-45fe-8cf2-3994e406901b", // high
+      "streamname": "RBJ00-3sPIU", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "9e7f5844-0c33-473c-8cf0-d36c7b795d20", // medium
+      "streamname": "RBJ00-ROGTG", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "8ae15759-5625-4cdd-ac25-34386019458d", // low
+      "streamname": "RBJ00-jlDHW", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   /**"dual": [
     {
-      "streamname": "9c8d279d-30f1-4702-b3ea-01ae2390091a", // high
+      "streamname": "RBJ00-KYRaA", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "d66675bd-7a79-4f18-af77-3e985ea4e060", // medium
+      "streamname": "RBJ00-rKCGN", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "8fc6817d-7a74-4a05-bccf-c06c41525282", // low
+      "streamname": "RBJ00-1Yiz9", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],*/
   "debug": false,
