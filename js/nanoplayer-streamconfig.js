@@ -107,26 +107,306 @@ streams.push({
   ]
 });
 
-// TEST Stream 03 --------------------------------------------------------------------------------------------------------------------------------------
+/**
+ *  Stream Haus Beuth(A) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
 streams.push({
-  "tag": "test3",
-  "titleTop": "Veranstaltungstitel",
-  "title": "Untertitel",
-  "chat": true,
-  "entries": [
-    {
-      "streamname": "f125f602-3a14-4ff8-bb72-298de8c05b85", // high
-      "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 30 }
-    },
-    {
-      "streamname": "cae2a779-a6ed-4001-b823-356a73874205", // medium
-      "info": { "bitrate": 800, "width": 854, "height": 480, "framerate": 15 }
-    },
-    {
-      "streamname": "fa911661-f179-43d3-b7f6-62dca365fd33", // low
-      "info": { "bitrate": 400, "width": 640, "height": 360, "framerate": 15 }
+  "tag": "haus-beuth",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Beuth(A)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
     }
-  ],
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "65e74382-e62e-4703-8417-84aa4d178a27", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "9c035751-656f-4f19-9a87-dbab579b05c9", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "4e4e056b-1a97-42de-b160-11c7fe2c4835", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "84cc569f-9b9b-4e87-96d5-13a0bb5fe504", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "ef15e119-8576-4e97-b339-d156103f023b", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "dcee01fc-a188-4cd1-9501-e9e5e0692c2b", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ *  Stream Haus Gauß(B) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "haus-gauß",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Gauß(B)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "85bff9cc-c341-4a50-908b-e68b74ad2016", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "65d9fb5b-0c99-4a61-a375-abc3acf4f5db", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "4175f50c-ba66-4d8c-a049-34445bd53a5e", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "8ee7d669-7baa-44eb-bba3-fdffd5d833d4", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "e9d0097f-4a41-473a-b2a1-1076976b5af8", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "818bd537-036d-4766-9aef-9e5500847520", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ *  Stream Haus Grashof(C) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "haus-grashof",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Grashof(C)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "71315302-69b0-4c47-8e16-0dd9a03b7a58", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "b5031cdd-da0a-4cee-b38e-e3533b0a48b2", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "a93089d9-ae2c-4b5c-a05c-813a6111361f", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "6778f483-6065-4e84-b706-3e1fc92cfdeb", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "4fe610b9-e66f-4849-92f7-fc191ad49706", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "4fce2e50-e7f2-4ab7-948e-67ac54a7b8bf", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ *  Stream Haus Bauwesen(D) 2022 --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "haus-bauwesen",
+  "titleTop": "Veranstaltung der BHT-Berlin",
+  "title": "Stream aus Haus Bauwesen(D)",
+  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  .textFieldTitle{ color: white; }
+  #playerSubtitle {
+      color: rgb(251 251 251 / 52%);
+    }
+  #error {
+    color: rgb(112 0 0);
+    }
+  #chat{
+    background-color: #000000a8;
+    }
+            `,
+  /*"partnerBox": [
+    {}],
+  "linkBox": [],
+  "textFields" : [
+    { "title": "<"
+    },
+    { "header": "",
+      "text": ""
+    },
+  ],*/
+  "entries":[
+    {
+      "streamname": "7d46e6a9-6da8-473b-b842-4f685c34bff3", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "40d2f0ff-f6c7-46b1-b17f-efed79ffdb9b", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "2e41ae65-ed52-43ac-a925-3fcaa701b8b3", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "8c149731-ebcc-4f7f-9bc2-5ded8b02a351", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "580d09af-7cba-4bd0-9607-19f7d88cf337", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "a7100d17-126a-458c-89d0-42b9b8bc546b", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+/**
+ *  Stream Hochschultag (Every year) --------------------------------------------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "hochschultag",
+  "titleTop": "Hochschultag",
+  "title": "Berliner Hochschule für Technik",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  
+  body{
+    background-image: url("assets/img/backgrounds/2022_Hochschultag.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "BHT-CaseMicro", sans-serif;
+  }
+  
+  #header{ 
+    height: 60px;
+    
+    margin: 0;
+  }
+  
+  #footer{
+    background-image: linear-gradient(to top, white 0%, #ffffffc7 50%);
+    background-color: #ffffff00;
+    font-family: "BHT-Case", sans-serif;
+  }
+  
+  #error{
+    font-family: "BHT-Case", sans-serif;
+  }
+  
+  
+  #main{
+      background-color: rgb(234 234 234 / 0%);
+  }
+
+
+            `,
+  "linkBox": [
+    { "text": "Hochschultag",
+      "image": "",
+      "url": "https://www.bht-berlin.de/hochschultag"
+    }],
+  "entries":[
+    {
+      "streamname": "fa302dd6-1da0-4442-bcae-d4d7247ba55c", // high
+      "info": { "bitrate": 4600, "width": 1920, "height": 1080, "framerate": 30 }
+    },
+    {
+      "streamname": "5ab5107a-ba48-4e9d-a6f1-7aec9271aebc", // medium
+      "info": { "bitrate": 2000, "width": 1280, "height": 720, "framerate": 30 }
+    },
+    {
+      "streamname": "91c862fa-4099-4170-a80d-7be1a82b368b", // low
+      "info": { "bitrate": 800, "width": 852, "height": 480, "framerate": 30 }
+    }],
   "dual": [],
 });
 
@@ -715,6 +995,431 @@ streams.push({
 });
 
 /**
+ * 2023 Stream Star Trek Vorlesung ------------------------------------------------------------------------------------------
+ */
+streams.push({
+  "tag": "startrek",
+  "titleTop": "12. Intergalaktische Gastvorlesung",
+  "title": "Wissenschaft und Science-Fiction mit Captain Zitt",
+  "image": "",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+  
+  body, #footer{ background-color: #00000075 }
+  
+  #header{ 
+  background-color: black;
+  height: 70px;
+  margin: 0;
+  }
+  
+  #beuth-logo {
+    padding: 12px;
+}
+
+  #footer{
+    font-family: 'Impact', serif;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+  }
+  
+  #footer a{
+    color: #9795fb;
+  }
+  #footer a:hover {
+    color: red;
+  }
+  #footer a:visited {
+  color: #ed9692;
+  }
+  #titleTop{
+    font-family: 'Startrekfuture', serif;
+    font-size: 60px;
+    margin-left: 1.3em;
+    padding-right: 1.3em;
+    border-top-left-radius: 20px;
+    background-color: #00000000;
+    color: white;
+  }
+  #titleSub{
+    font-family: 'Sterilict', serif;
+    color: black;
+    font-style: italic;
+    background-color: rgb(204 204 254);
+    margin-top: 0.3em;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+  
+  #subBackground{
+  padding-bottom: 0px;
+  width: auto;
+  }
+  
+  #playerSubtitle {
+    display:none;
+    }
+  
+  #contentBox{
+    width: 100%;
+  }
+  #content{ 
+    width: 80%;
+  }
+  
+  #contentPlayer{
+     margin-top: 1em;
+     margin-bottom: 1em;
+  }
+  
+  #linkBox{
+  display: none; 
+  }
+  
+  .linkButton{
+    background-color:#ff000000;
+  }
+  .linkButton img {
+    height: 200px;
+  }
+  #partner-title{
+    color: #ff000000 !importent;
+  }
+  
+  body{
+    font-family: 'Sterilict', serif;
+  }
+  
+  #beuth-logo, #beuthbox-logo{
+     -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+ 
+  
+  #textField{
+    width: 90%;
+    display: block;
+    background-color: #00000000;
+  }
+  
+  #h5live-playerDiv1{
+    background: black url("assets/img/startrek/offline1.jpg") ;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  #main{ background-color: #00000000; }
+  
+  #page{ position: absolute; }
+  
+  /* MENU -----------------------------------------*/
+  .textBox{
+    Display: flex;
+    font-family: "Impact", sans-serif;
+    text-transform: uppercase;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  
+  .textBox:first-child{
+    padding:0;
+    font-size: 1.5em;
+    align-items: flex-end;
+    border-bottom-left-radius: 5em;
+    border-top-left-radius: 5em;
+    background-color: #98ccfe;
+  }
+  
+  .textBox:first-child .textBox_text{
+    text-align: right;
+  }
+  
+  .textBox .textBox_header{
+    display: none;
+    
+  }
+  .textBox:nth-child(2), .textBox:nth-child(5){
+    background-color: #6598fe;
+    border-radius: 0;
+    flex: initial;
+    writing-mode: vertical-rl;
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    align-items: flex-end;
+  }
+  
+  
+  .textBox:nth-child(3){
+    margin-right: 0;
+    flex-direction: column;
+    background-color: yellow;
+    background-color: #f0f8ff00;
+  }
+  
+  .textBox:nth-child(3) .textBox_text{
+    text-align: right;
+    letter-spacing: 0.2em;
+    color: white;
+  }
+  
+  .textBox:nth-child(4){
+    flex-direction: column;
+    background-color: #00000000;
+  }
+  
+  .textBox:nth-child(4) a{
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    font-style: normal;
+    color: #fd9800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .textBox:nth-child(4) .textBox_header:hover, .textBox:nth-child(4) .textBox_text:hover{
+    background-color: red;
+  }
+    
+  .textBox:nth-child(4) .textBox_header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #ffea9f;
+    border-radius: 0;
+    flex: 1;
+    margin-bottom: 0.5em;
+  }
+
+  .textBox:nth-child(4) .textBox_text{
+    background-color: #fd9800;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 0.5em;
+  }
+  
+  .textBox:nth-child(4) .textBox_text a{
+    display: flex;
+    color: #ffea9f;
+  }
+  
+  .textBox:last-child{
+    background-color: #336799;
+    border-bottom-right-radius: 5em;
+    border-top-right-radius: 5em;
+    align-items: flex-start;
+    font-size: 1.5em;
+  }
+  
+  .textBox:last-child .textBox_text{
+    text-align:left;
+  }
+  
+  
+  .textFieldTitle {
+  flex: 0.4;
+  padding-top: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  }
+  
+  .textFieldContent{
+    overflow: inherit;
+    overflow-x: inherit;
+    flex: 0;
+  }
+/* Partnerbox ---------------------------------------------------*/
+  
+  #partner-title {
+    display: none;
+}
+  
+/* Scroll Text Animation ---------------------------------------------------*/
+  #scroll-text {
+  max-width: 988px;
+  color: white;
+  margin-bottom: 2em;
+  margin-top: 0.5em;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+/* Background Animation -------------------------------------------------- */
+@keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+@-webkit-keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+@-moz-keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+@-webkit-keyframes move-background {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate3d(500px, 0px, 500px);
+    }
+    100% {
+        -webkit-transform: translate3d(1000px, 0px, 1000px);
+    }
+}
+
+@keyframes star {
+    0% {opacity: 0.7; }
+    80% {opacity: 0;}
+    100% { opacity: 0.7; }
+}
+
+.background-container{
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+
+.stars{
+  background: black url("assets/img/startrek/weltraum.jpg") ;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 0;
+}
+.clouds {
+    width:200%;
+    height: 100%;
+    background: transparent url("assets/img/startrek/weltraumWolken.png") repeat;
+    background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    -moz-animation:move-background 50s linear infinite;
+    -ms-animation:move-background 50s linear infinite;
+    -o-animation:move-background 50s linear infinite;
+    -webkit-animation:move-background 50s linear infinite;
+    animation:move-background 50s linear infinite;
+}
+.clouds2 {
+    width:200%;
+    height: 100%;
+    background: transparent url("assets/img/startrek/weltraumWolken2.png") repeat;
+    background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    -moz-animation:move-background 25s linear infinite;
+    -ms-animation:move-background 25s linear infinite;
+    -o-animation:move-background 25s linear infinite;
+    -webkit-animation:move-background 25s linear infinite;
+    animation:move-background 25s linear infinite;
+}
+#scroll-text a:link, #scroll-text a:visited{
+    color: #fd9800;
+    text-decoration: none;
+}
+  
+   `,
+
+  "textFields" : [
+    { "title": "<div id=\"scroll-text\">\n" +
+          "Dozent Hubert Zitt von der Hochschule Kaiserslautern <br>" +
+          "erlaeutert, ob die technischen Visionen " +
+          "aus der Fernsehserie Star Trek in Zukunft " +
+          "umsetzbar sind. <br><br>" +
+          "Fuer zusaetzliche informationen besuchen Sie bitte die <a href='https://projekt.bht-berlin.de/nsh/wissenschaft-science-fiction' target='_blank'>Offizielle Veranstaltungsseite.</a><br>" +
+          "</div>"
+    },
+    { "header": "",
+      "text": "23.11.<br>2023<br><br><br><br>15:00<br>Uhr"
+    },
+    { "header": "",
+      "text": "-299102.4"
+    },
+    { "header": "",
+      "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
+    },
+    { "header": "<a href='https://projekt.bht-berlin.de/fileadmin/projekt/nsh/Dokumente/Bordkarte_2023.pdf' target=\"_blank\">Star Trek Bordkarte</div>",
+      "text": "<a href='https://www.startrekvorlesung.de/crew' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
+    },
+    { "header": "",
+      "text": "-299102.16"
+    },
+    { "header": "",
+      "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
+    },
+  ],
+  /*"linkBox": [
+      {
+      "text": "Star Trek Vorlesung",
+      "image": "",
+      "url": ""
+      },
+  ],*/
+  "partnerBox": [
+    {
+      "image":"assets/img/logos/startrek/ZITT_ScienceFiction.png",
+      "url": "https://www.startrekvorlesung.de"
+
+    }],
+
+  "entries":[
+    {
+      "streamname": "52a5e47e-fb1f-440e-bd2b-0f02aaaf948f", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "c16bf2b2-03b8-4189-ab09-a5906f10291e", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "81b38d0b-3092-4e76-a5cf-90157242eec7", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [],
+});
+
+/**
  * 2023.4.29 Vorstellung Kandidaten Präsidium -------------------------------------------------------------------------------------------------------------------------------------
  */
 streams.push({
@@ -914,28 +1619,28 @@ streams.push({
     }],
   "entries":[
     {
-      "streamname": "RBJ00-xJiR4", // high
+      "streamname": "8a490c5d-82ca-419e-82bf-8be14d6be3b4", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-A9diN", // medium
+      "streamname": "f8a1766e-eb2d-4a8f-ab54-c25b932bad9e", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-L4sfD", // low
+      "streamname": "fd309ca8-a292-4826-b205-804d9a2cc42e", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "....", // high
+      "streamname": "ffe35b4d-b1a1-4531-a836-48da7009333a", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "....", // medium
+      "streamname": "5e9a18d7-22f0-437c-b913-6f98b4c6c1d2", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "....", // low
+      "streamname": "78c6948a-f15e-4ef3-b6ea-bd1ad5059fa3", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
@@ -955,27 +1660,6 @@ streams.push({
     },
     {
       "streamname": "fd9e264d-eae5-4304-8905-f50f20688bbc", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }
-  ]
-});
-
-// 2022 FabAccess Workshop ------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "fabAccess-Workshop",
-  "titleTop": "FabAccess Workshop",
-  "title": "22.09.2021",
-  "entries": [
-    {
-      "streamname": "...", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "...", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }
   ]
@@ -1021,6 +1705,190 @@ streams.push({
     },
     {
       "streamname": "db04095b-f04b-4bcf-80d4-4a49774220e9", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+// 2022 Lange Nacht der Wissenschaften ----------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "lndw-2022",
+  "titleTop": "Lange Nacht der Wissenschaften",
+  "title": "BHT Berlin am 02.07.2022",
+  "image": "assets/img/backgrounds/lndw-jh-2022-01.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            #page, #header{
+              background-color: black;
+            }
+            #beuth-logo, #beuthbox-logo{
+              filter: invert(1);
+            }
+            #titleTop{
+              color: white;
+              background-color: #0085cf;
+            }
+            #titleSub {
+              color: #ffffff73;
+              background-color: rgb(0 0 0 / 40%);
+            }
+            .linkButton {
+              color: white;
+              background-color: black;
+            }
+            .linkButton:hover {
+            color: black;
+              background-color: #ffc900;
+            }
+            .partnerBoxImages {
+              height: 80px;
+            }
+            #partner-box .linkbutton a, #partner-box .linkButton a:hover{
+              background-color: none;
+              margin: 0;
+              padding: 0;
+            }
+            #footer{
+              background-color: black;
+            }
+            #footer a{
+            color: #ffc900;
+            text-decoration: none;
+            }
+            #footer a:hover{
+            color:white;
+            }
+           
+            `,
+  "partnerBox": [{
+    "image":"https://www.langenachtderwissenschaften.de/typo3conf/ext/bb_templates/Resources/Public/bootstrap_package/_p/logo.png",
+    "url": "https://www.langenachtderwissenschaften.de/"
+  }],
+  "linkBox": [
+    { "text": "BHT Berlin: Lange Nacht der Wissenschaften",
+      "image": "",
+      "url": "https://www.bht-berlin.de/lndw"
+    }],
+  "entries":[
+    {
+      "streamname": "...", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "...", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "...", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+// 2022 BHT FabLab Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "fablab",
+  "titleTop": "FabAccess",
+  "title": "Offener Zugang für offene Menschen",
+  "image": "assets/img/backgrounds/fablab-background03.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            #linkBox{
+              padding: 1.5em;
+            }
+            .partnerBoxImages {
+              height: 5em;
+            }
+            #textField{
+              height: 100%;
+            }
+            #titleSub{
+              font-weight: normal;
+            }
+            .textBox_text{
+              flex-direction: column;
+            }
+            #playerSubtitle{
+              text-shadow: 0.1em 0.1em 0.2em black;
+              color: rgb(255 255 255 / 92%);
+            }
+            .textFieldTitle{
+              color: white;
+              padding-bottom: 0.5em;
+            }
+            .textBox{
+              max-width: 400px;
+            }
+            #error {
+              color: rgb(235 0 0);
+              width: auto;
+              justify-content: center;
+            }
+            #disclaimer{
+            content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
+                            verzögert angezeigt.";
+            }
+            `,
+  "partnerBox": [
+    {
+      "image":"assets/img/logos/FabLab/FabInfra_Logo.svg",
+      "url": "https://fab-access.org/de/"
+    }],
+  "linkBox": [
+    { "text": "FabAccess",
+      "image": "",
+      "url": "https://fab-access.org/de/blog/api_release_0_3/"
+    }],
+  "entries":[
+    {
+      "streamname": "6c123d94-1c7a-4c5f-a3f8-fed22ac8517f", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "2a17ab90-d706-4e7c-bec3-8deb74dcc4e3", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "d9e7bc9f-a523-483c-8568-a9909099b152", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "73ebfeef-d517-4d19-8a2f-a02326e10fb0", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "f9774b96-285f-4948-bd53-998c6df48997", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "f7d14388-e107-4257-9316-48375680089d", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+});
+
+// 2022 Digitalisierungs Kommission ----------------------------------------------------------------------------------------------------
+streams.push({
+  "tag": "dk-2022",
+  "titleTop": "Digitalisierungs Kommission",
+  "title": "BHT Berlin",
+  "image": "assets/img/backgrounds/dk-background.jpg",
+  "debug": false,
+  "chat": false,
+  "customStyle": `
+            
+            `,
+  "entries":[
+    {
+      "streamname": "4a83c576-a5d0-4594-893a-0dfbba568f1b", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-HMpUV", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-Gb6g9", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
 });
@@ -1593,975 +2461,6 @@ streams.push({
     }],**/
 });
 
-// 2022 BHT FabLab Stream (24.05.2022) ------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "fablab",
-  "titleTop": "FabAccess",
-  "title": "Offener Zugang für offene Menschen",
-  "image": "assets/img/backgrounds/fablab-background03.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-            #linkBox{
-              padding: 1.5em;
-            }
-            .partnerBoxImages {
-              height: 5em;
-            }
-            #textField{
-              height: 100%;
-            }
-            #titleSub{
-              font-weight: normal;
-            }
-            .textBox_text{
-              flex-direction: column;
-            }
-            #playerSubtitle{
-              text-shadow: 0.1em 0.1em 0.2em black;
-              color: rgb(255 255 255 / 92%);
-            }
-            .textFieldTitle{
-              color: white;
-              padding-bottom: 0.5em;
-            }
-            .textBox{
-              max-width: 400px;
-            }
-            #error {
-              color: rgb(235 0 0);
-              width: auto;
-              justify-content: center;
-            }
-            #disclaimer{
-            content: "Dieser Chat wird von Frau Blankenburg moderiert und Ihre Nachrichten werden möglicherweise
-                            verzögert angezeigt.";
-            }
-            `,
-  "partnerBox": [
-   {
-     "image":"assets/img/logos/FabLab/FabInfra_Logo.svg",
-     "url": "https://fab-access.org/de/"
-    }],
-
-    "linkBox": [
-      { "text": "FabAccess",
-        "image": "",
-        "url": "https://fab-access.org/de/blog/api_release_0_3/"
-    }],
-/*
-    "textFields" : [
-      { "title": "BHT Young Scientist Minds (10:00 - 11:00 Uhr) - Organisation: Dr. Stefanie Blankenburg (ZFI)"
-      },
-      { "header": "09.06.2022",
-        "text": "<b>TBA</b><p style=\"color: grey\"> - </p><i>Nicki Lena Kämpf</i>"
-      },
-      { "header": "23.06.2022",
-        "text": "<b>TBA</b> - <i>Teo Chiaburu</i>"
-      },
-      { "header": "14.07.2022",
-        "text": "<b>TBA</b> - <i>Andreas Gürlich</i>"
-      },
-      { "header": "28.07.2022",
-        "text": "<b>'Ermittlung des wirtschaftlichen Nutzen von Maßnahmen gegen die Fälschung und Manipulation'</b> - <i>Felix Ambrus</i>"
-      },
-    ],*/
-  "entries":[
-    {
-      "streamname": "RBJ00-2tr1O", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-ADvhZ", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-Uym1S", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-oG8Fp", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-jCPsT", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-l6Au6", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-
-// ---- 2022 Lange Nacht der Wissenschaften ----------------------------------------------------------------------------------------------------
-streams.push({
-"tag": "lndw-2022",
-  "titleTop": "Lange Nacht der Wissenschaften",
-  "title": "BHT Berlin am 02.07.2022",
-  "image": "assets/img/backgrounds/lndw-jh-2022-01.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-            #page, #header{
-              background-color: black;
-            }
-            #beuth-logo, #beuthbox-logo{
-              filter: invert(1);
-            }
-            #titleTop{
-              color: white;
-              background-color: #0085cf;
-            }
-            #titleSub {
-              color: #ffffff73;
-              background-color: rgb(0 0 0 / 40%);
-            }
-            .linkButton {
-              color: white;
-              background-color: black;
-            }
-            .linkButton:hover {
-            color: black;
-              background-color: #ffc900;
-            }
-            .partnerBoxImages {
-              height: 80px;
-            }
-            #partner-box .linkbutton a, #partner-box .linkButton a:hover{
-              background-color: none;
-              margin: 0;
-              padding: 0;
-            }
-            #footer{
-              background-color: black;
-            }
-            #footer a{
-            color: #ffc900;
-            text-decoration: none;
-            }
-            #footer a:hover{
-            color:white;
-            }
-           
-            `,
-  "partnerBox": [{
-      "image":"https://www.langenachtderwissenschaften.de/typo3conf/ext/bb_templates/Resources/Public/bootstrap_package/_p/logo.png",
-      "url": "https://www.langenachtderwissenschaften.de/"
-    }],
-  "linkBox": [
-    { "text": "BHT Berlin: Lange Nacht der Wissenschaften",
-      "image": "",
-      "url": "https://www.bht-berlin.de/lndw"
-    }],
-  /**"textFields" : [
-    { "title": ""
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "entries":[
-    {
-      "streamname": "", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-
-// ---- Digitalisierungs Kommission ----------------------------------------------------------------------------------------------------
-streams.push({
-"tag": "dk-2022",
-  "titleTop": "Digitalisierungs Kommission",
-  "title": "BHT Berlin",
-  "image": "assets/img/backgrounds/dk-background.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-            
-            `,
-  /**"partnerBox": [{
-      "image":"https://www.langenachtderwissenschaften.de/typo3conf/ext/bb_templates/Resources/Public/bootstrap_package/_p/logo.png",
-      "url": "https://www.langenachtderwissenschaften.de/"
-    }],
-  "linkBox": [
-    { "text": "BHT Berlin: Lange Nacht der Wissenschaften",
-      "image": "",
-      "url": "https://www.bht-berlin.de/lndw"
-    }],
-    "textFields" : [
-    { "title": ""
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "entries":[
-    {
-      "streamname": "RBJ00-umlOg", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-HMpUV", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-Gb6g9", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-
-/**
- *  Stream Haus Bauwesen(D) 2022 --------------------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "haus-bauwesen",
-  "titleTop": "Veranstaltung der BHT-Berlin",
-  "title": "Stream aus Haus Bauwesen(D)",
-  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-  .textFieldTitle{ color: white; }
-  #playerSubtitle {
-      color: rgb(251 251 251 / 52%);
-    }
-  #error {
-    color: rgb(112 0 0);
-    }
-  #chat{
-    background-color: #000000a8;
-    }
-            `,
-  /*"partnerBox": [
-    {}],
-  "linkBox": [],
-  "textFields" : [
-    { "title": "<"
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "entries":[
-    {
-      "streamname": "RBJ00-h8rIn", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-cUqxZ", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-Ci3go", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-JwYEV", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-gcBCa", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-EMiF4", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-
-/**
- *  Stream Haus Beuth(A) 2022 --------------------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "haus-beuth",
-  "titleTop": "Veranstaltung der BHT-Berlin",
-  "title": "Stream aus Haus Beuth(A)",
-  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-  .textFieldTitle{ color: white; }
-  #playerSubtitle {
-      color: rgb(251 251 251 / 52%);
-    }
-  #error {
-    color: rgb(112 0 0);
-    }
-  #chat{
-    background-color: #000000a8;
-    }
-            `,
-  /*"partnerBox": [
-    {}],
-  "linkBox": [],
-  "textFields" : [
-    { "title": "<"
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "entries":[
-    {
-      "streamname": "RBJ00-XUrlP", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-Lwl2G", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-2p2Vn", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-8JvJp", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-V8ipu", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-GYQZY", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-
-/**
- *  Stream Haus Grashof(C) 2022 --------------------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "haus-grashof",
-  "titleTop": "Veranstaltung der BHT-Berlin",
-  "title": "Stream aus Haus Grashof(C)",
-  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-  .textFieldTitle{ color: white; }
-  #playerSubtitle {
-      color: rgb(251 251 251 / 52%);
-    }
-  #error {
-    color: rgb(112 0 0);
-    }
-  #chat{
-    background-color: #000000a8;
-    }
-            `,
-  /*"partnerBox": [
-    {}],
-  "linkBox": [],
-  "textFields" : [
-    { "title": "<"
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "entries":[
-    {
-      "streamname": "RBJ00-B2MWN", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-TLVLZ", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-oQ0x8", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-Bq4fn", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-Oxc2U", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-26wqm", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-
-/**
- *  Stream Haus Gauß(B) 2022 --------------------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "haus-gauß",
-  "titleTop": "Veranstaltung der BHT-Berlin",
-  "title": "Stream aus Haus Gauß(B)",
-  "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-  .textFieldTitle{ color: white; }
-  #playerSubtitle {
-      color: rgb(251 251 251 / 52%);
-    }
-  #error {
-    color: rgb(112 0 0);
-    }
-  #chat{
-    background-color: #000000a8;
-    }
-            `,
-  /*"partnerBox": [
-    {}],
-  "linkBox": [],
-  "textFields" : [
-    { "title": "<"
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "entries":[
-    {
-      "streamname": "RBJ00-kqn5g", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-0yDQg", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-q782N", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [
-    {
-      "streamname": "RBJ00-vqR0Q", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-yYdjg", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-whkRf", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-});
-
-
-/**
- * Stream Star Trek Vorlesung ------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "startrek",
-  "titleTop": "12. Intergalaktische Gastvorlesung",
-  "title": "Wissenschaft und Science-Fiction mit Captain Zitt",
-  "image": "",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-  
-  body, #footer{ background-color: #00000075 }
-  
-  #header{ 
-  background-color: black;
-  height: 70px;
-  margin: 0;
-  }
-  
-  #beuth-logo {
-    padding: 12px;
-}
-
-  #footer{
-    font-family: 'Impact', serif;
-    letter-spacing: 0.05em;
-    font-size: 12px;
-  }
-  
-  #footer a{
-    color: #9795fb;
-  }
-  #footer a:hover {
-    color: red;
-  }
-  #footer a:visited {
-  color: #ed9692;
-  }
-  #titleTop{
-    font-family: 'Startrekfuture', serif;
-    font-size: 60px;
-    margin-left: 1.3em;
-    padding-right: 1.3em;
-    border-top-left-radius: 20px;
-    background-color: #00000000;
-    color: white;
-  }
-  #titleSub{
-    font-family: 'Sterilict', serif;
-    color: black;
-    font-style: italic;
-    background-color: rgb(204 204 254);
-    margin-top: 0.3em;
-    font-size: 18px;
-    letter-spacing: 0.1em;
-  }
-  
-  #subBackground{
-  padding-bottom: 0px;
-  width: auto;
-  }
-  
-  #playerSubtitle {
-    display:none;
-    }
-  
-  #contentBox{
-    width: 100%;
-  }
-  #content{ 
-    width: 80%;
-  }
-  
-  #contentPlayer{
-     margin-top: 1em;
-     margin-bottom: 1em;
-  }
-  
-  #linkBox{
-  display: none; 
-  }
-  
-  .linkButton{
-    background-color:#ff000000;
-  }
-  .linkButton img {
-    height: 200px;
-  }
-  #partner-title{
-    color: #ff000000 !importent;
-  }
-  
-  body{
-    font-family: 'Sterilict', serif;
-  }
-  
-  #beuth-logo, #beuthbox-logo{
-     -webkit-filter: invert(1);
-    filter: invert(1);
-  }
- 
-  
-  #textField{
-    width: 90%;
-    display: block;
-    background-color: #00000000;
-  }
-  
-  #h5live-playerDiv1{
-    background: black url("assets/img/startrek/offline1.jpg") ;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  #main{ background-color: #00000000; }
-  
-  #page{ position: absolute; }
-  
-  /* MENU -----------------------------------------*/
-  .textBox{
-    Display: flex;
-    font-family: "Impact", sans-serif;
-    text-transform: uppercase;
-    margin: 10px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
-  }
-  
-  .textBox:first-child{
-    padding:0;
-    font-size: 1.5em;
-    align-items: flex-end;
-    border-bottom-left-radius: 5em;
-    border-top-left-radius: 5em;
-    background-color: #98ccfe;
-  }
-  
-  .textBox:first-child .textBox_text{
-    text-align: right;
-  }
-  
-  .textBox .textBox_header{
-    display: none;
-    
-  }
-  .textBox:nth-child(2), .textBox:nth-child(5){
-    background-color: #6598fe;
-    border-radius: 0;
-    flex: initial;
-    writing-mode: vertical-rl;
-    -ms-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    align-items: flex-end;
-  }
-  
-  
-  .textBox:nth-child(3){
-    margin-right: 0;
-    flex-direction: column;
-    background-color: yellow;
-    background-color: #f0f8ff00;
-  }
-  
-  .textBox:nth-child(3) .textBox_text{
-    text-align: right;
-    letter-spacing: 0.2em;
-    color: white;
-  }
-  
-  .textBox:nth-child(4){
-    flex-direction: column;
-    background-color: #00000000;
-  }
-  
-  .textBox:nth-child(4) a{
-    text-decoration: none;
-    letter-spacing: 0.2em;
-    font-size: 1em;
-    font-style: normal;
-    color: #fd9800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .textBox:nth-child(4) .textBox_header:hover, .textBox:nth-child(4) .textBox_text:hover{
-    background-color: red;
-  }
-    
-  .textBox:nth-child(4) .textBox_header{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    background-color: #ffea9f;
-    border-radius: 0;
-    flex: 1;
-    margin-bottom: 0.5em;
-  }
-
-  .textBox:nth-child(4) .textBox_text{
-    background-color: #fd9800;
-    flex-direction: column;
-    flex: 1;
-    margin-top: 0.5em;
-  }
-  
-  .textBox:nth-child(4) .textBox_text a{
-    display: flex;
-    color: #ffea9f;
-  }
-  
-  .textBox:last-child{
-    background-color: #336799;
-    border-bottom-right-radius: 5em;
-    border-top-right-radius: 5em;
-    align-items: flex-start;
-    font-size: 1.5em;
-  }
-  
-  .textBox:last-child .textBox_text{
-    text-align:left;
-  }
-  
-  
-  .textFieldTitle {
-  flex: 0.4;
-  padding-top: 0;
-  border-radius: 5px;
-  overflow: hidden;
-  }
-  
-  .textFieldContent{
-    overflow: inherit;
-    overflow-x: inherit;
-    flex: 0;
-  }
-/* Partnerbox ---------------------------------------------------*/
-  
-  #partner-title {
-    display: none;
-}
-  
-/* Scroll Text Animation ---------------------------------------------------*/
-  #scroll-text {
-  max-width: 988px;
-  color: white;
-  margin-bottom: 2em;
-  margin-top: 0.5em;
-  text-align: center;
-  letter-spacing: 0.15em;
-}
-/* Background Animation -------------------------------------------------- */
-@keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-@-webkit-keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-@-moz-keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-@-webkit-keyframes move-background {
-    0% {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    50% {
-        -webkit-transform: translate3d(500px, 0px, 500px);
-    }
-    100% {
-        -webkit-transform: translate3d(1000px, 0px, 1000px);
-    }
-}
-
-@keyframes star {
-    0% {opacity: 0.7; }
-    80% {opacity: 0;}
-    100% { opacity: 0.7; }
-}
-
-.background-container{
-    position: fixed;
-    top: 0;
-    left:0;
-    bottom: 0;
-    right: 0;
-}
-
-.stars{
-  background: black url("assets/img/startrek/weltraum.jpg") ;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    z-index: 0;
-}
-.clouds {
-    width:200%;
-    height: 100%;
-    background: transparent url("assets/img/startrek/weltraumWolken.png") repeat;
-    background-size: 1000px 1000px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
-    -moz-animation:move-background 50s linear infinite;
-    -ms-animation:move-background 50s linear infinite;
-    -o-animation:move-background 50s linear infinite;
-    -webkit-animation:move-background 50s linear infinite;
-    animation:move-background 50s linear infinite;
-}
-.clouds2 {
-    width:200%;
-    height: 100%;
-    background: transparent url("assets/img/startrek/weltraumWolken2.png") repeat;
-    background-size: 1000px 1000px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
-    -moz-animation:move-background 25s linear infinite;
-    -ms-animation:move-background 25s linear infinite;
-    -o-animation:move-background 25s linear infinite;
-    -webkit-animation:move-background 25s linear infinite;
-    animation:move-background 25s linear infinite;
-}
-#scroll-text a:link, #scroll-text a:visited{
-    color: #fd9800;
-    text-decoration: none;
-}
-  
-   `,
-
-  "textFields" : [
-    { "title": "<div id=\"scroll-text\">\n" +
-          "Dozent Hubert Zitt von der Hochschule Kaiserslautern <br>" +
-          "erlaeutert, ob die technischen Visionen " +
-          "aus der Fernsehserie Star Trek in Zukunft " +
-          "umsetzbar sind. <br><br>" +
-          "Fuer zusaetzliche informationen besuchen Sie bitte die <a href='https://projekt.bht-berlin.de/nsh/wissenschaft-science-fiction' target='_blank'>Offizielle Veranstaltungsseite.</a><br>" +
-          "</div>"
-    },
-    { "header": "",
-      "text": "23.11.<br>2023<br><br><br><br>15:00<br>Uhr"
-    },
-    { "header": "",
-      "text": "-299102.4"
-    },
-    { "header": "",
-      "text": "Ingeborg-Meising-Saal (BHT)<br><br><br>Haus Grashof <br><br><br>Luxemburger Str. 10<br> 13353 Berlin"
-    },
-    { "header": "<a href='https://projekt.bht-berlin.de/fileadmin/projekt/nsh/Dokumente/Bordkarte_2023.pdf' target=\"_blank\">Star Trek Bordkarte</div>",
-      "text": "<a href='https://www.startrekvorlesung.de/crew' target=\"_blank\">Dr.-Ing. Hubert Zitt</div>"
-    },
-    { "header": "",
-      "text": "-299102.16"
-    },
-    { "header": "",
-      "text": "Ende <br><br><br><br><br> 17:00 <br> Uhr"
-    },
-  ],
-  /*"linkBox": [
-      {
-      "text": "Star Trek Vorlesung",
-      "image": "",
-      "url": ""
-      },
-  ],*/
-  "partnerBox": [
-    {
-      "image":"assets/img/logos/startrek/ZITT_ScienceFiction.png",
-      "url": "https://www.startrekvorlesung.de"
-
-    }],
-
-  "entries":[
-    {
-      "streamname": "RBJ00-oE9ul", // high
-      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
-    },
-    {
-      "streamname": "RBJ00-XsL5l", // medium
-      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-oLuan", // low
-      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
-    }],
-  "dual": [],
-});
-
-/**
- *  Stream Hochschultag (Every year) --------------------------------------------------------------------------------------------------------------------------------
- */
-streams.push({
-  "tag": "hochschultag",
-  "titleTop": "Hochschultag",
-  "title": "Berliner Hochschule für Technik",
-  "image": "",
-  "debug": false,
-  "chat": false,
-  "customStyle": `
-  
-  body{
-    background-image: url("assets/img/backgrounds/2022_Hochschultag.jpg");
-    background-size: cover;
-    background-position: center;
-    font-family: "BHT-CaseMicro", sans-serif;
-  }
-  
-  #header{ 
-    height: 60px;
-    
-    margin: 0;
-  }
-  
-  #footer{
-    background-image: linear-gradient(to top, white 0%, #ffffffc7 50%);
-    background-color: #ffffff00;
-    font-family: "BHT-Case", sans-serif;
-  }
-  
-  #error{
-    font-family: "BHT-Case", sans-serif;
-  }
-  
-  
-  #main{
-      background-color: rgb(234 234 234 / 0%);
-  }
-
-
-            `,
-  /*"partnerBox": [
-    {}],
-  "linkBox": [
-  { "text": "BHT Berlin",
-     "image": "",
-     "url": "https://www.bht-berlin.de/"
-   }],
-  "textFields" : [
-    { "title": "<"
-    },
-    { "header": "",
-      "text": ""
-    },
-  ],*/
-  "linkBox": [
-    { "text": "Hochschultag",
-      "image": "",
-      "url": "https://www.bht-berlin.de/hochschultag"
-    }],
-  "entries":[
-    {
-      "streamname": "RBJ00-9Miqw", // high
-      "info": { "bitrate": 4600, "width": 1920, "height": 1080, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-02JJR", // medium
-      "info": { "bitrate": 2000, "width": 1280, "height": 720, "framerate": 30 }
-    },
-    {
-      "streamname": "RBJ00-FjJI1", // low
-      "info": { "bitrate": 800, "width": 852, "height": 480, "framerate": 30 }
-    }],
-  "dual": [],
-});
-
-
 /**
  *  Stream für die Bachelorarbeit Steve Margenfeld Julia Hoffmann --------------------------------------------------------------------------------------------------------------------------------
  */
@@ -2615,28 +2514,28 @@ streams.push({
   ],
   "entries":[
     {
-      "streamname": "RBJ00-NCFgX", // high
+      "streamname": "1d31aa1a-c7f8-4316-8103-2b72d16a3284", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-SJ1BL", // medium
+      "streamname": "c0547d00-ac3d-4335-8021-19ec0d1ce20d", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-VEu9G", // low
+      "streamname": "cd1416b0-f6c5-4166-91a6-ed5d43f2f3ac", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-t9gHm", // high
+      "streamname": "a13d0c6d-f9f3-49d8-9101-d4d05c14ce03", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-6dpl9", // medium
+      "streamname": "3227ab13-1363-42cf-ad75-23f81e566c32", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-9KLKM", // low
+      "streamname": "534470a6-356b-4269-8dc9-0568a3ba21be", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "time": [{
