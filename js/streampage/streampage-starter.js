@@ -18,7 +18,7 @@ let players = [];
 let logDiv = "status";
 
 /**
- * Logs given object to the console
+ * Loggs given object to the console
  * @param e object to be logged
  */
 var log = function (e) {
@@ -96,8 +96,7 @@ function startNanoPlayer(playerDiv, channel) {
 function startPlayerDefaultConfig(playerDiv, stream) {
 
     // default h5live config
-    let h5live_config = {};
-        //getH5live_defaultConfig();
+    let h5live_config = getH5live_defaultConfig();
 
     // create source entries from stream
     let entries = [];
@@ -107,8 +106,8 @@ function startPlayerDefaultConfig(playerDiv, stream) {
     if (typeof (stream) === "string") {
         // stream is a string stream name
         let entry = {};
-        entry.bintu = h5live_config;
-        entry.bintu.streamid = stream;
+        entry.h5live = h5live_config;
+        entry.h5live.rtmp.streamname = stream;
         entries.push(entry);
     } else {
         // stream is a simple stream config array
@@ -117,10 +116,12 @@ function startPlayerDefaultConfig(playerDiv, stream) {
         if (playerDiv.id === "playerDiv1") configEntries = stream.entries;
         else configEntries = stream.dual;
 
+        console.log(configEntries.length)
+
         for (let i = 0; i < configEntries.length; i++) {
             let entry = {"index": i, "tag": stream.tag, "info": stream.info};
-            entry.bintu = JSON.parse(JSON.stringify(h5live_config));
-            entry.bintu.streamid = configEntries[i].streamname;
+            entry.h5live = JSON.parse(JSON.stringify(h5live_config));
+            entry.h5live.rtmp.streamname = configEntries[i].streamname;
             entries.push(entry);
         }
 
@@ -159,6 +160,7 @@ function startPlayer(playerDiv, config) {
         player = new NanoPlayer(playerDiv.id);
         player.setup(config).then(function (config) {
             console.log("setup success");
+            console.log("config: " + JSON.stringify(config, undefined, 4));
         }, function (error) {
             console.error(error.message);
         });

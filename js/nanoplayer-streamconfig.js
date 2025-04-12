@@ -3,7 +3,7 @@
 // stream groups: each stream group has 3 ABR streams
 
 
-//TODO: Stream name durch Stream id ersetzten
+//TODO: Neue Anordnung der Streams -> neuester Stream nach oben / an den Anfang der Datei
 
 /**
  * The Streams and its custom styles bundled in an Array
@@ -48,28 +48,28 @@ streams.push({
    **/
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "...", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "...", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
@@ -93,41 +93,18 @@ streams.push({
   "chat": true,
   "entries": [
     {
-      "streamname": "216818c6-0698-4f38-8ced-a55dd9375db9", // high
+      "streamname": "RBJ00-6uALm", // high
       "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 30 }
     },
     {
-      "streamname": "0b2edcf1-1f0d-4c28-9d15-5d4dec789e1e", // medium
+      "streamname": "RBJ00-J0hGb", // medium
       "info": { "bitrate": 800, "width": 854, "height": 480, "framerate": 15 }
     },
     {
-      "streamname": "873ddae6-677d-4783-ab56-ea92db7313c8", // low
+      "streamname": "RBJ00-SS48m", // low
       "info": { "bitrate": 400, "width": 640, "height": 360, "framerate": 15 }
     }
   ]
-});
-
-// TEST Stream 03 --------------------------------------------------------------------------------------------------------------------------------------
-streams.push({
-  "tag": "test3",
-  "titleTop": "Veranstaltungstitel",
-  "title": "Untertitel",
-  "chat": true,
-  "entries": [
-    {
-      "streamname": "f125f602-3a14-4ff8-bb72-298de8c05b85", // high
-      "info": { "bitrate": 1200, "width": 1280, "height": 720, "framerate": 30 }
-    },
-    {
-      "streamname": "cae2a779-a6ed-4001-b823-356a73874205", // medium
-      "info": { "bitrate": 800, "width": 854, "height": 480, "framerate": 15 }
-    },
-    {
-      "streamname": "fa911661-f179-43d3-b7f6-62dca365fd33", // low
-      "info": { "bitrate": 400, "width": 640, "height": 360, "framerate": 15 }
-    }
-  ],
-  "dual": [],
 });
 
 /**
@@ -144,9 +121,7 @@ streams.push({
    #titleTop { background-color: #a50000; color: rgb(253 253 253); }
    #textField { background-color: none; }
    .textBox_text{ height: 10em; font-size: larger; }
-
-            
-            
+       
    `,
    "partnerBox": [
    {
@@ -154,35 +129,18 @@ streams.push({
       "image": "assets/img/logos/mediabox-small-logo.jpg",
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],
-  /**
-   *    *
-   "textFields" : [
-   { "title": ""
-    },
-   { "header": "Wichtige Informationen",
-      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. <br> gez. De. Julia Neuhaus, Präsidentin BHT"
-    }
-   ],
 
-   "linkBox": [
-   {
-      "text": "Logobeschreibung", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
-    }
-   ],
-   **/
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-u6XaI", // high
+      "streamname": "f125f602-3a14-4ff8-bb72-298de8c05b85", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-V5han", // medium
+      "streamname": "cae2a779-a6ed-4001-b823-356a73874205", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-LfCxt", // low
+      "streamname": "fa911661-f179-43d3-b7f6-62dca365fd33", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [],
@@ -1038,7 +996,6 @@ streams.push({
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }
   ]
-
 });
 
 // 2021 getreide-informationstagung ------------------------------------------------------------------------------------------------------------------------------
@@ -1118,6 +1075,7 @@ streams.push({
   "customStyle": `
             #playerDiv2 {
             background-color: BLUE;
+            position: fixed;
             }
             #titleSub {
             background-color: RED;
@@ -1145,8 +1103,33 @@ streams.push({
       "text": "Vortrag 03"
     },
   ],
-  "entries": [{ "streamname": "CD6oL-2kE1g" }],
-  "dual": [{ "streamname": "CD6oL-2kE1g" }],
+  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+    {
+      "streamname": "RBJ00-6uALm", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-J0hGb", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-SS48m", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "dual": [
+    {
+      "streamname": "RBJ00-6uALm", // high
+      "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
+    },
+    {
+      "streamname": "RBJ00-J0hGb", // medium
+      "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
+    },
+    {
+      "streamname": "RBJ00-SS48m", // low
+      "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
+    }],
+  "debug": false,
   "chat": true,
   "linkBox": [
     {
@@ -1542,7 +1525,7 @@ streams.push({
   "titleTop": "Human-Computer Interaction",
   "title": "Lehrveranstaltung von Prof. Dr. Robert Strzebkowski",
   "image": "assets/img/backgrounds/NILO180318-GMS-BEUTH-3491.jpg",
-  "debug": true,
+  "debug": false,
   "chat": true,
   "customStyle": `
   .textFieldTitle{ color: white; }
@@ -1555,10 +1538,14 @@ streams.push({
   #chat{
     background-color: #000000a8;
     }
-    
             `,
-  //"partnerBox": [],
-  //"linkBox": [],
+  /**"partnerBox": [
+    {}],
+  "linkBox": [{
+      "text": "",
+      "image": "",
+      "url": ""
+   }],**/
   /**"textFields" : [
     { "title": ""
     },

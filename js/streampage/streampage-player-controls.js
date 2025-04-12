@@ -20,7 +20,7 @@ let timerStack = {};
  */
 let initializeControls = function () {
     initPlayerControls();
-    //nanocosmosBugfix();
+    nanocosmosBugfix();
 }
 
 /**
@@ -85,7 +85,6 @@ let initPlayerControls = function () {
 }
 
 /**
- * depricated -> saved for maybe future usage
  * Some bugfixes for unexpected actions
  */
 let nanocosmosBugfix = function () {
@@ -451,6 +450,13 @@ let hideShowSoundMuteButton = function () {
 }
 
 /**
+ * Switch between hide and show of the chat
+ */
+let hideShowChat = function () {
+    toggleElementVisibility(document.getElementById("chat_configuration"));
+}
+
+/**
  * Switch between hide and show of the unmute button
  */
 let hideShowSoundUnmuteButton = function () {
@@ -469,13 +475,6 @@ let hideShowFullscreenButton = function () {
  */
 let hideShowExitFullscreenButton = function () {
     toggleElementVisibility(document.getElementById("exitFullscreen"));
-}
-
-/**
- * Switch between hide and show of the exit fullscreen button
- */
-let hideShowChat = function () {
-    toggleElementVisibility(document.getElementById("chat"));
 }
 
 /**
