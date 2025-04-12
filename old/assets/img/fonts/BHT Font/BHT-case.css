@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BHT-Case';
+    src: local('BHT-Case'), url('BHT-Case-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BHT-CaseMicro';
+    src: local('BHT-CaseMicro'), url('BHT-CaseMicro-Bold.otf') format('opentype');
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Nanocosmos Player der BHT</title>
+    <link rel="icon" href="assets/img/logos/mediabox-small-logo.ico" type="image/x-icon">
+
+    <script src="js/lib/beuthBoxToolKit.js"></script>
+    <script src="js/nanoplayerInit/nanoplayer-helper.js"></script>
+    <script src="js/nanoplayerInit/nanoplayer-helper-events.js"></script>
+    <script src="js/nanoplayerInit/nanoplayer-helper-multistream.js"></script>
+    <script src="js/nanoplayerInit/nanoplayer-metrics-config.js"></script>
+    <script src="js/lib/nanoplayer/nanoplayer.4.min.js"></script>
+
+    <script src="js/nanoplayer-streamconfig.js"></script>
+    <script src="js/streampage/streampage-starter.js"></script>
+    <script src="js/streampage/chat.js"></script>
+
+    <script src="js/streampage/util/defaultConfig.js"></script>
+    <script src="js/streampage/streampage-debug.js"></script>
+    <script src="js/streampage/streampage-player-controls.js"></script>
+    <script src="js/streampage/streampage-style.js"></script>
+
+    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/player-style.css">
+    <link rel="stylesheet" href="css/chat-style.css">
+
+    <link rel="stylesheet" href="assets/img/fonts/Sterilict/Sterilict.css">
+    <link rel="stylesheet" href="assets/img/fonts/Startrekenterprise/Startrekenterprise.css">
+    <link rel="stylesheet" href="assets/img/fonts/trebuchet-ms-2/trebuc.css">
+    <link rel="stylesheet" href="assets/img/fonts/BHT Font/BHT-case.css">
+
+</head>
+<body>
+
+<div class="background-container">
+    <div class="stars"></div>
+    <div class="clouds"></div>
+    <div class="clouds2"></div>
+</div>
+
+<div id="page">
+    <!-- Debug Menu, TODO überarbeiten oder Löschen! -->
+    <div id="debug">
+        <div class="debug-style" id="debug-chat"><p>Chat</p></div>
+        <div class="debug-style" id="debug-brueckenkurs"><p>Brückenkurse</p></div>
+        <div class="debug-style" id="debug-partner"><p>Partner</p></div>
+        <div class="debug-style" id="debug-dualPlayer"><p>Dual Player</p></div>
+    </div>
+
+    <!-- Header -->
+    <div id="header">
+        <a href="https://www.bht-berlin.de/"  target="_blank">
+            <img id="beuth-logo" src="assets/img/logos/bht_logo.png">
+        </a>
+        <a href="https://beuthbox.beuth-hochschule.de/" target="_blank">
+            <img id="beuthbox-logo" alt="MediaBox Logo" src="assets/img/logos/mediabox-big-logo.jpg">
+        </a>
+    </div>
+
+    <!-- Main -->
+    <div id="main" class="bottom-top-shadow">
+        <div id="titleTop">Beuth Hochschule für Technik - Live Stream</div>
+        <div id="subBackground"><div id="titleSub">Live Veranstaltungen</div></div>
+
+        <!-- Content (Player & Chat) -->
+        <div id="contentBox">
+            <div id="content">
+                <!-- Player Configurations-->
+                <div id="player">
+                    <div id="contentPlayer">
+                        <!-- Player Divs -->
+                        <div id="playerDivs">
+                            <div id="playerDiv1" class="h5live-nano-h5live7" style="display: block; width: 100%">
+
+                            </div>
+                            <div id="playerDiv2" class="h5live-nano-h5live7" style="display: block; width: 30%; right: 0; bottom: 0">
+                            </div>
+                            <!-- Player Controls -->
+                            <div id="controls-playerDiv">
+                                <!-- Play/Stop Button -->
+                                <div id="playPause-controls-playerDiv">
+                                    <div class="controls" id="playButton" style="display: none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+                                                <polygon id="play-polygon" points="60 27 60 472 440.99 249.5 60 27"/>
+                                        </svg>
+                                    </div>
+                                    <div class="controls" id="pauseButton" style="display: block">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                                            <rect class="break"/>
+                                            <rect class="break" x="144"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <!-- Sound on/off Button -->
+                                <div id="sound-controls-PlayerDiv">
+                                    <div class="controls" id="soundUnmuteButton" style="display: block">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 374.05 420.92">
+                                            <path d="M345,44,165,166V333L345,455Z" transform="translate(-76.77 -44)"/>
+                                            <rect x="58.23" y="113" width="30" height="176"/>
+                                            <rect x="227.51" y="5.58" width="54.37" height="479.28"
+                                                  transform="translate(-175.19 183.65) rotate(-41.07)"/>
+                                        </svg>
+                                    </div>
+                                    <div class="controls soundTooltip" id="soundMuteButton" style="display: none">
+                                        <!--<div role="tooltip">Sound off</div>-->
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 411">
+                                            <path d="M345,44,165,166V333L345,455Z" transform="translate(-135 -44)"/>
+                                            <rect y="122" width="30" height="167"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <!-- Soundbar -->
+                                <div id="volumeSound">
+                                    <input id="volume" type="range" min="1" max="100" value="50">
+                                </div>
+                                <!-- Player Switch Button -->
+                                <div id="switch-PlayerDiv">
+                                    <div class="controls" id="switch">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308.76 296.15">
+                                            <path d="M98.52,260.46c56.34,107.33,242,86.61,242-50"
+                                                  transform="translate(-57.12 -42.71)"/>
+                                            <polygon points="0 244.21 25.38 147.79 96.21 217.97 0 244.21"/>
+                                            <path d="M82.5,169.25c0-134.66,185.64-155.27,242-48"
+                                                  transform="translate(-57.12 -42.71)"/>
+                                            <polygon points="212.55 78.36 283.38 148.54 308.76 52.11 212.55 78.36"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <!-- change Position Button -->
+                                <div id="changePosition-PlayerDiv">
+                                    <div class="controls" id="changePosition">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 282.9">
+                                            <path d="M420,143.1V321H296v41.27H59V143.1H420m10-10H49V372.27H306V331H430V133.1Z"
+                                                  transform="translate(-49 -133.1)"/>
+                                            <path d="M463,331v75H306V331H463m10-10H296v95H473V321Z"
+                                                  transform="translate(-49 -133.1)"/>
+                                            <polyline points="213 212.9 213 156.9 291 156.9"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <!-- side by side Button -->
+                                <div id="halfScreen-PlayerDiv">
+                                    <div class="controls" id="halfScreen">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 385 291">
+                                            <rect x="10" y="10" width="365" height="271"/>
+                                            <path class="halfScreen-path" d="M423,124V375H78V124H423m20-20H58V395H443V104Z" transform="translate(-58 -104)"/>
+                                            <path class="halfScreen-path" d="M371,210v80.18H276V210h95m20-20H256V310.18H391V190Z" transform="translate(-58 -104)"/>
+                                            <path class="halfScreen-path" d="M216,210v80.18H121V210h95m20-20H101V310.18H236V190Z" transform="translate(-58 -104)"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <!-- fullscreen Button -->
+                                <div id="fullscreen-PlayerDiv">
+                                    <div class="controls" id="fullscreen" style="display: block">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427.37 428.73">
+                                            <polyline class="fullscreen-polyline" points="20 163.61 20 20.11 162.5 20.93"/>
+                                            <polyline class="fullscreen-polyline" points="262.5 21.36 407.25 21.36 406.43 163.61"/>
+                                            <polyline class="fullscreen-polyline" points="407 263.61 407 408.61 262.5 407.8"/>
+                                            <polyline class="fullscreen-polyline" points="162.5 407.36 20.75 407.36 21.55 263.61"/>
+                                        </svg>
+                                    </div>
+                                    <div class="controls" id="exitFullscreen" style="display: none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426.73 427.36">
+                                            <polyline class="fullscreen-polyline" points="161.86 18.75 161.86 162.25 19.36 161.44"/>
+                                            <polyline class="fullscreen-polyline" points="261.86 20 406.61 20 405.79 162.25"/>
+                                            <polyline class="fullscreen-polyline" points="406.36 262.25 406.36 407.25 261.86 406.43"/>
+                                            <polyline class="fullscreen-polyline" points="161.86 406 20.11 406 20.91 262.25"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chat Configurations-->
+                <div id="chat_configuration">
+                    <div id="chat">
+                        <h6 id="chatTitle"> Chat </h6>
+                        <p id="disclaimer">Dieser Chat wird moderiert und Ihre Nachrichten werden möglicherweise verzögert angezeigt.</p>
+                        <div id="chat_container">
+                            <hr>
+                            <div id="chat_content">
+                                <div id="chat_history"></div>
+                                <div id="chat_input">
+                                    <div id="msg_input">
+                                        <div id="msg_name">
+                                            <input class="write_msg" id="name" type="text" placeholder="Name"/>
+                                            <!-- <input type="color" id="html5colorpicker" onchange="clickColor(0, -1, -1, 5)" value="#ff0000"> -->
+                                        </div>
+                                        <div id="msg">
+                                        <textarea type="text" class="write_msg" id="message"
+                                                  placeholder="Schreiben Sie Ihre Nachricht, max.200 Zeichen."
+                                                  rows="3" maxlength="200"></textarea>
+                                        </div>
+                                    </div>
+                                    <button class="msg_send_btn" type="button" onclick="sendChatMessage()"> Senden </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="playerSubtitle"></div>
+        <div id="textField"></div>
+        <div id="linkBox">
+            <a href="https://projekt.bht-berlin.de/lehrfilmstudio/?print=302%27la%22jeqkac" class="linkButton" target="_blank">
+                Media-Service der BHT Videoplattform
+            </a>
+            <button  class="linkButton" id="chatOnOff">
+                Chat on/off
+            </button>
+        </div>
+        <div id="error"></div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="partner-wrapper" id="partner-wrapper">
+            <h3 id="partner-title">Partner des Events</h3>
+            <div id="partner-box">
+            </div>
+
+        </div>
+        <br>
+        <b><i>Hinweis: Dieser Player ist noch nicht für alle Devices und Safari optimiert!</i></b>
+        <br><br>
+        Der BHT-LivePlayer dient dem Live Streaming von hochschulbezogenen Live Streams für Forschung, Lehre und
+        Veranstaltungen.
+        Der Livestream läuft über die nanoStream Cloud - Plattform des Unternehmens nanocosmos GmbH aus
+        Berlin und ist an das Hochschulprojekt "Media-Service" angedockt. Die Übertragung erfolgt konform zu
+        geltendem Recht, es werden nur anonymisierte Daten von und zu Server innerhalb Deutschlands bzw. der
+        EU übertragen. Sie können den Dienst auch selbst nutzen für Hochschul-Zwecke. Bei Fragen wenden Sie sich bitte
+        an das
+        <a href="https://beuthbox.beuth-hochschule.de/aboutus" target="_blank">Media-Service Team</a> / Prof. Dr. Robert
+        Strzebkowski
+        (robertst at bht-berlin.de) oder BHT-LB Dipl.-Ing. Oliver Lietz (lietz at bht-berlin.de).
+        <p>
+            <a href="https://www.bht-berlin.de/impressum" target="_blank">Impressum BHT</a> |
+            <a href="https://www.nanocosmos.de/legal" target="_blank">Nutzungsbedingungen und rechtliche Hinweise Live
+                Streaming /
+                nanocosmos</a>
+            v 3.0
+        </p>
+    </div>
+</div>
+</body>
+</html>

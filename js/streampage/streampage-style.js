@@ -83,12 +83,8 @@ let setChatBox = function (streamConfig){
 
     if (streamConfig.chat === undefined || streamConfig.chat !== true) {
         toggleElementVisibility(document.getElementById("chat_configuration"));
-        let rootElem = document.getElementById("chatOnOff");
-        rootElem.style.display = "none";
     }
 }
-
-
 
 /**
  * Sets the background Image of the "middle-box-background" div

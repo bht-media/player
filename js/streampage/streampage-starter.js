@@ -21,7 +21,7 @@ let logDiv = "status";
  * Loggs given object to the console
  * @param e object to be logged
  */
-var log = function (e) {
+let log = function (e) {
     if (typeof e === 'object') {
         try {
             e = JSON.stringify(e);

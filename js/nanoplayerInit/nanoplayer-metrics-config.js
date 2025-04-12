@@ -1,15 +1,15 @@
 (function () {
-    let useMetrics = true;
+    var useMetrics = true;
     if (useMetrics) {
         window.nanoPlayerMetricsConfig = {
-            'accountId'     : 'beuth-university',
-            'accountKey'    : 'beu1XitcEd3XaXA2',
-            'userId'        : 'webcaster',
-            'eventId'       : 'webcaster',
+            'accountId'     : 'nanocosmos1',
+            'accountKey'    : 'nc1wj472649fkjah',
+            'userId'        : 'nanoplayer-demo',
+            'eventId'       : 'nanocosmos-demo',
             'statsInterval' : 10,
-            'customField1'  : '',
-            'customField2'  : '',
-            'customField3'  : ''
+            'customField1'  : 'demo',
+            'customField2'  : 'public',
+            'customField3'  : 'online resource'
         };
     }
 })(window);
