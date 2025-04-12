@@ -121,9 +121,7 @@ streams.push({
    #titleTop { background-color: #a50000; color: rgb(253 253 253); }
    #textField { background-color: none; }
    .textBox_text{ height: 10em; font-size: larger; }
-
-            
-            
+       
    `,
    "partnerBox": [
    {
@@ -131,7 +129,7 @@ streams.push({
       "image": "assets/img/logos/mediabox-small-logo.jpg",
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],
-  
+
   "entries":[
     {
       "streamname": "f125f602-3a14-4ff8-bb72-298de8c05b85", // high
