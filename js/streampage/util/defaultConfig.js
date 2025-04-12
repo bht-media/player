@@ -4,7 +4,7 @@
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /**
- * Returns the for our streams "default" configuration
+ * Returns the for our streams "default" configuration (old)
  * @param entries
  * @returns {{playback: {reconnect: {minDelay: number, maxDelay: number, maxRetries: number, delaySteps: number}, automute: boolean, muted: boolean, autoplay: boolean}, style: {displayMutedAutoplay: boolean, view: boolean, controls: boolean, width: string, height: string}, source: {entries, startIndex: number, options: {adaption: {rule: string}, switch: {}}}, events: {}}}
  */
@@ -43,7 +43,7 @@ let getDefaultConfig = function (entries) {
 }
 
 /**
- * Returns the Nanocosmos bintu stream server configuration
+ * Returns the Nanocosmos bintu stream server configuration (old)
  * @returns {{rtmp: {url: string}, server: {websocket: string, progressive: string, hls: string}}}
  */
 let getH5live_defaultConfig = function (){

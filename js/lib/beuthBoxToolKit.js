@@ -1,6 +1,6 @@
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 + A simple toolkit for educational use only
-+ In cooperation with the Berliner Hochschule für Technik (https://www.beuth-hochschule.de/)
++ In cooperation with the Berliner Hochschule für Technik (https://www.bht-berlin.de/)
 + Copyright (c) 2021 Steve Margenfeld (margenfeld.s@gmail.com), Julia Hoffmann (julia.h.design@gmail.com)
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
