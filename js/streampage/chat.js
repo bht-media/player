@@ -174,8 +174,8 @@ ws.onmessage = function (evt) {
 
 /**
  * close the websocket connection
- */
+
 ws.onclose = function () {
     // websocket is closed.
     alert("Connection is closed...");
-};
+}; */
