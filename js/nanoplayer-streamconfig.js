@@ -2,9 +2,6 @@
 // define ABR playback stream names
 // stream groups: each stream group has 3 ABR streams
 
-
-//TODO: Stream name durch Stream id ersetzten
-
 /**
  * The Streams and its custom styles bundled in an Array
  * @type {*[]}
