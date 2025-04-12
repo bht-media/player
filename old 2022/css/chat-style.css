@@ -1,0 +1,197 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ CSS Chat configurations
++ In cooperation with the Berliner Hochschule für Technik (https://www.beuth-hochschule.de/)
++ and Nanocosmos Berlin (https://www.nanocosmos.de/)
++ Copyright (c) 2022 Julia Hoffmann (julia.h.design@gmail.com)
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+*{
+    margin: 0;
+}
+
+#chat_configuration{
+    display: flex;
+    flex: 0.5;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#chat{
+    display: flex;
+    font-family: Source Sans Pro, sans-serif;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background: rgba(119, 119, 119, 0.88);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100%;
+}
+
+#chatOnOff{
+    display: block;
+}
+
+#chatTitle{
+    flex: 0.5;
+    font-size: 1.6rem;
+    padding: 0 0 4px 0;
+}
+
+#disclaimer{
+    flex: 0.5;
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#chat_container{
+    flex: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+#chat_content{
+    display: flex;
+    height: 100%;
+    max-height: 800px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/** chat history window ********************************************/
+#chat_history {
+    flex: auto;
+    resize: vertical;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    border-radius: 10px;
+    background-color: #ffffff47;
+    overflow-y: auto;
+    min-height: 150px;
+}
+
+/** chat input areas ********************************************/
+#chat_input{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+#msg_input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/** name input area ********************************************/
+#msg_name{
+    margin-bottom: 1vh;
+    border-radius: 0;
+}
+
+#name{
+    font-size: 16px;
+    font-family: Arial, serif;
+}
+/** message input area ********************************************/
+#msg{
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.write_msg {
+    width: 100%;
+    padding: 8px 3px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#message{
+    font-size: 16px;
+    font-family: Arial, serif;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    resize: vertical;
+    min-height: 50px;
+    max-height: 200px;
+}
+
+/** Send Button Design ********************************************/
+.msg_send_btn{
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 1vh;
+    color: rgb(97, 97, 97);
+    background: rgb(234,234,234);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, serif;
+    font-weight: bold;
+
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.msg_send_btn:hover{
+    color: rgb(234,234,234);
+    background: rgb(97, 97, 97);
+    font-weight: bold;
+}
+
+.msg_send_btn:active{
+    color: white;
+    background: rgb(97, 97, 97);
+}
+
+
+/** Screen max-width: 1500px */
+@media only screen and (max-width: 1500px)  {
+
+    #chat{
+        margin-top: 1vh;
+        width: 95%;
+    }
+
+    #chat_configuration{
+        align-items: center;
+    }
+    #chatTitle{
+        font-size: 1.5em;
+    }
+
+    #disclaimer{
+        font-size: 0.8em;
+    }
+
+    #content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 988px;
+        width: 100%;
+    }
+
+    #chat_history{
+        height: 10vh;
+    }
+}

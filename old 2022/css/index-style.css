@@ -1,0 +1,356 @@
+/**
+*   Style for the streaming page
+*   copyrights (c) 2021 Julia Hoffmann
+*   cooperation with "nanocosmos" & "Berliner Hochschule für Technik"
+*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Source Sans Pro, sans-serif;
+    height: 100vh;
+}
+
+/** Shadows */
+
+.bottom-top-shadow{
+    box-shadow: inset 0 10px 10px -5px rgba(59, 59, 59, 0.50), inset 0 -10px 10px -5px rgba(40, 40, 40, 0.20);
+}
+
+/** Page Style ********************************************/
+
+#page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/** Header Style ******************************************/
+
+#header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#header a, #beuth-logo, #beuthbox-logo{
+    height: 100%;
+    width: auto;
+}
+
+/** Main Style ********************************************/
+
+#main{
+    flex: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: center;
+    background-color: rgb(234,234,234);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titleTop{
+    flex: initial;
+    display: flex;
+    align-items: flex-end;
+    color: rgb(51,51,51);
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    background-color: #ffffffd6;
+    justify-content: space-around;
+}
+
+#titleSub{
+    flex: initial;
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /*background-image: linear-gradient(to bottom, #646464 0%, rgb(0 0 0 / 0%) 100%);*/
+    background-color: rgba(51, 51, 51, 0.35);
+}
+
+#subBackground{
+    width: 100%;
+    padding-bottom: 25px;
+}
+#contentBox{
+    display: flex;
+    flex: initial;
+    width: 80%;
+    /* height: 100%; */
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#content{
+    display: flex;
+    flex: initial;
+    width: 100%;
+    max-width: 1920px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+/** ---------------------------------------------------------*/
+
+#chatOnOff{
+    border: none;
+    background-color: aqua;
+}
+
+/** TextBox Style -----------------------------------------*/
+#textField{
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+
+    min-width: 600px;
+    background-color: #000000a8;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border-radius: 5px;
+    justify-content: stretch;
+}
+
+.textFieldTitle{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    padding-top: 0.8em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.textFieldContent{
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    overflow: hidden;
+    overflow-x: auto;
+
+    justify-content: center;
+}
+
+.textBox{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    max-width: 200px;
+    margin: 0.5em;
+    background-color: rgba(255, 255, 255, 0.78);
+    border-radius: 5px;
+}
+.textBox_header{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+.textBox_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    word-break: break-word;
+
+    padding: 0.5em;
+}
+
+/** ---------------------------------------------------------*/
+
+#playerSubtitle{
+    color: rgb(119,119,119);
+    padding: 10px;
+    width: 80%;
+    font-style: oblique;
+    text-align: center;
+}
+#error{
+    color: rgb(119,119,119);
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#linkBox{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+    align-items: center;
+    padding: 0.5em;
+
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.linkButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 10px 25px;
+    text-align: center;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 0.7em;
+
+    min-height: 50px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: rgb(51,51,51);
+    transition: 0.1s;
+}
+
+.linkButton:hover{
+    /*color: white;
+    background-color: rgb(51,51,51);*/
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+.linkBoxImages{
+    height: 1em;
+}
+
+a:hover{
+    /*filter: blur(4px);*/
+    color: rgb(119,119,119);
+}
+
+.linkImage{
+    height: 35px;
+}
+
+/** Footer Style ******************************************/
+#footer{
+    flex: content;
+    padding: 20px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    font-size: 0.85em;
+    /*font-size:calc(5vh / 3);*/
+}
+
+#footer p{
+    padding-top: 1vh;
+}
+
+#partner-title{
+    margin-bottom: 10px;
+}
+
+#partner-box{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.partnerBoxImages{
+    height: 2em;
+}
+
+/** Debugger Style ******************************************/
+#debug{
+    display: none;
+    z-index: 4;
+    position: absolute;
+}
+
+.debug-style{
+    background-color: rgba(255, 0, 0, 0.51);
+    color: white;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
+    cursor: pointer;
+    padding: 1em;
+    user-select: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: 0.5s;
+}
+.debug-style:hover{
+    font-weight: bold;
+    background-color: white;
+    color: #0098a1;
+}
+
+
+/** Style from 1500px ******************************************/
+@media only screen and (max-width: 1500px)  {
+    #header{
+        height: 30px;
+    }
+
+    #footer{
+        font-size: 0.7em;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+    #titleTop{
+        font-size: 20px;
+    }
+    #titleSub{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #titleTop{
+        font-size: 26px;
+    }
+    #titleSub{
+        font-size: 16px;
+    }
+}
+

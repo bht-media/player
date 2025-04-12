@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'trebuc';
+    src: local('trebuc'), url('trebuc.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trebuchet-MS-Italic';
+    src: local('Trebuchet-MS-Italic'), url('Trebuchet-MS-Italic.ttf') format('truetype');
+}
