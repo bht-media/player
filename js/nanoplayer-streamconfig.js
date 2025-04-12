@@ -48,28 +48,28 @@ streams.push({
    **/
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "...", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "...", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
@@ -131,35 +131,18 @@ streams.push({
       "image": "assets/img/logos/mediabox-small-logo.jpg",
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],
-  /**
-   *    *
-   "textFields" : [
-   { "title": ""
-    },
-   { "header": "Wichtige Informationen",
-      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. <br> gez. De. Julia Neuhaus, Präsidentin BHT"
-    }
-   ],
-
-   "linkBox": [
-   {
-      "text": "Logobeschreibung", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
-    }
-   ],
-   **/
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  
+  "entries":[
     {
-      "streamname": "RBJ00-u6XaI", // high
+      "streamname": "f125f602-3a14-4ff8-bb72-298de8c05b85", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-V5han", // medium
+      "streamname": "cae2a779-a6ed-4001-b823-356a73874205", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-LfCxt", // low
+      "streamname": "fa911661-f179-43d3-b7f6-62dca365fd33", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [],
