@@ -46,30 +46,30 @@ streams.push({
     }
    ],
    **/
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "...", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-...", // high
+      "streamname": "...", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-...", // medium
+      "streamname": "...", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-...", // low
+      "streamname": "...", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
@@ -143,10 +143,7 @@ streams.push({
    #main {background-color: #212121;}
    #titleTop { background-color: #a50000; color: rgb(253 253 253); }
    #textField { background-color: none; }
-   .textBox_text{ height: 10em; font-size: larger; }
-
-            
-            
+   .textBox_text{ height: 10em; font-size: larger; }       
    `,
    "partnerBox": [
    {
@@ -154,35 +151,17 @@ streams.push({
       "image": "assets/img/logos/mediabox-small-logo.jpg",
       "url": "https://www.bht-berlin.de/digitale-medien"
     }],
-  /**
-   *    *
-   "textFields" : [
-   { "title": ""
-    },
-   { "header": "Wichtige Informationen",
-      "text": "Aufgrund eines Sicherheitsvorfalls ist die Webseite der Berliner Hochschule für Technik (BHT) derzeit nicht erreichbar. Dies ist eine Informationsveranstaltung. <br> gez. De. Julia Neuhaus, Präsidentin BHT"
-    }
-   ],
-
-   "linkBox": [
-   {
-      "text": "Logobeschreibung", // high
-      "image": "/assets/beuthbox-logo.png",
-      "url": "1234"
-    }
-   ],
-   **/
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-u6XaI", // high
+      "streamname": "f125f602-3a14-4ff8-bb72-298de8c05b85", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-V5han", // medium
+      "streamname": "cae2a779-a6ed-4001-b823-356a73874205", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-LfCxt", // low
+      "streamname": "fa911661-f179-43d3-b7f6-62dca365fd33", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [],
@@ -248,30 +227,30 @@ streams.push({
     }
    ],
 
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-Tz7pk", // high
+      "streamname": "792ca09d-890a-4203-b823-e1d65b1f2edc", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-0jEJQ", // medium
+      "streamname": "c2f00a2d-b11d-4157-961e-072f7bfe87db", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-MrrrX", // low
+      "streamname": "b00940d9-8c2b-485c-a960-2f22309ceaa9", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-W6tPn", // high
+      "streamname": "03421cd5-ac0b-4732-8057-84b20ad890c1", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-J84o4", // medium
+      "streamname": "b2c448ae-f60b-4255-9c32-ebaa514b717c", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-KJyxL", // low
+      "streamname": "71e0f2b6-57b1-41b5-88d1-5971c000052a", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
@@ -338,15 +317,15 @@ streams.push({
 
   "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
     {
-      "streamname": "RBJ00-Tz7pk", // high
+      "streamname": "792ca09d-890a-4203-b823-e1d65b1f2edc", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-0jEJQ", // medium
+      "streamname": "c2f00a2d-b11d-4157-961e-072f7bfe87db", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-MrrrX", // low
+      "streamname": "b00940d9-8c2b-485c-a960-2f22309ceaa9", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
@@ -651,30 +630,30 @@ streams.push({
       "url": "https://www.bht-berlin.de/lndw"
     }
   ],
-  "entries":/* [{ "streamname": "CD6oL-2kE1g" }] */[
+  "entries":[
     {
-      "streamname": "RBJ00-3sPIU", // high
+      "streamname": "b76a9d3e-6274-45fe-8cf2-3994e406901b", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-ROGTG", // medium
+      "streamname": "9e7f5844-0c33-473c-8cf0-d36c7b795d20", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-jlDHW", // low
+      "streamname": "8ae15759-5625-4cdd-ac25-34386019458d", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   /**"dual": [
     {
-      "streamname": "RBJ00-KYRaA", // high
+      "streamname": "9c8d279d-30f1-4702-b3ea-01ae2390091a", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-rKCGN", // medium
+      "streamname": "d66675bd-7a79-4f18-af77-3e985ea4e060", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-1Yiz9", // low
+      "streamname": "8fc6817d-7a74-4a05-bccf-c06c41525282", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],*/
   "debug": false,
@@ -691,32 +670,13 @@ streams.push({
   "image": "assets/img/backgrounds/2023Molly/MollyBoxSmall.jpg",
 
    "customStyle": `
-   
    #error   { display:none; }
-   
    -.linkButton:first-child{
         content: image-set("assets/img/logos/mediabox-big-logo.jpg");
         height: 90%;
    }
-   #footer{ font-size: 11px; }
-       
+   #footer{ font-size: 11px; }   
    `,
-
-   /**
-   *
-   "partnerBox": [
-   {
-      "text": "MediaBox", // high
-      "image": "assets/img/logos/mediabox-small-logo.jpg",
-      "url": "https://www.bht-berlin.de/digitale-medien"
-    }],
-   "textFields" : [
-   { "title": "Titel"
-    },
-   { "header": "Information",
-      "text": "Beschreibung"
-    }
-   ],**/
    "linkBox": [
    {
       "text": "Lange Nacht der Wissenschaften", // high
@@ -724,31 +684,30 @@ streams.push({
       "url": ""
     }
    ],
-
   "entries":[
     {
-      "streamname": "RBJ00-i5uCR", // high
+      "streamname": "5cd4adca-1413-489c-92dd-30255a2ce8f4", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-5aQej", // medium
+      "streamname": "d971f681-3c22-4a15-a875-bb47b64c02d0", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-QrSgT", // low
+      "streamname": "34208b7d-ad27-4784-9102-eacbc94ceb00", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "dual": [
     {
-      "streamname": "RBJ00-YgamN", // high
+      "streamname": "48c8a32f-778a-496e-9f91-93be94b4fe8c", // high
       "info": { "bitrate": 3000, "width": 1280, "height": 720, "framerate": 25 }
     },
     {
-      "streamname": "RBJ00-fQIbc", // medium
+      "streamname": "857a2fca-5bcc-48e9-8f4e-8a98d935356a", // medium
       "info": { "bitrate": 1200, "width": 852, "height": 480, "framerate": 30 }
     },
     {
-      "streamname": "RBJ00-wZs7g", // low
+      "streamname": "39f8e63c-f917-4f09-a073-9cb0e738c219", // low
       "info": { "bitrate": 800, "width": 640, "height": 360, "framerate": 25 }
     }],
   "debug": false,
